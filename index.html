@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Channel Insights</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Channel Insights</h1>
+        <div class="subtitle">360insights</div>
+    </header>
+
+    <div class="tabs">
+        <button class="tab-button active" data-view="states">States</button>
+        <button class="tab-button" data-view="manufacturers">Manufacturers</button>
+        <button class="tab-button" data-view="distributors">Distributors</button>
+        <button class="tab-button" data-view="buying_groups">Buying Groups</button>
+        <button class="tab-button" data-view="dealers">Dealers</button>
+        <button class="tab-button" data-view="pos_providers">POS Providers</button>
+        <button class="tab-button" data-view="incentive_platforms">Incentive Platforms</button>
+        <button class="tab-button" data-view="sales_agencies">Sales Agencies</button>
+        <button class="tab-button" data-view="integrators">Integrators</button>
+        <button class="tab-button" data-view="service_providers">Service Providers</button>
+        <button class="tab-button" data-view="ecommerce_platforms">eCommerce Platforms</button>
+        <a href="map.html" class="tab-button">View Diagrams →</a>
+    </div>
+
+    <div class="controls">
+        <div class="control-group">
+            <label for="search">Search</label>
+            <input type="text" id="search" placeholder="Filter...">
+        </div>
+        <div class="control-group">
+            <label for="country-filter">Country</label>
+            <select id="country-filter">
+                <option value="all">All Countries</option>
+                <option value="United States">United States</option>
+                <option value="Canada">Canada</option>
+                <option value="Mexico">Mexico</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <label for="sort">Sort By</label>
+            <select id="sort">
+                <option value="alphabetical">Alphabetical (A-Z)</option>
+                <option value="reverse">Reverse (Z-A)</option>
+                <option value="length">Length (Short-Long)</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="metadata-bar">
+        <div class="metadata" id="metadata">Loading...</div>
+        <div class="download-controls">
+            <button class="download-btn" data-format="csv">Download CSV</button>
+            <button class="download-btn" data-format="json">Download JSON</button>
+            <button class="download-btn" data-format="excel">Download Excel</button>
+        </div>
+    </div>
+
+    <div class="content" id="content"><div class="loading">Loading...</div></div>
+
+    <footer>
+        <div>Data Source: <a href="https://www.geonames.org/" target="_blank">GeoNames</a> | License: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></div>
+    </footer>
+
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

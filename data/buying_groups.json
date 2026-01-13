@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "date_pulled": "2026-01-09T07:57:26.919722+00:00",
+    "source": "Wikidata",
+    "total_count": 9,
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "North America": {
+    "United States": {
+      "entities": [
+        {
+          "name": "Continental Navy",
+          "wikidata_id": "Q2367216"
+        },
+        {
+          "name": "Georgia State Navy",
+          "wikidata_id": "Q5547751"
+        },
+        {
+          "name": "Pennsylvania Navy",
+          "wikidata_id": "Q7164016"
+        },
+        {
+          "name": "South Carolina Navy",
+          "wikidata_id": "Q7566618"
+        },
+        {
+          "name": "Union Navy",
+          "wikidata_id": "Q3550003"
+        },
+        {
+          "name": "United States Navy",
+          "wikidata_id": "Q11220",
+          "website": "https://www.navy.mil/"
+        }
+      ]
+    },
+    "Canada": {
+      "entities": [
+        {
+          "name": "Royal Canadian Navy",
+          "wikidata_id": "Q25387",
+          "website": "https://www.canada.ca/en/navy.html"
+        },
+        {
+          "name": "Royal Canadian Navy",
+          "wikidata_id": "Q25387",
+          "website": "https://www.canada.ca/fr/marine.html"
+        }
+      ]
+    },
+    "Mexico": {
+      "entities": [
+        {
+          "name": "Mexican Navy",
+          "wikidata_id": "Q2528358"
+        }
+      ]
+    }
+  }
+}

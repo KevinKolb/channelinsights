@@ -1,0 +1,933 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Channel Insights — Diagrams</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root{
+      --bg:#ffffff;
+      --fg:#0b0f1a;
+      --muted:#6b7280;
+      --line:#e5e7eb;
+      --soft:#f6f7f9;
+      --accent:#111827;
+      --accent2:#1f2937;
+      --ok:#0f766e;
+      --warn:#b45309;
+      --bad:#b91c1c;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    main{padding:0}
+    .grid{
+      max-width:1400px; margin:0 auto;
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:0;
+      padding:3rem;
+    }
+    @media (min-width: 980px){
+      .grid{grid-template-columns: 1fr 1fr;}
+      .span2{grid-column: 1 / -1;}
+    }
+    .card{
+      border:2px solid var(--border-color);
+      background:#fff;
+      overflow:hidden;
+      margin-bottom: 3rem;
+    }
+    .card-head{
+      padding:1.5rem 2rem;
+      border-bottom:2px solid var(--border-color);
+      background:var(--hover-bg);
+      display:flex; align-items:flex-end; justify-content:space-between; gap:10px;
+    }
+    .card-title{
+      margin:0; font-weight:700; font-size:1.25rem; text-transform:uppercase; letter-spacing:.08em;
+    }
+    .card-meta{
+      color:var(--muted); font-size:0.75rem; text-align:right;
+      text-transform:uppercase;
+      letter-spacing:0.05em;
+    }
+    .card-body{padding:2rem}
+    .note{
+      font-size:0.875rem; color:var(--secondary-color); margin-top:1.5rem;
+      font-style:italic;
+    }
+
+    /* SVG styling */
+    svg{width:100%; height:auto; display:block;}
+    .svg-bg{fill:#fff}
+    .box{fill:#fff; stroke:var(--accent); stroke-width:1.2}
+    .box.soft{stroke:var(--accent2); opacity:.95}
+    .box.muted{stroke:var(--line)}
+    .hdr{fill:var(--soft); stroke:var(--accent); stroke-width:1.2}
+    .txt{fill:var(--fg); font-family:var(--sans); font-size:12px}
+    .txt.small{font-size:11px; fill:var(--muted)}
+    .txt.mono{font-family:var(--mono); letter-spacing:0; font-size:11px}
+    .title{font-size:13px; font-weight:700; letter-spacing:.02em}
+    .line{stroke:var(--accent); stroke-width:1.2; fill:none}
+    .line.dash{stroke-dasharray:6 4}
+    .line.soft{stroke:var(--accent2); opacity:.9}
+    .arrow{marker-end:url(#arrow)}
+    .arrow2{marker-end:url(#arrow2)}
+    .tag{
+      fill:var(--soft); stroke:var(--line); stroke-width:1;
+    }
+    .tagTxt{font-family:var(--mono); font-size:10.5px; fill:var(--accent2)}
+    .legend{
+      display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:10px; color:var(--muted);
+      font-size:12px;
+    }
+    .chip{
+      display:flex; gap:8px; align-items:center;
+      border:1px solid var(--line); padding:6px 10px; border-radius:999px; background:#fff;
+    }
+    .dot{width:10px; height:10px; border-radius:999px; border:1px solid var(--line); background:var(--soft)}
+    .dot.solid{background:var(--accent); border-color:var(--accent)}
+    .dot.dash{background:#fff; border-style:dashed}
+
+    /* Map-specific controls */
+    .map-controls {
+      border-bottom: 2px solid var(--border-color);
+      padding: 1.5rem 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .control-row {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .map-control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      min-width: 200px;
+    }
+
+    .action-buttons {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .action-btn {
+      padding: 0.5rem 1rem;
+      border: 2px solid var(--border-color);
+      background: var(--background);
+      font-family: inherit;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .action-btn:hover {
+      background: var(--primary-color);
+      color: var(--background);
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Channel Insights</h1>
+  <div class="subtitle">360insights — Diagrams</div>
+</header>
+
+<div class="tabs">
+  <a href="index.html" class="tab-button">← Back to Data</a>
+  <button class="tab-button active" data-view="all">All Diagrams</button>
+  <button class="tab-button" data-view="erd">ERD</button>
+  <button class="tab-button" data-view="sf">Salesforce</button>
+  <button class="tab-button" data-view="persona">Personas</button>
+  <button class="tab-button" data-view="flow">Lifecycle</button>
+</div>
+
+<div class="map-controls">
+  <div class="control-row">
+    <div class="map-control-group">
+      <label for="search">Search Diagrams</label>
+      <input type="text" id="search" placeholder="e.g., Program, Claim, POS">
+    </div>
+  </div>
+  <div class="action-buttons">
+    <button class="action-btn" id="clearBtn" type="button">Clear Search</button>
+    <button class="action-btn" id="printBtn" type="button">Print / PDF</button>
+  </div>
+</div>
+
+<main>
+  <section class="grid" id="grid">
+
+    <!-- ERD -->
+    <article class="card span2" data-panel="erd">
+      <div class="card-head">
+        <div>
+          <h2 class="card-title">Entity Relationship Diagram (ERD)</h2>
+        </div>
+        <div class="card-meta">Canonical channel entities & relationships</div>
+      </div>
+      <div class="card-body">
+        <svg viewBox="0 0 1200 640" role="img" aria-label="ERD">
+          <defs>
+            <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--accent)"></path>
+            </marker>
+            <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--accent2)"></path>
+            </marker>
+          </defs>
+
+          <!-- Column guides (Swiss grid feel) -->
+          <rect class="svg-bg" x="0" y="0" width="1200" height="640"></rect>
+
+          <!-- Relationships -->
+          <!-- Manufacturer -> Program -->
+          <path class="line arrow" d="M 210 140 C 330 140, 330 110, 430 110"></path>
+          <text class="txt small" x="305" y="120">funds / defines rules</text>
+
+          <!-- Program -> Incentive -->
+          <path class="line arrow" d="M 560 125 C 670 125, 670 125, 780 125"></path>
+          <text class="txt small" x="640" y="110">contains types</text>
+
+          <!-- Program -> Dealer Enrollment -->
+          <path class="line arrow2" d="M 520 160 C 520 255, 510 255, 510 350"></path>
+          <text class="txt small" x="535" y="260">enrolls / eligibility</text>
+
+          <!-- Dealer -> Location -->
+          <path class="line arrow" d="M 260 410 C 330 410, 330 410, 400 410"></path>
+          <text class="txt small" x="325" y="395">has</text>
+
+          <!-- Dealer -> Sales Associate -->
+          <path class="line arrow" d="M 260 470 C 330 520, 360 545, 420 545"></path>
+          <text class="txt small" x="325" y="515">employs</text>
+
+          <!-- Dealer -> POS Provider -->
+          <path class="line dash arrow2" d="M 260 380 C 300 300, 320 280, 360 250"></path>
+          <text class="txt small" x="290" y="305">uses</text>
+
+          <!-- Dealer Enrollment -> Claim -->
+          <path class="line arrow" d="M 600 420 C 690 420, 690 420, 780 420"></path>
+          <text class="txt small" x="675" y="405">submits</text>
+
+          <!-- Claim -> Payment -->
+          <path class="line arrow" d="M 910 435 C 980 435, 980 435, 1050 435"></path>
+          <text class="txt small" x="965" y="420">approved → paid</text>
+
+          <!-- Claim -> Consumer -->
+          <path class="line dash arrow2" d="M 840 470 C 840 560, 620 570, 510 570"></path>
+          <text class="txt small" x="740" y="560">rebate beneficiary (sometimes)</text>
+
+          <!-- Buying Group -> Dealer -->
+          <path class="line dash arrow2" d="M 140 310 C 140 350, 160 360, 180 360"></path>
+          <text class="txt small" x="40" y="350">member</text>
+
+          <!-- Distributor -> Dealer -->
+          <path class="line dash arrow2" d="M 140 520 C 140 460, 160 430, 180 430"></path>
+          <text class="txt small" x="40" y="465">supplies</text>
+
+          <!-- Core Entity Boxes -->
+          <!-- Manufacturer -->
+          <g class="node" data-label="Manufacturer OEM Brand">
+            <rect class="box" x="40" y="70" width="220" height="140" rx="12"></rect>
+            <rect class="hdr" x="40" y="70" width="220" height="34" rx="12"></rect>
+            <text class="txt title" x="54" y="93">MANUFACTURER</text>
+            <text class="txt small" x="54" y="122">• OEM / Brand owner</text>
+            <text class="txt small" x="54" y="142">• Funds incentives</text>
+            <text class="txt small" x="54" y="162">• Defines program rules</text>
+            <text class="txt mono" x="54" y="190">PK: ManufacturerId</text>
+          </g>
+
+          <!-- Program -->
+          <g class="node" data-label="Program Incentive Program Rules Eligibility">
+            <rect class="box soft" x="430" y="55" width="260" height="170" rx="12"></rect>
+            <rect class="hdr" x="430" y="55" width="260" height="34" rx="12"></rect>
+            <text class="txt title" x="444" y="78">PROGRAM</text>
+            <text class="txt small" x="444" y="107">• Incentive program definition</text>
+            <text class="txt small" x="444" y="127">• Eligibility rules</text>
+            <text class="txt small" x="444" y="147">• Dates / budgets</text>
+            <text class="txt mono" x="444" y="176">PK: ProgramId</text>
+            <text class="txt mono" x="444" y="195">FK: ManufacturerId</text>
+          </g>
+
+          <!-- Incentive Type -->
+          <g class="node" data-label="Incentive Type SPIF Rebate STA Co-op MDF">
+            <rect class="box soft" x="780" y="55" width="260" height="170" rx="12"></rect>
+            <rect class="hdr" x="780" y="55" width="260" height="34" rx="12"></rect>
+            <text class="txt title" x="794" y="78">INCENTIVE TYPE</text>
+            <text class="txt small" x="794" y="107">• SPIF / Rebate / STA / MDF</text>
+            <text class="txt small" x="794" y="127">• Funding / payout method</text>
+            <text class="txt small" x="794" y="147">• Required proof</text>
+            <text class="txt mono" x="794" y="176">PK: IncentiveTypeId</text>
+            <text class="txt mono" x="794" y="195">FK: ProgramId</text>
+          </g>
+
+          <!-- Buying Group -->
+          <g class="node" data-label="Buying Group Cooperative Membership Nationwide NECO NATAM">
+            <rect class="box muted" x="40" y="250" width="220" height="110" rx="12"></rect>
+            <rect class="hdr" x="40" y="250" width="220" height="34" rx="12"></rect>
+            <text class="txt title" x="54" y="273">BUYING GROUP</text>
+            <text class="txt small" x="54" y="302">• Member programs</text>
+            <text class="txt small" x="54" y="322">• Negotiated rebates</text>
+            <text class="txt mono" x="54" y="348">PK: BuyingGroupId</text>
+          </g>
+
+          <!-- Dealer -->
+          <g class="node" data-label="Dealer Retailer Location Membership">
+            <rect class="box" x="180" y="310" width="260" height="190" rx="12"></rect>
+            <rect class="hdr" x="180" y="310" width="260" height="34" rx="12"></rect>
+            <text class="txt title" x="194" y="333">DEALER</text>
+            <text class="txt small" x="194" y="362">• Retail entity / chain</text>
+            <text class="txt small" x="194" y="382">• Carries brands</text>
+            <text class="txt small" x="194" y="402">• Uses POS</text>
+            <text class="txt mono" x="194" y="432">PK: DealerId</text>
+            <text class="txt mono" x="194" y="452">FK: BuyingGroupId (optional)</text>
+          </g>
+
+          <!-- POS Provider -->
+          <g class="node" data-label="POS Provider Transaction SKU Associate Data Export API">
+            <rect class="box muted" x="360" y="215" width="240" height="110" rx="12"></rect>
+            <rect class="hdr" x="360" y="215" width="240" height="34" rx="12"></rect>
+            <text class="txt title" x="374" y="238">POS PROVIDER</text>
+            <text class="txt small" x="374" y="267">• Transaction data</text>
+            <text class="txt small" x="374" y="287">• Associate attribution</text>
+            <text class="txt mono" x="374" y="313">PK: PosProviderId</text>
+          </g>
+
+          <!-- Dealer Enrollment -->
+          <g class="node" data-label="Enrollment Eligibility Dealer Program Participation">
+            <rect class="box soft" x="420" y="350" width="260" height="140" rx="12"></rect>
+            <rect class="hdr" x="420" y="350" width="260" height="34" rx="12"></rect>
+            <text class="txt title" x="434" y="373">ENROLLMENT</text>
+            <text class="txt small" x="434" y="402">• Dealer ↔ Program participation</text>
+            <text class="txt small" x="434" y="422">• Effective dates / status</text>
+            <text class="txt mono" x="434" y="452">PK: EnrollmentId</text>
+            <text class="txt mono" x="434" y="471">FK: DealerId, ProgramId</text>
+          </g>
+
+          <!-- Claim -->
+          <g class="node" data-label="Claim Submission Proof Purchase Receipt Audit">
+            <rect class="box" x="780" y="350" width="260" height="140" rx="12"></rect>
+            <rect class="hdr" x="780" y="350" width="260" height="34" rx="12"></rect>
+            <text class="txt title" x="794" y="373">CLAIM</text>
+            <text class="txt small" x="794" y="402">• Submission & validation</text>
+            <text class="txt small" x="794" y="422">• SKU / serial / proof</text>
+            <text class="txt mono" x="794" y="452">PK: ClaimId</text>
+            <text class="txt mono" x="794" y="471">FK: EnrollmentId, IncentiveTypeId</text>
+          </g>
+
+          <!-- Payment -->
+          <g class="node" data-label="Payment ACH Check Credit Memo Payout">
+            <rect class="box soft" x="1050" y="350" width="110" height="140" rx="12"></rect>
+            <rect class="hdr" x="1050" y="350" width="110" height="34" rx="12"></rect>
+            <text class="txt title" x="1058" y="373">PAYMENT</text>
+            <text class="txt small" x="1058" y="402">• Disbursement</text>
+            <text class="txt small" x="1058" y="422">• Audit trail</text>
+            <text class="txt mono" x="1058" y="452">PK: PaymentId</text>
+            <text class="txt mono" x="1058" y="471">FK: ClaimId</text>
+          </g>
+
+          <!-- Sales Associate -->
+          <g class="node" data-label="Sales Associate SPIF Identity Attribution">
+            <rect class="box muted" x="420" y="520" width="260" height="100" rx="12"></rect>
+            <rect class="hdr" x="420" y="520" width="260" height="34" rx="12"></rect>
+            <text class="txt title" x="434" y="543">SALES ASSOCIATE</text>
+            <text class="txt small" x="434" y="572">• Individual seller</text>
+            <text class="txt small" x="434" y="592">• SPIF attribution</text>
+            <text class="txt mono" x="434" y="616">PK: AssociateId • FK: DealerId</text>
+          </g>
+
+          <!-- Consumer -->
+          <g class="node" data-label="Consumer Rebate Registration Proof">
+            <rect class="box muted" x="300" y="530" width="110" height="90" rx="12"></rect>
+            <rect class="hdr" x="300" y="530" width="110" height="34" rx="12"></rect>
+            <text class="txt title" x="308" y="553">CONSUMER</text>
+            <text class="txt small" x="308" y="582">• Rebate</text>
+            <text class="txt mono" x="308" y="606">PK: ConsumerId</text>
+          </g>
+
+          <!-- Location -->
+          <g class="node" data-label="Location Store Address Territory">
+            <rect class="box muted" x="400" y="390" width="20" height="20" rx="5" opacity="0"></rect>
+            <rect class="box muted" x="450" y="380" width="200" height="110" rx="12" opacity="0"></rect>
+            <rect class="box muted" x="450" y="380" width="200" height="110" rx="12" opacity="0"></rect>
+            <rect class="box muted" x="450" y="380" width="200" height="110" rx="12" opacity="0"></rect>
+          </g>
+
+          <!-- Distributor -->
+          <g class="node" data-label="Distributor Logistics Inventory Fulfillment">
+            <rect class="box muted" x="40" y="470" width="220" height="110" rx="12"></rect>
+            <rect class="hdr" x="40" y="470" width="220" height="34" rx="12"></rect>
+            <text class="txt title" x="54" y="493">DISTRIBUTOR</text>
+            <text class="txt small" x="54" y="522">• Inventory / logistics</text>
+            <text class="txt small" x="54" y="542">• Dealer supply</text>
+            <text class="txt mono" x="54" y="568">PK: DistributorId</text>
+          </g>
+
+          <!-- Little “Location” box near Dealer (kept simple for clarity) -->
+          <g class="node" data-label="Location Store Address Territory" transform="translate(460, 365)">
+            <rect class="box muted" x="0" y="0" width="220" height="120" rx="12"></rect>
+            <rect class="hdr" x="0" y="0" width="220" height="34" rx="12"></rect>
+            <text class="txt title" x="14" y="23">LOCATION</text>
+            <text class="txt small" x="14" y="55">• Store / door</text>
+            <text class="txt small" x="14" y="75">• Address / territory</text>
+            <text class="txt mono" x="14" y="102">PK: LocationId • FK: DealerId</text>
+          </g>
+
+          <!-- Legend -->
+          <g transform="translate(40, 615)">
+            <rect class="tag" x="0" y="-18" width="300" height="28" rx="12"></rect>
+            <circle cx="16" cy="-4" r="5" fill="var(--accent)"></circle>
+            <text class="tagTxt" x="30" y="0">Solid = primary relationship</text>
+            <rect class="tag" x="310" y="-18" width="330" height="28" rx="12"></rect>
+            <line x1="328" y1="-4" x2="358" y2="-4" class="line dash"></line>
+            <text class="tagTxt" x="370" y="0">Dashed = optional / integration-driven</text>
+          </g>
+        </svg>
+
+        <div class="note">
+          Tip: use <span class="kbd">Search</span> to highlight labels across diagrams (e.g., “Claim”, “Program”, “POS”).
+        </div>
+      </div>
+    </article>
+
+    <!-- Salesforce Object Mapping -->
+    <article class="card" data-panel="sf">
+      <div class="card-head">
+        <div>
+          <h2 class="card-title">Salesforce Object Mapping</h2>
+        </div>
+        <div class="card-meta">Objects • key fields • relationships</div>
+      </div>
+      <div class="card-body">
+        <svg viewBox="0 0 1200 680" role="img" aria-label="Salesforce object mapping">
+          <defs>
+            <marker id="arrowSF" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--accent)"></path>
+            </marker>
+          </defs>
+
+          <rect class="svg-bg" x="0" y="0" width="1200" height="680"></rect>
+
+          <!-- Connectors -->
+          <path class="line arrow" style="marker-end:url(#arrowSF)" d="M 340 145 C 420 145, 420 145, 500 145"></path>
+          <text class="txt small" x="410" y="132">Account</text>
+
+          <path class="line arrow" style="marker-end:url(#arrowSF)" d="M 340 315 C 420 315, 420 315, 500 315"></path>
+          <text class="txt small" x="402" y="302">Account</text>
+
+          <path class="line arrow" style="marker-end:url(#arrowSF)" d="M 760 145 C 840 145, 840 190, 920 190"></path>
+          <text class="txt small" x="835" y="165">Program__c</text>
+
+          <path class="line arrow" style="marker-end:url(#arrowSF)" d="M 760 320 C 840 320, 840 300, 920 300"></path>
+          <text class="txt small" x="832" y="314">Enrollment__c</text>
+
+          <path class="line arrow" style="marker-end:url(#arrowSF)" d="M 760 490 C 840 490, 840 440, 920 440"></path>
+          <text class="txt small" x="840" y="470">Claim__c</text>
+
+          <path class="line arrow dash" style="marker-end:url(#arrowSF)" d="M 250 480 C 270 410, 330 380, 500 380"></path>
+          <text class="txt small" x="305" y="410">optional</text>
+
+          <!-- Left column: Standard objects -->
+          <g class="node" data-label="Account Manufacturer Dealer Distributor Buying Group">
+            <rect class="box" x="40" y="70" width="300" height="210" rx="12"></rect>
+            <rect class="hdr" x="40" y="70" width="300" height="34" rx="12"></rect>
+            <text class="txt title" x="54" y="93">STANDARD: ACCOUNT</text>
+
+            <text class="txt small" x="54" y="125">Use record types for:</text>
+            <text class="txt small" x="74" y="145">• Manufacturer</text>
+            <text class="txt small" x="74" y="165">• Distributor</text>
+            <text class="txt small" x="74" y="185">• Buying Group</text>
+            <text class="txt small" x="74" y="205">• Dealer</text>
+
+            <text class="txt mono" x="54" y="242">Key fields: Ownership, Brands, Tier</text>
+            <text class="txt mono" x="54" y="262">Rel: Account → Program__c (Manufacturer)</text>
+          </g>
+
+          <g class="node" data-label="Contact Sales Associate Dealer Hub User">
+            <rect class="box" x="40" y="300" width="300" height="210" rx="12"></rect>
+            <rect class="hdr" x="40" y="300" width="300" height="34" rx="12"></rect>
+            <text class="txt title" x="54" y="323">STANDARD: CONTACT</text>
+
+            <text class="txt small" x="54" y="355">Represents:</text>
+            <text class="txt small" x="74" y="375">• Sales Associate</text>
+            <text class="txt small" x="74" y="395">• Dealer Admin / Manager</text>
+            <text class="txt small" x="74" y="415">• Manufacturer channel user</text>
+
+            <text class="txt mono" x="54" y="452">Key fields: Role__c, Store__c, POS_ID__c</text>
+            <text class="txt mono" x="54" y="472">Rel: Contact → Account (Dealer)</text>
+          </g>
+
+          <g class="node" data-label="Opportunity Sale Transaction POS">
+            <rect class="box muted" x="40" y="540" width="300" height="110" rx="12"></rect>
+            <rect class="hdr" x="40" y="540" width="300" height="34" rx="12"></rect>
+            <text class="txt title" x="54" y="563">OPTIONAL: OPPORTUNITY</text>
+
+            <text class="txt small" x="54" y="595">Use if you capture “sale events” in SF.</text>
+            <text class="txt mono" x="54" y="625">Often replaced by POS feeds → Claims.</text>
+          </g>
+
+          <!-- Middle column: Custom objects -->
+          <g class="node" data-label="Program Incentive Program Rules Eligibility">
+            <rect class="box soft" x="500" y="70" width="260" height="210" rx="12"></rect>
+            <rect class="hdr" x="500" y="70" width="260" height="34" rx="12"></rect>
+            <text class="txt title" x="514" y="93">CUSTOM: PROGRAM__C</text>
+
+            <text class="txt mono" x="514" y="125">Manufacturer__c (Lookup Account)</text>
+            <text class="txt mono" x="514" y="145">StartDate__c / EndDate__c</text>
+            <text class="txt mono" x="514" y="165">Budget__c / Status__c</text>
+            <text class="txt mono" x="514" y="185">EligibilityLogic__c (text/json)</text>
+            <text class="txt mono" x="514" y="205">IncentiveTypes__c (child)</text>
+
+            <text class="txt small" x="514" y="238">Parent of Enrollment__c & IncentiveType__c</text>
+          </g>
+
+          <g class="node" data-label="Enrollment Dealer Program Participation Eligibility">
+            <rect class="box soft" x="500" y="290" width="260" height="220" rx="12"></rect>
+            <rect class="hdr" x="500" y="290" width="260" height="34" rx="12"></rect>
+            <text class="txt title" x="514" y="313">CUSTOM: ENROLLMENT__C</text>
+
+            <text class="txt mono" x="514" y="345">Dealer__c (Lookup Account)</text>
+            <text class="txt mono" x="514" y="365">Program__c (Lookup Program__c)</text>
+            <text class="txt mono" x="514" y="385">BuyingGroup__c (Lookup Account)</text>
+            <text class="txt mono" x="514" y="405">Status__c / EffectiveDates__c</text>
+            <text class="txt mono" x="514" y="425">Door__c (Location/Store)</text>
+            <text class="txt mono" x="514" y="445">POSProvider__c (Lookup POSProvider__c)</text>
+
+            <text class="txt small" x="514" y="480">Parent of Claim__c</text>
+          </g>
+
+          <g class="node" data-label="Claim Submission Proof Audit">
+            <rect class="box" x="500" y="520" width="260" height="130" rx="12"></rect>
+            <rect class="hdr" x="500" y="520" width="260" height="34" rx="12"></rect>
+            <text class="txt title" x="514" y="543">CUSTOM: CLAIM__C</text>
+
+            <text class="txt mono" x="514" y="575">Enrollment__c (Lookup)</text>
+            <text class="txt mono" x="514" y="595">IncentiveType__c (Lookup)</text>
+            <text class="txt mono" x="514" y="615">Amount__c / Status__c / Proof__c</text>
+          </g>
+
+          <!-- Right column: Supporting objects -->
+          <g class="node" data-label="Incentive Type SPIF Rebate STA MDF">
+            <rect class="box soft" x="920" y="140" width="240" height="140" rx="12"></rect>
+            <rect class="hdr" x="920" y="140" width="240" height="34" rx="12"></rect>
+            <text class="txt title" x="934" y="163">CUSTOM: INCENTIVETYPE__C</text>
+
+            <text class="txt mono" x="934" y="195">Program__c (Lookup)</text>
+            <text class="txt mono" x="934" y="215">Type__c (SPIF/Rebate/STA/MDF)</text>
+            <text class="txt mono" x="934" y="235">PayoutMethod__c / RequiredProof__c</text>
+          </g>
+
+          <g class="node" data-label="POS Provider Vendor Integration">
+            <rect class="box muted" x="920" y="290" width="240" height="120" rx="12"></rect>
+            <rect class="hdr" x="920" y="290" width="240" height="34" rx="12"></rect>
+            <text class="txt title" x="934" y="313">CUSTOM: POSPROVIDER__C</text>
+
+            <text class="txt mono" x="934" y="345">Name / IntegrationType__c</text>
+            <text class="txt mono" x="934" y="365">DataCoverage__c (SKU, assoc, etc.)</text>
+          </g>
+
+          <g class="node" data-label="Payment ACH Check Credit Memo">
+            <rect class="box soft" x="920" y="420" width="240" height="140" rx="12"></rect>
+            <rect class="hdr" x="920" y="420" width="240" height="34" rx="12"></rect>
+            <text class="txt title" x="934" y="443">CUSTOM: PAYMENT__C</text>
+
+            <text class="txt mono" x="934" y="475">Claim__c (Lookup)</text>
+            <text class="txt mono" x="934" y="495">Method__c (ACH/Check/Memo)</text>
+            <text class="txt mono" x="934" y="515">PaidDate__c / Reference__c</text>
+          </g>
+
+          <g class="node" data-label="Location Store Door Territory">
+            <rect class="box muted" x="920" y="580" width="240" height="70" rx="12"></rect>
+            <rect class="hdr" x="920" y="580" width="240" height="34" rx="12"></rect>
+            <text class="txt title" x="934" y="603">CUSTOM: LOCATION__C</text>
+            <text class="txt mono" x="934" y="635">Dealer__c (Lookup) • Address fields</text>
+          </g>
+
+          <!-- Notes -->
+          <g transform="translate(40, 18)">
+            <rect class="tag" x="0" y="0" width="520" height="28" rx="12"></rect>
+            <text class="tagTxt" x="14" y="18">Mapping principle: Accounts = organizations; Contacts = people; custom objects = incentives engine</text>
+          </g>
+        </svg>
+
+        <div class="note">
+          This mapping assumes a “channel operating model” where **programs + enrollments + claims** are the system of record, and POS feeds enhance eligibility and reduce manual proof.
+        </div>
+      </div>
+    </article>
+
+    <!-- Persona Map -->
+    <article class="card" data-panel="persona">
+      <div class="card-head">
+        <div>
+          <h2 class="card-title">Dealer Hub Persona Map</h2>
+        </div>
+        <div class="card-meta">Who uses Dealer Hub • needs • risks</div>
+      </div>
+      <div class="card-body">
+        <svg viewBox="0 0 1200 680" role="img" aria-label="Dealer Hub persona map">
+          <defs>
+            <marker id="arrowP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--accent)"></path>
+            </marker>
+          </defs>
+
+          <rect class="svg-bg" x="0" y="0" width="1200" height="680"></rect>
+
+          <!-- Hub center -->
+          <g class="node" data-label="Dealer Hub Portal Experience">
+            <rect class="box" x="480" y="250" width="240" height="180" rx="16"></rect>
+            <rect class="hdr" x="480" y="250" width="240" height="38" rx="16"></rect>
+            <text class="txt title" x="494" y="276">DEALER HUB</text>
+            <text class="txt small" x="494" y="310">Core capabilities:</text>
+            <text class="txt small" x="514" y="330">• Program discovery</text>
+            <text class="txt small" x="514" y="350">• Enrollment / eligibility</text>
+            <text class="txt small" x="514" y="370">• Claims / tracking</text>
+            <text class="txt small" x="514" y="390">• Reporting / compliance</text>
+          </g>
+
+          <!-- Personas -->
+          <!-- Dealer Owner -->
+          <g class="node" data-label="Dealer Owner Principal Executive ROI">
+            <rect class="box soft" x="60" y="80" width="320" height="190" rx="14"></rect>
+            <rect class="hdr" x="60" y="80" width="320" height="36" rx="14"></rect>
+            <text class="txt title" x="74" y="106">DEALER OWNER / PRINCIPAL</text>
+            <text class="txt small" x="74" y="140">Goals</text>
+            <text class="txt small" x="96" y="160">• Maximize program ROI</text>
+            <text class="txt small" x="96" y="180">• Reduce admin burden</text>
+            <text class="txt small" x="74" y="208">Risks</text>
+            <text class="txt small" x="96" y="228">• Confusing rules → missed money</text>
+            <text class="txt small" x="96" y="248">• Audit exposure</text>
+          </g>
+          <path class="line arrow" style="marker-end:url(#arrowP)" d="M 380 175 C 440 175, 440 265, 480 300"></path>
+          <text class="txt small" x="418" y="220">needs dashboards</text>
+
+          <!-- Dealer Admin -->
+          <g class="node" data-label="Dealer Admin Back Office Claims Submission">
+            <rect class="box" x="60" y="310" width="320" height="210" rx="14"></rect>
+            <rect class="hdr" x="60" y="310" width="320" height="36" rx="14"></rect>
+            <text class="txt title" x="74" y="336">DEALER ADMIN / BACK OFFICE</text>
+            <text class="txt small" x="74" y="370">Jobs-to-be-done</text>
+            <text class="txt small" x="96" y="390">• Enroll stores / maintain access</text>
+            <text class="txt small" x="96" y="410">• Submit claims & attach proof</text>
+            <text class="txt small" x="96" y="430">• Reconcile payouts</text>
+            <text class="txt small" x="74" y="460">Pain points</text>
+            <text class="txt small" x="96" y="480">• Missing docs / serials</text>
+            <text class="txt small" x="96" y="500">• Status ambiguity</text>
+          </g>
+          <path class="line arrow" style="marker-end:url(#arrowP)" d="M 380 420 C 430 420, 440 385, 480 360"></path>
+          <text class="txt small" x="420" y="395">needs workflows</text>
+
+          <!-- Store Manager -->
+          <g class="node" data-label="Store Manager Operations Training">
+            <rect class="box muted" x="820" y="80" width="320" height="190" rx="14"></rect>
+            <rect class="hdr" x="820" y="80" width="320" height="36" rx="14"></rect>
+            <text class="txt title" x="834" y="106">STORE MANAGER</text>
+            <text class="txt small" x="834" y="140">Goals</text>
+            <text class="txt small" x="856" y="160">• Drive attach & close rates</text>
+            <text class="txt small" x="856" y="180">• Ensure associates qualify</text>
+            <text class="txt small" x="834" y="208">Needs</text>
+            <text class="txt small" x="856" y="228">• Simple program rules</text>
+            <text class="txt small" x="856" y="248">• Weekly visibility</text>
+          </g>
+          <path class="line arrow dash" style="marker-end:url(#arrowP)" d="M 820 170 C 770 170, 760 270, 720 300"></path>
+          <text class="txt small" x="740" y="210">optional usage</text>
+
+          <!-- Sales Associate -->
+          <g class="node" data-label="Sales Associate SPIF Motivation">
+            <rect class="box muted" x="820" y="310" width="320" height="210" rx="14"></rect>
+            <rect class="hdr" x="820" y="310" width="320" height="36" rx="14"></rect>
+            <text class="txt title" x="834" y="336">SALES ASSOCIATE</text>
+            <text class="txt small" x="834" y="370">Motivators</text>
+            <text class="txt small" x="856" y="390">• SPIF visibility</text>
+            <text class="txt small" x="856" y="410">• Clear eligibility</text>
+            <text class="txt small" x="856" y="430">• Fast payout confidence</text>
+            <text class="txt small" x="834" y="460">Failure modes</text>
+            <text class="txt small" x="856" y="480">• “I sold it but got nothing”</text>
+            <text class="txt small" x="856" y="500">• Can’t find their sales</text>
+          </g>
+          <path class="line arrow dash" style="marker-end:url(#arrowP)" d="M 820 420 C 770 420, 760 400, 720 380"></path>
+          <text class="txt small" x="736" y="410">often separate hub</text>
+
+          <!-- Manufacturer Channel Manager -->
+          <g class="node" data-label="Manufacturer Channel Manager Program Owner">
+            <rect class="box soft" x="440" y="480" width="320" height="170" rx="14"></rect>
+            <rect class="hdr" x="440" y="480" width="320" height="36" rx="14"></rect>
+            <text class="txt title" x="454" y="506">MANUFACTURER CHANNEL MANAGER</text>
+            <text class="txt small" x="454" y="540">Needs</text>
+            <text class="txt small" x="476" y="560">• Program performance</text>
+            <text class="txt small" x="476" y="580">• Dealer compliance</text>
+            <text class="txt small" x="476" y="600">• POS coverage & attribution</text>
+            <text class="txt small" x="454" y="628">Outputs: forecasts • audits • refinements</text>
+          </g>
+          <path class="line arrow" style="marker-end:url(#arrowP)" d="M 600 480 C 600 450, 600 440, 600 430"></path>
+
+          <!-- Legend -->
+          <g transform="translate(60, 640)">
+            <rect class="tag" x="0" y="-20" width="520" height="30" rx="12"></rect>
+            <text class="tagTxt" x="14" y="0">Solid arrows: daily/primary users • Dashed arrows: occasional or via Sales Associate Hub</text>
+          </g>
+        </svg>
+
+        <div class="note">
+          Practical split: **Dealer Hub** for organizations (enrollment/claims/reporting) and a **Sales Associate Hub** for SPIF visibility, identity, and attribution.
+        </div>
+      </div>
+    </article>
+
+    <!-- Incentive Lifecycle Flow -->
+    <article class="card span2" data-panel="flow">
+      <div class="card-head">
+        <div>
+          <h2 class="card-title">Incentive Lifecycle Flow Across Entities</h2>
+        </div>
+        <div class="card-meta">From program creation → payout → audit</div>
+      </div>
+      <div class="card-body">
+        <svg viewBox="0 0 1200 720" role="img" aria-label="Incentive lifecycle flow">
+          <defs>
+            <marker id="arrowF" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--accent)"></path>
+            </marker>
+          </defs>
+
+          <rect class="svg-bg" x="0" y="0" width="1200" height="720"></rect>
+
+          <!-- Swimlanes -->
+          <g>
+            <rect x="20" y="70" width="1160" height="100" fill="#fff" stroke="var(--line)" rx="14"></rect>
+            <text class="txt mono" x="34" y="95">MANUFACTURER</text>
+
+            <rect x="20" y="185" width="1160" height="100" fill="#fff" stroke="var(--line)" rx="14"></rect>
+            <text class="txt mono" x="34" y="210">BUYING GROUP / DISTRIBUTOR (OPTIONAL)</text>
+
+            <rect x="20" y="300" width="1160" height="120" fill="#fff" stroke="var(--line)" rx="14"></rect>
+            <text class="txt mono" x="34" y="325">DEALER</text>
+
+            <rect x="20" y="435" width="1160" height="120" fill="#fff" stroke="var(--line)" rx="14"></rect>
+            <text class="txt mono" x="34" y="460">SALES ASSOCIATE / CONSUMER</text>
+
+            <rect x="20" y="570" width="1160" height="120" fill="#fff" stroke="var(--line)" rx="14"></rect>
+            <text class="txt mono" x="34" y="595">360INSIGHTS PLATFORM</text>
+          </g>
+
+          <!-- Steps (left to right timeline) -->
+          <!-- Manufacturer steps -->
+          <g class="node" data-label="Define Program Rules Budget Dates">
+            <rect class="box" x="120" y="95" width="210" height="50" rx="12"></rect>
+            <text class="txt" x="134" y="125">Define program rules</text>
+            <text class="txt small" x="134" y="142">dates • budget • eligibility</text>
+          </g>
+
+          <g class="node" data-label="Publish Program">
+            <rect class="box" x="360" y="95" width="210" height="50" rx="12"></rect>
+            <text class="txt" x="374" y="125">Publish program</text>
+            <text class="txt small" x="374" y="142">dealer comms • terms</text>
+          </g>
+
+          <g class="node" data-label="Approve Claims">
+            <rect class="box" x="840" y="95" width="210" height="50" rx="12"></rect>
+            <text class="txt" x="854" y="125">Approve / deny</text>
+            <text class="txt small" x="854" y="142">policy • exceptions</text>
+          </g>
+
+          <!-- Optional lane step -->
+          <g class="node" data-label="Negotiate Group Terms">
+            <rect class="box muted" x="360" y="210" width="210" height="50" rx="12"></rect>
+            <text class="txt" x="374" y="240">Negotiate group terms</text>
+          </g>
+
+          <!-- Dealer steps -->
+          <g class="node" data-label="Enroll Accept Terms">
+            <rect class="box" x="120" y="335" width="210" height="55" rx="12"></rect>
+            <text class="txt" x="134" y="365">Enroll / accept terms</text>
+            <text class="txt small" x="134" y="383">door(s) • users • POS</text>
+          </g>
+
+          <g class="node" data-label="Sell Product">
+            <rect class="box" x="360" y="335" width="210" height="55" rx="12"></rect>
+            <text class="txt" x="374" y="365">Sell product</text>
+            <text class="txt small" x="374" y="383">POS captures SKU/serial</text>
+          </g>
+
+          <g class="node" data-label="Submit Claim Upload Proof">
+            <rect class="box" x="600" y="335" width="210" height="55" rx="12"></rect>
+            <text class="txt" x="614" y="365">Submit claim</text>
+            <text class="txt small" x="614" y="383">proof • invoice • serial</text>
+          </g>
+
+          <g class="node" data-label="Reconcile Payouts">
+            <rect class="box" x="840" y="335" width="210" height="55" rx="12"></rect>
+            <text class="txt" x="854" y="365">Reconcile payouts</text>
+            <text class="txt small" x="854" y="383">books • disputes</text>
+          </g>
+
+          <!-- Assoc/consumer steps -->
+          <g class="node" data-label="Associate Attribution">
+            <rect class="box muted" x="360" y="470" width="210" height="55" rx="12"></rect>
+            <text class="txt" x="374" y="500">Associate attribution</text>
+            <text class="txt small" x="374" y="518">SPIF eligibility</text>
+          </g>
+
+          <g class="node" data-label="Consumer Rebate Registration">
+            <rect class="box muted" x="600" y="470" width="210" height="55" rx="12"></rect>
+            <text class="txt" x="614" y="500">Consumer registration</text>
+            <text class="txt small" x="614" y="518">rebate proof of purchase</text>
+          </g>
+
+          <!-- Platform steps -->
+          <g class="node" data-label="Program Setup Configure">
+            <rect class="box soft" x="120" y="605" width="210" height="55" rx="12"></rect>
+            <text class="txt" x="134" y="635">Program setup</text>
+            <text class="txt small" x="134" y="653">rules engine • catalogs</text>
+          </g>
+
+          <g class="node" data-label="Eligibility Validate">
+            <rect class="box soft" x="360" y="605" width="210" height="55" rx="12"></rect>
+            <text class="txt" x="374" y="635">Validate eligibility</text>
+            <text class="txt small" x="374" y="653">POS • enrollment • rules</text>
+          </g>
+
+          <g class="node" data-label="Review Audit Workflow">
+            <rect class="box soft" x="600" y="605" width="210" height="55" rx="12"></rect>
+            <text class="txt" x="614" y="635">Review / audit</text>
+            <text class="txt small" x="614" y="653">flags • sampling • SLA</text>
+          </g>
+
+          <g class="node" data-label="Pay Disburse ACH Check">
+            <rect class="box soft" x="840" y="605" width="210" height="55" rx="12"></rect>
+            <text class="txt" x="854" y="635">Pay / disburse</text>
+            <text class="txt small" x="854" y="653">ACH • check • memo</text>
+          </g>
+
+          <!-- Arrows across timeline (top layer) -->
+          <path class="line arrow" style="marker-end:url(#arrowF)" d="M 330 122 L 360 122"></path>
+          <path class="line arrow" style="marker-end:url(#arrowF)" d="M 570 362 L 600 362"></path>
+          <path class="line arrow" style="marker-end:url(#arrowF)" d="M 810 362 L 840 362"></path>
+
+          <path class="line arrow" style="marker-end:url(#arrowF)" d="M 330 632 L 360 632"></path>
+          <path class="line arrow" style="marker-end:url(#arrowF)" d="M 570 632 L 600 632"></path>
+          <path class="line arrow" style="marker-end:url(#arrowF)" d="M 810 632 L 840 632"></path>
+
+          <!-- Cross-lane arrows (key handoffs) -->
+          <path class="line arrow" style="marker-end:url(#arrowF)" d="M 465 150 C 465 250, 225 250, 225 335"></path>
+          <text class="txt small" x="250" y="250">communication & availability</text>
+
+          <path class="line arrow dash" style="marker-end:url(#arrowF)" d="M 465 260 C 465 310, 465 315, 465 335"></path>
+          <text class="txt small" x="480" y="300">group constraints</text>
+
+          <path class="line arrow" style="marker-end:url(#arrowF)" d="M 705 390 C 705 510, 465 520, 465 605"></path>
+          <text class="txt small" x="520" y="520">claim data</text>
+
+          <path class="line arrow" style="marker-end:url(#arrowF)" d="M 945 150 C 945 360, 945 360, 945 605"></path>
+          <text class="txt small" x="960" y="370">approval policy</text>
+
+          <path class="line arrow dash" style="marker-end:url(#arrowF)" d="M 465 390 C 465 450, 465 450, 465 470"></path>
+          <text class="txt small" x="490" y="445">associate linkage</text>
+
+          <!-- Footer note -->
+          <g transform="translate(20, 28)">
+            <rect class="tag" x="0" y="0" width="820" height="28" rx="12"></rect>
+            <text class="tagTxt" x="14" y="18">Lifecycle: Define → Publish → Enroll → Sell → Submit → Validate → Approve → Pay → Reconcile → Audit</text>
+          </g>
+        </svg>
+
+        <div class="note">
+          Use this flow to drive requirements: where you want **automation** (POS ingestion, eligibility), where you need **human review**, and where you must lock down **T&amp;Cs + data permissions**.
+        </div>
+      </div>
+    </article>
+
+  </section>
+</main>
+
+<footer>
+  <div>Data Source: <a href="https://www.wikidata.org/" target="_blank">Wikidata</a> | <a href="index.html">Back to Data View</a></div>
+</footer>
+
+<script>
+  // Panel switching with tab buttons
+  const tabButtons = Array.from(document.querySelectorAll('.tabs button'));
+  const panels = Array.from(document.querySelectorAll('[data-panel]'));
+
+  function setView(v){
+    // Update button active states
+    tabButtons.forEach(btn => {
+      if (btn.dataset.view === v) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+
+    // Show/hide panels
+    panels.forEach(p => {
+      const show = (v === 'all') || (p.getAttribute('data-panel') === v);
+      p.style.display = show ? '' : 'none';
+    });
+  }
+
+  tabButtons.forEach(btn => {
+    btn.addEventListener('click', () => setView(btn.dataset.view));
+  });
+
+  setView('all');
+
+  // Search highlight across SVG nodes
+  const search = document.getElementById('search');
+  const clearBtn = document.getElementById('clearBtn');
+
+  const allNodes = Array.from(document.querySelectorAll('.node'));
+  function normalize(s){ return (s || '').toLowerCase().trim(); }
+
+  function highlight(term){
+    const t = normalize(term);
+    allNodes.forEach(node => {
+      const label = normalize(node.getAttribute('data-label'));
+      const hit = t && label.includes(t);
+      // Apply highlight by tweaking stroke & background
+      const rects = node.querySelectorAll('rect');
+      rects.forEach(r => {
+        if (hit){
+          r.style.stroke = 'var(--bad)';
+          r.style.strokeWidth = '2';
+          if (r.classList.contains('hdr')) r.style.fill = 'rgba(185,28,28,0.06)';
+        } else {
+          r.style.stroke = '';
+          r.style.strokeWidth = '';
+          if (r.classList.contains('hdr')) r.style.fill = '';
+        }
+      });
+      const texts = node.querySelectorAll('text');
+      texts.forEach(tx => {
+        if (hit){
+          tx.style.fill = 'var(--bad)';
+          if (tx.classList.contains('small')) tx.style.fill = 'var(--bad)';
+        } else {
+          tx.style.fill = '';
+        }
+      });
+    });
+  }
+
+  search.addEventListener('input', e => highlight(e.target.value));
+  clearBtn.addEventListener('click', () => { search.value=''; highlight(''); search.focus(); });
+
+  // Print
+  document.getElementById('printBtn').addEventListener('click', () => window.print());
+</script>
+</body>
+</html>

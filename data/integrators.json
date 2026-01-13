@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "date_pulled": "2026-01-09T08:23:48.588289+00:00",
+    "source": "Industry Research (2026)",
+    "total_count": 23,
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "North America": {
+    "United States": {
+      "entities": [
+        {
+          "name": "ADT Commercial",
+          "website": "https://www.adt.com/commercial"
+        },
+        {
+          "name": "AVIXA",
+          "website": "https://www.avixa.org"
+        },
+        {
+          "name": "Accenture",
+          "website": "https://www.accenture.com"
+        },
+        {
+          "name": "CEDIA (Custom Electronic Design & Installation Association)",
+          "website": "https://www.cedia.org"
+        },
+        {
+          "name": "Capgemini",
+          "website": "https://www.capgemini.com"
+        },
+        {
+          "name": "Carrier",
+          "website": "https://www.carrier.com"
+        },
+        {
+          "name": "Cognizant",
+          "website": "https://www.cognizant.com"
+        },
+        {
+          "name": "Control4 (Snap One)",
+          "website": "https://www.control4.com"
+        },
+        {
+          "name": "Crestron",
+          "website": "https://www.crestron.com"
+        },
+        {
+          "name": "Deloitte Digital",
+          "website": "https://www.deloitte.com/digital"
+        },
+        {
+          "name": "ELAN",
+          "website": "https://www.elanhomesystems.com"
+        },
+        {
+          "name": "Honeywell Building Technologies",
+          "website": "https://www.honeywell.com"
+        },
+        {
+          "name": "IBM Global Services",
+          "website": "https://www.ibm.com/services"
+        },
+        {
+          "name": "Infosys",
+          "website": "https://www.infosys.com"
+        },
+        {
+          "name": "Johnson Controls",
+          "website": "https://www.johnsoncontrols.com"
+        },
+        {
+          "name": "Josh.ai",
+          "website": "https://www.josh.ai"
+        },
+        {
+          "name": "PTC",
+          "website": "https://www.ptc.com"
+        },
+        {
+          "name": "Rockwell Automation",
+          "website": "https://www.rockwellautomation.com"
+        },
+        {
+          "name": "Savant",
+          "website": "https://www.savant.com"
+        },
+        {
+          "name": "Siemens Building Technologies",
+          "website": "https://www.siemens.com/building"
+        },
+        {
+          "name": "Wipro",
+          "website": "https://www.wipro.com"
+        }
+      ]
+    },
+    "Canada": {
+      "entities": [
+        {
+          "name": "CGI Group",
+          "website": "https://www.cgi.com"
+        },
+        {
+          "name": "OpenText",
+          "website": "https://www.opentext.com"
+        }
+      ]
+    },
+    "Mexico": {
+      "entities": []
+    }
+  }
+}

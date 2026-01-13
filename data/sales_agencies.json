@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "date_pulled": "2026-01-09T08:23:47.466430+00:00",
+    "source": "Industry Research (2026)",
+    "total_count": 9,
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "North America": {
+    "United States": {
+      "entities": [
+        {
+          "name": "Alliance of Technology Service Providers",
+          "website": "https://www.theallianceoftsp.org"
+        },
+        {
+          "name": "Commercial Service Association (CSA)",
+          "website": "https://www.csa.com"
+        },
+        {
+          "name": "Manufacturers Representatives Educational Research Foundation",
+          "website": "https://www.mrerf.org"
+        },
+        {
+          "name": "Manufacturers' Agents National Association (MANA)",
+          "website": "https://www.manaonline.org"
+        },
+        {
+          "name": "RepHunter",
+          "website": "https://www.rephunter.net"
+        },
+        {
+          "name": "Repfabric",
+          "website": "https://www.repfabric.com"
+        },
+        {
+          "name": "TechRep Solutions",
+          "website": "https://www.techrepsolutions.com"
+        }
+      ]
+    },
+    "Canada": {
+      "entities": [
+        {
+          "name": "Canadian Professional Sales Association",
+          "website": "https://www.cpsa.com"
+        },
+        {
+          "name": "Sales Talent Agency",
+          "website": "https://www.salestalent.com"
+        }
+      ]
+    },
+    "Mexico": {
+      "entities": []
+    }
+  }
+}

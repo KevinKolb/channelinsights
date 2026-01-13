@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "date_pulled": "2026-01-09T08:16:40.037923+00:00",
+    "source": "Industry Research (2026)",
+    "total_count": 26,
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "North America": {
+    "United States": {
+      "entities": [
+        {
+          "name": "Allbound",
+          "website": "https://www.allbound.com"
+        },
+        {
+          "name": "BI WORLDWIDE",
+          "website": "https://www.biworldwide.com"
+        },
+        {
+          "name": "Blackhawk Network",
+          "website": "https://www.blackhawknetwork.com"
+        },
+        {
+          "name": "Channelscaler",
+          "website": "https://channelscaler.com"
+        },
+        {
+          "name": "Channeltivity",
+          "website": "https://www.channeltivity.com"
+        },
+        {
+          "name": "Dash Solutions",
+          "website": "https://dashsolutions.com"
+        },
+        {
+          "name": "Enable",
+          "website": "https://www.enable.com"
+        },
+        {
+          "name": "Impartner",
+          "website": "https://www.impartner.com"
+        },
+        {
+          "name": "InComm Incentives",
+          "website": "https://www.incommincentives.com"
+        },
+        {
+          "name": "Incentit",
+          "website": "https://incentit.com"
+        },
+        {
+          "name": "Model N",
+          "website": "https://www.modeln.com"
+        },
+        {
+          "name": "Optymyze",
+          "website": "https://www.optymyze.com"
+        },
+        {
+          "name": "Performio",
+          "website": "https://www.performio.co"
+        },
+        {
+          "name": "Rybbon",
+          "website": "https://www.rybbon.net"
+        },
+        {
+          "name": "Salesforce (Incentive Compensation)",
+          "website": "https://www.salesforce.com"
+        },
+        {
+          "name": "Tango Card",
+          "website": "https://www.tangocard.com"
+        },
+        {
+          "name": "The Incentive Group",
+          "website": "https://www.incentivegroup.com"
+        },
+        {
+          "name": "Tremendous",
+          "website": "https://www.tremendous.com"
+        },
+        {
+          "name": "Varicent (IBM)",
+          "website": "https://www.varicent.com"
+        },
+        {
+          "name": "Vendavo",
+          "website": "https://www.vendavo.com"
+        },
+        {
+          "name": "Vistex",
+          "website": "https://www.vistex.com"
+        },
+        {
+          "name": "Xoxoday",
+          "website": "https://www.xoxoday.com"
+        },
+        {
+          "name": "ZiftONE",
+          "website": "https://www.ziftone.com"
+        },
+        {
+          "name": "Zinfi",
+          "website": "https://www.zinfi.com"
+        },
+        {
+          "name": "e2open",
+          "website": "https://www.e2open.com"
+        }
+      ]
+    },
+    "Canada": {
+      "entities": [
+        {
+          "name": "360insights",
+          "website": "https://www.360insights.com"
+        }
+      ]
+    },
+    "Mexico": {
+      "entities": []
+    }
+  }
+}

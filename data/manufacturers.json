@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "date_pulled": "2026-01-09T07:42:41.606019+00:00",
+    "source": "hardcoded",
+    "total_manufacturers": 17,
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "North America": {
+    "United States": {
+      "manufacturers": [
+        {
+          "name": "Amana",
+          "website": "https://www.amana.com"
+        },
+        {
+          "name": "Bosch",
+          "website": "https://www.bosch-home.com"
+        },
+        {
+          "name": "Electrolux",
+          "website": "https://www.electrolux.com"
+        },
+        {
+          "name": "Frigidaire",
+          "website": "https://www.frigidaire.com"
+        },
+        {
+          "name": "General Electric Appliances",
+          "website": "https://www.geappliances.com"
+        },
+        {
+          "name": "Jenn-Air",
+          "website": "https://www.jennair.com"
+        },
+        {
+          "name": "Kenmore",
+          "website": "https://www.kenmore.com"
+        },
+        {
+          "name": "KitchenAid",
+          "website": "https://www.kitchenaid.com"
+        },
+        {
+          "name": "Maytag",
+          "website": "https://www.maytag.com"
+        },
+        {
+          "name": "Speed Queen",
+          "website": "https://www.speedqueen.com"
+        },
+        {
+          "name": "Sub-Zero",
+          "website": "https://www.subzero-wolf.com"
+        },
+        {
+          "name": "Thermador",
+          "website": "https://www.thermador.com"
+        },
+        {
+          "name": "Viking Range",
+          "website": "https://www.vikingrange.com"
+        },
+        {
+          "name": "Whirlpool Corporation",
+          "website": "https://www.whirlpoolcorp.com"
+        },
+        {
+          "name": "Wolf",
+          "website": "https://www.subzero-wolf.com"
+        }
+      ]
+    },
+    "Canada": {
+      "manufacturers": []
+    },
+    "Mexico": {
+      "manufacturers": [
+        {
+          "name": "Acros"
+        },
+        {
+          "name": "Mabe",
+          "website": "https://www.mabe.com.mx"
+        }
+      ]
+    }
+  }
+}

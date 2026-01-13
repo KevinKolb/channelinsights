@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "date_pulled": "2026-01-09T07:57:26.055190+00:00",
+    "source": "hardcoded",
+    "total_count": 4,
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "North America": {
+    "United States": {
+      "entities": [
+        {
+          "name": "AD (Affiliated Distributors)",
+          "website": "https://www.adhq.com"
+        },
+        {
+          "name": "Ferguson Enterprises",
+          "website": "https://www.ferguson.com"
+        },
+        {
+          "name": "Marcone",
+          "website": "https://www.marcone.com"
+        },
+        {
+          "name": "United Appliance Parts",
+          "website": "https://www.unitedapp.com"
+        }
+      ]
+    },
+    "Canada": {
+      "entities": []
+    },
+    "Mexico": {
+      "entities": []
+    }
+  }
+}

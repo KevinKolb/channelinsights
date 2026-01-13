@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "date_pulled": "2026-01-09T08:23:50.705681+00:00",
+    "source": "Industry Research (2026)",
+    "total_count": 28,
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "North America": {
+    "United States": {
+      "entities": [
+        {
+          "name": "Amazon",
+          "website": "https://www.amazon.com"
+        },
+        {
+          "name": "Best Buy Marketplace",
+          "website": "https://www.bestbuy.com"
+        },
+        {
+          "name": "BigCommerce",
+          "website": "https://www.bigcommerce.com"
+        },
+        {
+          "name": "ChannelAdvisor",
+          "website": "https://www.channeladvisor.com"
+        },
+        {
+          "name": "Fabric",
+          "website": "https://www.fabric.inc"
+        },
+        {
+          "name": "Feedonomics (BigCommerce)",
+          "website": "https://www.feedonomics.com"
+        },
+        {
+          "name": "Kibo Commerce",
+          "website": "https://www.kibocommerce.com"
+        },
+        {
+          "name": "Linnworks",
+          "website": "https://www.linnworks.com"
+        },
+        {
+          "name": "Logicbroker",
+          "website": "https://www.logicbroker.com"
+        },
+        {
+          "name": "Magento (Adobe Commerce)",
+          "website": "https://magento.com"
+        },
+        {
+          "name": "Meta Shops (Facebook/Instagram)",
+          "website": "https://www.facebook.com/business/shops"
+        },
+        {
+          "name": "Mirakl",
+          "website": "https://www.mirakl.com"
+        },
+        {
+          "name": "OroCommerce",
+          "website": "https://www.orocommerce.com"
+        },
+        {
+          "name": "Overstock",
+          "website": "https://www.overstock.com"
+        },
+        {
+          "name": "Pinterest Shopping",
+          "website": "https://www.pinterest.com/business"
+        },
+        {
+          "name": "Salesforce Commerce Cloud",
+          "website": "https://www.salesforce.com/commerce"
+        },
+        {
+          "name": "Sellbrite",
+          "website": "https://www.sellbrite.com"
+        },
+        {
+          "name": "Target Plus",
+          "website": "https://www.target.com"
+        },
+        {
+          "name": "TikTok Shop",
+          "website": "https://www.tiktok.com/business/shopping"
+        },
+        {
+          "name": "VTEX",
+          "website": "https://www.vtex.com"
+        },
+        {
+          "name": "Walmart Marketplace",
+          "website": "https://marketplace.walmart.com"
+        },
+        {
+          "name": "Wayfair",
+          "website": "https://www.wayfair.com"
+        },
+        {
+          "name": "WooCommerce (Automattic)",
+          "website": "https://woocommerce.com"
+        },
+        {
+          "name": "Zentail",
+          "website": "https://www.zentail.com"
+        },
+        {
+          "name": "commercetools",
+          "website": "https://www.commercetools.com"
+        },
+        {
+          "name": "eBay",
+          "website": "https://www.ebay.com"
+        }
+      ]
+    },
+    "Canada": {
+      "entities": [
+        {
+          "name": "Elastic Path",
+          "website": "https://www.elasticpath.com"
+        },
+        {
+          "name": "Shopify",
+          "website": "https://www.shopify.com"
+        }
+      ]
+    },
+    "Mexico": {
+      "entities": []
+    }
+  }
+}

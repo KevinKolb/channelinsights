@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "date_pulled": "2026-01-09T07:57:27.781121+00:00",
+    "source": "Wikidata",
+    "total_count": 7,
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "North America": {
+    "United States": {
+      "entities": [
+        {
+          "name": "Heer's",
+          "wikidata_id": "Q5698024"
+        },
+        {
+          "name": "Heironimus",
+          "wikidata_id": "Q5700967"
+        },
+        {
+          "name": "Hess's",
+          "wikidata_id": "Q16995296"
+        },
+        {
+          "name": "John G. Myers Company",
+          "wikidata_id": "Q19881146"
+        },
+        {
+          "name": "Marukai Corporation U.S.A.",
+          "wikidata_id": "Q6777925",
+          "website": "http://www.marukai.co.jp"
+        },
+        {
+          "name": "May Company California",
+          "wikidata_id": "Q6796463"
+        },
+        {
+          "name": "Robinsons-May",
+          "wikidata_id": "Q5657602"
+        }
+      ]
+    },
+    "Canada": {
+      "entities": []
+    },
+    "Mexico": {
+      "entities": []
+    }
+  }
+}

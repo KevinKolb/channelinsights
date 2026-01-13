@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "date_pulled": "2026-01-09T08:30:01.482302+00:00",
+    "source": "Industry Research (2026)",
+    "total_count": 26,
+    "total_categories": 4,
+    "organization": "by_type",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "categories": {
+    "Channel Incentive & Rebate Management": {
+      "definition": "End-to-end platforms for managing rebates, SPIFFs, MDFs, and co-op programs across channel partners, dealers, and distributors.",
+      "count": 10,
+      "platforms": [
+        {
+          "name": "360insights",
+          "country": "Canada",
+          "website": "https://www.360insights.com"
+        },
+        {
+          "name": "Channelscaler",
+          "country": "United States",
+          "website": "https://channelscaler.com"
+        },
+        {
+          "name": "Dash Solutions",
+          "country": "United States",
+          "website": "https://dashsolutions.com"
+        },
+        {
+          "name": "Enable",
+          "country": "United States",
+          "website": "https://www.enable.com"
+        },
+        {
+          "name": "Incentit",
+          "country": "United States",
+          "website": "https://incentit.com"
+        },
+        {
+          "name": "Model N",
+          "country": "United States",
+          "website": "https://www.modeln.com"
+        },
+        {
+          "name": "Vendavo",
+          "country": "United States",
+          "website": "https://www.vendavo.com"
+        },
+        {
+          "name": "Vistex",
+          "country": "United States",
+          "website": "https://www.vistex.com"
+        },
+        {
+          "name": "ZiftONE",
+          "country": "United States",
+          "website": "https://www.ziftone.com"
+        },
+        {
+          "name": "e2open",
+          "country": "United States",
+          "website": "https://www.e2open.com"
+        }
+      ]
+    },
+    "Reward & Incentive Fulfillment": {
+      "definition": "Digital reward delivery platforms providing gift cards, prepaid cards, merchandise, and experiences for incentive program payouts.",
+      "count": 8,
+      "platforms": [
+        {
+          "name": "BI WORLDWIDE",
+          "country": "United States",
+          "website": "https://www.biworldwide.com"
+        },
+        {
+          "name": "Blackhawk Network",
+          "country": "United States",
+          "website": "https://www.blackhawknetwork.com"
+        },
+        {
+          "name": "InComm Incentives",
+          "country": "United States",
+          "website": "https://www.incommincentives.com"
+        },
+        {
+          "name": "Rybbon",
+          "country": "United States",
+          "website": "https://www.rybbon.net"
+        },
+        {
+          "name": "Tango Card",
+          "country": "United States",
+          "website": "https://www.tangocard.com"
+        },
+        {
+          "name": "The Incentive Group",
+          "country": "United States",
+          "website": "https://www.incentivegroup.com"
+        },
+        {
+          "name": "Tremendous",
+          "country": "United States",
+          "website": "https://www.tremendous.com"
+        },
+        {
+          "name": "Xoxoday",
+          "country": "United States",
+          "website": "https://www.xoxoday.com"
+        }
+      ]
+    },
+    "Sales Incentive Compensation": {
+      "definition": "Sales performance management and commission calculation software for managing sales team compensation and quota attainment.",
+      "count": 4,
+      "platforms": [
+        {
+          "name": "Optymyze",
+          "country": "United States",
+          "website": "https://www.optymyze.com"
+        },
+        {
+          "name": "Performio",
+          "country": "United States",
+          "website": "https://www.performio.co"
+        },
+        {
+          "name": "Salesforce (Incentive Compensation)",
+          "country": "United States",
+          "website": "https://www.salesforce.com"
+        },
+        {
+          "name": "Varicent (IBM)",
+          "country": "United States",
+          "website": "https://www.varicent.com"
+        }
+      ]
+    },
+    "Partner & Channel Marketing": {
+      "definition": "Partner relationship management (PRM) platforms with integrated incentive program capabilities for channel partner engagement.",
+      "count": 4,
+      "platforms": [
+        {
+          "name": "Allbound",
+          "country": "United States",
+          "website": "https://www.allbound.com"
+        },
+        {
+          "name": "Channeltivity",
+          "country": "United States",
+          "website": "https://www.channeltivity.com"
+        },
+        {
+          "name": "Impartner",
+          "country": "United States",
+          "website": "https://www.impartner.com"
+        },
+        {
+          "name": "Zinfi",
+          "country": "United States",
+          "website": "https://www.zinfi.com"
+        }
+      ]
+    }
+  }
+}
