@@ -274,25 +274,54 @@ function renderFlatList(searchTerm, countryFilter, sortOption, dataType) {
     // Sort
     allItems = applySortOption(allItems, sortOption, item => item.name);
 
-    // Render flat grid
+    // Render as list (one per line for manufacturers) or grid (for other entities)
     if (allItems.length === 0) {
         content.innerHTML = '<div class="empty-state">No results found</div>';
         return;
     }
 
-    const html = `
-        <div class="states-grid">
-            ${allItems.map(item => `
-                <div class="state-item manufacturer-item">
-                    ${item.website ?
-                        `<a href="${item.website}" target="_blank" class="manufacturer-link">${item.name}</a>` :
-                        `<span class="manufacturer-link">${item.name}</span>`
-                    }
-                </div>
-            `).join('')}
-        </div>`;
+    if (dataType === 'manufacturers') {
+        // Render manufacturers as a list (one per line)
+        const html = `
+            <div class="manufacturer-list">
+                ${allItems.map(item => {
+                    const details = [];
+                    if (item.headquarters) details.push(item.headquarters);
+                    if (item.country) details.push(item.country);
+                    const detailsText = details.length > 0 ? ` <span class="manufacturer-details">(${details.join(', ')})</span>` : '';
 
-    content.innerHTML = html;
+                    // Determine which URL to use (prefer website, fallback to wikipedia)
+                    const url = item.website || item.wikipedia_url;
+                    const urlDisplay = item.website ?
+                        new URL(item.website).hostname.replace('www.', '') :
+                        (item.wikipedia_url ? 'Wikipedia' : '');
+
+                    return `
+                        <div class="manufacturer-list-item">
+                            ${url ?
+                                `<a href="${url}" target="_blank" class="manufacturer-name">${item.name}</a>` :
+                                `<span class="manufacturer-name">${item.name}</span>`
+                            }${detailsText}
+                        </div>
+                    `;
+                }).join('')}
+            </div>`;
+        content.innerHTML = html;
+    } else {
+        // Render entities as grid
+        const html = `
+            <div class="states-grid">
+                ${allItems.map(item => `
+                    <div class="state-item manufacturer-item">
+                        ${item.website ?
+                            `<a href="${item.website}" target="_blank" class="manufacturer-link">${item.name}</a>` :
+                            `<span class="manufacturer-link">${item.name}</span>`
+                        }
+                    </div>
+                `).join('')}
+            </div>`;
+        content.innerHTML = html;
+    }
 }
 
 function getCurrentFilteredData() {

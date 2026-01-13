@@ -5,7 +5,8 @@
       "Bash(test:*)",
       "Bash(pip install:*)",
       "Bash(ls:*)",
-      "Bash(dir /b)"
+      "Bash(dir /b)",
+      "Bash(start index.html)"
     ]
   }
 }
