@@ -1,0 +1,4346 @@
+{
+  "metadata": {
+    "date_generated": "2026-01-13T21:07:51.369088+00:00",
+    "source": "Python Script",
+    "derived_from": "makers.json",
+    "total_brands": 135,
+    "total_parent_companies": 95,
+    "license": "CC0 1.0 / Creative Commons",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "note": "Brand ownership data compiled from manufacturer relationships and public sources."
+  },
+  "brands": {
+    "all": [
+      {
+        "brand_name": "Acros",
+        "parent_company": "Acros",
+        "country": "Mexico",
+        "type": "Major Appliances (full-line)",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Acros",
+        "parent_company": "Mabe",
+        "country": "Mexico",
+        "type": "Major Appliances",
+        "notes": "Mexican brand",
+        "headquarters": "Mexico City",
+        "parent_website": "https://www.mabe.com.mx",
+        "parent_revenue_usd": 2500000000
+      },
+      {
+        "brand_name": "Admiral",
+        "parent_company": "Whirlpool Corporation",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Value brand",
+        "headquarters": "Benton Harbor, Michigan",
+        "parent_website": "https://www.whirlpoolcorp.com",
+        "parent_revenue_usd": 19400000000
+      },
+      {
+        "brand_name": "Admiral (electrical appliances)",
+        "parent_company": "Admiral (electrical appliances)",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Aerus",
+        "parent_company": "Aerus",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.aerusvacuums.com"
+      },
+      {
+        "brand_name": "Alliance Laundry Systems",
+        "parent_company": "Alliance Laundry Systems",
+        "country": "United States",
+        "type": "Major Appliances (laundry)",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "https://alliancelaundry.com/"
+      },
+      {
+        "brand_name": "Altorfer Bros. Company",
+        "parent_company": "Altorfer Bros. Company",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Amana",
+        "parent_company": "Whirlpool Corporation",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Value brand",
+        "headquarters": "Benton Harbor, Michigan",
+        "parent_website": "https://www.whirlpoolcorp.com",
+        "parent_revenue_usd": 19400000000
+      },
+      {
+        "brand_name": "American Range",
+        "parent_company": "American Range",
+        "country": "United States",
+        "type": "Major Appliances (cooking)",
+        "notes": "Commercial and residential",
+        "headquarters": "Pacoima, California",
+        "parent_website": "https://americanrange.com"
+      },
+      {
+        "brand_name": "Aroma Housewares",
+        "parent_company": "Aroma Housewares",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.aromaco.com/"
+      },
+      {
+        "brand_name": "Beatty Brothers Limited",
+        "parent_company": "Beatty Brothers Limited",
+        "country": "Canada",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Bissell",
+        "parent_company": "Bissell",
+        "country": "United States",
+        "type": "Vacuum/Floor Care",
+        "notes": "Carpet cleaners and vacuums",
+        "parent_website": "https://www.bissell.com/"
+      },
+      {
+        "brand_name": "Black+Decker",
+        "parent_company": "Spectrum Brands",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Small kitchen appliances",
+        "parent_website": "https://www.spectrumbrands.com/"
+      },
+      {
+        "brand_name": "Blendtec",
+        "parent_company": "Blendtec",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Professional blenders",
+        "parent_website": "https://www.blendtec.com"
+      },
+      {
+        "brand_name": "BlueStar",
+        "parent_company": "BlueStar",
+        "country": "United States",
+        "type": "Major Appliances (cooking)",
+        "notes": "Professional ranges",
+        "headquarters": "Reading, Pennsylvania",
+        "parent_website": "https://www.bluestarcooking.com"
+      },
+      {
+        "brand_name": "Bosch",
+        "parent_company": "Thermador",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Parent company (German)",
+        "headquarters": "Irvine, California",
+        "parent_website": "https://www.thermador.com"
+      },
+      {
+        "brand_name": "Braava",
+        "parent_company": "IRobot",
+        "country": "United States",
+        "type": "Vacuum/Floor Care",
+        "notes": "Robot mops",
+        "parent_website": "http://irobot.com"
+      },
+      {
+        "brand_name": "Bradshaw International",
+        "parent_company": "Bradshaw International",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://bradshawhome.com/"
+      },
+      {
+        "brand_name": "Caloric",
+        "parent_company": "Caloric",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Conair Corporation",
+        "parent_company": "Conair Corporation",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.conair.com"
+      },
+      {
+        "brand_name": "Cove",
+        "parent_company": "Sub-Zero Group",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Luxury dishwashers",
+        "headquarters": "Madison, Wisconsin",
+        "parent_website": "https://www.subzero-wolf.com",
+        "parent_revenue_usd": 2500000000
+      },
+      {
+        "brand_name": "Crock-Pot",
+        "parent_company": "Newell Brands",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Slow cookers",
+        "parent_website": "https://www.newellbrands.com/"
+      },
+      {
+        "brand_name": "Cuisinart",
+        "parent_company": "Cuisinart",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Food processors and kitchen appliances",
+        "parent_website": "http://cuisinart.com"
+      },
+      {
+        "brand_name": "Dacor (kitchen appliances)",
+        "parent_company": "Dacor (kitchen appliances)",
+        "country": "United States",
+        "type": "Major Appliances (cooking)",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.dacor.com"
+      },
+      {
+        "brand_name": "Danby",
+        "parent_company": "Danby",
+        "country": "Canada",
+        "type": "Major Appliances (refrigeration)",
+        "notes": "Compact appliances",
+        "headquarters": "Guelph, Ontario",
+        "parent_website": "https://www.danby.com",
+        "parent_revenue_usd": 350000000
+      },
+      {
+        "brand_name": "Danby (appliances)",
+        "parent_company": "Danby (appliances)",
+        "country": "Canada",
+        "type": "Major Appliances (refrigeration)",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "https://www.danby.com"
+      },
+      {
+        "brand_name": "Dirt Devil",
+        "parent_company": "Dirt Devil",
+        "country": "United States",
+        "type": "Vacuum/Floor Care",
+        "notes": "Budget vacuum cleaners",
+        "parent_website": "http://www.dirtdevil.com/"
+      },
+      {
+        "brand_name": "Easy",
+        "parent_company": "Mabe",
+        "country": "Mexico",
+        "type": "Major Appliances",
+        "notes": "Value brand",
+        "headquarters": "Mexico City",
+        "parent_website": "https://www.mabe.com.mx",
+        "parent_revenue_usd": 2500000000
+      },
+      {
+        "brand_name": "Electrolux",
+        "parent_company": "Electrolux North America",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Main brand",
+        "headquarters": "Charlotte, North Carolina",
+        "parent_website": "https://www.electrolux.com",
+        "parent_revenue_usd": 5000000000
+      },
+      {
+        "brand_name": "Elmira",
+        "parent_company": "Elmira Stove Works",
+        "country": "Canada",
+        "type": "Major Appliances (cooking)",
+        "notes": "Retro-inspired ranges",
+        "headquarters": "Elmira, Ontario",
+        "parent_website": "https://elmirastoveworks.com"
+      },
+      {
+        "brand_name": "Emeril",
+        "parent_company": "Spectrum Brands",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Celebrity chef brand",
+        "parent_website": "https://www.spectrumbrands.com/"
+      },
+      {
+        "brand_name": "Emerson Radio",
+        "parent_company": "Emerson Radio",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://emersonradio.com"
+      },
+      {
+        "brand_name": "Eureka",
+        "parent_company": "Eureka (company)",
+        "country": "United States",
+        "type": "Vacuum/Floor Care",
+        "notes": "Vacuum cleaners",
+        "parent_website": "http://www.eureka.com/"
+      },
+      {
+        "brand_name": "Fantom Technologies",
+        "parent_company": "Fantom Technologies",
+        "country": "Canada",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Farberware",
+        "parent_company": "Farberware",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "https://www.farberwarecookware.com/"
+      },
+      {
+        "brand_name": "Favorite Stove",
+        "parent_company": "Favorite Stove",
+        "country": "United States",
+        "type": "Major Appliances (cooking)",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Felix Storch, Inc",
+        "parent_company": "Felix Storch, Inc",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://felixstorchinc.com"
+      },
+      {
+        "brand_name": "FiveStar",
+        "parent_company": "Brown Stove Works",
+        "country": "United States",
+        "type": "Major Appliances (cooking)",
+        "notes": "Professional ranges",
+        "headquarters": "Cleveland, Tennessee",
+        "parent_website": "https://www.brownstoveworksinc.com"
+      },
+      {
+        "brand_name": "FoodSaver",
+        "parent_company": "Newell Brands",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Vacuum sealers",
+        "parent_website": "https://www.newellbrands.com/"
+      },
+      {
+        "brand_name": "Frigidaire",
+        "parent_company": "Electrolux North America",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Mass market",
+        "headquarters": "Charlotte, North Carolina",
+        "parent_website": "https://www.electrolux.com",
+        "parent_revenue_usd": 5000000000
+      },
+      {
+        "brand_name": "Frigidaire",
+        "parent_company": "Frigidaire",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.frigidaire.com"
+      },
+      {
+        "brand_name": "Frigidaire Gallery",
+        "parent_company": "Electrolux North America",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Mid-tier",
+        "headquarters": "Charlotte, North Carolina",
+        "parent_website": "https://www.electrolux.com",
+        "parent_revenue_usd": 5000000000
+      },
+      {
+        "brand_name": "Frigidaire Professional",
+        "parent_company": "Electrolux North America",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Premium",
+        "headquarters": "Charlotte, North Carolina",
+        "parent_website": "https://www.electrolux.com",
+        "parent_revenue_usd": 5000000000
+      },
+      {
+        "brand_name": "GE",
+        "parent_company": "GE Appliances",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Main brand",
+        "headquarters": "Louisville, Kentucky",
+        "parent_website": "https://www.geappliances.com",
+        "parent_revenue_usd": 8000000000
+      },
+      {
+        "brand_name": "GE (Latin America)",
+        "parent_company": "Mabe",
+        "country": "Mexico",
+        "type": "Major Appliances (full-line)",
+        "notes": "Manufactured by Mabe",
+        "headquarters": "Mexico City",
+        "parent_website": "https://www.mabe.com.mx",
+        "parent_revenue_usd": 2500000000
+      },
+      {
+        "brand_name": "GE Café",
+        "parent_company": "GE Appliances",
+        "country": "United States",
+        "type": "Specialty/Luxury",
+        "notes": "Premium customizable",
+        "headquarters": "Louisville, Kentucky",
+        "parent_website": "https://www.geappliances.com",
+        "parent_revenue_usd": 8000000000
+      },
+      {
+        "brand_name": "GE Profile",
+        "parent_company": "GE Appliances",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Mid-tier premium",
+        "headquarters": "Louisville, Kentucky",
+        "parent_website": "https://www.geappliances.com",
+        "parent_revenue_usd": 8000000000
+      },
+      {
+        "brand_name": "Gaggenau",
+        "parent_company": "Thermador",
+        "country": "United States",
+        "type": "Specialty/Luxury",
+        "notes": "Ultra-luxury (German)",
+        "headquarters": "Irvine, California",
+        "parent_website": "https://www.thermador.com"
+      },
+      {
+        "brand_name": "George Foreman",
+        "parent_company": "Spectrum Brands",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Grills and cooking",
+        "parent_website": "https://www.spectrumbrands.com/"
+      },
+      {
+        "brand_name": "Gibson",
+        "parent_company": "Electrolux North America",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Value brand",
+        "headquarters": "Charlotte, North Carolina",
+        "parent_website": "https://www.electrolux.com",
+        "parent_revenue_usd": 5000000000
+      },
+      {
+        "brand_name": "Gibson Appliance",
+        "parent_company": "Gibson Appliance",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Gladiator",
+        "parent_company": "Whirlpool Corporation",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Garage and storage",
+        "headquarters": "Benton Harbor, Michigan",
+        "parent_website": "https://www.whirlpoolcorp.com",
+        "parent_revenue_usd": 19400000000
+      },
+      {
+        "brand_name": "Grigsby-Grunow",
+        "parent_company": "Grigsby-Grunow",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Haier",
+        "parent_company": "GE Appliances",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Parent company brand",
+        "headquarters": "Louisville, Kentucky",
+        "parent_website": "https://www.geappliances.com",
+        "parent_revenue_usd": 8000000000
+      },
+      {
+        "brand_name": "Hamilton Beach",
+        "parent_company": "Hamilton Beach Brands",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Main brand",
+        "headquarters": "Glen Allen, Virginia",
+        "parent_website": "https://hamiltonbeach.com",
+        "parent_revenue_usd": 600000000
+      },
+      {
+        "brand_name": "Holmes Products",
+        "parent_company": "Holmes Products",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.holmesproducts.com/"
+      },
+      {
+        "brand_name": "Hoover",
+        "parent_company": "The Hoover Company",
+        "country": "United States",
+        "type": "Vacuum/Floor Care",
+        "notes": "Vacuum cleaners",
+        "parent_website": "https://www.hoover.com/"
+      },
+      {
+        "brand_name": "Hotpoint",
+        "parent_company": "GE Appliances",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Value brand (some markets)",
+        "headquarters": "Louisville, Kentucky",
+        "parent_website": "https://www.geappliances.com",
+        "parent_revenue_usd": 8000000000
+      },
+      {
+        "brand_name": "InSinkErator",
+        "parent_company": "InSinkErator",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.insinkerator.com/"
+      },
+      {
+        "brand_name": "International Harvester",
+        "parent_company": "International Harvester",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Jenn-Air",
+        "parent_company": "Whirlpool Corporation",
+        "country": "United States",
+        "type": "Specialty/Luxury",
+        "notes": "Luxury cooking appliances",
+        "headquarters": "Benton Harbor, Michigan",
+        "parent_website": "https://www.whirlpoolcorp.com",
+        "parent_revenue_usd": 19400000000
+      },
+      {
+        "brand_name": "John Inglis and Company",
+        "parent_company": "John Inglis and Company",
+        "country": "Canada",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.inglis.ca"
+      },
+      {
+        "brand_name": "John Oster Manufacturing Company",
+        "parent_company": "John Oster Manufacturing Company",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.sunbeam.com"
+      },
+      {
+        "brand_name": "June (company)",
+        "parent_company": "June (company)",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "https://juneoven.com"
+      },
+      {
+        "brand_name": "Kaz Incorporated",
+        "parent_company": "Kaz Incorporated",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.kaz.com/"
+      },
+      {
+        "brand_name": "Kelvinator",
+        "parent_company": "Electrolux North America",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Value brand",
+        "headquarters": "Charlotte, North Carolina",
+        "parent_website": "https://www.electrolux.com",
+        "parent_revenue_usd": 5000000000
+      },
+      {
+        "brand_name": "Kelvinator",
+        "parent_company": "Kelvinator",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Kirby",
+        "parent_company": "Kirby Company",
+        "country": "United States",
+        "type": "Vacuum/Floor Care",
+        "notes": "Premium vacuum systems",
+        "parent_website": "https://kirby.com"
+      },
+      {
+        "brand_name": "KitchenAid",
+        "parent_company": "KitchenAid",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.kitchenaid.com/"
+      },
+      {
+        "brand_name": "KitchenAid",
+        "parent_company": "Whirlpool Corporation",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Premium brand",
+        "headquarters": "Benton Harbor, Michigan",
+        "parent_website": "https://www.whirlpoolcorp.com",
+        "parent_revenue_usd": 19400000000
+      },
+      {
+        "brand_name": "Konecranes",
+        "parent_company": "Konecranes",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Hyvinkää",
+        "parent_website": "https://www.konecranes.com/"
+      },
+      {
+        "brand_name": "Leonard (appliances)",
+        "parent_company": "Leonard (appliances)",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Lynx",
+        "parent_company": "Viking Range",
+        "country": "United States",
+        "type": "Outdoor Cooking",
+        "notes": "Outdoor kitchen equipment",
+        "headquarters": "Greenwood, Mississippi",
+        "parent_website": "https://www.vikingrange.com"
+      },
+      {
+        "brand_name": "Mabe",
+        "parent_company": "Mabe",
+        "country": "Mexico",
+        "type": "Major Appliances (full-line)",
+        "notes": "Main brand",
+        "headquarters": "Mexico City",
+        "parent_website": "https://www.mabe.com.mx",
+        "parent_revenue_usd": 2500000000
+      },
+      {
+        "brand_name": "Magic Chef",
+        "parent_company": "Whirlpool Corporation",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Value brand",
+        "headquarters": "Benton Harbor, Michigan",
+        "parent_website": "https://www.whirlpoolcorp.com",
+        "parent_revenue_usd": 19400000000
+      },
+      {
+        "brand_name": "Malleable Iron Range Company",
+        "parent_company": "Malleable Iron Range Company",
+        "country": "United States",
+        "type": "Major Appliances (cooking)",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Maytag",
+        "parent_company": "Maytag",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.maytag.com"
+      },
+      {
+        "brand_name": "Maytag",
+        "parent_company": "Whirlpool Corporation",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Acquired 2006",
+        "headquarters": "Benton Harbor, Michigan",
+        "parent_website": "https://www.whirlpoolcorp.com",
+        "parent_revenue_usd": 19400000000
+      },
+      {
+        "brand_name": "McGraw Electric",
+        "parent_company": "McGraw Electric",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Meyer Manufacturing",
+        "parent_company": "Meyer Manufacturing",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://meyerinternational.com"
+      },
+      {
+        "brand_name": "Monogram",
+        "parent_company": "GE Appliances",
+        "country": "United States",
+        "type": "Specialty/Luxury",
+        "notes": "Ultra-luxury built-in",
+        "headquarters": "Louisville, Kentucky",
+        "parent_website": "https://www.geappliances.com",
+        "parent_revenue_usd": 8000000000
+      },
+      {
+        "brand_name": "Mr. Coffee",
+        "parent_company": "Newell Brands",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Coffee makers",
+        "parent_website": "https://www.newellbrands.com/"
+      },
+      {
+        "brand_name": "NACCO Industries",
+        "parent_company": "NACCO Industries",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.nacco.com/"
+      },
+      {
+        "brand_name": "Napoleon",
+        "parent_company": "Napoleon",
+        "country": "Canada",
+        "type": "Outdoor Cooking",
+        "notes": "Grills and fireplaces",
+        "headquarters": "Barrie, Ontario",
+        "parent_website": "https://www.napoleon.com",
+        "parent_revenue_usd": 400000000
+      },
+      {
+        "brand_name": "Napoleon (company)",
+        "parent_company": "Napoleon (company)",
+        "country": "United States",
+        "type": "Outdoor Cooking",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "https://www.napoleon.com/"
+      },
+      {
+        "brand_name": "Nash-Kelvinator",
+        "parent_company": "Nash-Kelvinator",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "National Presto Industries",
+        "parent_company": "National Presto Industries",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.gopresto.com/"
+      },
+      {
+        "brand_name": "Ninja",
+        "parent_company": "SharkNinja",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Blenders and kitchen appliances",
+        "parent_website": "https://www.sharkninja.com"
+      },
+      {
+        "brand_name": "Northstar",
+        "parent_company": "Elmira Stove Works",
+        "country": "Canada",
+        "type": "Major Appliances (cooking)",
+        "notes": "Retro refrigerators",
+        "headquarters": "Elmira, Ontario",
+        "parent_website": "https://elmirastoveworks.com"
+      },
+      {
+        "brand_name": "NuTone",
+        "parent_company": "NuTone",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.nutone.com"
+      },
+      {
+        "brand_name": "O-Cedar",
+        "parent_company": "O-Cedar",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://ocedar.com"
+      },
+      {
+        "brand_name": "Oster",
+        "parent_company": "Newell Brands",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Blenders and appliances",
+        "parent_website": "https://www.newellbrands.com/"
+      },
+      {
+        "brand_name": "Peerless-Premier Appliance Company",
+        "parent_company": "Peerless-Premier Appliance Company",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Pirch (company)",
+        "parent_company": "Pirch (company)",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://pirch.com"
+      },
+      {
+        "brand_name": "Pollenex",
+        "parent_company": "Pollenex",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.pollenex.com/"
+      },
+      {
+        "brand_name": "Proctor Silex",
+        "parent_company": "Hamilton Beach Brands",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Value brand",
+        "headquarters": "Glen Allen, Virginia",
+        "parent_website": "https://hamiltonbeach.com",
+        "parent_revenue_usd": 600000000
+      },
+      {
+        "brand_name": "Proctor Silex",
+        "parent_company": "Proctor Silex",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.proctorsilex.com"
+      },
+      {
+        "brand_name": "Remington (personal care brand)",
+        "parent_company": "Remington (personal care brand)",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://remingtonproducts.com"
+      },
+      {
+        "brand_name": "Rexair",
+        "parent_company": "Rexair",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.rainbowsystem.com/"
+      },
+      {
+        "brand_name": "Rival (consumer products company)",
+        "parent_company": "Rival (consumer products company)",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.rivalproducts.com"
+      },
+      {
+        "brand_name": "Roomba",
+        "parent_company": "IRobot",
+        "country": "United States",
+        "type": "Vacuum/Floor Care",
+        "notes": "Robot vacuums",
+        "parent_website": "http://irobot.com"
+      },
+      {
+        "brand_name": "Roper",
+        "parent_company": "Whirlpool Corporation",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Value brand",
+        "headquarters": "Benton Harbor, Michigan",
+        "parent_website": "https://www.whirlpoolcorp.com",
+        "parent_revenue_usd": 19400000000
+      },
+      {
+        "brand_name": "Russell Hobbs",
+        "parent_company": "Spectrum Brands",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Kettles and small appliances",
+        "parent_website": "https://www.spectrumbrands.com/"
+      },
+      {
+        "brand_name": "Russell Hobbs, Inc.",
+        "parent_company": "Russell Hobbs, Inc.",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "SVP Worldwide",
+        "parent_company": "SVP Worldwide",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://svpworldwide.com"
+      },
+      {
+        "brand_name": "Shark",
+        "parent_company": "SharkNinja",
+        "country": "United States",
+        "type": "Vacuum/Floor Care",
+        "notes": "Vacuum cleaners",
+        "parent_website": "https://www.sharkninja.com"
+      },
+      {
+        "brand_name": "Shop-Vac",
+        "parent_company": "Shop-Vac",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "https://www.shopvac.com/"
+      },
+      {
+        "brand_name": "Singer Corporation",
+        "parent_company": "Singer Corporation",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "https://www.singer.com/"
+      },
+      {
+        "brand_name": "Speed Queen",
+        "parent_company": "Speed Queen",
+        "country": "United States",
+        "type": "Major Appliances (laundry)",
+        "notes": "Commercial-grade laundry",
+        "headquarters": "Ripon, Wisconsin",
+        "parent_website": "https://www.speedqueen.com",
+        "parent_revenue_usd": 500000000
+      },
+      {
+        "brand_name": "Staber Industries",
+        "parent_company": "Staber Industries",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Standex International",
+        "parent_company": "Standex International",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "https://www.standex.com/"
+      },
+      {
+        "brand_name": "Sub-Zero",
+        "parent_company": "Sub-Zero Group",
+        "country": "United States",
+        "type": "Major Appliances (refrigeration)",
+        "notes": "Luxury refrigeration",
+        "headquarters": "Madison, Wisconsin",
+        "parent_website": "https://www.subzero-wolf.com",
+        "parent_revenue_usd": 2500000000
+      },
+      {
+        "brand_name": "Sub-Zero (company)",
+        "parent_company": "Sub-Zero (company)",
+        "country": "United States",
+        "type": "Major Appliances (refrigeration)",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "https://www.subzero-wolf.com/"
+      },
+      {
+        "brand_name": "Summit Appliance",
+        "parent_company": "Summit Appliance",
+        "country": "United States",
+        "type": "Major Appliances (refrigeration)",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "https://summitappliance.com"
+      },
+      {
+        "brand_name": "Sunbeam",
+        "parent_company": "Newell Brands",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Small appliances",
+        "parent_website": "https://www.newellbrands.com/"
+      },
+      {
+        "brand_name": "Sunbeam Products",
+        "parent_company": "Sunbeam Products",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.sunbeam.com"
+      },
+      {
+        "brand_name": "Tacony Corporation",
+        "parent_company": "Tacony Corporation",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://www.tacony.com/"
+      },
+      {
+        "brand_name": "Tappan",
+        "parent_company": "Electrolux North America",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Value brand",
+        "headquarters": "Charlotte, North Carolina",
+        "parent_website": "https://www.electrolux.com",
+        "parent_revenue_usd": 5000000000
+      },
+      {
+        "brand_name": "Tappan (brand)",
+        "parent_company": "Tappan (brand)",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Terex",
+        "parent_company": "Terex",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Westport",
+        "parent_website": "http://www.terex.com/"
+      },
+      {
+        "brand_name": "Thermador",
+        "parent_company": "Thermador",
+        "country": "United States",
+        "type": "Specialty/Luxury",
+        "notes": "Owned by BSH (Bosch & Siemens)",
+        "headquarters": "Irvine, California",
+        "parent_website": "https://www.thermador.com"
+      },
+      {
+        "brand_name": "Thor Power Tool Company",
+        "parent_company": "Thor Power Tool Company",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Traeger",
+        "parent_company": "Traeger Grills",
+        "country": "United States",
+        "type": "Outdoor Cooking",
+        "notes": "Wood pellet grills",
+        "headquarters": "Salt Lake City, Utah",
+        "parent_website": "https://www.traeger.com",
+        "parent_revenue_usd": 600000000
+      },
+      {
+        "brand_name": "Trudeau Corporation",
+        "parent_company": "Trudeau Corporation",
+        "country": "Canada",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "http://trudeau.com"
+      },
+      {
+        "brand_name": "U-Line",
+        "parent_company": "Viking Range",
+        "country": "United States",
+        "type": "Major Appliances (refrigeration)",
+        "notes": "Undercounter refrigeration",
+        "headquarters": "Greenwood, Mississippi",
+        "parent_website": "https://www.vikingrange.com"
+      },
+      {
+        "brand_name": "U-Line Corporation",
+        "parent_company": "U-Line Corporation",
+        "country": "United States",
+        "type": "Major Appliances (refrigeration)",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Milwaukee, Wisconsin",
+        "parent_website": "https://www.u-line.com",
+        "parent_revenue_usd": 250000000
+      },
+      {
+        "brand_name": "Victory Range Hoods",
+        "parent_company": "Victory Range Hoods",
+        "country": "Canada",
+        "type": "Major Appliances (cooking)",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Coquitlam, British Columbia"
+      },
+      {
+        "brand_name": "Viking",
+        "parent_company": "Viking Range",
+        "country": "United States",
+        "type": "Major Appliances (cooking)",
+        "notes": "Professional-style ranges",
+        "headquarters": "Greenwood, Mississippi",
+        "parent_website": "https://www.vikingrange.com"
+      },
+      {
+        "brand_name": "Vitamix",
+        "parent_company": "Vitamix",
+        "country": "United States",
+        "type": "Small Appliances",
+        "notes": "High-performance blenders",
+        "parent_website": "https://www.vitamix.com"
+      },
+      {
+        "brand_name": "West Bend Housewares",
+        "parent_company": "West Bend Housewares",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Whirlpool",
+        "parent_company": "Whirlpool Corporation",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Flagship brand",
+        "headquarters": "Benton Harbor, Michigan",
+        "parent_website": "https://www.whirlpoolcorp.com",
+        "parent_revenue_usd": 19400000000
+      },
+      {
+        "brand_name": "White Sewing Machine Company",
+        "parent_company": "White Sewing Machine Company",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "White-Westinghouse",
+        "parent_company": "Electrolux North America",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Value brand",
+        "headquarters": "Charlotte, North Carolina",
+        "parent_website": "https://www.electrolux.com",
+        "parent_revenue_usd": 5000000000
+      },
+      {
+        "brand_name": "White-Westinghouse",
+        "parent_company": "White-Westinghouse",
+        "country": "United States",
+        "type": "Major Appliances",
+        "notes": "Self-branded manufacturer",
+        "parent_website": "https://www.whitewestinghouse.com/index.html"
+      },
+      {
+        "brand_name": "Wolf",
+        "parent_company": "Sub-Zero Group",
+        "country": "United States",
+        "type": "Major Appliances (cooking)",
+        "notes": "Luxury cooking",
+        "headquarters": "Madison, Wisconsin",
+        "parent_website": "https://www.subzero-wolf.com",
+        "parent_revenue_usd": 2500000000
+      }
+    ],
+    "by_country": {
+      "United States": [
+        {
+          "brand_name": "Admiral",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Value brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "Admiral (electrical appliances)",
+          "parent_company": "Admiral (electrical appliances)",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Aerus",
+          "parent_company": "Aerus",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.aerusvacuums.com"
+        },
+        {
+          "brand_name": "Alliance Laundry Systems",
+          "parent_company": "Alliance Laundry Systems",
+          "country": "United States",
+          "type": "Major Appliances (laundry)",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://alliancelaundry.com/"
+        },
+        {
+          "brand_name": "Altorfer Bros. Company",
+          "parent_company": "Altorfer Bros. Company",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Amana",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Value brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "American Range",
+          "parent_company": "American Range",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Commercial and residential",
+          "headquarters": "Pacoima, California",
+          "parent_website": "https://americanrange.com"
+        },
+        {
+          "brand_name": "Aroma Housewares",
+          "parent_company": "Aroma Housewares",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.aromaco.com/"
+        },
+        {
+          "brand_name": "Bissell",
+          "parent_company": "Bissell",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Carpet cleaners and vacuums",
+          "parent_website": "https://www.bissell.com/"
+        },
+        {
+          "brand_name": "Black+Decker",
+          "parent_company": "Spectrum Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Small kitchen appliances",
+          "parent_website": "https://www.spectrumbrands.com/"
+        },
+        {
+          "brand_name": "Blendtec",
+          "parent_company": "Blendtec",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Professional blenders",
+          "parent_website": "https://www.blendtec.com"
+        },
+        {
+          "brand_name": "BlueStar",
+          "parent_company": "BlueStar",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Professional ranges",
+          "headquarters": "Reading, Pennsylvania",
+          "parent_website": "https://www.bluestarcooking.com"
+        },
+        {
+          "brand_name": "Bosch",
+          "parent_company": "Thermador",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Parent company (German)",
+          "headquarters": "Irvine, California",
+          "parent_website": "https://www.thermador.com"
+        },
+        {
+          "brand_name": "Braava",
+          "parent_company": "IRobot",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Robot mops",
+          "parent_website": "http://irobot.com"
+        },
+        {
+          "brand_name": "Bradshaw International",
+          "parent_company": "Bradshaw International",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://bradshawhome.com/"
+        },
+        {
+          "brand_name": "Caloric",
+          "parent_company": "Caloric",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Conair Corporation",
+          "parent_company": "Conair Corporation",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.conair.com"
+        },
+        {
+          "brand_name": "Cove",
+          "parent_company": "Sub-Zero Group",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Luxury dishwashers",
+          "headquarters": "Madison, Wisconsin",
+          "parent_website": "https://www.subzero-wolf.com",
+          "parent_revenue_usd": 2500000000
+        },
+        {
+          "brand_name": "Crock-Pot",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Slow cookers",
+          "parent_website": "https://www.newellbrands.com/"
+        },
+        {
+          "brand_name": "Cuisinart",
+          "parent_company": "Cuisinart",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Food processors and kitchen appliances",
+          "parent_website": "http://cuisinart.com"
+        },
+        {
+          "brand_name": "Dacor (kitchen appliances)",
+          "parent_company": "Dacor (kitchen appliances)",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.dacor.com"
+        },
+        {
+          "brand_name": "Dirt Devil",
+          "parent_company": "Dirt Devil",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Budget vacuum cleaners",
+          "parent_website": "http://www.dirtdevil.com/"
+        },
+        {
+          "brand_name": "Electrolux",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Main brand",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "Emeril",
+          "parent_company": "Spectrum Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Celebrity chef brand",
+          "parent_website": "https://www.spectrumbrands.com/"
+        },
+        {
+          "brand_name": "Emerson Radio",
+          "parent_company": "Emerson Radio",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://emersonradio.com"
+        },
+        {
+          "brand_name": "Eureka",
+          "parent_company": "Eureka (company)",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Vacuum cleaners",
+          "parent_website": "http://www.eureka.com/"
+        },
+        {
+          "brand_name": "Farberware",
+          "parent_company": "Farberware",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.farberwarecookware.com/"
+        },
+        {
+          "brand_name": "Favorite Stove",
+          "parent_company": "Favorite Stove",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Felix Storch, Inc",
+          "parent_company": "Felix Storch, Inc",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://felixstorchinc.com"
+        },
+        {
+          "brand_name": "FiveStar",
+          "parent_company": "Brown Stove Works",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Professional ranges",
+          "headquarters": "Cleveland, Tennessee",
+          "parent_website": "https://www.brownstoveworksinc.com"
+        },
+        {
+          "brand_name": "FoodSaver",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Vacuum sealers",
+          "parent_website": "https://www.newellbrands.com/"
+        },
+        {
+          "brand_name": "Frigidaire",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Mass market",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "Frigidaire",
+          "parent_company": "Frigidaire",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.frigidaire.com"
+        },
+        {
+          "brand_name": "Frigidaire Gallery",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Mid-tier",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "Frigidaire Professional",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Premium",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "GE",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Main brand",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
+        },
+        {
+          "brand_name": "GE Café",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Specialty/Luxury",
+          "notes": "Premium customizable",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
+        },
+        {
+          "brand_name": "GE Profile",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Mid-tier premium",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
+        },
+        {
+          "brand_name": "Gaggenau",
+          "parent_company": "Thermador",
+          "country": "United States",
+          "type": "Specialty/Luxury",
+          "notes": "Ultra-luxury (German)",
+          "headquarters": "Irvine, California",
+          "parent_website": "https://www.thermador.com"
+        },
+        {
+          "brand_name": "George Foreman",
+          "parent_company": "Spectrum Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Grills and cooking",
+          "parent_website": "https://www.spectrumbrands.com/"
+        },
+        {
+          "brand_name": "Gibson",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Value brand",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "Gibson Appliance",
+          "parent_company": "Gibson Appliance",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Gladiator",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Garage and storage",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "Grigsby-Grunow",
+          "parent_company": "Grigsby-Grunow",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Haier",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Parent company brand",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
+        },
+        {
+          "brand_name": "Hamilton Beach",
+          "parent_company": "Hamilton Beach Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Main brand",
+          "headquarters": "Glen Allen, Virginia",
+          "parent_website": "https://hamiltonbeach.com",
+          "parent_revenue_usd": 600000000
+        },
+        {
+          "brand_name": "Holmes Products",
+          "parent_company": "Holmes Products",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.holmesproducts.com/"
+        },
+        {
+          "brand_name": "Hoover",
+          "parent_company": "The Hoover Company",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Vacuum cleaners",
+          "parent_website": "https://www.hoover.com/"
+        },
+        {
+          "brand_name": "Hotpoint",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Value brand (some markets)",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
+        },
+        {
+          "brand_name": "InSinkErator",
+          "parent_company": "InSinkErator",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.insinkerator.com/"
+        },
+        {
+          "brand_name": "International Harvester",
+          "parent_company": "International Harvester",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Jenn-Air",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Specialty/Luxury",
+          "notes": "Luxury cooking appliances",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "John Oster Manufacturing Company",
+          "parent_company": "John Oster Manufacturing Company",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.sunbeam.com"
+        },
+        {
+          "brand_name": "June (company)",
+          "parent_company": "June (company)",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://juneoven.com"
+        },
+        {
+          "brand_name": "Kaz Incorporated",
+          "parent_company": "Kaz Incorporated",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.kaz.com/"
+        },
+        {
+          "brand_name": "Kelvinator",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Value brand",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "Kelvinator",
+          "parent_company": "Kelvinator",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Kirby",
+          "parent_company": "Kirby Company",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Premium vacuum systems",
+          "parent_website": "https://kirby.com"
+        },
+        {
+          "brand_name": "KitchenAid",
+          "parent_company": "KitchenAid",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.kitchenaid.com/"
+        },
+        {
+          "brand_name": "KitchenAid",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Premium brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "Konecranes",
+          "parent_company": "Konecranes",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Hyvinkää",
+          "parent_website": "https://www.konecranes.com/"
+        },
+        {
+          "brand_name": "Leonard (appliances)",
+          "parent_company": "Leonard (appliances)",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Lynx",
+          "parent_company": "Viking Range",
+          "country": "United States",
+          "type": "Outdoor Cooking",
+          "notes": "Outdoor kitchen equipment",
+          "headquarters": "Greenwood, Mississippi",
+          "parent_website": "https://www.vikingrange.com"
+        },
+        {
+          "brand_name": "Magic Chef",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Value brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "Malleable Iron Range Company",
+          "parent_company": "Malleable Iron Range Company",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Maytag",
+          "parent_company": "Maytag",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.maytag.com"
+        },
+        {
+          "brand_name": "Maytag",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Acquired 2006",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "McGraw Electric",
+          "parent_company": "McGraw Electric",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Meyer Manufacturing",
+          "parent_company": "Meyer Manufacturing",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://meyerinternational.com"
+        },
+        {
+          "brand_name": "Monogram",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Specialty/Luxury",
+          "notes": "Ultra-luxury built-in",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
+        },
+        {
+          "brand_name": "Mr. Coffee",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Coffee makers",
+          "parent_website": "https://www.newellbrands.com/"
+        },
+        {
+          "brand_name": "NACCO Industries",
+          "parent_company": "NACCO Industries",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.nacco.com/"
+        },
+        {
+          "brand_name": "Napoleon (company)",
+          "parent_company": "Napoleon (company)",
+          "country": "United States",
+          "type": "Outdoor Cooking",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.napoleon.com/"
+        },
+        {
+          "brand_name": "Nash-Kelvinator",
+          "parent_company": "Nash-Kelvinator",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "National Presto Industries",
+          "parent_company": "National Presto Industries",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.gopresto.com/"
+        },
+        {
+          "brand_name": "Ninja",
+          "parent_company": "SharkNinja",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Blenders and kitchen appliances",
+          "parent_website": "https://www.sharkninja.com"
+        },
+        {
+          "brand_name": "NuTone",
+          "parent_company": "NuTone",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.nutone.com"
+        },
+        {
+          "brand_name": "O-Cedar",
+          "parent_company": "O-Cedar",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://ocedar.com"
+        },
+        {
+          "brand_name": "Oster",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Blenders and appliances",
+          "parent_website": "https://www.newellbrands.com/"
+        },
+        {
+          "brand_name": "Peerless-Premier Appliance Company",
+          "parent_company": "Peerless-Premier Appliance Company",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Pirch (company)",
+          "parent_company": "Pirch (company)",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://pirch.com"
+        },
+        {
+          "brand_name": "Pollenex",
+          "parent_company": "Pollenex",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.pollenex.com/"
+        },
+        {
+          "brand_name": "Proctor Silex",
+          "parent_company": "Hamilton Beach Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Value brand",
+          "headquarters": "Glen Allen, Virginia",
+          "parent_website": "https://hamiltonbeach.com",
+          "parent_revenue_usd": 600000000
+        },
+        {
+          "brand_name": "Proctor Silex",
+          "parent_company": "Proctor Silex",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.proctorsilex.com"
+        },
+        {
+          "brand_name": "Remington (personal care brand)",
+          "parent_company": "Remington (personal care brand)",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://remingtonproducts.com"
+        },
+        {
+          "brand_name": "Rexair",
+          "parent_company": "Rexair",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.rainbowsystem.com/"
+        },
+        {
+          "brand_name": "Rival (consumer products company)",
+          "parent_company": "Rival (consumer products company)",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.rivalproducts.com"
+        },
+        {
+          "brand_name": "Roomba",
+          "parent_company": "IRobot",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Robot vacuums",
+          "parent_website": "http://irobot.com"
+        },
+        {
+          "brand_name": "Roper",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Value brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "Russell Hobbs",
+          "parent_company": "Spectrum Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Kettles and small appliances",
+          "parent_website": "https://www.spectrumbrands.com/"
+        },
+        {
+          "brand_name": "Russell Hobbs, Inc.",
+          "parent_company": "Russell Hobbs, Inc.",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "SVP Worldwide",
+          "parent_company": "SVP Worldwide",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://svpworldwide.com"
+        },
+        {
+          "brand_name": "Shark",
+          "parent_company": "SharkNinja",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Vacuum cleaners",
+          "parent_website": "https://www.sharkninja.com"
+        },
+        {
+          "brand_name": "Shop-Vac",
+          "parent_company": "Shop-Vac",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.shopvac.com/"
+        },
+        {
+          "brand_name": "Singer Corporation",
+          "parent_company": "Singer Corporation",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.singer.com/"
+        },
+        {
+          "brand_name": "Speed Queen",
+          "parent_company": "Speed Queen",
+          "country": "United States",
+          "type": "Major Appliances (laundry)",
+          "notes": "Commercial-grade laundry",
+          "headquarters": "Ripon, Wisconsin",
+          "parent_website": "https://www.speedqueen.com",
+          "parent_revenue_usd": 500000000
+        },
+        {
+          "brand_name": "Staber Industries",
+          "parent_company": "Staber Industries",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Standex International",
+          "parent_company": "Standex International",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.standex.com/"
+        },
+        {
+          "brand_name": "Sub-Zero",
+          "parent_company": "Sub-Zero Group",
+          "country": "United States",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Luxury refrigeration",
+          "headquarters": "Madison, Wisconsin",
+          "parent_website": "https://www.subzero-wolf.com",
+          "parent_revenue_usd": 2500000000
+        },
+        {
+          "brand_name": "Sub-Zero (company)",
+          "parent_company": "Sub-Zero (company)",
+          "country": "United States",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.subzero-wolf.com/"
+        },
+        {
+          "brand_name": "Summit Appliance",
+          "parent_company": "Summit Appliance",
+          "country": "United States",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://summitappliance.com"
+        },
+        {
+          "brand_name": "Sunbeam",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Small appliances",
+          "parent_website": "https://www.newellbrands.com/"
+        },
+        {
+          "brand_name": "Sunbeam Products",
+          "parent_company": "Sunbeam Products",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.sunbeam.com"
+        },
+        {
+          "brand_name": "Tacony Corporation",
+          "parent_company": "Tacony Corporation",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.tacony.com/"
+        },
+        {
+          "brand_name": "Tappan",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Value brand",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "Tappan (brand)",
+          "parent_company": "Tappan (brand)",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Terex",
+          "parent_company": "Terex",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Westport",
+          "parent_website": "http://www.terex.com/"
+        },
+        {
+          "brand_name": "Thermador",
+          "parent_company": "Thermador",
+          "country": "United States",
+          "type": "Specialty/Luxury",
+          "notes": "Owned by BSH (Bosch & Siemens)",
+          "headquarters": "Irvine, California",
+          "parent_website": "https://www.thermador.com"
+        },
+        {
+          "brand_name": "Thor Power Tool Company",
+          "parent_company": "Thor Power Tool Company",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Traeger",
+          "parent_company": "Traeger Grills",
+          "country": "United States",
+          "type": "Outdoor Cooking",
+          "notes": "Wood pellet grills",
+          "headquarters": "Salt Lake City, Utah",
+          "parent_website": "https://www.traeger.com",
+          "parent_revenue_usd": 600000000
+        },
+        {
+          "brand_name": "U-Line",
+          "parent_company": "Viking Range",
+          "country": "United States",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Undercounter refrigeration",
+          "headquarters": "Greenwood, Mississippi",
+          "parent_website": "https://www.vikingrange.com"
+        },
+        {
+          "brand_name": "U-Line Corporation",
+          "parent_company": "U-Line Corporation",
+          "country": "United States",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Milwaukee, Wisconsin",
+          "parent_website": "https://www.u-line.com",
+          "parent_revenue_usd": 250000000
+        },
+        {
+          "brand_name": "Viking",
+          "parent_company": "Viking Range",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Professional-style ranges",
+          "headquarters": "Greenwood, Mississippi",
+          "parent_website": "https://www.vikingrange.com"
+        },
+        {
+          "brand_name": "Vitamix",
+          "parent_company": "Vitamix",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "High-performance blenders",
+          "parent_website": "https://www.vitamix.com"
+        },
+        {
+          "brand_name": "West Bend Housewares",
+          "parent_company": "West Bend Housewares",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Whirlpool",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Flagship brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "White Sewing Machine Company",
+          "parent_company": "White Sewing Machine Company",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "White-Westinghouse",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Value brand",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "White-Westinghouse",
+          "parent_company": "White-Westinghouse",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.whitewestinghouse.com/index.html"
+        },
+        {
+          "brand_name": "Wolf",
+          "parent_company": "Sub-Zero Group",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Luxury cooking",
+          "headquarters": "Madison, Wisconsin",
+          "parent_website": "https://www.subzero-wolf.com",
+          "parent_revenue_usd": 2500000000
+        }
+      ],
+      "Canada": [
+        {
+          "brand_name": "Beatty Brothers Limited",
+          "parent_company": "Beatty Brothers Limited",
+          "country": "Canada",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Danby",
+          "parent_company": "Danby",
+          "country": "Canada",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Compact appliances",
+          "headquarters": "Guelph, Ontario",
+          "parent_website": "https://www.danby.com",
+          "parent_revenue_usd": 350000000
+        },
+        {
+          "brand_name": "Danby (appliances)",
+          "parent_company": "Danby (appliances)",
+          "country": "Canada",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.danby.com"
+        },
+        {
+          "brand_name": "Elmira",
+          "parent_company": "Elmira Stove Works",
+          "country": "Canada",
+          "type": "Major Appliances (cooking)",
+          "notes": "Retro-inspired ranges",
+          "headquarters": "Elmira, Ontario",
+          "parent_website": "https://elmirastoveworks.com"
+        },
+        {
+          "brand_name": "Fantom Technologies",
+          "parent_company": "Fantom Technologies",
+          "country": "Canada",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "John Inglis and Company",
+          "parent_company": "John Inglis and Company",
+          "country": "Canada",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.inglis.ca"
+        },
+        {
+          "brand_name": "Napoleon",
+          "parent_company": "Napoleon",
+          "country": "Canada",
+          "type": "Outdoor Cooking",
+          "notes": "Grills and fireplaces",
+          "headquarters": "Barrie, Ontario",
+          "parent_website": "https://www.napoleon.com",
+          "parent_revenue_usd": 400000000
+        },
+        {
+          "brand_name": "Northstar",
+          "parent_company": "Elmira Stove Works",
+          "country": "Canada",
+          "type": "Major Appliances (cooking)",
+          "notes": "Retro refrigerators",
+          "headquarters": "Elmira, Ontario",
+          "parent_website": "https://elmirastoveworks.com"
+        },
+        {
+          "brand_name": "Trudeau Corporation",
+          "parent_company": "Trudeau Corporation",
+          "country": "Canada",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://trudeau.com"
+        },
+        {
+          "brand_name": "Victory Range Hoods",
+          "parent_company": "Victory Range Hoods",
+          "country": "Canada",
+          "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Coquitlam, British Columbia"
+        }
+      ],
+      "Mexico": [
+        {
+          "brand_name": "Acros",
+          "parent_company": "Acros",
+          "country": "Mexico",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Acros",
+          "parent_company": "Mabe",
+          "country": "Mexico",
+          "type": "Major Appliances",
+          "notes": "Mexican brand",
+          "headquarters": "Mexico City",
+          "parent_website": "https://www.mabe.com.mx",
+          "parent_revenue_usd": 2500000000
+        },
+        {
+          "brand_name": "Easy",
+          "parent_company": "Mabe",
+          "country": "Mexico",
+          "type": "Major Appliances",
+          "notes": "Value brand",
+          "headquarters": "Mexico City",
+          "parent_website": "https://www.mabe.com.mx",
+          "parent_revenue_usd": 2500000000
+        },
+        {
+          "brand_name": "GE (Latin America)",
+          "parent_company": "Mabe",
+          "country": "Mexico",
+          "type": "Major Appliances (full-line)",
+          "notes": "Manufactured by Mabe",
+          "headquarters": "Mexico City",
+          "parent_website": "https://www.mabe.com.mx",
+          "parent_revenue_usd": 2500000000
+        },
+        {
+          "brand_name": "Mabe",
+          "parent_company": "Mabe",
+          "country": "Mexico",
+          "type": "Major Appliances (full-line)",
+          "notes": "Main brand",
+          "headquarters": "Mexico City",
+          "parent_website": "https://www.mabe.com.mx",
+          "parent_revenue_usd": 2500000000
+        }
+      ]
+    },
+    "by_type": {
+      "Major Appliances (full-line)": [
+        {
+          "brand_name": "Acros",
+          "parent_company": "Acros",
+          "country": "Mexico",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Amana",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Value brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "Bosch",
+          "parent_company": "Thermador",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Parent company (German)",
+          "headquarters": "Irvine, California",
+          "parent_website": "https://www.thermador.com"
+        },
+        {
+          "brand_name": "Electrolux",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Main brand",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "Frigidaire",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Mass market",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "Frigidaire",
+          "parent_company": "Frigidaire",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.frigidaire.com"
+        },
+        {
+          "brand_name": "Frigidaire Gallery",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Mid-tier",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "Frigidaire Professional",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Premium",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "GE",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Main brand",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
+        },
+        {
+          "brand_name": "GE (Latin America)",
+          "parent_company": "Mabe",
+          "country": "Mexico",
+          "type": "Major Appliances (full-line)",
+          "notes": "Manufactured by Mabe",
+          "headquarters": "Mexico City",
+          "parent_website": "https://www.mabe.com.mx",
+          "parent_revenue_usd": 2500000000
+        },
+        {
+          "brand_name": "GE Profile",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Mid-tier premium",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
+        },
+        {
+          "brand_name": "Haier",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Parent company brand",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
+        },
+        {
+          "brand_name": "KitchenAid",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Premium brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "Mabe",
+          "parent_company": "Mabe",
+          "country": "Mexico",
+          "type": "Major Appliances (full-line)",
+          "notes": "Main brand",
+          "headquarters": "Mexico City",
+          "parent_website": "https://www.mabe.com.mx",
+          "parent_revenue_usd": 2500000000
+        },
+        {
+          "brand_name": "Maytag",
+          "parent_company": "Maytag",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.maytag.com"
+        },
+        {
+          "brand_name": "Maytag",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Acquired 2006",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "Roper",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Value brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "Whirlpool",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Flagship brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        }
+      ],
+      "Major Appliances": [
+        {
+          "brand_name": "Acros",
+          "parent_company": "Mabe",
+          "country": "Mexico",
+          "type": "Major Appliances",
+          "notes": "Mexican brand",
+          "headquarters": "Mexico City",
+          "parent_website": "https://www.mabe.com.mx",
+          "parent_revenue_usd": 2500000000
+        },
+        {
+          "brand_name": "Admiral",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Value brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "Admiral (electrical appliances)",
+          "parent_company": "Admiral (electrical appliances)",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Aerus",
+          "parent_company": "Aerus",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.aerusvacuums.com"
+        },
+        {
+          "brand_name": "Altorfer Bros. Company",
+          "parent_company": "Altorfer Bros. Company",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Beatty Brothers Limited",
+          "parent_company": "Beatty Brothers Limited",
+          "country": "Canada",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Bradshaw International",
+          "parent_company": "Bradshaw International",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://bradshawhome.com/"
+        },
+        {
+          "brand_name": "Caloric",
+          "parent_company": "Caloric",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Conair Corporation",
+          "parent_company": "Conair Corporation",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.conair.com"
+        },
+        {
+          "brand_name": "Cove",
+          "parent_company": "Sub-Zero Group",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Luxury dishwashers",
+          "headquarters": "Madison, Wisconsin",
+          "parent_website": "https://www.subzero-wolf.com",
+          "parent_revenue_usd": 2500000000
+        },
+        {
+          "brand_name": "Easy",
+          "parent_company": "Mabe",
+          "country": "Mexico",
+          "type": "Major Appliances",
+          "notes": "Value brand",
+          "headquarters": "Mexico City",
+          "parent_website": "https://www.mabe.com.mx",
+          "parent_revenue_usd": 2500000000
+        },
+        {
+          "brand_name": "Emerson Radio",
+          "parent_company": "Emerson Radio",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://emersonradio.com"
+        },
+        {
+          "brand_name": "Fantom Technologies",
+          "parent_company": "Fantom Technologies",
+          "country": "Canada",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Felix Storch, Inc",
+          "parent_company": "Felix Storch, Inc",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://felixstorchinc.com"
+        },
+        {
+          "brand_name": "Gibson",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Value brand",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "Gibson Appliance",
+          "parent_company": "Gibson Appliance",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Gladiator",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Garage and storage",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "Grigsby-Grunow",
+          "parent_company": "Grigsby-Grunow",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Holmes Products",
+          "parent_company": "Holmes Products",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.holmesproducts.com/"
+        },
+        {
+          "brand_name": "Hotpoint",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Value brand (some markets)",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
+        },
+        {
+          "brand_name": "InSinkErator",
+          "parent_company": "InSinkErator",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.insinkerator.com/"
+        },
+        {
+          "brand_name": "International Harvester",
+          "parent_company": "International Harvester",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "John Inglis and Company",
+          "parent_company": "John Inglis and Company",
+          "country": "Canada",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.inglis.ca"
+        },
+        {
+          "brand_name": "June (company)",
+          "parent_company": "June (company)",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://juneoven.com"
+        },
+        {
+          "brand_name": "Kaz Incorporated",
+          "parent_company": "Kaz Incorporated",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.kaz.com/"
+        },
+        {
+          "brand_name": "Kelvinator",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Value brand",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "Kelvinator",
+          "parent_company": "Kelvinator",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Konecranes",
+          "parent_company": "Konecranes",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Hyvinkää",
+          "parent_website": "https://www.konecranes.com/"
+        },
+        {
+          "brand_name": "Leonard (appliances)",
+          "parent_company": "Leonard (appliances)",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Magic Chef",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Value brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "McGraw Electric",
+          "parent_company": "McGraw Electric",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Meyer Manufacturing",
+          "parent_company": "Meyer Manufacturing",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://meyerinternational.com"
+        },
+        {
+          "brand_name": "NACCO Industries",
+          "parent_company": "NACCO Industries",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.nacco.com/"
+        },
+        {
+          "brand_name": "Nash-Kelvinator",
+          "parent_company": "Nash-Kelvinator",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "NuTone",
+          "parent_company": "NuTone",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.nutone.com"
+        },
+        {
+          "brand_name": "O-Cedar",
+          "parent_company": "O-Cedar",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://ocedar.com"
+        },
+        {
+          "brand_name": "Peerless-Premier Appliance Company",
+          "parent_company": "Peerless-Premier Appliance Company",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Pirch (company)",
+          "parent_company": "Pirch (company)",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://pirch.com"
+        },
+        {
+          "brand_name": "Pollenex",
+          "parent_company": "Pollenex",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.pollenex.com/"
+        },
+        {
+          "brand_name": "Remington (personal care brand)",
+          "parent_company": "Remington (personal care brand)",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://remingtonproducts.com"
+        },
+        {
+          "brand_name": "Rexair",
+          "parent_company": "Rexair",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.rainbowsystem.com/"
+        },
+        {
+          "brand_name": "Russell Hobbs, Inc.",
+          "parent_company": "Russell Hobbs, Inc.",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "SVP Worldwide",
+          "parent_company": "SVP Worldwide",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://svpworldwide.com"
+        },
+        {
+          "brand_name": "Shop-Vac",
+          "parent_company": "Shop-Vac",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.shopvac.com/"
+        },
+        {
+          "brand_name": "Singer Corporation",
+          "parent_company": "Singer Corporation",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.singer.com/"
+        },
+        {
+          "brand_name": "Staber Industries",
+          "parent_company": "Staber Industries",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Standex International",
+          "parent_company": "Standex International",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.standex.com/"
+        },
+        {
+          "brand_name": "Tacony Corporation",
+          "parent_company": "Tacony Corporation",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.tacony.com/"
+        },
+        {
+          "brand_name": "Tappan",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Value brand",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "Tappan (brand)",
+          "parent_company": "Tappan (brand)",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Terex",
+          "parent_company": "Terex",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Westport",
+          "parent_website": "http://www.terex.com/"
+        },
+        {
+          "brand_name": "Thor Power Tool Company",
+          "parent_company": "Thor Power Tool Company",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Trudeau Corporation",
+          "parent_company": "Trudeau Corporation",
+          "country": "Canada",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://trudeau.com"
+        },
+        {
+          "brand_name": "West Bend Housewares",
+          "parent_company": "West Bend Housewares",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "White Sewing Machine Company",
+          "parent_company": "White Sewing Machine Company",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "White-Westinghouse",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Value brand",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "White-Westinghouse",
+          "parent_company": "White-Westinghouse",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.whitewestinghouse.com/index.html"
+        }
+      ],
+      "Major Appliances (laundry)": [
+        {
+          "brand_name": "Alliance Laundry Systems",
+          "parent_company": "Alliance Laundry Systems",
+          "country": "United States",
+          "type": "Major Appliances (laundry)",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://alliancelaundry.com/"
+        },
+        {
+          "brand_name": "Speed Queen",
+          "parent_company": "Speed Queen",
+          "country": "United States",
+          "type": "Major Appliances (laundry)",
+          "notes": "Commercial-grade laundry",
+          "headquarters": "Ripon, Wisconsin",
+          "parent_website": "https://www.speedqueen.com",
+          "parent_revenue_usd": 500000000
+        }
+      ],
+      "Major Appliances (cooking)": [
+        {
+          "brand_name": "American Range",
+          "parent_company": "American Range",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Commercial and residential",
+          "headquarters": "Pacoima, California",
+          "parent_website": "https://americanrange.com"
+        },
+        {
+          "brand_name": "BlueStar",
+          "parent_company": "BlueStar",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Professional ranges",
+          "headquarters": "Reading, Pennsylvania",
+          "parent_website": "https://www.bluestarcooking.com"
+        },
+        {
+          "brand_name": "Dacor (kitchen appliances)",
+          "parent_company": "Dacor (kitchen appliances)",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.dacor.com"
+        },
+        {
+          "brand_name": "Elmira",
+          "parent_company": "Elmira Stove Works",
+          "country": "Canada",
+          "type": "Major Appliances (cooking)",
+          "notes": "Retro-inspired ranges",
+          "headquarters": "Elmira, Ontario",
+          "parent_website": "https://elmirastoveworks.com"
+        },
+        {
+          "brand_name": "Favorite Stove",
+          "parent_company": "Favorite Stove",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "FiveStar",
+          "parent_company": "Brown Stove Works",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Professional ranges",
+          "headquarters": "Cleveland, Tennessee",
+          "parent_website": "https://www.brownstoveworksinc.com"
+        },
+        {
+          "brand_name": "Malleable Iron Range Company",
+          "parent_company": "Malleable Iron Range Company",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Northstar",
+          "parent_company": "Elmira Stove Works",
+          "country": "Canada",
+          "type": "Major Appliances (cooking)",
+          "notes": "Retro refrigerators",
+          "headquarters": "Elmira, Ontario",
+          "parent_website": "https://elmirastoveworks.com"
+        },
+        {
+          "brand_name": "Victory Range Hoods",
+          "parent_company": "Victory Range Hoods",
+          "country": "Canada",
+          "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Coquitlam, British Columbia"
+        },
+        {
+          "brand_name": "Viking",
+          "parent_company": "Viking Range",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Professional-style ranges",
+          "headquarters": "Greenwood, Mississippi",
+          "parent_website": "https://www.vikingrange.com"
+        },
+        {
+          "brand_name": "Wolf",
+          "parent_company": "Sub-Zero Group",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Luxury cooking",
+          "headquarters": "Madison, Wisconsin",
+          "parent_website": "https://www.subzero-wolf.com",
+          "parent_revenue_usd": 2500000000
+        }
+      ],
+      "Small Appliances": [
+        {
+          "brand_name": "Aroma Housewares",
+          "parent_company": "Aroma Housewares",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.aromaco.com/"
+        },
+        {
+          "brand_name": "Black+Decker",
+          "parent_company": "Spectrum Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Small kitchen appliances",
+          "parent_website": "https://www.spectrumbrands.com/"
+        },
+        {
+          "brand_name": "Blendtec",
+          "parent_company": "Blendtec",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Professional blenders",
+          "parent_website": "https://www.blendtec.com"
+        },
+        {
+          "brand_name": "Crock-Pot",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Slow cookers",
+          "parent_website": "https://www.newellbrands.com/"
+        },
+        {
+          "brand_name": "Cuisinart",
+          "parent_company": "Cuisinart",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Food processors and kitchen appliances",
+          "parent_website": "http://cuisinart.com"
+        },
+        {
+          "brand_name": "Emeril",
+          "parent_company": "Spectrum Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Celebrity chef brand",
+          "parent_website": "https://www.spectrumbrands.com/"
+        },
+        {
+          "brand_name": "Farberware",
+          "parent_company": "Farberware",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.farberwarecookware.com/"
+        },
+        {
+          "brand_name": "FoodSaver",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Vacuum sealers",
+          "parent_website": "https://www.newellbrands.com/"
+        },
+        {
+          "brand_name": "George Foreman",
+          "parent_company": "Spectrum Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Grills and cooking",
+          "parent_website": "https://www.spectrumbrands.com/"
+        },
+        {
+          "brand_name": "Hamilton Beach",
+          "parent_company": "Hamilton Beach Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Main brand",
+          "headquarters": "Glen Allen, Virginia",
+          "parent_website": "https://hamiltonbeach.com",
+          "parent_revenue_usd": 600000000
+        },
+        {
+          "brand_name": "John Oster Manufacturing Company",
+          "parent_company": "John Oster Manufacturing Company",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.sunbeam.com"
+        },
+        {
+          "brand_name": "KitchenAid",
+          "parent_company": "KitchenAid",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.kitchenaid.com/"
+        },
+        {
+          "brand_name": "Mr. Coffee",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Coffee makers",
+          "parent_website": "https://www.newellbrands.com/"
+        },
+        {
+          "brand_name": "National Presto Industries",
+          "parent_company": "National Presto Industries",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.gopresto.com/"
+        },
+        {
+          "brand_name": "Ninja",
+          "parent_company": "SharkNinja",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Blenders and kitchen appliances",
+          "parent_website": "https://www.sharkninja.com"
+        },
+        {
+          "brand_name": "Oster",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Blenders and appliances",
+          "parent_website": "https://www.newellbrands.com/"
+        },
+        {
+          "brand_name": "Proctor Silex",
+          "parent_company": "Hamilton Beach Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Value brand",
+          "headquarters": "Glen Allen, Virginia",
+          "parent_website": "https://hamiltonbeach.com",
+          "parent_revenue_usd": 600000000
+        },
+        {
+          "brand_name": "Proctor Silex",
+          "parent_company": "Proctor Silex",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.proctorsilex.com"
+        },
+        {
+          "brand_name": "Rival (consumer products company)",
+          "parent_company": "Rival (consumer products company)",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.rivalproducts.com"
+        },
+        {
+          "brand_name": "Russell Hobbs",
+          "parent_company": "Spectrum Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Kettles and small appliances",
+          "parent_website": "https://www.spectrumbrands.com/"
+        },
+        {
+          "brand_name": "Sunbeam",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Small appliances",
+          "parent_website": "https://www.newellbrands.com/"
+        },
+        {
+          "brand_name": "Sunbeam Products",
+          "parent_company": "Sunbeam Products",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.sunbeam.com"
+        },
+        {
+          "brand_name": "Vitamix",
+          "parent_company": "Vitamix",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "High-performance blenders",
+          "parent_website": "https://www.vitamix.com"
+        }
+      ],
+      "Vacuum/Floor Care": [
+        {
+          "brand_name": "Bissell",
+          "parent_company": "Bissell",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Carpet cleaners and vacuums",
+          "parent_website": "https://www.bissell.com/"
+        },
+        {
+          "brand_name": "Braava",
+          "parent_company": "IRobot",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Robot mops",
+          "parent_website": "http://irobot.com"
+        },
+        {
+          "brand_name": "Dirt Devil",
+          "parent_company": "Dirt Devil",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Budget vacuum cleaners",
+          "parent_website": "http://www.dirtdevil.com/"
+        },
+        {
+          "brand_name": "Eureka",
+          "parent_company": "Eureka (company)",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Vacuum cleaners",
+          "parent_website": "http://www.eureka.com/"
+        },
+        {
+          "brand_name": "Hoover",
+          "parent_company": "The Hoover Company",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Vacuum cleaners",
+          "parent_website": "https://www.hoover.com/"
+        },
+        {
+          "brand_name": "Kirby",
+          "parent_company": "Kirby Company",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Premium vacuum systems",
+          "parent_website": "https://kirby.com"
+        },
+        {
+          "brand_name": "Roomba",
+          "parent_company": "IRobot",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Robot vacuums",
+          "parent_website": "http://irobot.com"
+        },
+        {
+          "brand_name": "Shark",
+          "parent_company": "SharkNinja",
+          "country": "United States",
+          "type": "Vacuum/Floor Care",
+          "notes": "Vacuum cleaners",
+          "parent_website": "https://www.sharkninja.com"
+        }
+      ],
+      "Major Appliances (refrigeration)": [
+        {
+          "brand_name": "Danby",
+          "parent_company": "Danby",
+          "country": "Canada",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Compact appliances",
+          "headquarters": "Guelph, Ontario",
+          "parent_website": "https://www.danby.com",
+          "parent_revenue_usd": 350000000
+        },
+        {
+          "brand_name": "Danby (appliances)",
+          "parent_company": "Danby (appliances)",
+          "country": "Canada",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.danby.com"
+        },
+        {
+          "brand_name": "Sub-Zero",
+          "parent_company": "Sub-Zero Group",
+          "country": "United States",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Luxury refrigeration",
+          "headquarters": "Madison, Wisconsin",
+          "parent_website": "https://www.subzero-wolf.com",
+          "parent_revenue_usd": 2500000000
+        },
+        {
+          "brand_name": "Sub-Zero (company)",
+          "parent_company": "Sub-Zero (company)",
+          "country": "United States",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.subzero-wolf.com/"
+        },
+        {
+          "brand_name": "Summit Appliance",
+          "parent_company": "Summit Appliance",
+          "country": "United States",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://summitappliance.com"
+        },
+        {
+          "brand_name": "U-Line",
+          "parent_company": "Viking Range",
+          "country": "United States",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Undercounter refrigeration",
+          "headquarters": "Greenwood, Mississippi",
+          "parent_website": "https://www.vikingrange.com"
+        },
+        {
+          "brand_name": "U-Line Corporation",
+          "parent_company": "U-Line Corporation",
+          "country": "United States",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Milwaukee, Wisconsin",
+          "parent_website": "https://www.u-line.com",
+          "parent_revenue_usd": 250000000
+        }
+      ],
+      "Specialty/Luxury": [
+        {
+          "brand_name": "GE Café",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Specialty/Luxury",
+          "notes": "Premium customizable",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
+        },
+        {
+          "brand_name": "Gaggenau",
+          "parent_company": "Thermador",
+          "country": "United States",
+          "type": "Specialty/Luxury",
+          "notes": "Ultra-luxury (German)",
+          "headquarters": "Irvine, California",
+          "parent_website": "https://www.thermador.com"
+        },
+        {
+          "brand_name": "Jenn-Air",
+          "parent_company": "Whirlpool Corporation",
+          "country": "United States",
+          "type": "Specialty/Luxury",
+          "notes": "Luxury cooking appliances",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "Monogram",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Specialty/Luxury",
+          "notes": "Ultra-luxury built-in",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
+        },
+        {
+          "brand_name": "Thermador",
+          "parent_company": "Thermador",
+          "country": "United States",
+          "type": "Specialty/Luxury",
+          "notes": "Owned by BSH (Bosch & Siemens)",
+          "headquarters": "Irvine, California",
+          "parent_website": "https://www.thermador.com"
+        }
+      ],
+      "Outdoor Cooking": [
+        {
+          "brand_name": "Lynx",
+          "parent_company": "Viking Range",
+          "country": "United States",
+          "type": "Outdoor Cooking",
+          "notes": "Outdoor kitchen equipment",
+          "headquarters": "Greenwood, Mississippi",
+          "parent_website": "https://www.vikingrange.com"
+        },
+        {
+          "brand_name": "Napoleon",
+          "parent_company": "Napoleon",
+          "country": "Canada",
+          "type": "Outdoor Cooking",
+          "notes": "Grills and fireplaces",
+          "headquarters": "Barrie, Ontario",
+          "parent_website": "https://www.napoleon.com",
+          "parent_revenue_usd": 400000000
+        },
+        {
+          "brand_name": "Napoleon (company)",
+          "parent_company": "Napoleon (company)",
+          "country": "United States",
+          "type": "Outdoor Cooking",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.napoleon.com/"
+        },
+        {
+          "brand_name": "Traeger",
+          "parent_company": "Traeger Grills",
+          "country": "United States",
+          "type": "Outdoor Cooking",
+          "notes": "Wood pellet grills",
+          "headquarters": "Salt Lake City, Utah",
+          "parent_website": "https://www.traeger.com",
+          "parent_revenue_usd": 600000000
+        }
+      ]
+    },
+    "by_manufacturer": {
+      "Admiral (electrical appliances)": [
+        {
+          "name": "Admiral (electrical appliances)",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Aerus": [
+        {
+          "name": "Aerus",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Alliance Laundry Systems": [
+        {
+          "name": "Alliance Laundry Systems",
+          "type": "Major Appliances (laundry)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Altorfer Bros. Company": [
+        {
+          "name": "Altorfer Bros. Company",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "American Range": [
+        {
+          "name": "American Range",
+          "type": "Major Appliances (cooking)",
+          "notes": "Commercial and residential"
+        }
+      ],
+      "Aroma Housewares": [
+        {
+          "name": "Aroma Housewares",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Bissell": [
+        {
+          "name": "Bissell",
+          "type": "Vacuum/Floor Care",
+          "notes": "Carpet cleaners and vacuums"
+        }
+      ],
+      "Blendtec": [
+        {
+          "name": "Blendtec",
+          "type": "Small Appliances",
+          "notes": "Professional blenders"
+        }
+      ],
+      "BlueStar": [
+        {
+          "name": "BlueStar",
+          "type": "Major Appliances (cooking)",
+          "notes": "Professional ranges"
+        }
+      ],
+      "Bradshaw International": [
+        {
+          "name": "Bradshaw International",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Brown Stove Works": [
+        {
+          "name": "FiveStar",
+          "type": "Major Appliances (cooking)",
+          "notes": "Professional ranges"
+        }
+      ],
+      "Caloric": [
+        {
+          "name": "Caloric",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Conair Corporation": [
+        {
+          "name": "Conair Corporation",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Cuisinart": [
+        {
+          "name": "Cuisinart",
+          "type": "Small Appliances",
+          "notes": "Food processors and kitchen appliances"
+        }
+      ],
+      "Dacor (kitchen appliances)": [
+        {
+          "name": "Dacor (kitchen appliances)",
+          "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Dirt Devil": [
+        {
+          "name": "Dirt Devil",
+          "type": "Vacuum/Floor Care",
+          "notes": "Budget vacuum cleaners"
+        }
+      ],
+      "Electrolux North America": [
+        {
+          "name": "Electrolux",
+          "type": "Major Appliances (full-line)",
+          "notes": "Main brand"
+        },
+        {
+          "name": "Frigidaire",
+          "type": "Major Appliances (full-line)",
+          "notes": "Mass market"
+        },
+        {
+          "name": "Frigidaire Gallery",
+          "type": "Major Appliances (full-line)",
+          "notes": "Mid-tier"
+        },
+        {
+          "name": "Frigidaire Professional",
+          "type": "Major Appliances (full-line)",
+          "notes": "Premium"
+        },
+        {
+          "name": "Tappan",
+          "type": "Major Appliances",
+          "notes": "Value brand"
+        },
+        {
+          "name": "White-Westinghouse",
+          "type": "Major Appliances",
+          "notes": "Value brand"
+        },
+        {
+          "name": "Kelvinator",
+          "type": "Major Appliances",
+          "notes": "Value brand"
+        },
+        {
+          "name": "Gibson",
+          "type": "Major Appliances",
+          "notes": "Value brand"
+        }
+      ],
+      "Emerson Radio": [
+        {
+          "name": "Emerson Radio",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Eureka (company)": [
+        {
+          "name": "Eureka",
+          "type": "Vacuum/Floor Care",
+          "notes": "Vacuum cleaners"
+        }
+      ],
+      "Farberware": [
+        {
+          "name": "Farberware",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Favorite Stove": [
+        {
+          "name": "Favorite Stove",
+          "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Felix Storch, Inc": [
+        {
+          "name": "Felix Storch, Inc",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Frigidaire": [
+        {
+          "name": "Frigidaire",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "GE Appliances": [
+        {
+          "name": "GE",
+          "type": "Major Appliances (full-line)",
+          "notes": "Main brand"
+        },
+        {
+          "name": "GE Profile",
+          "type": "Major Appliances (full-line)",
+          "notes": "Mid-tier premium"
+        },
+        {
+          "name": "GE Café",
+          "type": "Specialty/Luxury",
+          "notes": "Premium customizable"
+        },
+        {
+          "name": "Monogram",
+          "type": "Specialty/Luxury",
+          "notes": "Ultra-luxury built-in"
+        },
+        {
+          "name": "Haier",
+          "type": "Major Appliances (full-line)",
+          "notes": "Parent company brand"
+        },
+        {
+          "name": "Hotpoint",
+          "type": "Major Appliances",
+          "notes": "Value brand (some markets)"
+        }
+      ],
+      "Gibson Appliance": [
+        {
+          "name": "Gibson Appliance",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Grigsby-Grunow": [
+        {
+          "name": "Grigsby-Grunow",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Hamilton Beach Brands": [
+        {
+          "name": "Hamilton Beach",
+          "type": "Small Appliances",
+          "notes": "Main brand"
+        },
+        {
+          "name": "Proctor Silex",
+          "type": "Small Appliances",
+          "notes": "Value brand"
+        }
+      ],
+      "Holmes Products": [
+        {
+          "name": "Holmes Products",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "IRobot": [
+        {
+          "name": "Roomba",
+          "type": "Vacuum/Floor Care",
+          "notes": "Robot vacuums"
+        },
+        {
+          "name": "Braava",
+          "type": "Vacuum/Floor Care",
+          "notes": "Robot mops"
+        }
+      ],
+      "InSinkErator": [
+        {
+          "name": "InSinkErator",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "International Harvester": [
+        {
+          "name": "International Harvester",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "John Oster Manufacturing Company": [
+        {
+          "name": "John Oster Manufacturing Company",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "June (company)": [
+        {
+          "name": "June (company)",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Kaz Incorporated": [
+        {
+          "name": "Kaz Incorporated",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Kelvinator": [
+        {
+          "name": "Kelvinator",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Kirby Company": [
+        {
+          "name": "Kirby",
+          "type": "Vacuum/Floor Care",
+          "notes": "Premium vacuum systems"
+        }
+      ],
+      "KitchenAid": [
+        {
+          "name": "KitchenAid",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Konecranes": [
+        {
+          "name": "Konecranes",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Leonard (appliances)": [
+        {
+          "name": "Leonard (appliances)",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Malleable Iron Range Company": [
+        {
+          "name": "Malleable Iron Range Company",
+          "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Maytag": [
+        {
+          "name": "Maytag",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "McGraw Electric": [
+        {
+          "name": "McGraw Electric",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Meyer Manufacturing": [
+        {
+          "name": "Meyer Manufacturing",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "NACCO Industries": [
+        {
+          "name": "NACCO Industries",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Napoleon (company)": [
+        {
+          "name": "Napoleon (company)",
+          "type": "Outdoor Cooking",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Nash-Kelvinator": [
+        {
+          "name": "Nash-Kelvinator",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "National Presto Industries": [
+        {
+          "name": "National Presto Industries",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Newell Brands": [
+        {
+          "name": "Crock-Pot",
+          "type": "Small Appliances",
+          "notes": "Slow cookers"
+        },
+        {
+          "name": "Mr. Coffee",
+          "type": "Small Appliances",
+          "notes": "Coffee makers"
+        },
+        {
+          "name": "Oster",
+          "type": "Small Appliances",
+          "notes": "Blenders and appliances"
+        },
+        {
+          "name": "Sunbeam",
+          "type": "Small Appliances",
+          "notes": "Small appliances"
+        },
+        {
+          "name": "FoodSaver",
+          "type": "Small Appliances",
+          "notes": "Vacuum sealers"
+        }
+      ],
+      "NuTone": [
+        {
+          "name": "NuTone",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "O-Cedar": [
+        {
+          "name": "O-Cedar",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Peerless-Premier Appliance Company": [
+        {
+          "name": "Peerless-Premier Appliance Company",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Pirch (company)": [
+        {
+          "name": "Pirch (company)",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Pollenex": [
+        {
+          "name": "Pollenex",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Proctor Silex": [
+        {
+          "name": "Proctor Silex",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Remington (personal care brand)": [
+        {
+          "name": "Remington (personal care brand)",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Rexair": [
+        {
+          "name": "Rexair",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Rival (consumer products company)": [
+        {
+          "name": "Rival (consumer products company)",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Russell Hobbs, Inc.": [
+        {
+          "name": "Russell Hobbs, Inc.",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "SVP Worldwide": [
+        {
+          "name": "SVP Worldwide",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "SharkNinja": [
+        {
+          "name": "Shark",
+          "type": "Vacuum/Floor Care",
+          "notes": "Vacuum cleaners"
+        },
+        {
+          "name": "Ninja",
+          "type": "Small Appliances",
+          "notes": "Blenders and kitchen appliances"
+        }
+      ],
+      "Shop-Vac": [
+        {
+          "name": "Shop-Vac",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Singer Corporation": [
+        {
+          "name": "Singer Corporation",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Spectrum Brands": [
+        {
+          "name": "Black+Decker",
+          "type": "Small Appliances",
+          "notes": "Small kitchen appliances"
+        },
+        {
+          "name": "George Foreman",
+          "type": "Small Appliances",
+          "notes": "Grills and cooking"
+        },
+        {
+          "name": "Russell Hobbs",
+          "type": "Small Appliances",
+          "notes": "Kettles and small appliances"
+        },
+        {
+          "name": "Emeril",
+          "type": "Small Appliances",
+          "notes": "Celebrity chef brand"
+        }
+      ],
+      "Speed Queen": [
+        {
+          "name": "Speed Queen",
+          "type": "Major Appliances (laundry)",
+          "notes": "Commercial-grade laundry"
+        }
+      ],
+      "Staber Industries": [
+        {
+          "name": "Staber Industries",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Standex International": [
+        {
+          "name": "Standex International",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Sub-Zero (company)": [
+        {
+          "name": "Sub-Zero (company)",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Sub-Zero Group": [
+        {
+          "name": "Sub-Zero",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Luxury refrigeration"
+        },
+        {
+          "name": "Wolf",
+          "type": "Major Appliances (cooking)",
+          "notes": "Luxury cooking"
+        },
+        {
+          "name": "Cove",
+          "type": "Major Appliances",
+          "notes": "Luxury dishwashers"
+        }
+      ],
+      "Summit Appliance": [
+        {
+          "name": "Summit Appliance",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Sunbeam Products": [
+        {
+          "name": "Sunbeam Products",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Tacony Corporation": [
+        {
+          "name": "Tacony Corporation",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Tappan (brand)": [
+        {
+          "name": "Tappan (brand)",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Terex": [
+        {
+          "name": "Terex",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "The Hoover Company": [
+        {
+          "name": "Hoover",
+          "type": "Vacuum/Floor Care",
+          "notes": "Vacuum cleaners"
+        }
+      ],
+      "Thermador": [
+        {
+          "name": "Thermador",
+          "type": "Specialty/Luxury",
+          "notes": "Owned by BSH (Bosch & Siemens)"
+        },
+        {
+          "name": "Bosch",
+          "type": "Major Appliances (full-line)",
+          "notes": "Parent company (German)"
+        },
+        {
+          "name": "Gaggenau",
+          "type": "Specialty/Luxury",
+          "notes": "Ultra-luxury (German)"
+        }
+      ],
+      "Thor Power Tool Company": [
+        {
+          "name": "Thor Power Tool Company",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Traeger Grills": [
+        {
+          "name": "Traeger",
+          "type": "Outdoor Cooking",
+          "notes": "Wood pellet grills"
+        }
+      ],
+      "U-Line Corporation": [
+        {
+          "name": "U-Line Corporation",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Viking Range": [
+        {
+          "name": "Viking",
+          "type": "Major Appliances (cooking)",
+          "notes": "Professional-style ranges"
+        },
+        {
+          "name": "U-Line",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Undercounter refrigeration"
+        },
+        {
+          "name": "Lynx",
+          "type": "Outdoor Cooking",
+          "notes": "Outdoor kitchen equipment"
+        }
+      ],
+      "Vitamix": [
+        {
+          "name": "Vitamix",
+          "type": "Small Appliances",
+          "notes": "High-performance blenders"
+        }
+      ],
+      "West Bend Housewares": [
+        {
+          "name": "West Bend Housewares",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Whirlpool Corporation": [
+        {
+          "name": "Whirlpool",
+          "type": "Major Appliances (full-line)",
+          "notes": "Flagship brand"
+        },
+        {
+          "name": "Maytag",
+          "type": "Major Appliances (full-line)",
+          "notes": "Acquired 2006"
+        },
+        {
+          "name": "KitchenAid",
+          "type": "Major Appliances (full-line)",
+          "notes": "Premium brand"
+        },
+        {
+          "name": "Jenn-Air",
+          "type": "Specialty/Luxury",
+          "notes": "Luxury cooking appliances"
+        },
+        {
+          "name": "Amana",
+          "type": "Major Appliances (full-line)",
+          "notes": "Value brand"
+        },
+        {
+          "name": "Roper",
+          "type": "Major Appliances (full-line)",
+          "notes": "Value brand"
+        },
+        {
+          "name": "Admiral",
+          "type": "Major Appliances",
+          "notes": "Value brand"
+        },
+        {
+          "name": "Magic Chef",
+          "type": "Major Appliances",
+          "notes": "Value brand"
+        },
+        {
+          "name": "Gladiator",
+          "type": "Major Appliances",
+          "notes": "Garage and storage"
+        }
+      ],
+      "White Sewing Machine Company": [
+        {
+          "name": "White Sewing Machine Company",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "White-Westinghouse": [
+        {
+          "name": "White-Westinghouse",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Beatty Brothers Limited": [
+        {
+          "name": "Beatty Brothers Limited",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Danby": [
+        {
+          "name": "Danby",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Compact appliances"
+        }
+      ],
+      "Danby (appliances)": [
+        {
+          "name": "Danby (appliances)",
+          "type": "Major Appliances (refrigeration)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Elmira Stove Works": [
+        {
+          "name": "Elmira",
+          "type": "Major Appliances (cooking)",
+          "notes": "Retro-inspired ranges"
+        },
+        {
+          "name": "Northstar",
+          "type": "Major Appliances (cooking)",
+          "notes": "Retro refrigerators"
+        }
+      ],
+      "Fantom Technologies": [
+        {
+          "name": "Fantom Technologies",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "John Inglis and Company": [
+        {
+          "name": "John Inglis and Company",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Napoleon": [
+        {
+          "name": "Napoleon",
+          "type": "Outdoor Cooking",
+          "notes": "Grills and fireplaces"
+        }
+      ],
+      "Trudeau Corporation": [
+        {
+          "name": "Trudeau Corporation",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Victory Range Hoods": [
+        {
+          "name": "Victory Range Hoods",
+          "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Acros": [
+        {
+          "name": "Acros",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Mabe": [
+        {
+          "name": "Mabe",
+          "type": "Major Appliances (full-line)",
+          "notes": "Main brand"
+        },
+        {
+          "name": "GE (Latin America)",
+          "type": "Major Appliances (full-line)",
+          "notes": "Manufactured by Mabe"
+        },
+        {
+          "name": "Easy",
+          "type": "Major Appliances",
+          "notes": "Value brand"
+        },
+        {
+          "name": "Acros",
+          "type": "Major Appliances",
+          "notes": "Mexican brand"
+        }
+      ]
+    }
+  }
+}

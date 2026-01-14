@@ -16,13 +16,30 @@ const entityDefinitions = {
 };
 
 async function loadData(view) {
-    const filename = `${view}.json`;
+    // Map manufacturers to makers
+    const viewToFile = view === 'manufacturers' ? 'makers' : view;
+    const filename = `${viewToFile}.json`;
 
     try {
         const response = await fetch(`data/${filename}`);
         const data = await response.json();
-        currentData = data;
-        displayMetadata(data.metadata);
+
+        // Transform brands.json structure to match other data files
+        if (view === 'brands' && data.brands) {
+            const brandsByCountry = data.brands.by_country || {};
+            currentData = {
+                metadata: data.metadata,
+                'North America': {
+                    'United States': { brands: brandsByCountry['United States'] || [] },
+                    'Canada': { brands: brandsByCountry['Canada'] || [] },
+                    'Mexico': { brands: brandsByCountry['Mexico'] || [] }
+                }
+            };
+        } else {
+            currentData = data;
+        }
+
+        displayMetadata(currentData.metadata || data.metadata);
         applyFilters();
     } catch (error) {
         document.getElementById('content').innerHTML =
@@ -33,7 +50,8 @@ async function loadData(view) {
 
 function displayMetadata(metadata) {
     const metadataDiv = document.getElementById('metadata');
-    const datePulled = new Date(metadata.date_pulled).toLocaleDateString();
+    const dateField = metadata.date_pulled || metadata.date_generated;
+    const datePulled = new Date(dateField).toLocaleDateString();
 
     if (currentView === 'states') {
         const source = metadata.source === 'hardcoded' ? 'Hardcoded Fallback' : metadata.source;
@@ -41,6 +59,9 @@ function displayMetadata(metadata) {
     } else if (currentView === 'manufacturers') {
         const source = metadata.source === 'hardcoded' ? 'Hardcoded Fallback' : metadata.source;
         metadataDiv.innerHTML = `Data Source: ${source} | Last Updated: ${datePulled} | Total: ${metadata.total_manufacturers}`;
+    } else if (currentView === 'brands') {
+        const source = metadata.source || 'Python Script';
+        metadataDiv.innerHTML = `Data Source: ${source} | Generated: ${datePulled} | Total Brands: ${metadata.total_brands} | Parent Companies: ${metadata.total_parent_companies}`;
     } else if (entityTypes.includes(currentView)) {
         const source = metadata.source === 'hardcoded' ? 'Hardcoded Fallback' : metadata.source;
         let metadataText = `Data Source: ${source} | Last Updated: ${datePulled} | Total: ${metadata.total_count}`;
@@ -107,6 +128,8 @@ function applyFilters() {
         render(filteredData);
     } else if (currentView === 'manufacturers') {
         renderFlatList(searchTerm, countryFilter, sortOption, 'manufacturers');
+    } else if (currentView === 'brands') {
+        renderFlatList(searchTerm, countryFilter, sortOption, 'brands');
     } else if (entityTypes.includes(currentView)) {
         renderFlatList(searchTerm, countryFilter, sortOption, 'entities');
     }
@@ -254,6 +277,8 @@ function renderFlatList(searchTerm, countryFilter, sortOption, dataType) {
 
         if (dataType === 'manufacturers') {
             items = northAmerica[country]?.manufacturers || [];
+        } else if (dataType === 'brands') {
+            items = northAmerica[country]?.brands || [];
         } else if (dataType === 'entities') {
             items = northAmerica[country]?.entities || [];
         }
@@ -266,13 +291,15 @@ function renderFlatList(searchTerm, countryFilter, sortOption, dataType) {
 
     // Filter by search term
     if (searchTerm) {
-        allItems = allItems.filter(item =>
-            item.name.toLowerCase().includes(searchTerm)
-        );
+        allItems = allItems.filter(item => {
+            const nameField = dataType === 'brands' ? item.brand_name : item.name;
+            return nameField.toLowerCase().includes(searchTerm);
+        });
     }
 
     // Sort
-    allItems = applySortOption(allItems, sortOption, item => item.name);
+    const nameExtractor = dataType === 'brands' ? (item => item.brand_name) : (item => item.name);
+    allItems = applySortOption(allItems, sortOption, nameExtractor);
 
     // Render as list (one per line for manufacturers) or grid (for other entities)
     if (allItems.length === 0) {
@@ -288,6 +315,12 @@ function renderFlatList(searchTerm, countryFilter, sortOption, dataType) {
                     const details = [];
                     if (item.headquarters) details.push(item.headquarters);
                     if (item.country) details.push(item.country);
+
+                    // Add business models if available
+                    if (item.business_models && item.business_models.length > 0) {
+                        details.push(item.business_models.join(' + '));
+                    }
+
                     const detailsText = details.length > 0 ? ` <span class="manufacturer-details">(${details.join(', ')})</span>` : '';
 
                     // Determine which URL to use (prefer website, fallback to wikipedia)
@@ -298,9 +331,30 @@ function renderFlatList(searchTerm, countryFilter, sortOption, dataType) {
 
                     return `
                         <div class="manufacturer-list-item">
+                            <span class="manufacturer-name">${item.name}</span>${detailsText}${url ? ` <a href="${url}" target="_blank" class="manufacturer-details">${urlDisplay}</a>` : ''}
+                        </div>
+                    `;
+                }).join('')}
+            </div>`;
+        content.innerHTML = html;
+    } else if (dataType === 'brands') {
+        // Render brands as a list (one per line with parent company)
+        const html = `
+            <div class="manufacturer-list">
+                ${allItems.map(item => {
+                    const details = [];
+                    if (item.parent_company) details.push(`Parent: ${item.parent_company}`);
+                    if (item.type) details.push(item.type);
+                    if (item.country) details.push(item.country);
+                    const detailsText = details.length > 0 ? ` <span class="manufacturer-details">(${details.join(', ')})</span>` : '';
+
+                    const url = item.parent_website;
+
+                    return `
+                        <div class="manufacturer-list-item">
                             ${url ?
-                                `<a href="${url}" target="_blank" class="manufacturer-name">${item.name}</a>` :
-                                `<span class="manufacturer-name">${item.name}</span>`
+                                `<a href="${url}" target="_blank" class="manufacturer-name">${item.brand_name}</a>` :
+                                `<span class="manufacturer-name">${item.brand_name}</span>`
                             }${detailsText}
                         </div>
                     `;
@@ -374,6 +428,24 @@ function getCurrentFilteredData() {
                         Country: country,
                         Name: mfr.name,
                         Website: mfr.website || ''
+                    });
+                }
+            });
+        });
+    } else if (currentView === 'brands') {
+        const northAmerica = currentData['North America'];
+        const countries = countryFilter === 'all' ? Object.keys(northAmerica) : [countryFilter];
+
+        countries.forEach(country => {
+            const brands = northAmerica[country]?.brands || [];
+            brands.forEach(brand => {
+                if (!searchTerm || brand.brand_name.toLowerCase().includes(searchTerm)) {
+                    rows.push({
+                        Country: country,
+                        'Brand Name': brand.brand_name,
+                        'Parent Company': brand.parent_company || '',
+                        Type: brand.type || '',
+                        Website: brand.parent_website || ''
                     });
                 }
             });
@@ -473,4 +545,4 @@ document.querySelectorAll('.download-btn').forEach(button => {
     });
 });
 
-loadData('states');
+loadData('manufacturers');

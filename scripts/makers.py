@@ -2,7 +2,7 @@
 North American Appliance Manufacturers Data Generator
 
 Aggregates manufacturer data from multiple sources to create a comprehensive
-database of appliance manufacturers in North America.
+database of appliance manuf7888888acturers in North America.
 
 Data Sources:
     - Wikidata SPARQL API (structured data)
@@ -11,7 +11,7 @@ Data Sources:
     - Manual curation (supplemental data)
 
 Output:
-    data/manufacturers.json
+    data/makers.json
 
 License: CC0 1.0 / Creative Commons
 """
@@ -310,11 +310,78 @@ def get_supplemental_manufacturers() -> List[Dict]:
         - Vacuum/Floor Care
         - Outdoor Cooking
         - Specialty/Luxury
+        - Brand Owner
+        - OEM (Original Equipment Manufacturer)
+        - ODM (Original Design Manufacturer)
 
     Returns:
         List of manufacturer dictionaries
     """
     return [
+        # Brand Owners (own brands but don't manufacture)
+        {
+            'name': 'Spectrum Brands',
+            'country': 'United States',
+            'website': 'https://www.spectrumbrands.com',
+            'headquarters': 'Middleton, Wisconsin',
+            'type': 'Brand Owner',
+            'revenue_usd': 3400000000,
+            'source': 'Supplemental',
+            'notes': 'Owns Black+Decker, George Foreman, Russell Hobbs appliance brands'
+        },
+        {
+            'name': 'Newell Brands',
+            'country': 'United States',
+            'website': 'https://www.newellbrands.com',
+            'headquarters': 'Atlanta, Georgia',
+            'type': 'Brand Owner',
+            'revenue_usd': 8600000000,
+            'source': 'Supplemental',
+            'notes': 'Owns Crock-Pot, Mr. Coffee, Oster, Sunbeam, FoodSaver brands'
+        },
+
+        # OEM Manufacturers
+        {
+            'name': 'Midea Group',
+            'country': 'United States',
+            'website': 'https://www.midea.com',
+            'headquarters': 'Parsippany, New Jersey',
+            'type': 'OEM',
+            'revenue_usd': 52000000000,
+            'source': 'Supplemental',
+            'notes': 'Major OEM manufacturer for private label appliances, owns Toshiba appliances'
+        },
+        {
+            'name': 'Galanz Americas',
+            'country': 'United States',
+            'website': 'https://www.galanzamericas.com',
+            'headquarters': 'Irvine, California',
+            'type': 'OEM',
+            'source': 'Supplemental',
+            'notes': 'OEM manufacturer specializing in microwaves and small appliances'
+        },
+        {
+            'name': 'TTI Floor Care',
+            'country': 'United States',
+            'website': 'https://www.ttifloorcare.com',
+            'headquarters': 'Charlotte, North Carolina',
+            'type': 'OEM',
+            'revenue_usd': 1500000000,
+            'source': 'Supplemental',
+            'notes': 'OEM for Hoover, Dirt Devil, Oreck, Vax brands'
+        },
+
+        # ODM Manufacturers
+        {
+            'name': 'JS Global',
+            'country': 'United States',
+            'website': 'https://www.jsgloballife.com',
+            'headquarters': 'Boston, Massachusetts',
+            'type': 'ODM',
+            'revenue_usd': 2800000000,
+            'source': 'Supplemental',
+            'notes': 'ODM owns SharkNinja, designs and manufactures innovative appliances'
+        },
         # United States - Major Players
         {
             'name': 'Whirlpool Corporation',
@@ -515,31 +582,96 @@ def get_supplemental_manufacturers() -> List[Dict]:
 # DATA PROCESSING
 # =============================================================================
 
+def classify_business_models(name: str, notes: str = '', mfr_type: str = '') -> list:
+    """
+    Classify manufacturer business model(s) based on name, notes, and type.
+    A manufacturer can have multiple business models.
+
+    Args:
+        name: Manufacturer name
+        notes: Additional notes about the manufacturer
+        mfr_type: Product type classification
+
+    Returns:
+        List of business model classifications
+    """
+    name_lower = name.lower()
+    notes_lower = notes.lower() if notes else ''
+    type_lower = mfr_type.lower() if mfr_type else ''
+    combined = f"{name_lower} {notes_lower} {type_lower}"
+
+    models = []
+
+    # Vertically Integrated Manufacturer (Brand Owner + Manufacturer)
+    vertically_integrated = [
+        'whirlpool', 'ge appliances', 'electrolux', 'frigidaire', 'sub-zero',
+        'wolf', 'thermador', 'bosch', 'kitchenaid', 'maytag', 'lg electronics',
+        'samsung', 'viking', 'speed queen', 'traeger', 'weber', 'napoleon',
+        'danby', 'bluestar', 'brown stove', 'american range', 'dacor',
+        'alliance laundry', 'elmira stove'
+    ]
+    if any(brand in name_lower for brand in vertically_integrated):
+        models.append('Vertically Integrated Manufacturer')
+
+    # Brand Owner (Outsourced Manufacturing / Asset-Light)
+    if any(keyword in combined for keyword in ['brand owner', 'holding company', 'spectrum brands', 'newell brands', 'owns', 'parent company']):
+        if 'Vertically Integrated Manufacturer' not in models:
+            models.append('Brand Owner (Outsourced Manufacturing)')
+
+    # OEM (Build-to-Spec Manufacturer)
+    if any(keyword in combined for keyword in ['oem', 'original equipment', 'contract manufacturer', 'builds appliances', 'midea', 'galanz', 'tti floor care']):
+        models.append('OEM (Build-to-Spec)')
+
+    # ODM (Design + Manufacture Platform)
+    if any(keyword in combined for keyword in ['odm', 'design manufacturer', 'js global', 'sharkninja', 'designs and manufactures']):
+        models.append('ODM (Design + Manufacture)')
+
+    # Private Label / House Brand Manufacturer
+    if any(keyword in combined for keyword in ['private label', 'house brand', 'contract manufacturing for retailers']):
+        models.append('Private Label Manufacturer')
+
+    # Importer / Brand Licensee
+    if any(keyword in combined for keyword in ['importer', 'brand licensee', 'import', 'distribut']):
+        models.append('Importer / Brand Licensee')
+
+    # If no specific business model identified, default based on company characteristics
+    if not models:
+        # Check if they own major brands (likely vertically integrated)
+        major_brands = ['whirlpool', 'maytag', 'kitchenaid', 'ge', 'frigidaire', 'electrolux']
+        if any(brand in name_lower for brand in major_brands):
+            models.append('Vertically Integrated Manufacturer')
+        else:
+            models.append('Manufacturer')
+
+    return models
+
+
 def classify_manufacturer_type(name: str, notes: str = '') -> str:
     """
-    Classify manufacturer type based on name and notes.
+    Classify manufacturer product type based on name and notes.
+    This is the PRODUCT type, not business model.
 
     Args:
         name: Manufacturer name
         notes: Additional notes about the manufacturer
 
     Returns:
-        Manufacturer type classification
+        Product type classification
     """
     name_lower = name.lower()
     notes_lower = notes.lower() if notes else ''
     combined = f"{name_lower} {notes_lower}"
 
     # Vacuum and Floor Care
-    if any(keyword in combined for keyword in ['vacuum', 'hoover', 'bissell', 'eureka', 'kirby', 'dirt devil', 'shark', 'irobot', 'roomba']):
+    if any(keyword in combined for keyword in ['vacuum', 'hoover', 'bissell', 'eureka', 'kirby', 'dirt devil', 'shark', 'irobot', 'roomba', 'floor care']):
         return 'Vacuum/Floor Care'
 
     # Small Appliances
-    if any(keyword in combined for keyword in ['blender', 'mixer', 'toaster', 'coffee', 'cuisinart', 'hamilton beach', 'oster', 'sunbeam', 'proctor', 'vitamix', 'kitchenaid', 'farberware', 'presto', 'rival', 'aroma', 'small appliance', 'small kitchen']):
+    if any(keyword in combined for keyword in ['blender', 'mixer', 'toaster', 'coffee', 'cuisinart', 'hamilton beach', 'oster', 'sunbeam', 'proctor', 'vitamix', 'farberware', 'presto', 'rival', 'aroma', 'small appliance', 'small kitchen']):
         return 'Small Appliances'
 
     # Outdoor Cooking
-    if any(keyword in combined for keyword in ['grill', 'bbq', 'outdoor', 'traeger', 'napoleon', 'pellet']):
+    if any(keyword in combined for keyword in ['grill', 'bbq', 'outdoor', 'traeger', 'napoleon', 'pellet', 'weber']):
         return 'Outdoor Cooking'
 
     # Laundry Specialists
@@ -547,7 +679,7 @@ def classify_manufacturer_type(name: str, notes: str = '') -> str:
         return 'Major Appliances (laundry)'
 
     # Cooking Specialists
-    if any(keyword in combined for keyword in ['range', 'stove', 'oven', 'cooktop', 'cooking', 'viking', 'bluestar', 'wolf', 'thermador', 'dacor', 'american range', 'brown stove']):
+    if any(keyword in combined for keyword in ['range', 'stove', 'oven', 'cooktop', 'cooking', 'viking', 'bluestar', 'wolf', 'thermador', 'dacor', 'american range', 'brown stove', 'elmira stove']):
         return 'Major Appliances (cooking)'
 
     # Refrigeration Specialists
@@ -555,11 +687,11 @@ def classify_manufacturer_type(name: str, notes: str = '') -> str:
         return 'Major Appliances (refrigeration)'
 
     # Luxury/Specialty
-    if any(keyword in combined for keyword in ['luxury', 'premium', 'professional', 'sub-zero', 'wolf', 'thermador', 'viking']):
+    if any(keyword in combined for keyword in ['luxury', 'premium', 'professional', 'jenn-air', 'monogram', 'cove']):
         return 'Specialty/Luxury'
 
     # Major Full-Line Manufacturers
-    if any(keyword in combined for keyword in ['whirlpool', 'ge appliance', 'electrolux', 'frigidaire', 'maytag', 'mabe', 'kenmore']):
+    if any(keyword in combined for keyword in ['whirlpool', 'ge appliance', 'electrolux', 'frigidaire', 'maytag', 'mabe', 'kenmore', 'full-line']):
         return 'Major Appliances (full-line)'
 
     # Default to Major Appliances
@@ -676,6 +808,14 @@ def organize_by_country(manufacturers: List[Dict]) -> Dict:
                 mfr.get('notes', '')
             )
 
+        # Add business model classification
+        if 'business_models' not in mfr:
+            mfr['business_models'] = classify_business_models(
+                mfr.get('name', ''),
+                mfr.get('notes', ''),
+                mfr.get('type', '')
+            )
+
         by_country[country]['manufacturers'].append(mfr)
 
     # Sort manufacturers by name within each country
@@ -772,7 +912,7 @@ def main():
     os.makedirs(data_dir, exist_ok=True)
 
     # Write to file
-    output_file = os.path.join(data_dir, 'manufacturers.json')
+    output_file = os.path.join(data_dir, 'makers.json')
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 

@@ -6,7 +6,8 @@
       "Bash(pip install:*)",
       "Bash(ls:*)",
       "Bash(dir /b)",
-      "Bash(start index.html)"
+      "Bash(start index.html)",
+      "Bash(start http://localhost:8000)"
     ]
   }
 }

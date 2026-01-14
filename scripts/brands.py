@@ -1,11 +1,11 @@
 """
 North American Appliance Brands Data Generator
 
-Analyzes manufacturers.json to extract and organize brands owned by each manufacturer.
+Analyzes makers.json to extract and organize brands owned by each manufacturer.
 Creates a comprehensive database of appliance brands and their parent companies.
 
 Data Sources:
-    - manufacturers.json (parent companies)
+    - makers.json (parent companies)
     - Manual brand research and curation
     - Known brand ownership relationships
 
@@ -197,14 +197,14 @@ BRAND_RELATIONSHIPS = {
 
 def load_manufacturers_data() -> Dict:
     """
-    Load manufacturers.json data.
+    Load makers.json data.
 
     Returns:
         Manufacturers data dictionary
     """
     script_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(os.path.dirname(script_dir), 'data')
-    manufacturers_file = os.path.join(data_dir, 'manufacturers.json')
+    manufacturers_file = os.path.join(data_dir, 'makers.json')
 
     with open(manufacturers_file, 'r', encoding='utf-8') as f:
         return json.load(f)
@@ -300,7 +300,7 @@ def generate_brands_data() -> Dict:
         "metadata": {
             "date_generated": datetime.now(timezone.utc).isoformat(),
             "source": "Python Script",
-            "derived_from": "manufacturers.json",
+            "derived_from": "makers.json",
             "total_brands": len(all_brands),
             "total_parent_companies": len(brands_by_manufacturer),
             "license": "CC0 1.0 / Creative Commons",
