@@ -1,0 +1,153 @@
+{
+  "partner_types": [
+    {
+      "type": "Makers",
+      "subtypes": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        },
+        {
+          "sub_type": "Brand Owner",
+          "short_name": "Outsourced Manufacturing / Asset-Light",
+          "description": "Owns the brand + GTM; outsources some/all production while controlling programs and warranty/service policy.",
+          "incentives": "same channel menu as above (rebates/STA/MDF/price protection/display/demo/training; occasional spiffs)."
+        },
+        {
+          "sub_type": "OEM",
+          "short_name": "Build-to-Spec Manufacturer",
+          "description": "Builds appliances to the brand owner's specs and ships under the brand owner's name.",
+          "incentives": "rarely dealer-facing; uses commercial terms with the brand owner (contract pricing, volume breaks, capacity/allocation, tooling/NRE, quality/chargebacks, supply assurance)."
+        },
+        {
+          "sub_type": "ODM",
+          "short_name": "Design + Manufacture Platform",
+          "description": "Designs a product platform and manufactures it; brands choose variants and badge it.",
+          "incentives": "rarely dealer-facing; platform/contract terms (MOQ/volume tiers, pricing, exclusivity, tooling/NRE, allocation, quality terms)."
+        },
+        {
+          "sub_type": "Private Label / House Brand Manufacturer",
+          "short_name": "Private Label",
+          "description": "Produces appliances sold under a retailer/distributor/dealer-group house brand.",
+          "incentives": "margin + volume tiers + MDF-like marketing support (more commercial + marketing, less spiff-y)."
+        },
+        {
+          "sub_type": "Importer / Brand Licensee",
+          "short_name": "Brand Licensee",
+          "description": "Holds regional rights to sell/support a brand; runs compliance, distribution, warranty/service, and channel programs.",
+          "incentives": "funds/administers rebates/STA/MDF/price protection/training plus freight/stocking/service-coverage terms."
+        }
+      ],
+      "notes": {
+        "oem_vs_odm": "OEM builds your design/spec; ODM sells their platform for you to badge."
+      }
+    },
+    {
+      "type": "Middle",
+      "subtypes": [
+        {
+          "sub_type": "Distributor / Wholesaler",
+          "short_name": "Distributor",
+          "description": "Buys bulk, holds inventory, extends credit/logistics, resells to retailers/dealers.",
+          "incentives": "volume/tier rebates, growth bonuses, STA/bill-backs pass-through, MDF/co-op pass-through, freight/warehouse allowances, stock-rotation/returns programs."
+        },
+        {
+          "sub_type": "Buying Group / Coop",
+          "short_name": "Buying Group",
+          "description": "Aggregates independents to negotiate pricing/programs and enforce compliance.",
+          "incentives": "group rebates, pooled MDF/co-op, compliance/assortment bonuses, event/line-review funding, member dividends (from earned rebates)."
+        },
+        {
+          "sub_type": "Rep Firm / Manufacturer's Rep",
+          "short_name": "Rep Firm",
+          "description": "Territory sales coverage without owning inventory; drives line reviews, training, merchandising execution.",
+          "incentives": "commissions, performance bonuses, launch incentives, training/event budgets tied to targets."
+        },
+        {
+          "sub_type": "3PL / Logistics Provider",
+          "short_name": "3PL",
+          "description": "Warehousing/last-mile/reverse logistics supporting appliance flow.",
+          "incentives": "SLA bonuses/penalties, volume pricing, peak-capacity commitments (operational levers vs classic rebates).",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "type": "Sellers",
+      "subtypes": [
+        {
+          "sub_type": "Retailer",
+          "short_name": "Big Box / Regional / Online",
+          "description": "Sells to consumers via stores/ecomm; often bundles delivery/install/financing.",
+          "incentives": "STA/promo allowances, MDF/co-op, display/demo, price protection, volume/tier rebates, assortment/compliance bonuses, digital merchandising funds."
+        },
+        {
+          "sub_type": "Dealer / Independent Showroom",
+          "short_name": "Dealer",
+          "description": "Consultative seller; often premium mix with delivery/install coordination.",
+          "incentives": "dealer rebates (volume/tier/growth/mix), spiffs/contests, MDF/co-op, display/demo, training/cert bonuses, bundle/attach bonuses, price protection."
+        },
+        {
+          "sub_type": "Franchisee",
+          "short_name": "Retail/Dealer Operator",
+          "description": "Local operator under a parent retail brand; execution is local, purchasing may be centralized.",
+          "incentives": "retailer/dealer menu + operational/compliance bonuses (assortment, merchandising, service levels)."
+        }
+      ]
+    },
+    {
+      "type": "Projects",
+      "subtypes": [
+        {
+          "sub_type": "Designer / Specifier",
+          "short_name": "Designer",
+          "description": "Influences what gets installed (packages, finishes, brands).",
+          "incentives": "specifier programs, referral/lead fees where allowed, training/cert perks, event/showroom support, project support."
+        },
+        {
+          "sub_type": "Builder / Developer",
+          "short_name": "Single-family / Multifamily",
+          "description": "Volume buyer for new construction packages.",
+          "incentives": "contract pricing, project rebates, volume tiers, model-home/demo allowances, extended terms, supply assurance/allocation."
+        },
+        {
+          "sub_type": "GC / Remodeler",
+          "short_name": "GC",
+          "description": "Executes remodel/new build and steers product selection via recommendations/logistics control.",
+          "incentives": "project rebates, lead/referral where allowed, install allowances, training/cert support, jobsite delivery/coordination support."
+        },
+        {
+          "sub_type": "Installer / Delivery & Install Partner",
+          "short_name": "Installer",
+          "description": "Performs delivery/hook-up/haul-away; drives CX outcomes.",
+          "incentives": "per-install payments, quality/first-time-completion bonuses, certification/training stipends, peak-season capacity bonuses."
+        },
+        {
+          "sub_type": "Authorized Service Provider",
+          "short_name": "Warranty Network",
+          "description": "Handles warranty repairs; shapes brand reputation and repeat purchase.",
+          "incentives": "labor rate/parts margin structures, SLA bonuses, certification incentives, diagnostics/training support."
+        }
+      ]
+    },
+    {
+      "type": "People",
+      "subtypes": [
+        {
+          "sub_type": "Sales Associate",
+          "short_name": "Retail/Dealer",
+          "description": "Individual point-of-sale influencer.",
+          "incentives": "spiffs, contests, attach bonuses, training/cert bonuses, launch incentives."
+        },
+        {
+          "sub_type": "Influencer / Affiliate",
+          "short_name": "Adjacent",
+          "description": "Drives demand via content/reviews/referrals (more selective in appliances).",
+          "incentives": "affiliate commissions, paid sponsorships, promo codes, performance bonuses, content budgets."
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-let currentView = 'states';
+let currentView = 'partners';
 let currentData = null;
 
 const entityTypes = ['distributors', 'buying_groups', 'dealers', 'pos_providers', 'incentive_platforms', 'sales_agencies', 'integrators', 'service_providers', 'ecommerce_platforms'];
@@ -16,9 +16,7 @@ const entityDefinitions = {
 };
 
 async function loadData(view) {
-    // Map manufacturers to makers
-    const viewToFile = view === 'manufacturers' ? 'makers' : view;
-    const filename = `${viewToFile}.json`;
+    const filename = `${view}.json`;
 
     try {
         const response = await fetch(`data/${filename}`);
@@ -50,27 +48,11 @@ async function loadData(view) {
 
 function displayMetadata(metadata) {
     const metadataDiv = document.getElementById('metadata');
-    const dateField = metadata.date_pulled || metadata.date_generated;
-    const datePulled = new Date(dateField).toLocaleDateString();
 
-    if (currentView === 'states') {
-        const source = metadata.source === 'hardcoded' ? 'Hardcoded Fallback' : metadata.source;
-        metadataDiv.innerHTML = `Data Source: ${source} | Last Updated: ${datePulled}`;
-    } else if (currentView === 'manufacturers') {
-        const source = metadata.source === 'hardcoded' ? 'Hardcoded Fallback' : metadata.source;
-        metadataDiv.innerHTML = `Data Source: ${source} | Last Updated: ${datePulled} | Total: ${metadata.total_manufacturers}`;
-    } else if (currentView === 'brands') {
-        const source = metadata.source || 'Python Script';
-        metadataDiv.innerHTML = `Data Source: ${source} | Generated: ${datePulled} | Total Brands: ${metadata.total_brands} | Parent Companies: ${metadata.total_parent_companies}`;
-    } else if (entityTypes.includes(currentView)) {
-        const source = metadata.source === 'hardcoded' ? 'Hardcoded Fallback' : metadata.source;
-        let metadataText = `Data Source: ${source} | Last Updated: ${datePulled} | Total: ${metadata.total_count}`;
-
-        if (entityDefinitions[currentView]) {
-            metadataText += `<br><span class="entity-definition">${entityDefinitions[currentView]}</span>`;
-        }
-
-        metadataDiv.innerHTML = metadataText;
+    if (currentView === 'partners') {
+        metadataDiv.innerHTML = `Total: ${metadata.total_makers || metadata.total_manufacturers || 0}`;
+    } else {
+        metadataDiv.innerHTML = '';
     }
 }
 
@@ -126,12 +108,8 @@ function applyFilters() {
 
         sortData(filteredData, sortOption);
         render(filteredData);
-    } else if (currentView === 'manufacturers') {
-        renderFlatList(searchTerm, countryFilter, sortOption, 'manufacturers');
-    } else if (currentView === 'brands') {
-        renderFlatList(searchTerm, countryFilter, sortOption, 'brands');
-    } else if (entityTypes.includes(currentView)) {
-        renderFlatList(searchTerm, countryFilter, sortOption, 'entities');
+    } else if (currentView === 'partners') {
+        renderFlatList(searchTerm, countryFilter, sortOption, 'partners');
     }
 }
 
@@ -275,12 +253,8 @@ function renderFlatList(searchTerm, countryFilter, sortOption, dataType) {
     countries.forEach(country => {
         let items = [];
 
-        if (dataType === 'manufacturers') {
+        if (dataType === 'partners') {
             items = northAmerica[country]?.manufacturers || [];
-        } else if (dataType === 'brands') {
-            items = northAmerica[country]?.brands || [];
-        } else if (dataType === 'entities') {
-            items = northAmerica[country]?.entities || [];
         }
 
         // Add country info to each item for filtering/display
@@ -291,15 +265,11 @@ function renderFlatList(searchTerm, countryFilter, sortOption, dataType) {
 
     // Filter by search term
     if (searchTerm) {
-        allItems = allItems.filter(item => {
-            const nameField = dataType === 'brands' ? item.brand_name : item.name;
-            return nameField.toLowerCase().includes(searchTerm);
-        });
+        allItems = allItems.filter(item => item.name.toLowerCase().includes(searchTerm));
     }
 
     // Sort
-    const nameExtractor = dataType === 'brands' ? (item => item.brand_name) : (item => item.name);
-    allItems = applySortOption(allItems, sortOption, nameExtractor);
+    allItems = applySortOption(allItems, sortOption, item => item.name);
 
     // Render as list (one per line for manufacturers) or grid (for other entities)
     if (allItems.length === 0) {
@@ -307,75 +277,38 @@ function renderFlatList(searchTerm, countryFilter, sortOption, dataType) {
         return;
     }
 
-    if (dataType === 'manufacturers') {
-        // Render manufacturers as a list (one per line)
-        const html = `
-            <div class="manufacturer-list">
-                ${allItems.map(item => {
-                    const details = [];
-                    if (item.headquarters) details.push(item.headquarters);
-                    if (item.country) details.push(item.country);
+    // Render makers as a list (one per line)
+    const html = `
+        <div class="manufacturer-list">
+            ${allItems.map(item => {
+                const details = [];
+                if (item.headquarters) details.push(item.headquarters);
+                if (item.country) details.push(item.country);
 
-                    // Add business models if available
-                    if (item.business_models && item.business_models.length > 0) {
-                        details.push(item.business_models.join(' + '));
-                    }
+                const detailsText = details.length > 0 ? ` <span class="manufacturer-details">(${details.join(', ')})</span>` : '';
 
-                    const detailsText = details.length > 0 ? ` <span class="manufacturer-details">(${details.join(', ')})</span>` : '';
+                // Determine which URL to use (prefer website, fallback to wikipedia)
+                const url = item.website || item.wikipedia_url;
+                const urlDisplay = item.website ?
+                    new URL(item.website).hostname.replace('www.', '') :
+                    (item.wikipedia_url ? 'Wikipedia' : '');
 
-                    // Determine which URL to use (prefer website, fallback to wikipedia)
-                    const url = item.website || item.wikipedia_url;
-                    const urlDisplay = item.website ?
-                        new URL(item.website).hostname.replace('www.', '') :
-                        (item.wikipedia_url ? 'Wikipedia' : '');
+                // Build sub-type tags
+                const subTypeTags = (item.sub_type && item.sub_type.length > 0)
+                    ? `<div class="sub-type-tags">${item.sub_type.map(st => `<span class="sub-type-tag">${st}</span>`).join('')}</div>`
+                    : '';
 
-                    return `
-                        <div class="manufacturer-list-item">
+                return `
+                    <div class="manufacturer-list-item">
+                        <div class="manufacturer-info">
                             <span class="manufacturer-name">${item.name}</span>${detailsText}${url ? ` <a href="${url}" target="_blank" class="manufacturer-details">${urlDisplay}</a>` : ''}
                         </div>
-                    `;
-                }).join('')}
-            </div>`;
-        content.innerHTML = html;
-    } else if (dataType === 'brands') {
-        // Render brands as a list (one per line with parent company)
-        const html = `
-            <div class="manufacturer-list">
-                ${allItems.map(item => {
-                    const details = [];
-                    if (item.parent_company) details.push(`Parent: ${item.parent_company}`);
-                    if (item.type) details.push(item.type);
-                    if (item.country) details.push(item.country);
-                    const detailsText = details.length > 0 ? ` <span class="manufacturer-details">(${details.join(', ')})</span>` : '';
-
-                    const url = item.parent_website;
-
-                    return `
-                        <div class="manufacturer-list-item">
-                            ${url ?
-                                `<a href="${url}" target="_blank" class="manufacturer-name">${item.brand_name}</a>` :
-                                `<span class="manufacturer-name">${item.brand_name}</span>`
-                            }${detailsText}
-                        </div>
-                    `;
-                }).join('')}
-            </div>`;
-        content.innerHTML = html;
-    } else {
-        // Render entities as grid
-        const html = `
-            <div class="states-grid">
-                ${allItems.map(item => `
-                    <div class="state-item manufacturer-item">
-                        ${item.website ?
-                            `<a href="${item.website}" target="_blank" class="manufacturer-link">${item.name}</a>` :
-                            `<span class="manufacturer-link">${item.name}</span>`
-                        }
+                        ${subTypeTags}
                     </div>
-                `).join('')}
-            </div>`;
-        content.innerHTML = html;
-    }
+                `;
+            }).join('')}
+        </div>`;
+    content.innerHTML = html;
 }
 
 function getCurrentFilteredData() {
@@ -416,52 +349,18 @@ function getCurrentFilteredData() {
                 });
             }
         });
-    } else if (currentView === 'manufacturers') {
+    } else if (currentView === 'partners') {
         const northAmerica = currentData['North America'];
         const countries = countryFilter === 'all' ? Object.keys(northAmerica) : [countryFilter];
 
         countries.forEach(country => {
-            const manufacturers = northAmerica[country]?.manufacturers || [];
-            manufacturers.forEach(mfr => {
-                if (!searchTerm || mfr.name.toLowerCase().includes(searchTerm)) {
+            const makers = northAmerica[country]?.manufacturers || [];
+            makers.forEach(maker => {
+                if (!searchTerm || maker.name.toLowerCase().includes(searchTerm)) {
                     rows.push({
                         Country: country,
-                        Name: mfr.name,
-                        Website: mfr.website || ''
-                    });
-                }
-            });
-        });
-    } else if (currentView === 'brands') {
-        const northAmerica = currentData['North America'];
-        const countries = countryFilter === 'all' ? Object.keys(northAmerica) : [countryFilter];
-
-        countries.forEach(country => {
-            const brands = northAmerica[country]?.brands || [];
-            brands.forEach(brand => {
-                if (!searchTerm || brand.brand_name.toLowerCase().includes(searchTerm)) {
-                    rows.push({
-                        Country: country,
-                        'Brand Name': brand.brand_name,
-                        'Parent Company': brand.parent_company || '',
-                        Type: brand.type || '',
-                        Website: brand.parent_website || ''
-                    });
-                }
-            });
-        });
-    } else if (entityTypes.includes(currentView)) {
-        const northAmerica = currentData['North America'];
-        const countries = countryFilter === 'all' ? Object.keys(northAmerica) : [countryFilter];
-
-        countries.forEach(country => {
-            const countryEntities = northAmerica[country]?.entities || [];
-            countryEntities.forEach(entity => {
-                if (!searchTerm || entity.name.toLowerCase().includes(searchTerm)) {
-                    rows.push({
-                        Country: country,
-                        Name: entity.name,
-                        Website: entity.website || ''
+                        Name: maker.name,
+                        Website: maker.website || ''
                     });
                 }
             });
@@ -545,4 +444,4 @@ document.querySelectorAll('.download-btn').forEach(button => {
     });
 });
 
-loadData('manufacturers');
+loadData('partners');

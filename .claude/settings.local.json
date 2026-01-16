@@ -7,7 +7,9 @@
       "Bash(ls:*)",
       "Bash(dir /b)",
       "Bash(start index.html)",
-      "Bash(start http://localhost:8000)"
+      "Bash(start http://localhost:8000)",
+      "Bash(ren:*)",
+      "Bash(ren scriptsmakers.py partners.py)"
     ]
   }
 }

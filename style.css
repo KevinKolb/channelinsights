@@ -302,6 +302,34 @@ select {
     padding: var(--spacing-sm) 0;
     border-bottom: 1px solid var(--border);
     transition: background 0.2s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.manufacturer-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.sub-type-tags {
+    display: flex;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.sub-type-tag {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background: var(--primary);
+    color: var(--background);
+    font-size: 0.625rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
 }
 
 .manufacturer-list-item:first-child {
