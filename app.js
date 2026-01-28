@@ -1,43 +1,21 @@
-let currentView = 'partners';
+let currentCategory = 'all';
 let currentData = null;
 
-const entityTypes = ['distributors', 'buying_groups', 'dealers', 'pos_providers', 'incentive_platforms', 'sales_agencies', 'integrators', 'service_providers', 'ecommerce_platforms'];
-
-const entityDefinitions = {
-    'distributors': 'Wholesale companies that purchase appliances from manufacturers and sell to dealers and retailers.',
-    'buying_groups': 'Cooperative organizations that pool purchasing power to negotiate better terms with suppliers.',
-    'dealers': 'Retail stores and outlets that sell appliances directly to consumers.',
-    'pos_providers': 'Point-of-Sale system providers that offer transaction and inventory management solutions.',
-    'incentive_platforms': 'Software platforms that manage rebates, rewards, and promotional incentive programs.',
-    'sales_agencies': 'Independent sales representatives and agencies that represent manufacturers to retailers on commission.',
-    'integrators': 'System integrators and solution providers that design, implement, and manage complex technology solutions.',
-    'service_providers': 'Field service organizations that install, maintain, and repair appliances and equipment.',
-    'ecommerce_platforms': 'Online marketplace and eCommerce platforms that enable digital sales channels for products.'
+const categoryDescriptions = {
+    'all': 'All channel partners across the appliance industry value chain.',
+    'Makers': 'Manufacturers who own brands and/or produce appliances - vertically integrated, brand owners, OEM, ODM.',
+    'Middle': 'Intermediaries in the supply chain - distributors, buying groups, rep firms, logistics providers, incentive platforms.',
+    'Sellers': 'Organizations that sell to end consumers - retailers, dealers, franchisees.',
+    'Projects': 'Project-based partners - builders, contractors, installers, service providers.',
+    'People': 'Individual contributors - sales associates, influencers, affiliates.'
 };
 
-async function loadData(view) {
-    const filename = `${view}.json`;
-
+async function loadData() {
     try {
-        const response = await fetch(`data/${filename}`);
+        const response = await fetch('data/partners.json');
         const data = await response.json();
-
-        // Transform brands.json structure to match other data files
-        if (view === 'brands' && data.brands) {
-            const brandsByCountry = data.brands.by_country || {};
-            currentData = {
-                metadata: data.metadata,
-                'North America': {
-                    'United States': { brands: brandsByCountry['United States'] || [] },
-                    'Canada': { brands: brandsByCountry['Canada'] || [] },
-                    'Mexico': { brands: brandsByCountry['Mexico'] || [] }
-                }
-            };
-        } else {
-            currentData = data;
-        }
-
-        displayMetadata(currentData.metadata || data.metadata);
+        currentData = data;
+        displayMetadata();
         applyFilters();
     } catch (error) {
         document.getElementById('content').innerHTML =
@@ -46,25 +24,41 @@ async function loadData(view) {
     }
 }
 
-function displayMetadata(metadata) {
+function displayMetadata() {
     const metadataDiv = document.getElementById('metadata');
+    if (!currentData) return;
 
-    if (currentView === 'partners') {
-        metadataDiv.innerHTML = `Total: ${metadata.total_makers || metadata.total_manufacturers || 0}`;
-    } else {
-        metadataDiv.innerHTML = '';
-    }
+    const searchTerm = document.getElementById('search').value.toLowerCase();
+    const countryFilter = document.getElementById('country-filter').value;
+
+    // Count filtered items
+    const northAmerica = currentData['North America'];
+    let count = 0;
+
+    const countries = countryFilter === 'all' ? Object.keys(northAmerica) : [countryFilter];
+
+    countries.forEach(country => {
+        const items = northAmerica[country]?.manufacturers || [];
+        items.forEach(item => {
+            const matchesCategory = currentCategory === 'all' || item.category === currentCategory;
+            const matchesSearch = !searchTerm || item.name.toLowerCase().includes(searchTerm);
+            if (matchesCategory && matchesSearch) count++;
+        });
+    });
+
+    const categoryText = currentCategory === 'all' ? 'All Partners' : currentCategory;
+    metadataDiv.innerHTML = `<strong>${categoryText}</strong>: ${count} | <em>${categoryDescriptions[currentCategory]}</em>`;
 }
 
-function switchView(view) {
-    currentView = view;
+function switchCategory(category) {
+    currentCategory = category;
 
     document.querySelectorAll('.tab-button').forEach(btn => {
         btn.classList.remove('active');
     });
-    document.querySelector(`[data-view="${view}"]`).classList.add('active');
+    document.querySelector(`[data-category="${category}"]`).classList.add('active');
 
-    loadData(view);
+    applyFilters();
 }
 
 function applyFilters() {
@@ -74,65 +68,8 @@ function applyFilters() {
     const countryFilter = document.getElementById('country-filter').value;
     const sortOption = document.getElementById('sort').value;
 
-    if (currentView === 'states') {
-        // States view keeps country sectioning
-        let filteredData = JSON.parse(JSON.stringify(currentData['North America']));
-
-        if (countryFilter !== 'all') {
-            const filtered = {};
-            filtered[countryFilter] = filteredData[countryFilter];
-            filteredData = filtered;
-        }
-
-        if (searchTerm) {
-            Object.keys(filteredData).forEach(country => {
-                const countryData = filteredData[country];
-
-                if (countryData.states) {
-                    countryData.states = countryData.states.filter(state =>
-                        state.toLowerCase().includes(searchTerm)
-                    );
-                }
-                if (countryData.provinces) {
-                    countryData.provinces = countryData.provinces.filter(province =>
-                        province.toLowerCase().includes(searchTerm)
-                    );
-                }
-                if (countryData.territories) {
-                    countryData.territories = countryData.territories.filter(territory =>
-                        territory.toLowerCase().includes(searchTerm)
-                    );
-                }
-            });
-        }
-
-        sortData(filteredData, sortOption);
-        render(filteredData);
-    } else if (currentView === 'partners') {
-        renderFlatList(searchTerm, countryFilter, sortOption, 'partners');
-    }
-}
-
-function sortData(data, sortOption) {
-    Object.keys(data).forEach(country => {
-        const countryData = data[country];
-
-        if (currentView === 'states') {
-            ['states', 'provinces', 'territories'].forEach(key => {
-                if (countryData[key]) {
-                    countryData[key] = applySortOption(countryData[key], sortOption);
-                }
-            });
-        } else {
-            if (countryData.manufacturers) {
-                countryData.manufacturers = applySortOption(
-                    countryData.manufacturers,
-                    sortOption,
-                    item => item.name
-                );
-            }
-        }
-    });
+    renderFlatList(searchTerm, countryFilter, sortOption);
+    displayMetadata();
 }
 
 function applySortOption(array, sortOption, keyFn = x => x) {
@@ -150,96 +87,7 @@ function applySortOption(array, sortOption, keyFn = x => x) {
     }
 }
 
-function render(data) {
-    const content = document.getElementById('content');
-
-    if (Object.keys(data).length === 0) {
-        content.innerHTML = '<div class="empty-state">No results found</div>';
-        return;
-    }
-
-    let html = '';
-
-    Object.entries(data).forEach(([country, countryData]) => {
-        if (currentView === 'states') {
-            const hasStates = countryData.states && countryData.states.length > 0;
-            const hasProvinces = countryData.provinces && countryData.provinces.length > 0;
-            const hasTerritories = countryData.territories && countryData.territories.length > 0;
-
-            if (!hasStates && !hasProvinces && !hasTerritories) return;
-
-            const totalCount = (countryData.states?.length || 0) +
-                             (countryData.provinces?.length || 0) +
-                             (countryData.territories?.length || 0);
-
-            html += `
-                <div class="country-section">
-                    <div class="country-header">
-                        <h2 class="country-name">${country}</h2>
-                        <span class="count">${totalCount}</span>
-                    </div>`;
-
-            if (hasStates) {
-                html += `
-                    <div class="division-type">States</div>
-                    <div class="states-grid">
-                        ${countryData.states.map(state =>
-                            `<div class="state-item">${state}</div>`
-                        ).join('')}
-                    </div>`;
-            }
-
-            if (hasProvinces) {
-                html += `
-                    <div class="division-type">Provinces</div>
-                    <div class="states-grid">
-                        ${countryData.provinces.map(province =>
-                            `<div class="state-item">${province}</div>`
-                        ).join('')}
-                    </div>`;
-            }
-
-            if (hasTerritories) {
-                html += `
-                    <div class="division-type">Territories</div>
-                    <div class="states-grid">
-                        ${countryData.territories.map(territory =>
-                            `<div class="state-item">${territory}</div>`
-                        ).join('')}
-                    </div>`;
-            }
-
-            html += `</div>`;
-
-        } else {
-            const hasManufacturers = countryData.manufacturers && countryData.manufacturers.length > 0;
-
-            if (!hasManufacturers) return;
-
-            html += `
-                <div class="country-section">
-                    <div class="country-header">
-                        <h2 class="country-name">${country}</h2>
-                        <span class="count">${countryData.manufacturers.length}</span>
-                    </div>
-                    <div class="states-grid">
-                        ${countryData.manufacturers.map(mfr => `
-                            <div class="state-item manufacturer-item">
-                                ${mfr.website ?
-                                    `<a href="${mfr.website}" target="_blank" class="manufacturer-link">${mfr.name}</a>` :
-                                    `<span class="manufacturer-link">${mfr.name}</span>`
-                                }
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>`;
-        }
-    });
-
-    content.innerHTML = html || '<div class="empty-state">No results found</div>';
-}
-
-function renderFlatList(searchTerm, countryFilter, sortOption, dataType) {
+function renderFlatList(searchTerm, countryFilter, sortOption) {
     const content = document.getElementById('content');
     const northAmerica = currentData['North America'];
 
@@ -251,33 +99,35 @@ function renderFlatList(searchTerm, countryFilter, sortOption, dataType) {
     let allItems = [];
 
     countries.forEach(country => {
-        let items = [];
+        const items = northAmerica[country]?.manufacturers || [];
 
-        if (dataType === 'partners') {
-            items = northAmerica[country]?.manufacturers || [];
-        }
-
-        // Add country info to each item for filtering/display
         items.forEach(item => {
+            // Filter by category
+            if (currentCategory !== 'all' && item.category !== currentCategory) {
+                return;
+            }
             allItems.push({...item, country: country});
         });
     });
 
     // Filter by search term
     if (searchTerm) {
-        allItems = allItems.filter(item => item.name.toLowerCase().includes(searchTerm));
+        allItems = allItems.filter(item =>
+            item.name.toLowerCase().includes(searchTerm) ||
+            (item.sub_type && item.sub_type.some(st => st.toLowerCase().includes(searchTerm))) ||
+            (item.notes && item.notes.toLowerCase().includes(searchTerm))
+        );
     }
 
     // Sort
     allItems = applySortOption(allItems, sortOption, item => item.name);
 
-    // Render as list (one per line for manufacturers) or grid (for other entities)
+    // Render
     if (allItems.length === 0) {
         content.innerHTML = '<div class="empty-state">No results found</div>';
         return;
     }
 
-    // Render makers as a list (one per line)
     const html = `
         <div class="manufacturer-list">
             ${allItems.map(item => {
@@ -287,23 +137,30 @@ function renderFlatList(searchTerm, countryFilter, sortOption, dataType) {
 
                 const detailsText = details.length > 0 ? ` <span class="manufacturer-details">(${details.join(', ')})</span>` : '';
 
-                // Determine which URL to use (prefer website, fallback to wikipedia)
+                // Determine which URL to use
                 const url = item.website || item.wikipedia_url;
                 const urlDisplay = item.website ?
                     new URL(item.website).hostname.replace('www.', '') :
                     (item.wikipedia_url ? 'Wikipedia' : '');
 
+                // Build category tag
+                const categoryTag = item.category
+                    ? `<span class="category-tag category-${item.category.toLowerCase()}">${item.category}</span>`
+                    : '';
+
                 // Build sub-type tags
                 const subTypeTags = (item.sub_type && item.sub_type.length > 0)
-                    ? `<div class="sub-type-tags">${item.sub_type.map(st => `<span class="sub-type-tag">${st}</span>`).join('')}</div>`
+                    ? item.sub_type.map(st => `<span class="sub-type-tag">${st}</span>`).join('')
                     : '';
 
                 return `
                     <div class="manufacturer-list-item">
                         <div class="manufacturer-info">
-                            <span class="manufacturer-name">${item.name}</span>${detailsText}${url ? ` <a href="${url}" target="_blank" class="manufacturer-details">${urlDisplay}</a>` : ''}
+                            <span class="manufacturer-name">${item.name}</span>${detailsText}${url ? ` <a href="${url}" target="_blank" class="manufacturer-url">${urlDisplay}</a>` : ''}
                         </div>
-                        ${subTypeTags}
+                        <div class="tags-row">
+                            ${categoryTag}${subTypeTags}
+                        </div>
                     </div>
                 `;
             }).join('')}
@@ -316,56 +173,30 @@ function getCurrentFilteredData() {
 
     const searchTerm = document.getElementById('search').value.toLowerCase();
     const countryFilter = document.getElementById('country-filter').value;
-    const sortOption = document.getElementById('sort').value;
 
     let rows = [];
+    const northAmerica = currentData['North America'];
+    const countries = countryFilter === 'all' ? Object.keys(northAmerica) : [countryFilter];
 
-    if (currentView === 'states') {
-        const northAmerica = currentData['North America'];
-        const countries = countryFilter === 'all' ? Object.keys(northAmerica) : [countryFilter];
+    countries.forEach(country => {
+        const items = northAmerica[country]?.manufacturers || [];
+        items.forEach(item => {
+            const matchesCategory = currentCategory === 'all' || item.category === currentCategory;
+            const matchesSearch = !searchTerm || item.name.toLowerCase().includes(searchTerm);
 
-        countries.forEach(country => {
-            const countryData = northAmerica[country];
-
-            if (countryData.states) {
-                countryData.states.forEach(state => {
-                    if (!searchTerm || state.toLowerCase().includes(searchTerm)) {
-                        rows.push({ Country: country, Type: 'State', Name: state });
-                    }
-                });
-            }
-            if (countryData.provinces) {
-                countryData.provinces.forEach(province => {
-                    if (!searchTerm || province.toLowerCase().includes(searchTerm)) {
-                        rows.push({ Country: country, Type: 'Province', Name: province });
-                    }
-                });
-            }
-            if (countryData.territories) {
-                countryData.territories.forEach(territory => {
-                    if (!searchTerm || territory.toLowerCase().includes(searchTerm)) {
-                        rows.push({ Country: country, Type: 'Territory', Name: territory });
-                    }
+            if (matchesCategory && matchesSearch) {
+                rows.push({
+                    Country: country,
+                    Category: item.category || '',
+                    SubType: (item.sub_type || []).join('; '),
+                    Name: item.name,
+                    Headquarters: item.headquarters || '',
+                    Website: item.website || '',
+                    Notes: item.notes || ''
                 });
             }
         });
-    } else if (currentView === 'partners') {
-        const northAmerica = currentData['North America'];
-        const countries = countryFilter === 'all' ? Object.keys(northAmerica) : [countryFilter];
-
-        countries.forEach(country => {
-            const makers = northAmerica[country]?.manufacturers || [];
-            makers.forEach(maker => {
-                if (!searchTerm || maker.name.toLowerCase().includes(searchTerm)) {
-                    rows.push({
-                        Country: country,
-                        Name: maker.name,
-                        Website: maker.website || ''
-                    });
-                }
-            });
-        });
-    }
+    });
 
     return rows;
 }
@@ -389,7 +220,7 @@ function downloadCSV() {
     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.download = `channel_insights_${currentView}_${new Date().toISOString().split('T')[0]}.csv`;
+    link.download = `channel_insights_${currentCategory}_${new Date().toISOString().split('T')[0]}.csv`;
     link.click();
 }
 
@@ -404,7 +235,7 @@ function downloadJSON() {
     const blob = new Blob([json], { type: 'application/json;charset=utf-8;' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.download = `channel_insights_${currentView}_${new Date().toISOString().split('T')[0]}.json`;
+    link.download = `channel_insights_${currentCategory}_${new Date().toISOString().split('T')[0]}.json`;
     link.click();
 }
 
@@ -417,13 +248,14 @@ function downloadExcel() {
 
     const ws = XLSX.utils.json_to_sheet(data);
     const wb = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, ws, currentView.charAt(0).toUpperCase() + currentView.slice(1));
-    XLSX.writeFile(wb, `channel_insights_${currentView}_${new Date().toISOString().split('T')[0]}.xlsx`);
+    XLSX.utils.book_append_sheet(wb, ws, currentCategory === 'all' ? 'All' : currentCategory);
+    XLSX.writeFile(wb, `channel_insights_${currentCategory}_${new Date().toISOString().split('T')[0]}.xlsx`);
 }
 
+// Event listeners
 document.querySelectorAll('.tab-button').forEach(button => {
     button.addEventListener('click', () => {
-        switchView(button.dataset.view);
+        switchCategory(button.dataset.category);
     });
 });
 
@@ -444,4 +276,5 @@ document.querySelectorAll('.download-btn').forEach(button => {
     });
 });
 
-loadData('partners');
+// Initialize
+loadData();

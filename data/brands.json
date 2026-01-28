@@ -1,22 +1,42 @@
 {
   "metadata": {
-    "date_generated": "2026-01-13T21:07:51.369088+00:00",
+    "date_generated": "2026-01-28T16:26:58.369638+00:00",
     "source": "Python Script",
-    "derived_from": "makers.json",
-    "total_brands": 135,
-    "total_parent_companies": 95,
+    "derived_from": "partners.json",
+    "total_brands": 181,
+    "total_parent_companies": 144,
     "license": "CC0 1.0 / Creative Commons",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "note": "Brand ownership data compiled from manufacturer relationships and public sources."
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   "brands": {
     "all": [
       {
-        "brand_name": "Acros",
-        "parent_company": "Acros",
-        "country": "Mexico",
-        "type": "Major Appliances (full-line)",
-        "notes": "Self-branded manufacturer"
+        "brand_name": "A&E Factory Service",
+        "parent_company": "A&E Factory Service",
+        "country": "United States",
+        "type": "Service Provider",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Various",
+        "parent_website": "https://www.aefactoryservice.com"
+      },
+      {
+        "brand_name": "AVB BrandSource",
+        "parent_company": "AVB BrandSource",
+        "country": "United States",
+        "type": "Buying Group",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Anaheim, California",
+        "parent_website": "https://www.avb.com"
+      },
+      {
+        "brand_name": "Abt Electronics",
+        "parent_company": "Abt Electronics",
+        "country": "United States",
+        "type": "Dealer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Glenview, Illinois",
+        "parent_website": "https://www.abt.com",
+        "parent_revenue_usd": 500000000
       },
       {
         "brand_name": "Acros",
@@ -54,12 +74,31 @@
         "parent_website": "http://www.aerusvacuums.com"
       },
       {
+        "brand_name": "Albert Lee Appliance",
+        "parent_company": "Albert Lee Appliance",
+        "country": "United States",
+        "type": "Dealer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Seattle, Washington",
+        "parent_website": "https://www.quiteapossibly.com"
+      },
+      {
         "brand_name": "Alliance Laundry Systems",
         "parent_company": "Alliance Laundry Systems",
         "country": "United States",
         "type": "Major Appliances (laundry)",
         "notes": "Self-branded manufacturer",
         "parent_website": "https://alliancelaundry.com/"
+      },
+      {
+        "brand_name": "Almo Corporation",
+        "parent_company": "Almo Corporation",
+        "country": "United States",
+        "type": "Distributor",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Philadelphia, Pennsylvania",
+        "parent_website": "https://www.almo.com",
+        "parent_revenue_usd": 2500000000
       },
       {
         "brand_name": "Altorfer Bros. Company",
@@ -79,21 +118,32 @@
         "parent_revenue_usd": 19400000000
       },
       {
-        "brand_name": "American Range",
-        "parent_company": "American Range",
+        "brand_name": "Amazon",
+        "parent_company": "Amazon",
         "country": "United States",
-        "type": "Major Appliances (cooking)",
-        "notes": "Commercial and residential",
-        "headquarters": "Pacoima, California",
-        "parent_website": "https://americanrange.com"
+        "type": "Retailer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Seattle, Washington",
+        "parent_website": "https://www.amazon.com",
+        "parent_revenue_usd": 575000000000
       },
       {
         "brand_name": "Aroma Housewares",
         "parent_company": "Aroma Housewares",
         "country": "United States",
-        "type": "Small Appliances",
+        "type": "Major Appliances",
         "notes": "Self-branded manufacturer",
         "parent_website": "http://www.aromaco.com/"
+      },
+      {
+        "brand_name": "BSH Home Appliances",
+        "parent_company": "BSH Home Appliances",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Irvine, California",
+        "parent_website": "https://www.bsh-group.com",
+        "parent_revenue_usd": 4500000000
       },
       {
         "brand_name": "Beatty Brothers Limited",
@@ -101,6 +151,16 @@
         "country": "Canada",
         "type": "Major Appliances",
         "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Best Buy",
+        "parent_company": "Best Buy",
+        "country": "United States",
+        "type": "Retailer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Richfield, Minnesota",
+        "parent_website": "https://www.bestbuy.com",
+        "parent_revenue_usd": 46000000000
       },
       {
         "brand_name": "Bissell",
@@ -116,7 +176,9 @@
         "country": "United States",
         "type": "Small Appliances",
         "notes": "Small kitchen appliances",
-        "parent_website": "https://www.spectrumbrands.com/"
+        "headquarters": "Middleton, Wisconsin",
+        "parent_website": "https://www.spectrumbrands.com",
+        "parent_revenue_usd": 3400000000
       },
       {
         "brand_name": "Blendtec",
@@ -136,15 +198,6 @@
         "parent_website": "https://www.bluestarcooking.com"
       },
       {
-        "brand_name": "Bosch",
-        "parent_company": "Thermador",
-        "country": "United States",
-        "type": "Major Appliances (full-line)",
-        "notes": "Parent company (German)",
-        "headquarters": "Irvine, California",
-        "parent_website": "https://www.thermador.com"
-      },
-      {
         "brand_name": "Braava",
         "parent_company": "IRobot",
         "country": "United States",
@@ -161,11 +214,39 @@
         "parent_website": "http://bradshawhome.com/"
       },
       {
+        "brand_name": "BrandSource",
+        "parent_company": "BrandSource",
+        "country": "United States",
+        "type": "Buying Group",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Anaheim, California",
+        "parent_website": "https://www.brandsource.com"
+      },
+      {
+        "brand_name": "CANTREX Nationwide",
+        "parent_company": "CANTREX Nationwide",
+        "country": "Canada",
+        "type": "Buying Group",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Mississauga, Ontario",
+        "parent_website": "https://www.cantrex.com"
+      },
+      {
         "brand_name": "Caloric",
         "parent_company": "Caloric",
         "country": "United States",
         "type": "Major Appliances",
         "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Canadian Tire",
+        "parent_company": "Canadian Tire",
+        "country": "Canada",
+        "type": "Retailer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Toronto, Ontario",
+        "parent_website": "https://www.canadiantire.ca",
+        "parent_revenue_usd": 12000000000
       },
       {
         "brand_name": "Conair Corporation",
@@ -174,6 +255,16 @@
         "type": "Major Appliances",
         "notes": "Self-branded manufacturer",
         "parent_website": "http://www.conair.com"
+      },
+      {
+        "brand_name": "Costco",
+        "parent_company": "Costco",
+        "country": "United States",
+        "type": "Retailer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Issaquah, Washington",
+        "parent_website": "https://www.costco.com",
+        "parent_revenue_usd": 242000000000
       },
       {
         "brand_name": "Cove",
@@ -191,7 +282,9 @@
         "country": "United States",
         "type": "Small Appliances",
         "notes": "Slow cookers",
-        "parent_website": "https://www.newellbrands.com/"
+        "headquarters": "Atlanta, Georgia",
+        "parent_website": "https://www.newellbrands.com",
+        "parent_revenue_usd": 8600000000
       },
       {
         "brand_name": "Cuisinart",
@@ -202,10 +295,48 @@
         "parent_website": "http://cuisinart.com"
       },
       {
+        "brand_name": "D&H Distributing",
+        "parent_company": "D&H Distributing",
+        "country": "United States",
+        "type": "Distributor",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Harrisburg, Pennsylvania",
+        "parent_website": "https://www.dandh.com",
+        "parent_revenue_usd": 7000000000
+      },
+      {
+        "brand_name": "D.R. Horton",
+        "parent_company": "D.R. Horton",
+        "country": "United States",
+        "type": "Builder",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Arlington, Texas",
+        "parent_website": "https://www.drhorton.com",
+        "parent_revenue_usd": 36000000000
+      },
+      {
+        "brand_name": "DERA (Distributor Efficiency & Resource Alliance)",
+        "parent_company": "DERA (Distributor Efficiency & Resource Alliance)",
+        "country": "United States",
+        "type": "Distributor",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Dallas, Texas",
+        "parent_website": "https://www.dera.com"
+      },
+      {
+        "brand_name": "DERA Canada",
+        "parent_company": "DERA Canada",
+        "country": "Canada",
+        "type": "Distributor",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Toronto, Ontario",
+        "parent_website": "https://www.dera.ca"
+      },
+      {
         "brand_name": "Dacor (kitchen appliances)",
         "parent_company": "Dacor (kitchen appliances)",
         "country": "United States",
-        "type": "Major Appliances (cooking)",
+        "type": "Major Appliances",
         "notes": "Self-branded manufacturer",
         "parent_website": "http://www.dacor.com"
       },
@@ -256,21 +387,14 @@
         "parent_revenue_usd": 5000000000
       },
       {
-        "brand_name": "Elmira",
-        "parent_company": "Elmira Stove Works",
-        "country": "Canada",
-        "type": "Major Appliances (cooking)",
-        "notes": "Retro-inspired ranges",
-        "headquarters": "Elmira, Ontario",
-        "parent_website": "https://elmirastoveworks.com"
-      },
-      {
         "brand_name": "Emeril",
         "parent_company": "Spectrum Brands",
         "country": "United States",
         "type": "Small Appliances",
         "notes": "Celebrity chef brand",
-        "parent_website": "https://www.spectrumbrands.com/"
+        "headquarters": "Middleton, Wisconsin",
+        "parent_website": "https://www.spectrumbrands.com",
+        "parent_revenue_usd": 3400000000
       },
       {
         "brand_name": "Emerson Radio",
@@ -299,7 +423,7 @@
         "brand_name": "Farberware",
         "parent_company": "Farberware",
         "country": "United States",
-        "type": "Small Appliances",
+        "type": "Major Appliances",
         "notes": "Self-branded manufacturer",
         "parent_website": "https://www.farberwarecookware.com/"
       },
@@ -319,21 +443,14 @@
         "parent_website": "http://felixstorchinc.com"
       },
       {
-        "brand_name": "FiveStar",
-        "parent_company": "Brown Stove Works",
-        "country": "United States",
-        "type": "Major Appliances (cooking)",
-        "notes": "Professional ranges",
-        "headquarters": "Cleveland, Tennessee",
-        "parent_website": "https://www.brownstoveworksinc.com"
-      },
-      {
         "brand_name": "FoodSaver",
         "parent_company": "Newell Brands",
         "country": "United States",
         "type": "Small Appliances",
         "notes": "Vacuum sealers",
-        "parent_website": "https://www.newellbrands.com/"
+        "headquarters": "Atlanta, Georgia",
+        "parent_website": "https://www.newellbrands.com",
+        "parent_revenue_usd": 8600000000
       },
       {
         "brand_name": "Frigidaire",
@@ -414,13 +531,13 @@
         "parent_revenue_usd": 8000000000
       },
       {
-        "brand_name": "Gaggenau",
-        "parent_company": "Thermador",
+        "brand_name": "Galanz Americas",
+        "parent_company": "Galanz Americas",
         "country": "United States",
-        "type": "Specialty/Luxury",
-        "notes": "Ultra-luxury (German)",
+        "type": "OEM",
+        "notes": "Self-branded manufacturer",
         "headquarters": "Irvine, California",
-        "parent_website": "https://www.thermador.com"
+        "parent_website": "https://www.galanzamericas.com"
       },
       {
         "brand_name": "George Foreman",
@@ -428,7 +545,9 @@
         "country": "United States",
         "type": "Small Appliances",
         "notes": "Grills and cooking",
-        "parent_website": "https://www.spectrumbrands.com/"
+        "headquarters": "Middleton, Wisconsin",
+        "parent_website": "https://www.spectrumbrands.com",
+        "parent_revenue_usd": 3400000000
       },
       {
         "brand_name": "Gibson",
@@ -519,11 +638,40 @@
         "parent_website": "http://www.insinkerator.com/"
       },
       {
+        "brand_name": "Installation Made Easy (IME)",
+        "parent_company": "Installation Made Easy (IME)",
+        "country": "United States",
+        "type": "Installer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Minneapolis, Minnesota",
+        "parent_website": "https://www.imehome.com"
+      },
+      {
         "brand_name": "International Harvester",
         "parent_company": "International Harvester",
         "country": "United States",
         "type": "Major Appliances",
         "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "J.B. Hunt Transport",
+        "parent_company": "J.B. Hunt Transport",
+        "country": "United States",
+        "type": "3PL",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Lowell, Arkansas",
+        "parent_website": "https://www.jbhunt.com",
+        "parent_revenue_usd": 15000000000
+      },
+      {
+        "brand_name": "JS Global (SharkNinja)",
+        "parent_company": "JS Global (SharkNinja)",
+        "country": "United States",
+        "type": "ODM",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Needham, Massachusetts",
+        "parent_website": "https://www.sharkninja.com",
+        "parent_revenue_usd": 4000000000
       },
       {
         "brand_name": "Jenn-Air",
@@ -596,7 +744,7 @@
         "brand_name": "KitchenAid",
         "parent_company": "KitchenAid",
         "country": "United States",
-        "type": "Small Appliances",
+        "type": "Major Appliances",
         "notes": "Self-branded manufacturer",
         "parent_website": "http://www.kitchenaid.com/"
       },
@@ -620,11 +768,41 @@
         "parent_website": "https://www.konecranes.com/"
       },
       {
+        "brand_name": "LG Electronics USA",
+        "parent_company": "LG Electronics USA",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Englewood Cliffs, New Jersey",
+        "parent_website": "https://www.lg.com/us",
+        "parent_revenue_usd": 7000000000
+      },
+      {
+        "brand_name": "Lennar",
+        "parent_company": "Lennar",
+        "country": "United States",
+        "type": "Builder",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Miami, Florida",
+        "parent_website": "https://www.lennar.com",
+        "parent_revenue_usd": 34000000000
+      },
+      {
         "brand_name": "Leonard (appliances)",
         "parent_company": "Leonard (appliances)",
         "country": "United States",
         "type": "Major Appliances",
         "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Lowe's",
+        "parent_company": "Lowe's",
+        "country": "United States",
+        "type": "Retailer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Mooresville, North Carolina",
+        "parent_website": "https://www.lowes.com",
+        "parent_revenue_usd": 86000000000
       },
       {
         "brand_name": "Lynx",
@@ -634,6 +812,24 @@
         "notes": "Outdoor kitchen equipment",
         "headquarters": "Greenwood, Mississippi",
         "parent_website": "https://www.vikingrange.com"
+      },
+      {
+        "brand_name": "MEGA Group USA",
+        "parent_company": "MEGA Group USA",
+        "country": "United States",
+        "type": "Buying Group",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Dallas, Texas",
+        "parent_website": "https://www.megagroupusa.com"
+      },
+      {
+        "brand_name": "MXD Group",
+        "parent_company": "MXD Group",
+        "country": "United States",
+        "type": "3PL",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "St. Louis, Missouri",
+        "parent_website": "https://www.mxdgroup.com"
       },
       {
         "brand_name": "Mabe",
@@ -663,6 +859,25 @@
         "notes": "Self-branded manufacturer"
       },
       {
+        "brand_name": "Marcone Supply",
+        "parent_company": "Marcone Supply",
+        "country": "United States",
+        "type": "Distributor",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Saint Louis, Missouri",
+        "parent_website": "https://www.marcone.com",
+        "parent_revenue_usd": 1000000000
+      },
+      {
+        "brand_name": "Mattamy Homes",
+        "parent_company": "Mattamy Homes",
+        "country": "Canada",
+        "type": "Builder",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Toronto, Ontario",
+        "parent_website": "https://www.mattamyhomes.com"
+      },
+      {
         "brand_name": "Maytag",
         "parent_company": "Maytag",
         "country": "United States",
@@ -688,12 +903,31 @@
         "notes": "Self-branded manufacturer"
       },
       {
+        "brand_name": "Mega Group Canada",
+        "parent_company": "Mega Group Canada",
+        "country": "Canada",
+        "type": "Buying Group",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Vancouver, British Columbia",
+        "parent_website": "https://www.megagroupcanada.com"
+      },
+      {
         "brand_name": "Meyer Manufacturing",
         "parent_company": "Meyer Manufacturing",
         "country": "United States",
         "type": "Major Appliances",
         "notes": "Self-branded manufacturer",
         "parent_website": "http://meyerinternational.com"
+      },
+      {
+        "brand_name": "Midea Group",
+        "parent_company": "Midea Group",
+        "country": "United States",
+        "type": "OEM",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Parsippany, New Jersey",
+        "parent_website": "https://www.midea.com",
+        "parent_revenue_usd": 52000000000
       },
       {
         "brand_name": "Monogram",
@@ -706,12 +940,23 @@
         "parent_revenue_usd": 8000000000
       },
       {
+        "brand_name": "Mr. Appliance",
+        "parent_company": "Mr. Appliance",
+        "country": "United States",
+        "type": "Service Provider",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Waco, Texas",
+        "parent_website": "https://www.mrappliance.com"
+      },
+      {
         "brand_name": "Mr. Coffee",
         "parent_company": "Newell Brands",
         "country": "United States",
         "type": "Small Appliances",
         "notes": "Coffee makers",
-        "parent_website": "https://www.newellbrands.com/"
+        "headquarters": "Atlanta, Georgia",
+        "parent_website": "https://www.newellbrands.com",
+        "parent_revenue_usd": 8600000000
       },
       {
         "brand_name": "NACCO Industries",
@@ -720,6 +965,25 @@
         "type": "Major Appliances",
         "notes": "Self-branded manufacturer",
         "parent_website": "http://www.nacco.com/"
+      },
+      {
+        "brand_name": "NECO Alliance",
+        "parent_company": "NECO Alliance",
+        "country": "United States",
+        "type": "Buying Group",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Various",
+        "parent_website": "https://www.necoalliance.com"
+      },
+      {
+        "brand_name": "NVR Inc.",
+        "parent_company": "NVR Inc.",
+        "country": "United States",
+        "type": "Builder",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Reston, Virginia",
+        "parent_website": "https://www.nvrinc.com",
+        "parent_revenue_usd": 10000000000
       },
       {
         "brand_name": "Napoleon",
@@ -750,9 +1014,27 @@
         "brand_name": "National Presto Industries",
         "parent_company": "National Presto Industries",
         "country": "United States",
-        "type": "Small Appliances",
+        "type": "Major Appliances",
         "notes": "Self-branded manufacturer",
         "parent_website": "http://www.gopresto.com/"
+      },
+      {
+        "brand_name": "Nationwide Marketing Group (NMG)",
+        "parent_company": "Nationwide Marketing Group (NMG)",
+        "country": "United States",
+        "type": "Buying Group",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Winston-Salem, North Carolina",
+        "parent_website": "https://www.nationwidegroup.org"
+      },
+      {
+        "brand_name": "Nebraska Furniture Mart",
+        "parent_company": "Nebraska Furniture Mart",
+        "country": "United States",
+        "type": "Retailer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Omaha, Nebraska",
+        "parent_website": "https://www.nfm.com"
       },
       {
         "brand_name": "Ninja",
@@ -761,15 +1043,6 @@
         "type": "Small Appliances",
         "notes": "Blenders and kitchen appliances",
         "parent_website": "https://www.sharkninja.com"
-      },
-      {
-        "brand_name": "Northstar",
-        "parent_company": "Elmira Stove Works",
-        "country": "Canada",
-        "type": "Major Appliances (cooking)",
-        "notes": "Retro refrigerators",
-        "headquarters": "Elmira, Ontario",
-        "parent_website": "https://elmirastoveworks.com"
       },
       {
         "brand_name": "NuTone",
@@ -793,7 +1066,28 @@
         "country": "United States",
         "type": "Small Appliances",
         "notes": "Blenders and appliances",
-        "parent_website": "https://www.newellbrands.com/"
+        "headquarters": "Atlanta, Georgia",
+        "parent_website": "https://www.newellbrands.com",
+        "parent_revenue_usd": 8600000000
+      },
+      {
+        "brand_name": "P.C. Richard & Son",
+        "parent_company": "P.C. Richard & Son",
+        "country": "United States",
+        "type": "Dealer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Farmingdale, New York",
+        "parent_website": "https://www.pcrichard.com",
+        "parent_revenue_usd": 800000000
+      },
+      {
+        "brand_name": "Pacific Sales",
+        "parent_company": "Pacific Sales",
+        "country": "United States",
+        "type": "Distributor",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Torrance, California",
+        "parent_website": "https://www.pacificsales.com"
       },
       {
         "brand_name": "Peerless-Premier Appliance Company",
@@ -837,6 +1131,34 @@
         "parent_website": "http://www.proctorsilex.com"
       },
       {
+        "brand_name": "PulteGroup",
+        "parent_company": "PulteGroup",
+        "country": "United States",
+        "type": "Builder",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Atlanta, Georgia",
+        "parent_website": "https://www.pultegroupinc.com",
+        "parent_revenue_usd": 16000000000
+      },
+      {
+        "brand_name": "RC Willey",
+        "parent_company": "RC Willey",
+        "country": "United States",
+        "type": "Retailer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Salt Lake City, Utah",
+        "parent_website": "https://www.rcwilley.com"
+      },
+      {
+        "brand_name": "Reliable Parts",
+        "parent_company": "Reliable Parts",
+        "country": "United States",
+        "type": "Distributor",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Hayward, California",
+        "parent_website": "https://www.reliableparts.com"
+      },
+      {
         "brand_name": "Remington (personal care brand)",
         "parent_company": "Remington (personal care brand)",
         "country": "United States",
@@ -856,7 +1178,7 @@
         "brand_name": "Rival (consumer products company)",
         "parent_company": "Rival (consumer products company)",
         "country": "United States",
-        "type": "Small Appliances",
+        "type": "Major Appliances",
         "notes": "Self-branded manufacturer",
         "parent_website": "http://www.rivalproducts.com"
       },
@@ -884,7 +1206,9 @@
         "country": "United States",
         "type": "Small Appliances",
         "notes": "Kettles and small appliances",
-        "parent_website": "https://www.spectrumbrands.com/"
+        "headquarters": "Middleton, Wisconsin",
+        "parent_website": "https://www.spectrumbrands.com",
+        "parent_revenue_usd": 3400000000
       },
       {
         "brand_name": "Russell Hobbs, Inc.",
@@ -894,12 +1218,59 @@
         "notes": "Self-branded manufacturer"
       },
       {
+        "brand_name": "Ryder System",
+        "parent_company": "Ryder System",
+        "country": "United States",
+        "type": "3PL",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Miami, Florida",
+        "parent_website": "https://www.ryder.com",
+        "parent_revenue_usd": 11000000000
+      },
+      {
         "brand_name": "SVP Worldwide",
         "parent_company": "SVP Worldwide",
         "country": "United States",
         "type": "Major Appliances",
         "notes": "Self-branded manufacturer",
         "parent_website": "http://svpworldwide.com"
+      },
+      {
+        "brand_name": "Samsung Electronics America",
+        "parent_company": "Samsung Electronics America",
+        "country": "United States",
+        "type": "Major Appliances (full-line)",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Ridgefield Park, New Jersey",
+        "parent_website": "https://www.samsung.com/us",
+        "parent_revenue_usd": 6500000000
+      },
+      {
+        "brand_name": "Sears Home Services",
+        "parent_company": "Sears Home Services",
+        "country": "United States",
+        "type": "Service Provider",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Various",
+        "parent_website": "https://www.searshomeservices.com"
+      },
+      {
+        "brand_name": "Sears Hometown Stores",
+        "parent_company": "Sears Hometown Stores",
+        "country": "United States",
+        "type": "Franchisee",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Various",
+        "parent_website": "https://www.searshometownstores.com"
+      },
+      {
+        "brand_name": "ServiceLive",
+        "parent_company": "ServiceLive",
+        "country": "United States",
+        "type": "Installer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Troy, Michigan",
+        "parent_website": "https://www.servicelive.com"
       },
       {
         "brand_name": "Shark",
@@ -934,6 +1305,15 @@
         "headquarters": "Ripon, Wisconsin",
         "parent_website": "https://www.speedqueen.com",
         "parent_revenue_usd": 500000000
+      },
+      {
+        "brand_name": "Springboard Brand & Creative Strategy",
+        "parent_company": "Springboard Brand & Creative Strategy",
+        "country": "United States",
+        "type": "Rep Firm",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Dallas, Texas",
+        "parent_website": "https://www.springboardbrands.com"
       },
       {
         "brand_name": "Staber Industries",
@@ -972,7 +1352,7 @@
         "brand_name": "Summit Appliance",
         "parent_company": "Summit Appliance",
         "country": "United States",
-        "type": "Major Appliances (refrigeration)",
+        "type": "Major Appliances",
         "notes": "Self-branded manufacturer",
         "parent_website": "https://summitappliance.com"
       },
@@ -982,7 +1362,9 @@
         "country": "United States",
         "type": "Small Appliances",
         "notes": "Small appliances",
-        "parent_website": "https://www.newellbrands.com/"
+        "headquarters": "Atlanta, Georgia",
+        "parent_website": "https://www.newellbrands.com",
+        "parent_revenue_usd": 8600000000
       },
       {
         "brand_name": "Sunbeam Products",
@@ -991,6 +1373,16 @@
         "type": "Small Appliances",
         "notes": "Self-branded manufacturer",
         "parent_website": "http://www.sunbeam.com"
+      },
+      {
+        "brand_name": "TTI Floor Care",
+        "parent_company": "TTI Floor Care",
+        "country": "United States",
+        "type": "OEM",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Charlotte, North Carolina",
+        "parent_website": "https://www.ttifloorcare.com",
+        "parent_revenue_usd": 1500000000
       },
       {
         "brand_name": "Tacony Corporation",
@@ -1018,6 +1410,15 @@
         "notes": "Self-branded manufacturer"
       },
       {
+        "brand_name": "Tasco Appliances",
+        "parent_company": "Tasco Appliances",
+        "country": "Canada",
+        "type": "Dealer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Toronto, Ontario",
+        "parent_website": "https://www.tasco.ca"
+      },
+      {
         "brand_name": "Terex",
         "parent_company": "Terex",
         "country": "United States",
@@ -1027,13 +1428,31 @@
         "parent_website": "http://www.terex.com/"
       },
       {
-        "brand_name": "Thermador",
-        "parent_company": "Thermador",
+        "brand_name": "The Hartman Company",
+        "parent_company": "The Hartman Company",
         "country": "United States",
-        "type": "Specialty/Luxury",
-        "notes": "Owned by BSH (Bosch & Siemens)",
-        "headquarters": "Irvine, California",
-        "parent_website": "https://www.thermador.com"
+        "type": "Rep Firm",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Chicago, Illinois",
+        "parent_website": "https://www.hartmanco.com"
+      },
+      {
+        "brand_name": "The Home Depot",
+        "parent_company": "The Home Depot",
+        "country": "United States",
+        "type": "Retailer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Atlanta, Georgia",
+        "parent_website": "https://www.homedepot.com",
+        "parent_revenue_usd": 157000000000
+      },
+      {
+        "brand_name": "Thomas Associates",
+        "parent_company": "Thomas Associates",
+        "country": "United States",
+        "type": "Rep Firm",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Various"
       },
       {
         "brand_name": "Thor Power Tool Company",
@@ -1041,6 +1460,16 @@
         "country": "United States",
         "type": "Major Appliances",
         "notes": "Self-branded manufacturer"
+      },
+      {
+        "brand_name": "Toll Brothers",
+        "parent_company": "Toll Brothers",
+        "country": "United States",
+        "type": "Builder",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Fort Washington, Pennsylvania",
+        "parent_website": "https://www.tollbrothers.com",
+        "parent_revenue_usd": 10000000000
       },
       {
         "brand_name": "Traeger",
@@ -1051,6 +1480,15 @@
         "headquarters": "Salt Lake City, Utah",
         "parent_website": "https://www.traeger.com",
         "parent_revenue_usd": 600000000
+      },
+      {
+        "brand_name": "Trail Appliances",
+        "parent_company": "Trail Appliances",
+        "country": "Canada",
+        "type": "Dealer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Vancouver, British Columbia",
+        "parent_website": "https://www.trailappliances.com"
       },
       {
         "brand_name": "Trudeau Corporation",
@@ -1070,24 +1508,6 @@
         "parent_website": "https://www.vikingrange.com"
       },
       {
-        "brand_name": "U-Line Corporation",
-        "parent_company": "U-Line Corporation",
-        "country": "United States",
-        "type": "Major Appliances (refrigeration)",
-        "notes": "Self-branded manufacturer",
-        "headquarters": "Milwaukee, Wisconsin",
-        "parent_website": "https://www.u-line.com",
-        "parent_revenue_usd": 250000000
-      },
-      {
-        "brand_name": "Victory Range Hoods",
-        "parent_company": "Victory Range Hoods",
-        "country": "Canada",
-        "type": "Major Appliances (cooking)",
-        "notes": "Self-branded manufacturer",
-        "headquarters": "Coquitlam, British Columbia"
-      },
-      {
         "brand_name": "Viking",
         "parent_company": "Viking Range",
         "country": "United States",
@@ -1103,6 +1523,25 @@
         "type": "Small Appliances",
         "notes": "High-performance blenders",
         "parent_website": "https://www.vitamix.com"
+      },
+      {
+        "brand_name": "Warners' Stellian",
+        "parent_company": "Warners' Stellian",
+        "country": "United States",
+        "type": "Distributor",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Saint Paul, Minnesota",
+        "parent_website": "https://www.warnersstellian.com"
+      },
+      {
+        "brand_name": "Weber-Stephen Products",
+        "parent_company": "Weber-Stephen Products",
+        "country": "United States",
+        "type": "Outdoor Cooking",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Palatine, Illinois",
+        "parent_website": "https://www.weber.com",
+        "parent_revenue_usd": 1800000000
       },
       {
         "brand_name": "West Bend Housewares",
@@ -1155,10 +1594,57 @@
         "headquarters": "Madison, Wisconsin",
         "parent_website": "https://www.subzero-wolf.com",
         "parent_revenue_usd": 2500000000
+      },
+      {
+        "brand_name": "XPO Logistics",
+        "parent_company": "XPO Logistics",
+        "country": "United States",
+        "type": "3PL",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Greenwich, Connecticut",
+        "parent_website": "https://www.xpo.com",
+        "parent_revenue_usd": 7700000000
+      },
+      {
+        "brand_name": "Yale Appliance",
+        "parent_company": "Yale Appliance",
+        "country": "United States",
+        "type": "Dealer",
+        "notes": "Self-branded manufacturer",
+        "headquarters": "Boston, Massachusetts",
+        "parent_website": "https://www.yaleappliance.com"
       }
     ],
     "by_country": {
       "United States": [
+        {
+          "brand_name": "A&E Factory Service",
+          "parent_company": "A&E Factory Service",
+          "country": "United States",
+          "type": "Service Provider",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Various",
+          "parent_website": "https://www.aefactoryservice.com"
+        },
+        {
+          "brand_name": "AVB BrandSource",
+          "parent_company": "AVB BrandSource",
+          "country": "United States",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Anaheim, California",
+          "parent_website": "https://www.avb.com"
+        },
+        {
+          "brand_name": "Abt Electronics",
+          "parent_company": "Abt Electronics",
+          "country": "United States",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Glenview, Illinois",
+          "parent_website": "https://www.abt.com",
+          "parent_revenue_usd": 500000000
+        },
         {
           "brand_name": "Admiral",
           "parent_company": "Whirlpool Corporation",
@@ -1185,12 +1671,31 @@
           "parent_website": "http://www.aerusvacuums.com"
         },
         {
+          "brand_name": "Albert Lee Appliance",
+          "parent_company": "Albert Lee Appliance",
+          "country": "United States",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Seattle, Washington",
+          "parent_website": "https://www.quiteapossibly.com"
+        },
+        {
           "brand_name": "Alliance Laundry Systems",
           "parent_company": "Alliance Laundry Systems",
           "country": "United States",
           "type": "Major Appliances (laundry)",
           "notes": "Self-branded manufacturer",
           "parent_website": "https://alliancelaundry.com/"
+        },
+        {
+          "brand_name": "Almo Corporation",
+          "parent_company": "Almo Corporation",
+          "country": "United States",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Philadelphia, Pennsylvania",
+          "parent_website": "https://www.almo.com",
+          "parent_revenue_usd": 2500000000
         },
         {
           "brand_name": "Altorfer Bros. Company",
@@ -1210,21 +1715,42 @@
           "parent_revenue_usd": 19400000000
         },
         {
-          "brand_name": "American Range",
-          "parent_company": "American Range",
+          "brand_name": "Amazon",
+          "parent_company": "Amazon",
           "country": "United States",
-          "type": "Major Appliances (cooking)",
-          "notes": "Commercial and residential",
-          "headquarters": "Pacoima, California",
-          "parent_website": "https://americanrange.com"
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Seattle, Washington",
+          "parent_website": "https://www.amazon.com",
+          "parent_revenue_usd": 575000000000
         },
         {
           "brand_name": "Aroma Housewares",
           "parent_company": "Aroma Housewares",
           "country": "United States",
-          "type": "Small Appliances",
+          "type": "Major Appliances",
           "notes": "Self-branded manufacturer",
           "parent_website": "http://www.aromaco.com/"
+        },
+        {
+          "brand_name": "BSH Home Appliances",
+          "parent_company": "BSH Home Appliances",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Irvine, California",
+          "parent_website": "https://www.bsh-group.com",
+          "parent_revenue_usd": 4500000000
+        },
+        {
+          "brand_name": "Best Buy",
+          "parent_company": "Best Buy",
+          "country": "United States",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Richfield, Minnesota",
+          "parent_website": "https://www.bestbuy.com",
+          "parent_revenue_usd": 46000000000
         },
         {
           "brand_name": "Bissell",
@@ -1240,7 +1766,9 @@
           "country": "United States",
           "type": "Small Appliances",
           "notes": "Small kitchen appliances",
-          "parent_website": "https://www.spectrumbrands.com/"
+          "headquarters": "Middleton, Wisconsin",
+          "parent_website": "https://www.spectrumbrands.com",
+          "parent_revenue_usd": 3400000000
         },
         {
           "brand_name": "Blendtec",
@@ -1260,15 +1788,6 @@
           "parent_website": "https://www.bluestarcooking.com"
         },
         {
-          "brand_name": "Bosch",
-          "parent_company": "Thermador",
-          "country": "United States",
-          "type": "Major Appliances (full-line)",
-          "notes": "Parent company (German)",
-          "headquarters": "Irvine, California",
-          "parent_website": "https://www.thermador.com"
-        },
-        {
           "brand_name": "Braava",
           "parent_company": "IRobot",
           "country": "United States",
@@ -1283,6 +1802,15 @@
           "type": "Major Appliances",
           "notes": "Self-branded manufacturer",
           "parent_website": "http://bradshawhome.com/"
+        },
+        {
+          "brand_name": "BrandSource",
+          "parent_company": "BrandSource",
+          "country": "United States",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Anaheim, California",
+          "parent_website": "https://www.brandsource.com"
         },
         {
           "brand_name": "Caloric",
@@ -1300,6 +1828,16 @@
           "parent_website": "http://www.conair.com"
         },
         {
+          "brand_name": "Costco",
+          "parent_company": "Costco",
+          "country": "United States",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Issaquah, Washington",
+          "parent_website": "https://www.costco.com",
+          "parent_revenue_usd": 242000000000
+        },
+        {
           "brand_name": "Cove",
           "parent_company": "Sub-Zero Group",
           "country": "United States",
@@ -1315,7 +1853,9 @@
           "country": "United States",
           "type": "Small Appliances",
           "notes": "Slow cookers",
-          "parent_website": "https://www.newellbrands.com/"
+          "headquarters": "Atlanta, Georgia",
+          "parent_website": "https://www.newellbrands.com",
+          "parent_revenue_usd": 8600000000
         },
         {
           "brand_name": "Cuisinart",
@@ -1326,10 +1866,39 @@
           "parent_website": "http://cuisinart.com"
         },
         {
+          "brand_name": "D&H Distributing",
+          "parent_company": "D&H Distributing",
+          "country": "United States",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Harrisburg, Pennsylvania",
+          "parent_website": "https://www.dandh.com",
+          "parent_revenue_usd": 7000000000
+        },
+        {
+          "brand_name": "D.R. Horton",
+          "parent_company": "D.R. Horton",
+          "country": "United States",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Arlington, Texas",
+          "parent_website": "https://www.drhorton.com",
+          "parent_revenue_usd": 36000000000
+        },
+        {
+          "brand_name": "DERA (Distributor Efficiency & Resource Alliance)",
+          "parent_company": "DERA (Distributor Efficiency & Resource Alliance)",
+          "country": "United States",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Dallas, Texas",
+          "parent_website": "https://www.dera.com"
+        },
+        {
           "brand_name": "Dacor (kitchen appliances)",
           "parent_company": "Dacor (kitchen appliances)",
           "country": "United States",
-          "type": "Major Appliances (cooking)",
+          "type": "Major Appliances",
           "notes": "Self-branded manufacturer",
           "parent_website": "http://www.dacor.com"
         },
@@ -1357,7 +1926,9 @@
           "country": "United States",
           "type": "Small Appliances",
           "notes": "Celebrity chef brand",
-          "parent_website": "https://www.spectrumbrands.com/"
+          "headquarters": "Middleton, Wisconsin",
+          "parent_website": "https://www.spectrumbrands.com",
+          "parent_revenue_usd": 3400000000
         },
         {
           "brand_name": "Emerson Radio",
@@ -1379,7 +1950,7 @@
           "brand_name": "Farberware",
           "parent_company": "Farberware",
           "country": "United States",
-          "type": "Small Appliances",
+          "type": "Major Appliances",
           "notes": "Self-branded manufacturer",
           "parent_website": "https://www.farberwarecookware.com/"
         },
@@ -1399,21 +1970,14 @@
           "parent_website": "http://felixstorchinc.com"
         },
         {
-          "brand_name": "FiveStar",
-          "parent_company": "Brown Stove Works",
-          "country": "United States",
-          "type": "Major Appliances (cooking)",
-          "notes": "Professional ranges",
-          "headquarters": "Cleveland, Tennessee",
-          "parent_website": "https://www.brownstoveworksinc.com"
-        },
-        {
           "brand_name": "FoodSaver",
           "parent_company": "Newell Brands",
           "country": "United States",
           "type": "Small Appliances",
           "notes": "Vacuum sealers",
-          "parent_website": "https://www.newellbrands.com/"
+          "headquarters": "Atlanta, Georgia",
+          "parent_website": "https://www.newellbrands.com",
+          "parent_revenue_usd": 8600000000
         },
         {
           "brand_name": "Frigidaire",
@@ -1484,13 +2048,13 @@
           "parent_revenue_usd": 8000000000
         },
         {
-          "brand_name": "Gaggenau",
-          "parent_company": "Thermador",
+          "brand_name": "Galanz Americas",
+          "parent_company": "Galanz Americas",
           "country": "United States",
-          "type": "Specialty/Luxury",
-          "notes": "Ultra-luxury (German)",
+          "type": "OEM",
+          "notes": "Self-branded manufacturer",
           "headquarters": "Irvine, California",
-          "parent_website": "https://www.thermador.com"
+          "parent_website": "https://www.galanzamericas.com"
         },
         {
           "brand_name": "George Foreman",
@@ -1498,7 +2062,9 @@
           "country": "United States",
           "type": "Small Appliances",
           "notes": "Grills and cooking",
-          "parent_website": "https://www.spectrumbrands.com/"
+          "headquarters": "Middleton, Wisconsin",
+          "parent_website": "https://www.spectrumbrands.com",
+          "parent_revenue_usd": 3400000000
         },
         {
           "brand_name": "Gibson",
@@ -1589,11 +2155,40 @@
           "parent_website": "http://www.insinkerator.com/"
         },
         {
+          "brand_name": "Installation Made Easy (IME)",
+          "parent_company": "Installation Made Easy (IME)",
+          "country": "United States",
+          "type": "Installer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Minneapolis, Minnesota",
+          "parent_website": "https://www.imehome.com"
+        },
+        {
           "brand_name": "International Harvester",
           "parent_company": "International Harvester",
           "country": "United States",
           "type": "Major Appliances",
           "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "J.B. Hunt Transport",
+          "parent_company": "J.B. Hunt Transport",
+          "country": "United States",
+          "type": "3PL",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Lowell, Arkansas",
+          "parent_website": "https://www.jbhunt.com",
+          "parent_revenue_usd": 15000000000
+        },
+        {
+          "brand_name": "JS Global (SharkNinja)",
+          "parent_company": "JS Global (SharkNinja)",
+          "country": "United States",
+          "type": "ODM",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Needham, Massachusetts",
+          "parent_website": "https://www.sharkninja.com",
+          "parent_revenue_usd": 4000000000
         },
         {
           "brand_name": "Jenn-Air",
@@ -1658,7 +2253,7 @@
           "brand_name": "KitchenAid",
           "parent_company": "KitchenAid",
           "country": "United States",
-          "type": "Small Appliances",
+          "type": "Major Appliances",
           "notes": "Self-branded manufacturer",
           "parent_website": "http://www.kitchenaid.com/"
         },
@@ -1682,11 +2277,41 @@
           "parent_website": "https://www.konecranes.com/"
         },
         {
+          "brand_name": "LG Electronics USA",
+          "parent_company": "LG Electronics USA",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Englewood Cliffs, New Jersey",
+          "parent_website": "https://www.lg.com/us",
+          "parent_revenue_usd": 7000000000
+        },
+        {
+          "brand_name": "Lennar",
+          "parent_company": "Lennar",
+          "country": "United States",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Miami, Florida",
+          "parent_website": "https://www.lennar.com",
+          "parent_revenue_usd": 34000000000
+        },
+        {
           "brand_name": "Leonard (appliances)",
           "parent_company": "Leonard (appliances)",
           "country": "United States",
           "type": "Major Appliances",
           "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Lowe's",
+          "parent_company": "Lowe's",
+          "country": "United States",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Mooresville, North Carolina",
+          "parent_website": "https://www.lowes.com",
+          "parent_revenue_usd": 86000000000
         },
         {
           "brand_name": "Lynx",
@@ -1696,6 +2321,24 @@
           "notes": "Outdoor kitchen equipment",
           "headquarters": "Greenwood, Mississippi",
           "parent_website": "https://www.vikingrange.com"
+        },
+        {
+          "brand_name": "MEGA Group USA",
+          "parent_company": "MEGA Group USA",
+          "country": "United States",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Dallas, Texas",
+          "parent_website": "https://www.megagroupusa.com"
+        },
+        {
+          "brand_name": "MXD Group",
+          "parent_company": "MXD Group",
+          "country": "United States",
+          "type": "3PL",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "St. Louis, Missouri",
+          "parent_website": "https://www.mxdgroup.com"
         },
         {
           "brand_name": "Magic Chef",
@@ -1713,6 +2356,16 @@
           "country": "United States",
           "type": "Major Appliances (cooking)",
           "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Marcone Supply",
+          "parent_company": "Marcone Supply",
+          "country": "United States",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Saint Louis, Missouri",
+          "parent_website": "https://www.marcone.com",
+          "parent_revenue_usd": 1000000000
         },
         {
           "brand_name": "Maytag",
@@ -1748,6 +2401,16 @@
           "parent_website": "http://meyerinternational.com"
         },
         {
+          "brand_name": "Midea Group",
+          "parent_company": "Midea Group",
+          "country": "United States",
+          "type": "OEM",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Parsippany, New Jersey",
+          "parent_website": "https://www.midea.com",
+          "parent_revenue_usd": 52000000000
+        },
+        {
           "brand_name": "Monogram",
           "parent_company": "GE Appliances",
           "country": "United States",
@@ -1758,12 +2421,23 @@
           "parent_revenue_usd": 8000000000
         },
         {
+          "brand_name": "Mr. Appliance",
+          "parent_company": "Mr. Appliance",
+          "country": "United States",
+          "type": "Service Provider",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Waco, Texas",
+          "parent_website": "https://www.mrappliance.com"
+        },
+        {
           "brand_name": "Mr. Coffee",
           "parent_company": "Newell Brands",
           "country": "United States",
           "type": "Small Appliances",
           "notes": "Coffee makers",
-          "parent_website": "https://www.newellbrands.com/"
+          "headquarters": "Atlanta, Georgia",
+          "parent_website": "https://www.newellbrands.com",
+          "parent_revenue_usd": 8600000000
         },
         {
           "brand_name": "NACCO Industries",
@@ -1772,6 +2446,25 @@
           "type": "Major Appliances",
           "notes": "Self-branded manufacturer",
           "parent_website": "http://www.nacco.com/"
+        },
+        {
+          "brand_name": "NECO Alliance",
+          "parent_company": "NECO Alliance",
+          "country": "United States",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Various",
+          "parent_website": "https://www.necoalliance.com"
+        },
+        {
+          "brand_name": "NVR Inc.",
+          "parent_company": "NVR Inc.",
+          "country": "United States",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Reston, Virginia",
+          "parent_website": "https://www.nvrinc.com",
+          "parent_revenue_usd": 10000000000
         },
         {
           "brand_name": "Napoleon (company)",
@@ -1792,9 +2485,27 @@
           "brand_name": "National Presto Industries",
           "parent_company": "National Presto Industries",
           "country": "United States",
-          "type": "Small Appliances",
+          "type": "Major Appliances",
           "notes": "Self-branded manufacturer",
           "parent_website": "http://www.gopresto.com/"
+        },
+        {
+          "brand_name": "Nationwide Marketing Group (NMG)",
+          "parent_company": "Nationwide Marketing Group (NMG)",
+          "country": "United States",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Winston-Salem, North Carolina",
+          "parent_website": "https://www.nationwidegroup.org"
+        },
+        {
+          "brand_name": "Nebraska Furniture Mart",
+          "parent_company": "Nebraska Furniture Mart",
+          "country": "United States",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Omaha, Nebraska",
+          "parent_website": "https://www.nfm.com"
         },
         {
           "brand_name": "Ninja",
@@ -1826,7 +2537,28 @@
           "country": "United States",
           "type": "Small Appliances",
           "notes": "Blenders and appliances",
-          "parent_website": "https://www.newellbrands.com/"
+          "headquarters": "Atlanta, Georgia",
+          "parent_website": "https://www.newellbrands.com",
+          "parent_revenue_usd": 8600000000
+        },
+        {
+          "brand_name": "P.C. Richard & Son",
+          "parent_company": "P.C. Richard & Son",
+          "country": "United States",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Farmingdale, New York",
+          "parent_website": "https://www.pcrichard.com",
+          "parent_revenue_usd": 800000000
+        },
+        {
+          "brand_name": "Pacific Sales",
+          "parent_company": "Pacific Sales",
+          "country": "United States",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Torrance, California",
+          "parent_website": "https://www.pacificsales.com"
         },
         {
           "brand_name": "Peerless-Premier Appliance Company",
@@ -1870,6 +2602,34 @@
           "parent_website": "http://www.proctorsilex.com"
         },
         {
+          "brand_name": "PulteGroup",
+          "parent_company": "PulteGroup",
+          "country": "United States",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Atlanta, Georgia",
+          "parent_website": "https://www.pultegroupinc.com",
+          "parent_revenue_usd": 16000000000
+        },
+        {
+          "brand_name": "RC Willey",
+          "parent_company": "RC Willey",
+          "country": "United States",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Salt Lake City, Utah",
+          "parent_website": "https://www.rcwilley.com"
+        },
+        {
+          "brand_name": "Reliable Parts",
+          "parent_company": "Reliable Parts",
+          "country": "United States",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Hayward, California",
+          "parent_website": "https://www.reliableparts.com"
+        },
+        {
           "brand_name": "Remington (personal care brand)",
           "parent_company": "Remington (personal care brand)",
           "country": "United States",
@@ -1889,7 +2649,7 @@
           "brand_name": "Rival (consumer products company)",
           "parent_company": "Rival (consumer products company)",
           "country": "United States",
-          "type": "Small Appliances",
+          "type": "Major Appliances",
           "notes": "Self-branded manufacturer",
           "parent_website": "http://www.rivalproducts.com"
         },
@@ -1917,7 +2677,9 @@
           "country": "United States",
           "type": "Small Appliances",
           "notes": "Kettles and small appliances",
-          "parent_website": "https://www.spectrumbrands.com/"
+          "headquarters": "Middleton, Wisconsin",
+          "parent_website": "https://www.spectrumbrands.com",
+          "parent_revenue_usd": 3400000000
         },
         {
           "brand_name": "Russell Hobbs, Inc.",
@@ -1927,12 +2689,59 @@
           "notes": "Self-branded manufacturer"
         },
         {
+          "brand_name": "Ryder System",
+          "parent_company": "Ryder System",
+          "country": "United States",
+          "type": "3PL",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Miami, Florida",
+          "parent_website": "https://www.ryder.com",
+          "parent_revenue_usd": 11000000000
+        },
+        {
           "brand_name": "SVP Worldwide",
           "parent_company": "SVP Worldwide",
           "country": "United States",
           "type": "Major Appliances",
           "notes": "Self-branded manufacturer",
           "parent_website": "http://svpworldwide.com"
+        },
+        {
+          "brand_name": "Samsung Electronics America",
+          "parent_company": "Samsung Electronics America",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Ridgefield Park, New Jersey",
+          "parent_website": "https://www.samsung.com/us",
+          "parent_revenue_usd": 6500000000
+        },
+        {
+          "brand_name": "Sears Home Services",
+          "parent_company": "Sears Home Services",
+          "country": "United States",
+          "type": "Service Provider",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Various",
+          "parent_website": "https://www.searshomeservices.com"
+        },
+        {
+          "brand_name": "Sears Hometown Stores",
+          "parent_company": "Sears Hometown Stores",
+          "country": "United States",
+          "type": "Franchisee",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Various",
+          "parent_website": "https://www.searshometownstores.com"
+        },
+        {
+          "brand_name": "ServiceLive",
+          "parent_company": "ServiceLive",
+          "country": "United States",
+          "type": "Installer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Troy, Michigan",
+          "parent_website": "https://www.servicelive.com"
         },
         {
           "brand_name": "Shark",
@@ -1967,6 +2776,15 @@
           "headquarters": "Ripon, Wisconsin",
           "parent_website": "https://www.speedqueen.com",
           "parent_revenue_usd": 500000000
+        },
+        {
+          "brand_name": "Springboard Brand & Creative Strategy",
+          "parent_company": "Springboard Brand & Creative Strategy",
+          "country": "United States",
+          "type": "Rep Firm",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Dallas, Texas",
+          "parent_website": "https://www.springboardbrands.com"
         },
         {
           "brand_name": "Staber Industries",
@@ -2005,7 +2823,7 @@
           "brand_name": "Summit Appliance",
           "parent_company": "Summit Appliance",
           "country": "United States",
-          "type": "Major Appliances (refrigeration)",
+          "type": "Major Appliances",
           "notes": "Self-branded manufacturer",
           "parent_website": "https://summitappliance.com"
         },
@@ -2015,7 +2833,9 @@
           "country": "United States",
           "type": "Small Appliances",
           "notes": "Small appliances",
-          "parent_website": "https://www.newellbrands.com/"
+          "headquarters": "Atlanta, Georgia",
+          "parent_website": "https://www.newellbrands.com",
+          "parent_revenue_usd": 8600000000
         },
         {
           "brand_name": "Sunbeam Products",
@@ -2024,6 +2844,16 @@
           "type": "Small Appliances",
           "notes": "Self-branded manufacturer",
           "parent_website": "http://www.sunbeam.com"
+        },
+        {
+          "brand_name": "TTI Floor Care",
+          "parent_company": "TTI Floor Care",
+          "country": "United States",
+          "type": "OEM",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.ttifloorcare.com",
+          "parent_revenue_usd": 1500000000
         },
         {
           "brand_name": "Tacony Corporation",
@@ -2060,13 +2890,31 @@
           "parent_website": "http://www.terex.com/"
         },
         {
-          "brand_name": "Thermador",
-          "parent_company": "Thermador",
+          "brand_name": "The Hartman Company",
+          "parent_company": "The Hartman Company",
           "country": "United States",
-          "type": "Specialty/Luxury",
-          "notes": "Owned by BSH (Bosch & Siemens)",
-          "headquarters": "Irvine, California",
-          "parent_website": "https://www.thermador.com"
+          "type": "Rep Firm",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Chicago, Illinois",
+          "parent_website": "https://www.hartmanco.com"
+        },
+        {
+          "brand_name": "The Home Depot",
+          "parent_company": "The Home Depot",
+          "country": "United States",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Atlanta, Georgia",
+          "parent_website": "https://www.homedepot.com",
+          "parent_revenue_usd": 157000000000
+        },
+        {
+          "brand_name": "Thomas Associates",
+          "parent_company": "Thomas Associates",
+          "country": "United States",
+          "type": "Rep Firm",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Various"
         },
         {
           "brand_name": "Thor Power Tool Company",
@@ -2074,6 +2922,16 @@
           "country": "United States",
           "type": "Major Appliances",
           "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Toll Brothers",
+          "parent_company": "Toll Brothers",
+          "country": "United States",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Fort Washington, Pennsylvania",
+          "parent_website": "https://www.tollbrothers.com",
+          "parent_revenue_usd": 10000000000
         },
         {
           "brand_name": "Traeger",
@@ -2095,16 +2953,6 @@
           "parent_website": "https://www.vikingrange.com"
         },
         {
-          "brand_name": "U-Line Corporation",
-          "parent_company": "U-Line Corporation",
-          "country": "United States",
-          "type": "Major Appliances (refrigeration)",
-          "notes": "Self-branded manufacturer",
-          "headquarters": "Milwaukee, Wisconsin",
-          "parent_website": "https://www.u-line.com",
-          "parent_revenue_usd": 250000000
-        },
-        {
           "brand_name": "Viking",
           "parent_company": "Viking Range",
           "country": "United States",
@@ -2120,6 +2968,25 @@
           "type": "Small Appliances",
           "notes": "High-performance blenders",
           "parent_website": "https://www.vitamix.com"
+        },
+        {
+          "brand_name": "Warners' Stellian",
+          "parent_company": "Warners' Stellian",
+          "country": "United States",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Saint Paul, Minnesota",
+          "parent_website": "https://www.warnersstellian.com"
+        },
+        {
+          "brand_name": "Weber-Stephen Products",
+          "parent_company": "Weber-Stephen Products",
+          "country": "United States",
+          "type": "Outdoor Cooking",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Palatine, Illinois",
+          "parent_website": "https://www.weber.com",
+          "parent_revenue_usd": 1800000000
         },
         {
           "brand_name": "West Bend Housewares",
@@ -2172,6 +3039,25 @@
           "headquarters": "Madison, Wisconsin",
           "parent_website": "https://www.subzero-wolf.com",
           "parent_revenue_usd": 2500000000
+        },
+        {
+          "brand_name": "XPO Logistics",
+          "parent_company": "XPO Logistics",
+          "country": "United States",
+          "type": "3PL",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Greenwich, Connecticut",
+          "parent_website": "https://www.xpo.com",
+          "parent_revenue_usd": 7700000000
+        },
+        {
+          "brand_name": "Yale Appliance",
+          "parent_company": "Yale Appliance",
+          "country": "United States",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Boston, Massachusetts",
+          "parent_website": "https://www.yaleappliance.com"
         }
       ],
       "Canada": [
@@ -2181,6 +3067,34 @@
           "country": "Canada",
           "type": "Major Appliances",
           "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "CANTREX Nationwide",
+          "parent_company": "CANTREX Nationwide",
+          "country": "Canada",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Mississauga, Ontario",
+          "parent_website": "https://www.cantrex.com"
+        },
+        {
+          "brand_name": "Canadian Tire",
+          "parent_company": "Canadian Tire",
+          "country": "Canada",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Toronto, Ontario",
+          "parent_website": "https://www.canadiantire.ca",
+          "parent_revenue_usd": 12000000000
+        },
+        {
+          "brand_name": "DERA Canada",
+          "parent_company": "DERA Canada",
+          "country": "Canada",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Toronto, Ontario",
+          "parent_website": "https://www.dera.ca"
         },
         {
           "brand_name": "Danby",
@@ -2201,15 +3115,6 @@
           "parent_website": "https://www.danby.com"
         },
         {
-          "brand_name": "Elmira",
-          "parent_company": "Elmira Stove Works",
-          "country": "Canada",
-          "type": "Major Appliances (cooking)",
-          "notes": "Retro-inspired ranges",
-          "headquarters": "Elmira, Ontario",
-          "parent_website": "https://elmirastoveworks.com"
-        },
-        {
           "brand_name": "Fantom Technologies",
           "parent_company": "Fantom Technologies",
           "country": "Canada",
@@ -2225,6 +3130,24 @@
           "parent_website": "http://www.inglis.ca"
         },
         {
+          "brand_name": "Mattamy Homes",
+          "parent_company": "Mattamy Homes",
+          "country": "Canada",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Toronto, Ontario",
+          "parent_website": "https://www.mattamyhomes.com"
+        },
+        {
+          "brand_name": "Mega Group Canada",
+          "parent_company": "Mega Group Canada",
+          "country": "Canada",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Vancouver, British Columbia",
+          "parent_website": "https://www.megagroupcanada.com"
+        },
+        {
           "brand_name": "Napoleon",
           "parent_company": "Napoleon",
           "country": "Canada",
@@ -2235,13 +3158,22 @@
           "parent_revenue_usd": 400000000
         },
         {
-          "brand_name": "Northstar",
-          "parent_company": "Elmira Stove Works",
+          "brand_name": "Tasco Appliances",
+          "parent_company": "Tasco Appliances",
           "country": "Canada",
-          "type": "Major Appliances (cooking)",
-          "notes": "Retro refrigerators",
-          "headquarters": "Elmira, Ontario",
-          "parent_website": "https://elmirastoveworks.com"
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Toronto, Ontario",
+          "parent_website": "https://www.tasco.ca"
+        },
+        {
+          "brand_name": "Trail Appliances",
+          "parent_company": "Trail Appliances",
+          "country": "Canada",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Vancouver, British Columbia",
+          "parent_website": "https://www.trailappliances.com"
         },
         {
           "brand_name": "Trudeau Corporation",
@@ -2250,24 +3182,9 @@
           "type": "Major Appliances",
           "notes": "Self-branded manufacturer",
           "parent_website": "http://trudeau.com"
-        },
-        {
-          "brand_name": "Victory Range Hoods",
-          "parent_company": "Victory Range Hoods",
-          "country": "Canada",
-          "type": "Major Appliances (cooking)",
-          "notes": "Self-branded manufacturer",
-          "headquarters": "Coquitlam, British Columbia"
         }
       ],
       "Mexico": [
-        {
-          "brand_name": "Acros",
-          "parent_company": "Acros",
-          "country": "Mexico",
-          "type": "Major Appliances (full-line)",
-          "notes": "Self-branded manufacturer"
-        },
         {
           "brand_name": "Acros",
           "parent_company": "Mabe",
@@ -2311,178 +3228,156 @@
       ]
     },
     "by_type": {
-      "Major Appliances (full-line)": [
+      "Service Provider": [
         {
-          "brand_name": "Acros",
-          "parent_company": "Acros",
-          "country": "Mexico",
-          "type": "Major Appliances (full-line)",
-          "notes": "Self-branded manufacturer"
-        },
-        {
-          "brand_name": "Amana",
-          "parent_company": "Whirlpool Corporation",
+          "brand_name": "A&E Factory Service",
+          "parent_company": "A&E Factory Service",
           "country": "United States",
-          "type": "Major Appliances (full-line)",
-          "notes": "Value brand",
-          "headquarters": "Benton Harbor, Michigan",
-          "parent_website": "https://www.whirlpoolcorp.com",
-          "parent_revenue_usd": 19400000000
-        },
-        {
-          "brand_name": "Bosch",
-          "parent_company": "Thermador",
-          "country": "United States",
-          "type": "Major Appliances (full-line)",
-          "notes": "Parent company (German)",
-          "headquarters": "Irvine, California",
-          "parent_website": "https://www.thermador.com"
-        },
-        {
-          "brand_name": "Electrolux",
-          "parent_company": "Electrolux North America",
-          "country": "United States",
-          "type": "Major Appliances (full-line)",
-          "notes": "Main brand",
-          "headquarters": "Charlotte, North Carolina",
-          "parent_website": "https://www.electrolux.com",
-          "parent_revenue_usd": 5000000000
-        },
-        {
-          "brand_name": "Frigidaire",
-          "parent_company": "Electrolux North America",
-          "country": "United States",
-          "type": "Major Appliances (full-line)",
-          "notes": "Mass market",
-          "headquarters": "Charlotte, North Carolina",
-          "parent_website": "https://www.electrolux.com",
-          "parent_revenue_usd": 5000000000
-        },
-        {
-          "brand_name": "Frigidaire",
-          "parent_company": "Frigidaire",
-          "country": "United States",
-          "type": "Major Appliances (full-line)",
+          "type": "Service Provider",
           "notes": "Self-branded manufacturer",
-          "parent_website": "http://www.frigidaire.com"
+          "headquarters": "Various",
+          "parent_website": "https://www.aefactoryservice.com"
         },
         {
-          "brand_name": "Frigidaire Gallery",
-          "parent_company": "Electrolux North America",
+          "brand_name": "Mr. Appliance",
+          "parent_company": "Mr. Appliance",
           "country": "United States",
-          "type": "Major Appliances (full-line)",
-          "notes": "Mid-tier",
-          "headquarters": "Charlotte, North Carolina",
-          "parent_website": "https://www.electrolux.com",
-          "parent_revenue_usd": 5000000000
-        },
-        {
-          "brand_name": "Frigidaire Professional",
-          "parent_company": "Electrolux North America",
-          "country": "United States",
-          "type": "Major Appliances (full-line)",
-          "notes": "Premium",
-          "headquarters": "Charlotte, North Carolina",
-          "parent_website": "https://www.electrolux.com",
-          "parent_revenue_usd": 5000000000
-        },
-        {
-          "brand_name": "GE",
-          "parent_company": "GE Appliances",
-          "country": "United States",
-          "type": "Major Appliances (full-line)",
-          "notes": "Main brand",
-          "headquarters": "Louisville, Kentucky",
-          "parent_website": "https://www.geappliances.com",
-          "parent_revenue_usd": 8000000000
-        },
-        {
-          "brand_name": "GE (Latin America)",
-          "parent_company": "Mabe",
-          "country": "Mexico",
-          "type": "Major Appliances (full-line)",
-          "notes": "Manufactured by Mabe",
-          "headquarters": "Mexico City",
-          "parent_website": "https://www.mabe.com.mx",
-          "parent_revenue_usd": 2500000000
-        },
-        {
-          "brand_name": "GE Profile",
-          "parent_company": "GE Appliances",
-          "country": "United States",
-          "type": "Major Appliances (full-line)",
-          "notes": "Mid-tier premium",
-          "headquarters": "Louisville, Kentucky",
-          "parent_website": "https://www.geappliances.com",
-          "parent_revenue_usd": 8000000000
-        },
-        {
-          "brand_name": "Haier",
-          "parent_company": "GE Appliances",
-          "country": "United States",
-          "type": "Major Appliances (full-line)",
-          "notes": "Parent company brand",
-          "headquarters": "Louisville, Kentucky",
-          "parent_website": "https://www.geappliances.com",
-          "parent_revenue_usd": 8000000000
-        },
-        {
-          "brand_name": "KitchenAid",
-          "parent_company": "Whirlpool Corporation",
-          "country": "United States",
-          "type": "Major Appliances (full-line)",
-          "notes": "Premium brand",
-          "headquarters": "Benton Harbor, Michigan",
-          "parent_website": "https://www.whirlpoolcorp.com",
-          "parent_revenue_usd": 19400000000
-        },
-        {
-          "brand_name": "Mabe",
-          "parent_company": "Mabe",
-          "country": "Mexico",
-          "type": "Major Appliances (full-line)",
-          "notes": "Main brand",
-          "headquarters": "Mexico City",
-          "parent_website": "https://www.mabe.com.mx",
-          "parent_revenue_usd": 2500000000
-        },
-        {
-          "brand_name": "Maytag",
-          "parent_company": "Maytag",
-          "country": "United States",
-          "type": "Major Appliances (full-line)",
+          "type": "Service Provider",
           "notes": "Self-branded manufacturer",
-          "parent_website": "http://www.maytag.com"
+          "headquarters": "Waco, Texas",
+          "parent_website": "https://www.mrappliance.com"
         },
         {
-          "brand_name": "Maytag",
-          "parent_company": "Whirlpool Corporation",
+          "brand_name": "Sears Home Services",
+          "parent_company": "Sears Home Services",
           "country": "United States",
-          "type": "Major Appliances (full-line)",
-          "notes": "Acquired 2006",
-          "headquarters": "Benton Harbor, Michigan",
-          "parent_website": "https://www.whirlpoolcorp.com",
-          "parent_revenue_usd": 19400000000
+          "type": "Service Provider",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Various",
+          "parent_website": "https://www.searshomeservices.com"
+        }
+      ],
+      "Buying Group": [
+        {
+          "brand_name": "AVB BrandSource",
+          "parent_company": "AVB BrandSource",
+          "country": "United States",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Anaheim, California",
+          "parent_website": "https://www.avb.com"
         },
         {
-          "brand_name": "Roper",
-          "parent_company": "Whirlpool Corporation",
+          "brand_name": "BrandSource",
+          "parent_company": "BrandSource",
           "country": "United States",
-          "type": "Major Appliances (full-line)",
-          "notes": "Value brand",
-          "headquarters": "Benton Harbor, Michigan",
-          "parent_website": "https://www.whirlpoolcorp.com",
-          "parent_revenue_usd": 19400000000
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Anaheim, California",
+          "parent_website": "https://www.brandsource.com"
         },
         {
-          "brand_name": "Whirlpool",
-          "parent_company": "Whirlpool Corporation",
+          "brand_name": "CANTREX Nationwide",
+          "parent_company": "CANTREX Nationwide",
+          "country": "Canada",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Mississauga, Ontario",
+          "parent_website": "https://www.cantrex.com"
+        },
+        {
+          "brand_name": "MEGA Group USA",
+          "parent_company": "MEGA Group USA",
           "country": "United States",
-          "type": "Major Appliances (full-line)",
-          "notes": "Flagship brand",
-          "headquarters": "Benton Harbor, Michigan",
-          "parent_website": "https://www.whirlpoolcorp.com",
-          "parent_revenue_usd": 19400000000
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Dallas, Texas",
+          "parent_website": "https://www.megagroupusa.com"
+        },
+        {
+          "brand_name": "Mega Group Canada",
+          "parent_company": "Mega Group Canada",
+          "country": "Canada",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Vancouver, British Columbia",
+          "parent_website": "https://www.megagroupcanada.com"
+        },
+        {
+          "brand_name": "NECO Alliance",
+          "parent_company": "NECO Alliance",
+          "country": "United States",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Various",
+          "parent_website": "https://www.necoalliance.com"
+        },
+        {
+          "brand_name": "Nationwide Marketing Group (NMG)",
+          "parent_company": "Nationwide Marketing Group (NMG)",
+          "country": "United States",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Winston-Salem, North Carolina",
+          "parent_website": "https://www.nationwidegroup.org"
+        }
+      ],
+      "Dealer": [
+        {
+          "brand_name": "Abt Electronics",
+          "parent_company": "Abt Electronics",
+          "country": "United States",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Glenview, Illinois",
+          "parent_website": "https://www.abt.com",
+          "parent_revenue_usd": 500000000
+        },
+        {
+          "brand_name": "Albert Lee Appliance",
+          "parent_company": "Albert Lee Appliance",
+          "country": "United States",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Seattle, Washington",
+          "parent_website": "https://www.quiteapossibly.com"
+        },
+        {
+          "brand_name": "P.C. Richard & Son",
+          "parent_company": "P.C. Richard & Son",
+          "country": "United States",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Farmingdale, New York",
+          "parent_website": "https://www.pcrichard.com",
+          "parent_revenue_usd": 800000000
+        },
+        {
+          "brand_name": "Tasco Appliances",
+          "parent_company": "Tasco Appliances",
+          "country": "Canada",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Toronto, Ontario",
+          "parent_website": "https://www.tasco.ca"
+        },
+        {
+          "brand_name": "Trail Appliances",
+          "parent_company": "Trail Appliances",
+          "country": "Canada",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Vancouver, British Columbia",
+          "parent_website": "https://www.trailappliances.com"
+        },
+        {
+          "brand_name": "Yale Appliance",
+          "parent_company": "Yale Appliance",
+          "country": "United States",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Boston, Massachusetts",
+          "parent_website": "https://www.yaleappliance.com"
         }
       ],
       "Major Appliances": [
@@ -2529,6 +3424,14 @@
           "notes": "Self-branded manufacturer"
         },
         {
+          "brand_name": "Aroma Housewares",
+          "parent_company": "Aroma Housewares",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.aromaco.com/"
+        },
+        {
           "brand_name": "Beatty Brothers Limited",
           "parent_company": "Beatty Brothers Limited",
           "country": "Canada",
@@ -2569,6 +3472,14 @@
           "parent_revenue_usd": 2500000000
         },
         {
+          "brand_name": "Dacor (kitchen appliances)",
+          "parent_company": "Dacor (kitchen appliances)",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.dacor.com"
+        },
+        {
           "brand_name": "Easy",
           "parent_company": "Mabe",
           "country": "Mexico",
@@ -2592,6 +3503,14 @@
           "country": "Canada",
           "type": "Major Appliances",
           "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Farberware",
+          "parent_company": "Farberware",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://www.farberwarecookware.com/"
         },
         {
           "brand_name": "Felix Storch, Inc",
@@ -2710,6 +3629,14 @@
           "notes": "Self-branded manufacturer"
         },
         {
+          "brand_name": "KitchenAid",
+          "parent_company": "KitchenAid",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.kitchenaid.com/"
+        },
+        {
           "brand_name": "Konecranes",
           "parent_company": "Konecranes",
           "country": "United States",
@@ -2764,6 +3691,14 @@
           "country": "United States",
           "type": "Major Appliances",
           "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "National Presto Industries",
+          "parent_company": "National Presto Industries",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.gopresto.com/"
         },
         {
           "brand_name": "NuTone",
@@ -2821,6 +3756,14 @@
           "parent_website": "http://www.rainbowsystem.com/"
         },
         {
+          "brand_name": "Rival (consumer products company)",
+          "parent_company": "Rival (consumer products company)",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.rivalproducts.com"
+        },
+        {
           "brand_name": "Russell Hobbs, Inc.",
           "parent_company": "Russell Hobbs, Inc.",
           "country": "United States",
@@ -2865,6 +3808,14 @@
           "type": "Major Appliances",
           "notes": "Self-branded manufacturer",
           "parent_website": "https://www.standex.com/"
+        },
+        {
+          "brand_name": "Summit Appliance",
+          "parent_company": "Summit Appliance",
+          "country": "United States",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "https://summitappliance.com"
         },
         {
           "brand_name": "Tacony Corporation",
@@ -2968,290 +3919,349 @@
           "parent_revenue_usd": 500000000
         }
       ],
-      "Major Appliances (cooking)": [
+      "Distributor": [
         {
-          "brand_name": "American Range",
-          "parent_company": "American Range",
+          "brand_name": "Almo Corporation",
+          "parent_company": "Almo Corporation",
           "country": "United States",
-          "type": "Major Appliances (cooking)",
-          "notes": "Commercial and residential",
-          "headquarters": "Pacoima, California",
-          "parent_website": "https://americanrange.com"
-        },
-        {
-          "brand_name": "BlueStar",
-          "parent_company": "BlueStar",
-          "country": "United States",
-          "type": "Major Appliances (cooking)",
-          "notes": "Professional ranges",
-          "headquarters": "Reading, Pennsylvania",
-          "parent_website": "https://www.bluestarcooking.com"
-        },
-        {
-          "brand_name": "Dacor (kitchen appliances)",
-          "parent_company": "Dacor (kitchen appliances)",
-          "country": "United States",
-          "type": "Major Appliances (cooking)",
+          "type": "Distributor",
           "notes": "Self-branded manufacturer",
-          "parent_website": "http://www.dacor.com"
-        },
-        {
-          "brand_name": "Elmira",
-          "parent_company": "Elmira Stove Works",
-          "country": "Canada",
-          "type": "Major Appliances (cooking)",
-          "notes": "Retro-inspired ranges",
-          "headquarters": "Elmira, Ontario",
-          "parent_website": "https://elmirastoveworks.com"
-        },
-        {
-          "brand_name": "Favorite Stove",
-          "parent_company": "Favorite Stove",
-          "country": "United States",
-          "type": "Major Appliances (cooking)",
-          "notes": "Self-branded manufacturer"
-        },
-        {
-          "brand_name": "FiveStar",
-          "parent_company": "Brown Stove Works",
-          "country": "United States",
-          "type": "Major Appliances (cooking)",
-          "notes": "Professional ranges",
-          "headquarters": "Cleveland, Tennessee",
-          "parent_website": "https://www.brownstoveworksinc.com"
-        },
-        {
-          "brand_name": "Malleable Iron Range Company",
-          "parent_company": "Malleable Iron Range Company",
-          "country": "United States",
-          "type": "Major Appliances (cooking)",
-          "notes": "Self-branded manufacturer"
-        },
-        {
-          "brand_name": "Northstar",
-          "parent_company": "Elmira Stove Works",
-          "country": "Canada",
-          "type": "Major Appliances (cooking)",
-          "notes": "Retro refrigerators",
-          "headquarters": "Elmira, Ontario",
-          "parent_website": "https://elmirastoveworks.com"
-        },
-        {
-          "brand_name": "Victory Range Hoods",
-          "parent_company": "Victory Range Hoods",
-          "country": "Canada",
-          "type": "Major Appliances (cooking)",
-          "notes": "Self-branded manufacturer",
-          "headquarters": "Coquitlam, British Columbia"
-        },
-        {
-          "brand_name": "Viking",
-          "parent_company": "Viking Range",
-          "country": "United States",
-          "type": "Major Appliances (cooking)",
-          "notes": "Professional-style ranges",
-          "headquarters": "Greenwood, Mississippi",
-          "parent_website": "https://www.vikingrange.com"
-        },
-        {
-          "brand_name": "Wolf",
-          "parent_company": "Sub-Zero Group",
-          "country": "United States",
-          "type": "Major Appliances (cooking)",
-          "notes": "Luxury cooking",
-          "headquarters": "Madison, Wisconsin",
-          "parent_website": "https://www.subzero-wolf.com",
+          "headquarters": "Philadelphia, Pennsylvania",
+          "parent_website": "https://www.almo.com",
           "parent_revenue_usd": 2500000000
+        },
+        {
+          "brand_name": "D&H Distributing",
+          "parent_company": "D&H Distributing",
+          "country": "United States",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Harrisburg, Pennsylvania",
+          "parent_website": "https://www.dandh.com",
+          "parent_revenue_usd": 7000000000
+        },
+        {
+          "brand_name": "DERA (Distributor Efficiency & Resource Alliance)",
+          "parent_company": "DERA (Distributor Efficiency & Resource Alliance)",
+          "country": "United States",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Dallas, Texas",
+          "parent_website": "https://www.dera.com"
+        },
+        {
+          "brand_name": "DERA Canada",
+          "parent_company": "DERA Canada",
+          "country": "Canada",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Toronto, Ontario",
+          "parent_website": "https://www.dera.ca"
+        },
+        {
+          "brand_name": "Marcone Supply",
+          "parent_company": "Marcone Supply",
+          "country": "United States",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Saint Louis, Missouri",
+          "parent_website": "https://www.marcone.com",
+          "parent_revenue_usd": 1000000000
+        },
+        {
+          "brand_name": "Pacific Sales",
+          "parent_company": "Pacific Sales",
+          "country": "United States",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Torrance, California",
+          "parent_website": "https://www.pacificsales.com"
+        },
+        {
+          "brand_name": "Reliable Parts",
+          "parent_company": "Reliable Parts",
+          "country": "United States",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Hayward, California",
+          "parent_website": "https://www.reliableparts.com"
+        },
+        {
+          "brand_name": "Warners' Stellian",
+          "parent_company": "Warners' Stellian",
+          "country": "United States",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Saint Paul, Minnesota",
+          "parent_website": "https://www.warnersstellian.com"
         }
       ],
-      "Small Appliances": [
+      "Major Appliances (full-line)": [
         {
-          "brand_name": "Aroma Housewares",
-          "parent_company": "Aroma Housewares",
+          "brand_name": "Amana",
+          "parent_company": "Whirlpool Corporation",
           "country": "United States",
-          "type": "Small Appliances",
+          "type": "Major Appliances (full-line)",
+          "notes": "Value brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "BSH Home Appliances",
+          "parent_company": "BSH Home Appliances",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
           "notes": "Self-branded manufacturer",
-          "parent_website": "http://www.aromaco.com/"
+          "headquarters": "Irvine, California",
+          "parent_website": "https://www.bsh-group.com",
+          "parent_revenue_usd": 4500000000
         },
         {
-          "brand_name": "Black+Decker",
-          "parent_company": "Spectrum Brands",
+          "brand_name": "Electrolux",
+          "parent_company": "Electrolux North America",
           "country": "United States",
-          "type": "Small Appliances",
-          "notes": "Small kitchen appliances",
-          "parent_website": "https://www.spectrumbrands.com/"
-        },
-        {
-          "brand_name": "Blendtec",
-          "parent_company": "Blendtec",
-          "country": "United States",
-          "type": "Small Appliances",
-          "notes": "Professional blenders",
-          "parent_website": "https://www.blendtec.com"
-        },
-        {
-          "brand_name": "Crock-Pot",
-          "parent_company": "Newell Brands",
-          "country": "United States",
-          "type": "Small Appliances",
-          "notes": "Slow cookers",
-          "parent_website": "https://www.newellbrands.com/"
-        },
-        {
-          "brand_name": "Cuisinart",
-          "parent_company": "Cuisinart",
-          "country": "United States",
-          "type": "Small Appliances",
-          "notes": "Food processors and kitchen appliances",
-          "parent_website": "http://cuisinart.com"
-        },
-        {
-          "brand_name": "Emeril",
-          "parent_company": "Spectrum Brands",
-          "country": "United States",
-          "type": "Small Appliances",
-          "notes": "Celebrity chef brand",
-          "parent_website": "https://www.spectrumbrands.com/"
-        },
-        {
-          "brand_name": "Farberware",
-          "parent_company": "Farberware",
-          "country": "United States",
-          "type": "Small Appliances",
-          "notes": "Self-branded manufacturer",
-          "parent_website": "https://www.farberwarecookware.com/"
-        },
-        {
-          "brand_name": "FoodSaver",
-          "parent_company": "Newell Brands",
-          "country": "United States",
-          "type": "Small Appliances",
-          "notes": "Vacuum sealers",
-          "parent_website": "https://www.newellbrands.com/"
-        },
-        {
-          "brand_name": "George Foreman",
-          "parent_company": "Spectrum Brands",
-          "country": "United States",
-          "type": "Small Appliances",
-          "notes": "Grills and cooking",
-          "parent_website": "https://www.spectrumbrands.com/"
-        },
-        {
-          "brand_name": "Hamilton Beach",
-          "parent_company": "Hamilton Beach Brands",
-          "country": "United States",
-          "type": "Small Appliances",
+          "type": "Major Appliances (full-line)",
           "notes": "Main brand",
-          "headquarters": "Glen Allen, Virginia",
-          "parent_website": "https://hamiltonbeach.com",
-          "parent_revenue_usd": 600000000
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
         },
         {
-          "brand_name": "John Oster Manufacturing Company",
-          "parent_company": "John Oster Manufacturing Company",
+          "brand_name": "Frigidaire",
+          "parent_company": "Electrolux North America",
           "country": "United States",
-          "type": "Small Appliances",
+          "type": "Major Appliances (full-line)",
+          "notes": "Mass market",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "Frigidaire",
+          "parent_company": "Frigidaire",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
           "notes": "Self-branded manufacturer",
-          "parent_website": "http://www.sunbeam.com"
+          "parent_website": "http://www.frigidaire.com"
+        },
+        {
+          "brand_name": "Frigidaire Gallery",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Mid-tier",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "Frigidaire Professional",
+          "parent_company": "Electrolux North America",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Premium",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.electrolux.com",
+          "parent_revenue_usd": 5000000000
+        },
+        {
+          "brand_name": "GE",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Main brand",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
+        },
+        {
+          "brand_name": "GE (Latin America)",
+          "parent_company": "Mabe",
+          "country": "Mexico",
+          "type": "Major Appliances (full-line)",
+          "notes": "Manufactured by Mabe",
+          "headquarters": "Mexico City",
+          "parent_website": "https://www.mabe.com.mx",
+          "parent_revenue_usd": 2500000000
+        },
+        {
+          "brand_name": "GE Profile",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Mid-tier premium",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
+        },
+        {
+          "brand_name": "Haier",
+          "parent_company": "GE Appliances",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
+          "notes": "Parent company brand",
+          "headquarters": "Louisville, Kentucky",
+          "parent_website": "https://www.geappliances.com",
+          "parent_revenue_usd": 8000000000
         },
         {
           "brand_name": "KitchenAid",
-          "parent_company": "KitchenAid",
+          "parent_company": "Whirlpool Corporation",
           "country": "United States",
-          "type": "Small Appliances",
+          "type": "Major Appliances (full-line)",
+          "notes": "Premium brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        },
+        {
+          "brand_name": "LG Electronics USA",
+          "parent_company": "LG Electronics USA",
+          "country": "United States",
+          "type": "Major Appliances (full-line)",
           "notes": "Self-branded manufacturer",
-          "parent_website": "http://www.kitchenaid.com/"
+          "headquarters": "Englewood Cliffs, New Jersey",
+          "parent_website": "https://www.lg.com/us",
+          "parent_revenue_usd": 7000000000
         },
         {
-          "brand_name": "Mr. Coffee",
-          "parent_company": "Newell Brands",
-          "country": "United States",
-          "type": "Small Appliances",
-          "notes": "Coffee makers",
-          "parent_website": "https://www.newellbrands.com/"
+          "brand_name": "Mabe",
+          "parent_company": "Mabe",
+          "country": "Mexico",
+          "type": "Major Appliances (full-line)",
+          "notes": "Main brand",
+          "headquarters": "Mexico City",
+          "parent_website": "https://www.mabe.com.mx",
+          "parent_revenue_usd": 2500000000
         },
         {
-          "brand_name": "National Presto Industries",
-          "parent_company": "National Presto Industries",
+          "brand_name": "Maytag",
+          "parent_company": "Maytag",
           "country": "United States",
-          "type": "Small Appliances",
+          "type": "Major Appliances (full-line)",
           "notes": "Self-branded manufacturer",
-          "parent_website": "http://www.gopresto.com/"
+          "parent_website": "http://www.maytag.com"
         },
         {
-          "brand_name": "Ninja",
-          "parent_company": "SharkNinja",
+          "brand_name": "Maytag",
+          "parent_company": "Whirlpool Corporation",
           "country": "United States",
-          "type": "Small Appliances",
-          "notes": "Blenders and kitchen appliances",
-          "parent_website": "https://www.sharkninja.com"
+          "type": "Major Appliances (full-line)",
+          "notes": "Acquired 2006",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
         },
         {
-          "brand_name": "Oster",
-          "parent_company": "Newell Brands",
+          "brand_name": "Roper",
+          "parent_company": "Whirlpool Corporation",
           "country": "United States",
-          "type": "Small Appliances",
-          "notes": "Blenders and appliances",
-          "parent_website": "https://www.newellbrands.com/"
-        },
-        {
-          "brand_name": "Proctor Silex",
-          "parent_company": "Hamilton Beach Brands",
-          "country": "United States",
-          "type": "Small Appliances",
+          "type": "Major Appliances (full-line)",
           "notes": "Value brand",
-          "headquarters": "Glen Allen, Virginia",
-          "parent_website": "https://hamiltonbeach.com",
-          "parent_revenue_usd": 600000000
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
         },
         {
-          "brand_name": "Proctor Silex",
-          "parent_company": "Proctor Silex",
+          "brand_name": "Samsung Electronics America",
+          "parent_company": "Samsung Electronics America",
           "country": "United States",
-          "type": "Small Appliances",
+          "type": "Major Appliances (full-line)",
           "notes": "Self-branded manufacturer",
-          "parent_website": "http://www.proctorsilex.com"
+          "headquarters": "Ridgefield Park, New Jersey",
+          "parent_website": "https://www.samsung.com/us",
+          "parent_revenue_usd": 6500000000
         },
         {
-          "brand_name": "Rival (consumer products company)",
-          "parent_company": "Rival (consumer products company)",
+          "brand_name": "Whirlpool",
+          "parent_company": "Whirlpool Corporation",
           "country": "United States",
-          "type": "Small Appliances",
+          "type": "Major Appliances (full-line)",
+          "notes": "Flagship brand",
+          "headquarters": "Benton Harbor, Michigan",
+          "parent_website": "https://www.whirlpoolcorp.com",
+          "parent_revenue_usd": 19400000000
+        }
+      ],
+      "Retailer": [
+        {
+          "brand_name": "Amazon",
+          "parent_company": "Amazon",
+          "country": "United States",
+          "type": "Retailer",
           "notes": "Self-branded manufacturer",
-          "parent_website": "http://www.rivalproducts.com"
+          "headquarters": "Seattle, Washington",
+          "parent_website": "https://www.amazon.com",
+          "parent_revenue_usd": 575000000000
         },
         {
-          "brand_name": "Russell Hobbs",
-          "parent_company": "Spectrum Brands",
+          "brand_name": "Best Buy",
+          "parent_company": "Best Buy",
           "country": "United States",
-          "type": "Small Appliances",
-          "notes": "Kettles and small appliances",
-          "parent_website": "https://www.spectrumbrands.com/"
-        },
-        {
-          "brand_name": "Sunbeam",
-          "parent_company": "Newell Brands",
-          "country": "United States",
-          "type": "Small Appliances",
-          "notes": "Small appliances",
-          "parent_website": "https://www.newellbrands.com/"
-        },
-        {
-          "brand_name": "Sunbeam Products",
-          "parent_company": "Sunbeam Products",
-          "country": "United States",
-          "type": "Small Appliances",
+          "type": "Retailer",
           "notes": "Self-branded manufacturer",
-          "parent_website": "http://www.sunbeam.com"
+          "headquarters": "Richfield, Minnesota",
+          "parent_website": "https://www.bestbuy.com",
+          "parent_revenue_usd": 46000000000
         },
         {
-          "brand_name": "Vitamix",
-          "parent_company": "Vitamix",
+          "brand_name": "Canadian Tire",
+          "parent_company": "Canadian Tire",
+          "country": "Canada",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Toronto, Ontario",
+          "parent_website": "https://www.canadiantire.ca",
+          "parent_revenue_usd": 12000000000
+        },
+        {
+          "brand_name": "Costco",
+          "parent_company": "Costco",
           "country": "United States",
-          "type": "Small Appliances",
-          "notes": "High-performance blenders",
-          "parent_website": "https://www.vitamix.com"
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Issaquah, Washington",
+          "parent_website": "https://www.costco.com",
+          "parent_revenue_usd": 242000000000
+        },
+        {
+          "brand_name": "Lowe's",
+          "parent_company": "Lowe's",
+          "country": "United States",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Mooresville, North Carolina",
+          "parent_website": "https://www.lowes.com",
+          "parent_revenue_usd": 86000000000
+        },
+        {
+          "brand_name": "Nebraska Furniture Mart",
+          "parent_company": "Nebraska Furniture Mart",
+          "country": "United States",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Omaha, Nebraska",
+          "parent_website": "https://www.nfm.com"
+        },
+        {
+          "brand_name": "RC Willey",
+          "parent_company": "RC Willey",
+          "country": "United States",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Salt Lake City, Utah",
+          "parent_website": "https://www.rcwilley.com"
+        },
+        {
+          "brand_name": "The Home Depot",
+          "parent_company": "The Home Depot",
+          "country": "United States",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Atlanta, Georgia",
+          "parent_website": "https://www.homedepot.com",
+          "parent_revenue_usd": 157000000000
         }
       ],
       "Vacuum/Floor Care": [
@@ -3320,6 +4330,279 @@
           "parent_website": "https://www.sharkninja.com"
         }
       ],
+      "Small Appliances": [
+        {
+          "brand_name": "Black+Decker",
+          "parent_company": "Spectrum Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Small kitchen appliances",
+          "headquarters": "Middleton, Wisconsin",
+          "parent_website": "https://www.spectrumbrands.com",
+          "parent_revenue_usd": 3400000000
+        },
+        {
+          "brand_name": "Blendtec",
+          "parent_company": "Blendtec",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Professional blenders",
+          "parent_website": "https://www.blendtec.com"
+        },
+        {
+          "brand_name": "Crock-Pot",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Slow cookers",
+          "headquarters": "Atlanta, Georgia",
+          "parent_website": "https://www.newellbrands.com",
+          "parent_revenue_usd": 8600000000
+        },
+        {
+          "brand_name": "Cuisinart",
+          "parent_company": "Cuisinart",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Food processors and kitchen appliances",
+          "parent_website": "http://cuisinart.com"
+        },
+        {
+          "brand_name": "Emeril",
+          "parent_company": "Spectrum Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Celebrity chef brand",
+          "headquarters": "Middleton, Wisconsin",
+          "parent_website": "https://www.spectrumbrands.com",
+          "parent_revenue_usd": 3400000000
+        },
+        {
+          "brand_name": "FoodSaver",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Vacuum sealers",
+          "headquarters": "Atlanta, Georgia",
+          "parent_website": "https://www.newellbrands.com",
+          "parent_revenue_usd": 8600000000
+        },
+        {
+          "brand_name": "George Foreman",
+          "parent_company": "Spectrum Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Grills and cooking",
+          "headquarters": "Middleton, Wisconsin",
+          "parent_website": "https://www.spectrumbrands.com",
+          "parent_revenue_usd": 3400000000
+        },
+        {
+          "brand_name": "Hamilton Beach",
+          "parent_company": "Hamilton Beach Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Main brand",
+          "headquarters": "Glen Allen, Virginia",
+          "parent_website": "https://hamiltonbeach.com",
+          "parent_revenue_usd": 600000000
+        },
+        {
+          "brand_name": "John Oster Manufacturing Company",
+          "parent_company": "John Oster Manufacturing Company",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.sunbeam.com"
+        },
+        {
+          "brand_name": "Mr. Coffee",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Coffee makers",
+          "headquarters": "Atlanta, Georgia",
+          "parent_website": "https://www.newellbrands.com",
+          "parent_revenue_usd": 8600000000
+        },
+        {
+          "brand_name": "Ninja",
+          "parent_company": "SharkNinja",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Blenders and kitchen appliances",
+          "parent_website": "https://www.sharkninja.com"
+        },
+        {
+          "brand_name": "Oster",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Blenders and appliances",
+          "headquarters": "Atlanta, Georgia",
+          "parent_website": "https://www.newellbrands.com",
+          "parent_revenue_usd": 8600000000
+        },
+        {
+          "brand_name": "Proctor Silex",
+          "parent_company": "Hamilton Beach Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Value brand",
+          "headquarters": "Glen Allen, Virginia",
+          "parent_website": "https://hamiltonbeach.com",
+          "parent_revenue_usd": 600000000
+        },
+        {
+          "brand_name": "Proctor Silex",
+          "parent_company": "Proctor Silex",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.proctorsilex.com"
+        },
+        {
+          "brand_name": "Russell Hobbs",
+          "parent_company": "Spectrum Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Kettles and small appliances",
+          "headquarters": "Middleton, Wisconsin",
+          "parent_website": "https://www.spectrumbrands.com",
+          "parent_revenue_usd": 3400000000
+        },
+        {
+          "brand_name": "Sunbeam",
+          "parent_company": "Newell Brands",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Small appliances",
+          "headquarters": "Atlanta, Georgia",
+          "parent_website": "https://www.newellbrands.com",
+          "parent_revenue_usd": 8600000000
+        },
+        {
+          "brand_name": "Sunbeam Products",
+          "parent_company": "Sunbeam Products",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "Self-branded manufacturer",
+          "parent_website": "http://www.sunbeam.com"
+        },
+        {
+          "brand_name": "Vitamix",
+          "parent_company": "Vitamix",
+          "country": "United States",
+          "type": "Small Appliances",
+          "notes": "High-performance blenders",
+          "parent_website": "https://www.vitamix.com"
+        }
+      ],
+      "Major Appliances (cooking)": [
+        {
+          "brand_name": "BlueStar",
+          "parent_company": "BlueStar",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Professional ranges",
+          "headquarters": "Reading, Pennsylvania",
+          "parent_website": "https://www.bluestarcooking.com"
+        },
+        {
+          "brand_name": "Favorite Stove",
+          "parent_company": "Favorite Stove",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Malleable Iron Range Company",
+          "parent_company": "Malleable Iron Range Company",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer"
+        },
+        {
+          "brand_name": "Viking",
+          "parent_company": "Viking Range",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Professional-style ranges",
+          "headquarters": "Greenwood, Mississippi",
+          "parent_website": "https://www.vikingrange.com"
+        },
+        {
+          "brand_name": "Wolf",
+          "parent_company": "Sub-Zero Group",
+          "country": "United States",
+          "type": "Major Appliances (cooking)",
+          "notes": "Luxury cooking",
+          "headquarters": "Madison, Wisconsin",
+          "parent_website": "https://www.subzero-wolf.com",
+          "parent_revenue_usd": 2500000000
+        }
+      ],
+      "Builder": [
+        {
+          "brand_name": "D.R. Horton",
+          "parent_company": "D.R. Horton",
+          "country": "United States",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Arlington, Texas",
+          "parent_website": "https://www.drhorton.com",
+          "parent_revenue_usd": 36000000000
+        },
+        {
+          "brand_name": "Lennar",
+          "parent_company": "Lennar",
+          "country": "United States",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Miami, Florida",
+          "parent_website": "https://www.lennar.com",
+          "parent_revenue_usd": 34000000000
+        },
+        {
+          "brand_name": "Mattamy Homes",
+          "parent_company": "Mattamy Homes",
+          "country": "Canada",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Toronto, Ontario",
+          "parent_website": "https://www.mattamyhomes.com"
+        },
+        {
+          "brand_name": "NVR Inc.",
+          "parent_company": "NVR Inc.",
+          "country": "United States",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Reston, Virginia",
+          "parent_website": "https://www.nvrinc.com",
+          "parent_revenue_usd": 10000000000
+        },
+        {
+          "brand_name": "PulteGroup",
+          "parent_company": "PulteGroup",
+          "country": "United States",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Atlanta, Georgia",
+          "parent_website": "https://www.pultegroupinc.com",
+          "parent_revenue_usd": 16000000000
+        },
+        {
+          "brand_name": "Toll Brothers",
+          "parent_company": "Toll Brothers",
+          "country": "United States",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Fort Washington, Pennsylvania",
+          "parent_website": "https://www.tollbrothers.com",
+          "parent_revenue_usd": 10000000000
+        }
+      ],
       "Major Appliances (refrigeration)": [
         {
           "brand_name": "Danby",
@@ -3358,14 +4641,6 @@
           "parent_website": "https://www.subzero-wolf.com/"
         },
         {
-          "brand_name": "Summit Appliance",
-          "parent_company": "Summit Appliance",
-          "country": "United States",
-          "type": "Major Appliances (refrigeration)",
-          "notes": "Self-branded manufacturer",
-          "parent_website": "https://summitappliance.com"
-        },
-        {
           "brand_name": "U-Line",
           "parent_company": "Viking Range",
           "country": "United States",
@@ -3373,16 +4648,6 @@
           "notes": "Undercounter refrigeration",
           "headquarters": "Greenwood, Mississippi",
           "parent_website": "https://www.vikingrange.com"
-        },
-        {
-          "brand_name": "U-Line Corporation",
-          "parent_company": "U-Line Corporation",
-          "country": "United States",
-          "type": "Major Appliances (refrigeration)",
-          "notes": "Self-branded manufacturer",
-          "headquarters": "Milwaukee, Wisconsin",
-          "parent_website": "https://www.u-line.com",
-          "parent_revenue_usd": 250000000
         }
       ],
       "Specialty/Luxury": [
@@ -3395,15 +4660,6 @@
           "headquarters": "Louisville, Kentucky",
           "parent_website": "https://www.geappliances.com",
           "parent_revenue_usd": 8000000000
-        },
-        {
-          "brand_name": "Gaggenau",
-          "parent_company": "Thermador",
-          "country": "United States",
-          "type": "Specialty/Luxury",
-          "notes": "Ultra-luxury (German)",
-          "headquarters": "Irvine, California",
-          "parent_website": "https://www.thermador.com"
         },
         {
           "brand_name": "Jenn-Air",
@@ -3424,15 +4680,110 @@
           "headquarters": "Louisville, Kentucky",
           "parent_website": "https://www.geappliances.com",
           "parent_revenue_usd": 8000000000
+        }
+      ],
+      "OEM": [
+        {
+          "brand_name": "Galanz Americas",
+          "parent_company": "Galanz Americas",
+          "country": "United States",
+          "type": "OEM",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Irvine, California",
+          "parent_website": "https://www.galanzamericas.com"
         },
         {
-          "brand_name": "Thermador",
-          "parent_company": "Thermador",
+          "brand_name": "Midea Group",
+          "parent_company": "Midea Group",
           "country": "United States",
-          "type": "Specialty/Luxury",
-          "notes": "Owned by BSH (Bosch & Siemens)",
-          "headquarters": "Irvine, California",
-          "parent_website": "https://www.thermador.com"
+          "type": "OEM",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Parsippany, New Jersey",
+          "parent_website": "https://www.midea.com",
+          "parent_revenue_usd": 52000000000
+        },
+        {
+          "brand_name": "TTI Floor Care",
+          "parent_company": "TTI Floor Care",
+          "country": "United States",
+          "type": "OEM",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Charlotte, North Carolina",
+          "parent_website": "https://www.ttifloorcare.com",
+          "parent_revenue_usd": 1500000000
+        }
+      ],
+      "Installer": [
+        {
+          "brand_name": "Installation Made Easy (IME)",
+          "parent_company": "Installation Made Easy (IME)",
+          "country": "United States",
+          "type": "Installer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Minneapolis, Minnesota",
+          "parent_website": "https://www.imehome.com"
+        },
+        {
+          "brand_name": "ServiceLive",
+          "parent_company": "ServiceLive",
+          "country": "United States",
+          "type": "Installer",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Troy, Michigan",
+          "parent_website": "https://www.servicelive.com"
+        }
+      ],
+      "3PL": [
+        {
+          "brand_name": "J.B. Hunt Transport",
+          "parent_company": "J.B. Hunt Transport",
+          "country": "United States",
+          "type": "3PL",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Lowell, Arkansas",
+          "parent_website": "https://www.jbhunt.com",
+          "parent_revenue_usd": 15000000000
+        },
+        {
+          "brand_name": "MXD Group",
+          "parent_company": "MXD Group",
+          "country": "United States",
+          "type": "3PL",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "St. Louis, Missouri",
+          "parent_website": "https://www.mxdgroup.com"
+        },
+        {
+          "brand_name": "Ryder System",
+          "parent_company": "Ryder System",
+          "country": "United States",
+          "type": "3PL",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Miami, Florida",
+          "parent_website": "https://www.ryder.com",
+          "parent_revenue_usd": 11000000000
+        },
+        {
+          "brand_name": "XPO Logistics",
+          "parent_company": "XPO Logistics",
+          "country": "United States",
+          "type": "3PL",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Greenwich, Connecticut",
+          "parent_website": "https://www.xpo.com",
+          "parent_revenue_usd": 7700000000
+        }
+      ],
+      "ODM": [
+        {
+          "brand_name": "JS Global (SharkNinja)",
+          "parent_company": "JS Global (SharkNinja)",
+          "country": "United States",
+          "type": "ODM",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Needham, Massachusetts",
+          "parent_website": "https://www.sharkninja.com",
+          "parent_revenue_usd": 4000000000
         }
       ],
       "Outdoor Cooking": [
@@ -3472,10 +4823,80 @@
           "headquarters": "Salt Lake City, Utah",
           "parent_website": "https://www.traeger.com",
           "parent_revenue_usd": 600000000
+        },
+        {
+          "brand_name": "Weber-Stephen Products",
+          "parent_company": "Weber-Stephen Products",
+          "country": "United States",
+          "type": "Outdoor Cooking",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Palatine, Illinois",
+          "parent_website": "https://www.weber.com",
+          "parent_revenue_usd": 1800000000
+        }
+      ],
+      "Franchisee": [
+        {
+          "brand_name": "Sears Hometown Stores",
+          "parent_company": "Sears Hometown Stores",
+          "country": "United States",
+          "type": "Franchisee",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Various",
+          "parent_website": "https://www.searshometownstores.com"
+        }
+      ],
+      "Rep Firm": [
+        {
+          "brand_name": "Springboard Brand & Creative Strategy",
+          "parent_company": "Springboard Brand & Creative Strategy",
+          "country": "United States",
+          "type": "Rep Firm",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Dallas, Texas",
+          "parent_website": "https://www.springboardbrands.com"
+        },
+        {
+          "brand_name": "The Hartman Company",
+          "parent_company": "The Hartman Company",
+          "country": "United States",
+          "type": "Rep Firm",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Chicago, Illinois",
+          "parent_website": "https://www.hartmanco.com"
+        },
+        {
+          "brand_name": "Thomas Associates",
+          "parent_company": "Thomas Associates",
+          "country": "United States",
+          "type": "Rep Firm",
+          "notes": "Self-branded manufacturer",
+          "headquarters": "Various"
         }
       ]
     },
     "by_manufacturer": {
+      "A&E Factory Service": [
+        {
+          "name": "A&E Factory Service",
+          "type": "Service Provider",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "AVB BrandSource": [
+        {
+          "name": "AVB BrandSource",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Abt Electronics": [
+        {
+          "name": "Abt Electronics",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "Admiral (electrical appliances)": [
         {
           "name": "Admiral (electrical appliances)",
@@ -3490,10 +4911,24 @@
           "notes": "Self-branded manufacturer"
         }
       ],
+      "Albert Lee Appliance": [
+        {
+          "name": "Albert Lee Appliance",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "Alliance Laundry Systems": [
         {
           "name": "Alliance Laundry Systems",
           "type": "Major Appliances (laundry)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Almo Corporation": [
+        {
+          "name": "Almo Corporation",
+          "type": "Distributor",
           "notes": "Self-branded manufacturer"
         }
       ],
@@ -3504,17 +4939,31 @@
           "notes": "Self-branded manufacturer"
         }
       ],
-      "American Range": [
+      "Amazon": [
         {
-          "name": "American Range",
-          "type": "Major Appliances (cooking)",
-          "notes": "Commercial and residential"
+          "name": "Amazon",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer"
         }
       ],
       "Aroma Housewares": [
         {
           "name": "Aroma Housewares",
-          "type": "Small Appliances",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "BSH Home Appliances": [
+        {
+          "name": "BSH Home Appliances",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Best Buy": [
+        {
+          "name": "Best Buy",
+          "type": "Retailer",
           "notes": "Self-branded manufacturer"
         }
       ],
@@ -3546,11 +4995,11 @@
           "notes": "Self-branded manufacturer"
         }
       ],
-      "Brown Stove Works": [
+      "BrandSource": [
         {
-          "name": "FiveStar",
-          "type": "Major Appliances (cooking)",
-          "notes": "Professional ranges"
+          "name": "BrandSource",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer"
         }
       ],
       "Caloric": [
@@ -3567,6 +5016,13 @@
           "notes": "Self-branded manufacturer"
         }
       ],
+      "Costco": [
+        {
+          "name": "Costco",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "Cuisinart": [
         {
           "name": "Cuisinart",
@@ -3574,10 +5030,31 @@
           "notes": "Food processors and kitchen appliances"
         }
       ],
+      "D&H Distributing": [
+        {
+          "name": "D&H Distributing",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "D.R. Horton": [
+        {
+          "name": "D.R. Horton",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "DERA (Distributor Efficiency & Resource Alliance)": [
+        {
+          "name": "DERA (Distributor Efficiency & Resource Alliance)",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "Dacor (kitchen appliances)": [
         {
           "name": "Dacor (kitchen appliances)",
-          "type": "Major Appliances (cooking)",
+          "type": "Major Appliances",
           "notes": "Self-branded manufacturer"
         }
       ],
@@ -3647,7 +5124,7 @@
       "Farberware": [
         {
           "name": "Farberware",
-          "type": "Small Appliances",
+          "type": "Major Appliances",
           "notes": "Self-branded manufacturer"
         }
       ],
@@ -3704,6 +5181,13 @@
           "notes": "Value brand (some markets)"
         }
       ],
+      "Galanz Americas": [
+        {
+          "name": "Galanz Americas",
+          "type": "OEM",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "Gibson Appliance": [
         {
           "name": "Gibson Appliance",
@@ -3756,10 +5240,31 @@
           "notes": "Self-branded manufacturer"
         }
       ],
+      "Installation Made Easy (IME)": [
+        {
+          "name": "Installation Made Easy (IME)",
+          "type": "Installer",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "International Harvester": [
         {
           "name": "International Harvester",
           "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "J.B. Hunt Transport": [
+        {
+          "name": "J.B. Hunt Transport",
+          "type": "3PL",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "JS Global (SharkNinja)": [
+        {
+          "name": "JS Global (SharkNinja)",
+          "type": "ODM",
           "notes": "Self-branded manufacturer"
         }
       ],
@@ -3801,7 +5306,7 @@
       "KitchenAid": [
         {
           "name": "KitchenAid",
-          "type": "Small Appliances",
+          "type": "Major Appliances",
           "notes": "Self-branded manufacturer"
         }
       ],
@@ -3812,6 +5317,20 @@
           "notes": "Self-branded manufacturer"
         }
       ],
+      "LG Electronics USA": [
+        {
+          "name": "LG Electronics USA",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Lennar": [
+        {
+          "name": "Lennar",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "Leonard (appliances)": [
         {
           "name": "Leonard (appliances)",
@@ -3819,10 +5338,38 @@
           "notes": "Self-branded manufacturer"
         }
       ],
+      "Lowe's": [
+        {
+          "name": "Lowe's",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "MEGA Group USA": [
+        {
+          "name": "MEGA Group USA",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "MXD Group": [
+        {
+          "name": "MXD Group",
+          "type": "3PL",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "Malleable Iron Range Company": [
         {
           "name": "Malleable Iron Range Company",
           "type": "Major Appliances (cooking)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Marcone Supply": [
+        {
+          "name": "Marcone Supply",
+          "type": "Distributor",
           "notes": "Self-branded manufacturer"
         }
       ],
@@ -3847,10 +5394,38 @@
           "notes": "Self-branded manufacturer"
         }
       ],
+      "Midea Group": [
+        {
+          "name": "Midea Group",
+          "type": "OEM",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Mr. Appliance": [
+        {
+          "name": "Mr. Appliance",
+          "type": "Service Provider",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "NACCO Industries": [
         {
           "name": "NACCO Industries",
           "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "NECO Alliance": [
+        {
+          "name": "NECO Alliance",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "NVR Inc.": [
+        {
+          "name": "NVR Inc.",
+          "type": "Builder",
           "notes": "Self-branded manufacturer"
         }
       ],
@@ -3871,7 +5446,21 @@
       "National Presto Industries": [
         {
           "name": "National Presto Industries",
-          "type": "Small Appliances",
+          "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Nationwide Marketing Group (NMG)": [
+        {
+          "name": "Nationwide Marketing Group (NMG)",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Nebraska Furniture Mart": [
+        {
+          "name": "Nebraska Furniture Mart",
+          "type": "Retailer",
           "notes": "Self-branded manufacturer"
         }
       ],
@@ -3916,6 +5505,20 @@
           "notes": "Self-branded manufacturer"
         }
       ],
+      "P.C. Richard & Son": [
+        {
+          "name": "P.C. Richard & Son",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Pacific Sales": [
+        {
+          "name": "Pacific Sales",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "Peerless-Premier Appliance Company": [
         {
           "name": "Peerless-Premier Appliance Company",
@@ -3944,6 +5547,27 @@
           "notes": "Self-branded manufacturer"
         }
       ],
+      "PulteGroup": [
+        {
+          "name": "PulteGroup",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "RC Willey": [
+        {
+          "name": "RC Willey",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Reliable Parts": [
+        {
+          "name": "Reliable Parts",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "Remington (personal care brand)": [
         {
           "name": "Remington (personal care brand)",
@@ -3961,7 +5585,7 @@
       "Rival (consumer products company)": [
         {
           "name": "Rival (consumer products company)",
-          "type": "Small Appliances",
+          "type": "Major Appliances",
           "notes": "Self-branded manufacturer"
         }
       ],
@@ -3972,10 +5596,45 @@
           "notes": "Self-branded manufacturer"
         }
       ],
+      "Ryder System": [
+        {
+          "name": "Ryder System",
+          "type": "3PL",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "SVP Worldwide": [
         {
           "name": "SVP Worldwide",
           "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Samsung Electronics America": [
+        {
+          "name": "Samsung Electronics America",
+          "type": "Major Appliances (full-line)",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Sears Home Services": [
+        {
+          "name": "Sears Home Services",
+          "type": "Service Provider",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Sears Hometown Stores": [
+        {
+          "name": "Sears Hometown Stores",
+          "type": "Franchisee",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "ServiceLive": [
+        {
+          "name": "ServiceLive",
+          "type": "Installer",
           "notes": "Self-branded manufacturer"
         }
       ],
@@ -4034,6 +5693,13 @@
           "notes": "Commercial-grade laundry"
         }
       ],
+      "Springboard Brand & Creative Strategy": [
+        {
+          "name": "Springboard Brand & Creative Strategy",
+          "type": "Rep Firm",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "Staber Industries": [
         {
           "name": "Staber Industries",
@@ -4075,7 +5741,7 @@
       "Summit Appliance": [
         {
           "name": "Summit Appliance",
-          "type": "Major Appliances (refrigeration)",
+          "type": "Major Appliances",
           "notes": "Self-branded manufacturer"
         }
       ],
@@ -4083,6 +5749,13 @@
         {
           "name": "Sunbeam Products",
           "type": "Small Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "TTI Floor Care": [
+        {
+          "name": "TTI Floor Care",
+          "type": "OEM",
           "notes": "Self-branded manufacturer"
         }
       ],
@@ -4107,6 +5780,20 @@
           "notes": "Self-branded manufacturer"
         }
       ],
+      "The Hartman Company": [
+        {
+          "name": "The Hartman Company",
+          "type": "Rep Firm",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "The Home Depot": [
+        {
+          "name": "The Home Depot",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "The Hoover Company": [
         {
           "name": "Hoover",
@@ -4114,21 +5801,11 @@
           "notes": "Vacuum cleaners"
         }
       ],
-      "Thermador": [
+      "Thomas Associates": [
         {
-          "name": "Thermador",
-          "type": "Specialty/Luxury",
-          "notes": "Owned by BSH (Bosch & Siemens)"
-        },
-        {
-          "name": "Bosch",
-          "type": "Major Appliances (full-line)",
-          "notes": "Parent company (German)"
-        },
-        {
-          "name": "Gaggenau",
-          "type": "Specialty/Luxury",
-          "notes": "Ultra-luxury (German)"
+          "name": "Thomas Associates",
+          "type": "Rep Firm",
+          "notes": "Self-branded manufacturer"
         }
       ],
       "Thor Power Tool Company": [
@@ -4138,18 +5815,18 @@
           "notes": "Self-branded manufacturer"
         }
       ],
+      "Toll Brothers": [
+        {
+          "name": "Toll Brothers",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "Traeger Grills": [
         {
           "name": "Traeger",
           "type": "Outdoor Cooking",
           "notes": "Wood pellet grills"
-        }
-      ],
-      "U-Line Corporation": [
-        {
-          "name": "U-Line Corporation",
-          "type": "Major Appliances (refrigeration)",
-          "notes": "Self-branded manufacturer"
         }
       ],
       "Viking Range": [
@@ -4174,6 +5851,20 @@
           "name": "Vitamix",
           "type": "Small Appliances",
           "notes": "High-performance blenders"
+        }
+      ],
+      "Warners' Stellian": [
+        {
+          "name": "Warners' Stellian",
+          "type": "Distributor",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Weber-Stephen Products": [
+        {
+          "name": "Weber-Stephen Products",
+          "type": "Outdoor Cooking",
+          "notes": "Self-branded manufacturer"
         }
       ],
       "West Bend Housewares": [
@@ -4244,10 +5935,45 @@
           "notes": "Self-branded manufacturer"
         }
       ],
+      "XPO Logistics": [
+        {
+          "name": "XPO Logistics",
+          "type": "3PL",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Yale Appliance": [
+        {
+          "name": "Yale Appliance",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "Beatty Brothers Limited": [
         {
           "name": "Beatty Brothers Limited",
           "type": "Major Appliances",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "CANTREX Nationwide": [
+        {
+          "name": "CANTREX Nationwide",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Canadian Tire": [
+        {
+          "name": "Canadian Tire",
+          "type": "Retailer",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "DERA Canada": [
+        {
+          "name": "DERA Canada",
+          "type": "Distributor",
           "notes": "Self-branded manufacturer"
         }
       ],
@@ -4265,18 +5991,6 @@
           "notes": "Self-branded manufacturer"
         }
       ],
-      "Elmira Stove Works": [
-        {
-          "name": "Elmira",
-          "type": "Major Appliances (cooking)",
-          "notes": "Retro-inspired ranges"
-        },
-        {
-          "name": "Northstar",
-          "type": "Major Appliances (cooking)",
-          "notes": "Retro refrigerators"
-        }
-      ],
       "Fantom Technologies": [
         {
           "name": "Fantom Technologies",
@@ -4291,6 +6005,20 @@
           "notes": "Self-branded manufacturer"
         }
       ],
+      "Mattamy Homes": [
+        {
+          "name": "Mattamy Homes",
+          "type": "Builder",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Mega Group Canada": [
+        {
+          "name": "Mega Group Canada",
+          "type": "Buying Group",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "Napoleon": [
         {
           "name": "Napoleon",
@@ -4298,24 +6026,24 @@
           "notes": "Grills and fireplaces"
         }
       ],
+      "Tasco Appliances": [
+        {
+          "name": "Tasco Appliances",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
+      "Trail Appliances": [
+        {
+          "name": "Trail Appliances",
+          "type": "Dealer",
+          "notes": "Self-branded manufacturer"
+        }
+      ],
       "Trudeau Corporation": [
         {
           "name": "Trudeau Corporation",
           "type": "Major Appliances",
-          "notes": "Self-branded manufacturer"
-        }
-      ],
-      "Victory Range Hoods": [
-        {
-          "name": "Victory Range Hoods",
-          "type": "Major Appliances (cooking)",
-          "notes": "Self-branded manufacturer"
-        }
-      ],
-      "Acros": [
-        {
-          "name": "Acros",
-          "type": "Major Appliances (full-line)",
           "notes": "Self-branded manufacturer"
         }
       ],

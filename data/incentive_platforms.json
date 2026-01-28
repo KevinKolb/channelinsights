@@ -1,113 +1,163 @@
 {
   "metadata": {
-    "date_pulled": "2026-01-09T08:16:40.037923+00:00",
+    "date_pulled": "2026-01-28T16:25:34.667374+00:00",
     "source": "Industry Research (2026)",
-    "total_count": 26,
     "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "total_count": 26
   },
   "North America": {
     "United States": {
       "entities": [
         {
           "name": "Allbound",
-          "website": "https://www.allbound.com"
+          "website": "https://www.allbound.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "BI WORLDWIDE",
-          "website": "https://www.biworldwide.com"
+          "website": "https://www.biworldwide.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Blackhawk Network",
-          "website": "https://www.blackhawknetwork.com"
+          "website": "https://www.blackhawknetwork.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Channelscaler",
-          "website": "https://channelscaler.com"
+          "website": "https://channelscaler.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Channeltivity",
-          "website": "https://www.channeltivity.com"
+          "website": "https://www.channeltivity.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Dash Solutions",
-          "website": "https://dashsolutions.com"
+          "website": "https://dashsolutions.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Enable",
-          "website": "https://www.enable.com"
+          "website": "https://www.enable.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Impartner",
-          "website": "https://www.impartner.com"
+          "website": "https://www.impartner.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "InComm Incentives",
-          "website": "https://www.incommincentives.com"
+          "website": "https://www.incommincentives.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Incentit",
-          "website": "https://incentit.com"
+          "website": "https://incentit.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Model N",
-          "website": "https://www.modeln.com"
+          "website": "https://www.modeln.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Optymyze",
-          "website": "https://www.optymyze.com"
+          "website": "https://www.optymyze.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Performio",
-          "website": "https://www.performio.co"
+          "website": "https://www.performio.co",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Rybbon",
-          "website": "https://www.rybbon.net"
+          "website": "https://www.rybbon.net",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Salesforce (Incentive Compensation)",
-          "website": "https://www.salesforce.com"
+          "website": "https://www.salesforce.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Tango Card",
-          "website": "https://www.tangocard.com"
+          "website": "https://www.tangocard.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "The Incentive Group",
-          "website": "https://www.incentivegroup.com"
+          "website": "https://www.incentivegroup.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Tremendous",
-          "website": "https://www.tremendous.com"
+          "website": "https://www.tremendous.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Varicent (IBM)",
-          "website": "https://www.varicent.com"
+          "website": "https://www.varicent.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Vendavo",
-          "website": "https://www.vendavo.com"
+          "website": "https://www.vendavo.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Vistex",
-          "website": "https://www.vistex.com"
+          "website": "https://www.vistex.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Xoxoday",
-          "website": "https://www.xoxoday.com"
+          "website": "https://www.xoxoday.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "ZiftONE",
-          "website": "https://www.ziftone.com"
+          "website": "https://www.ziftone.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "Zinfi",
-          "website": "https://www.zinfi.com"
+          "website": "https://www.zinfi.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         },
         {
           "name": "e2open",
-          "website": "https://www.e2open.com"
+          "website": "https://www.e2open.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         }
       ]
     },
@@ -115,7 +165,9 @@
       "entities": [
         {
           "name": "360insights",
-          "website": "https://www.360insights.com"
+          "website": "https://www.360insights.com",
+          "category": "Middle",
+          "sub_type": "Rebate Management / Incentive Platform"
         }
       ]
     },

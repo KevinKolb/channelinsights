@@ -1,105 +1,151 @@
 {
   "metadata": {
-    "date_pulled": "2026-01-09T08:23:49.643907+00:00",
+    "date_pulled": "2026-01-28T16:25:34.922400+00:00",
     "source": "Industry Research (2026)",
-    "total_count": 24,
     "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "total_count": 24
   },
   "North America": {
     "United States": {
       "entities": [
         {
           "name": "ARS/Rescue Rooter",
-          "website": "https://www.ars.com"
+          "website": "https://www.ars.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "AmTrust Financial Services",
-          "website": "https://www.amtrustfinancial.com"
+          "website": "https://www.amtrustfinancial.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "American Home Shield",
-          "website": "https://www.ahs.com"
+          "website": "https://www.ahs.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "Appliance Repair Depot",
-          "website": "https://www.appliancerepairdepot.com"
+          "website": "https://www.appliancerepairdepot.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "Asurion",
-          "website": "https://www.asurion.com"
+          "website": "https://www.asurion.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "Cinch Home Services",
-          "website": "https://www.cinchhomeservices.com"
+          "website": "https://www.cinchhomeservices.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "FieldEdge (Xplor)",
-          "website": "https://www.fieldedge.com"
+          "website": "https://www.fieldedge.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "First American Home Warranty",
-          "website": "https://www.firstam.com"
+          "website": "https://www.firstam.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "HomeServe USA",
-          "website": "https://www.homeserveusa.com"
+          "website": "https://www.homeserveusa.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "Housecall Pro",
-          "website": "https://www.housecallpro.com"
+          "website": "https://www.housecallpro.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "Mr. Appliance (Neighborly)",
-          "website": "https://www.mrappliance.com"
+          "website": "https://www.mrappliance.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "Nexstar Network",
-          "website": "https://www.nexstarnetwork.com"
+          "website": "https://www.nexstarnetwork.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "PartSelect",
-          "website": "https://www.partselect.com"
+          "website": "https://www.partselect.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "PartsSource",
-          "website": "https://www.partssource.com"
+          "website": "https://www.partssource.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "RepairClinic",
-          "website": "https://www.repairclinic.com"
+          "website": "https://www.repairclinic.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "Sears Home Services",
-          "website": "https://www.searshomeservices.com"
+          "website": "https://www.searshomeservices.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "Service Experts",
-          "website": "https://www.serviceexperts.com"
+          "website": "https://www.serviceexperts.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "Service Nation Alliance",
-          "website": "https://www.servicenation.com"
+          "website": "https://www.servicenation.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "Service Roundtable",
-          "website": "https://www.serviceroundtable.com"
+          "website": "https://www.serviceroundtable.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "ServiceBench",
-          "website": "https://www.servicebench.com"
+          "website": "https://www.servicebench.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "ServiceMax (PTC)",
-          "website": "https://www.servicemax.com"
+          "website": "https://www.servicemax.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "ServiceTitan",
-          "website": "https://www.servicetitan.com"
+          "website": "https://www.servicetitan.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         },
         {
           "name": "Servicelution (Assurant)",
-          "website": "https://www.servicelution.com"
+          "website": "https://www.servicelution.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         }
       ]
     },
@@ -107,7 +153,9 @@
       "entities": [
         {
           "name": "Jobber",
-          "website": "https://getjobber.com"
+          "website": "https://getjobber.com",
+          "category": "Projects",
+          "sub_type": "Authorized Service Provider"
         }
       ]
     },

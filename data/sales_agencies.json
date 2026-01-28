@@ -1,41 +1,55 @@
 {
   "metadata": {
-    "date_pulled": "2026-01-09T08:23:47.466430+00:00",
+    "date_pulled": "2026-01-28T16:25:34.919860+00:00",
     "source": "Industry Research (2026)",
-    "total_count": 9,
     "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "total_count": 9
   },
   "North America": {
     "United States": {
       "entities": [
         {
           "name": "Alliance of Technology Service Providers",
-          "website": "https://www.theallianceoftsp.org"
+          "website": "https://www.theallianceoftsp.org",
+          "category": "Middle",
+          "sub_type": "Rep Firm / Manufacturer's Rep"
         },
         {
           "name": "Commercial Service Association (CSA)",
-          "website": "https://www.csa.com"
+          "website": "https://www.csa.com",
+          "category": "Middle",
+          "sub_type": "Rep Firm / Manufacturer's Rep"
         },
         {
           "name": "Manufacturers Representatives Educational Research Foundation",
-          "website": "https://www.mrerf.org"
+          "website": "https://www.mrerf.org",
+          "category": "Middle",
+          "sub_type": "Rep Firm / Manufacturer's Rep"
         },
         {
           "name": "Manufacturers' Agents National Association (MANA)",
-          "website": "https://www.manaonline.org"
+          "website": "https://www.manaonline.org",
+          "category": "Middle",
+          "sub_type": "Rep Firm / Manufacturer's Rep"
         },
         {
           "name": "RepHunter",
-          "website": "https://www.rephunter.net"
+          "website": "https://www.rephunter.net",
+          "category": "Middle",
+          "sub_type": "Rep Firm / Manufacturer's Rep"
         },
         {
           "name": "Repfabric",
-          "website": "https://www.repfabric.com"
+          "website": "https://www.repfabric.com",
+          "category": "Middle",
+          "sub_type": "Rep Firm / Manufacturer's Rep"
         },
         {
           "name": "TechRep Solutions",
-          "website": "https://www.techrepsolutions.com"
+          "website": "https://www.techrepsolutions.com",
+          "category": "Middle",
+          "sub_type": "Rep Firm / Manufacturer's Rep"
         }
       ]
     },
@@ -43,11 +57,15 @@
       "entities": [
         {
           "name": "Canadian Professional Sales Association",
-          "website": "https://www.cpsa.com"
+          "website": "https://www.cpsa.com",
+          "category": "Middle",
+          "sub_type": "Rep Firm / Manufacturer's Rep"
         },
         {
           "name": "Sales Talent Agency",
-          "website": "https://www.salestalent.com"
+          "website": "https://www.salestalent.com",
+          "category": "Middle",
+          "sub_type": "Rep Firm / Manufacturer's Rep"
         }
       ]
     },

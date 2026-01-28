@@ -1,42 +1,56 @@
 {
   "metadata": {
-    "date_pulled": "2026-01-09T07:57:27.781121+00:00",
+    "date_pulled": "2026-01-28T16:25:34.563641+00:00",
     "source": "Wikidata",
-    "total_count": 7,
     "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "total_count": 7
   },
   "North America": {
     "United States": {
       "entities": [
         {
           "name": "Heer's",
-          "wikidata_id": "Q5698024"
+          "wikidata_id": "Q5698024",
+          "category": "Sellers",
+          "sub_type": "Dealer / Independent Showroom"
         },
         {
           "name": "Heironimus",
-          "wikidata_id": "Q5700967"
+          "wikidata_id": "Q5700967",
+          "category": "Sellers",
+          "sub_type": "Dealer / Independent Showroom"
         },
         {
           "name": "Hess's",
-          "wikidata_id": "Q16995296"
+          "wikidata_id": "Q16995296",
+          "category": "Sellers",
+          "sub_type": "Dealer / Independent Showroom"
         },
         {
           "name": "John G. Myers Company",
-          "wikidata_id": "Q19881146"
+          "wikidata_id": "Q19881146",
+          "category": "Sellers",
+          "sub_type": "Dealer / Independent Showroom"
         },
         {
           "name": "Marukai Corporation U.S.A.",
           "wikidata_id": "Q6777925",
-          "website": "http://www.marukai.co.jp"
+          "website": "http://www.marukai.co.jp",
+          "category": "Sellers",
+          "sub_type": "Dealer / Independent Showroom"
         },
         {
           "name": "May Company California",
-          "wikidata_id": "Q6796463"
+          "wikidata_id": "Q6796463",
+          "category": "Sellers",
+          "sub_type": "Dealer / Independent Showroom"
         },
         {
           "name": "Robinsons-May",
-          "wikidata_id": "Q5657602"
+          "wikidata_id": "Q5657602",
+          "category": "Sellers",
+          "sub_type": "Dealer / Independent Showroom"
         }
       ]
     },

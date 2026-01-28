@@ -1,33 +1,19 @@
 {
   "metadata": {
-    "date_pulled": "2026-01-16T19:04:26.808292+00:00",
+    "date_pulled": "2026-01-28T16:26:58.342698+00:00",
     "source": "Python Script",
     "sources": [
       "Wikidata",
       "Wikipedia",
-      "AHAM",
       "Manual Curation"
     ],
     "total_manufacturers": 144,
-    "license": "CC0 1.0 / Creative Commons (varies by source)",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "note": "Data aggregated from multiple sources. Accuracy may vary."
+    "license": "CC0 1.0 / Creative Commons",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   "North America": {
     "United States": {
       "manufacturers": [
-        {
-          "name": "!\"Almo Corporation",
-          "website": "https://www.almo.com",
-          "headquarters": "Philadelphia, Pennsylvania",
-          "type": "Distributor",
-          "sub_type": [
-            "Distributor / Wholesaler"
-          ],
-          "revenue_usd": 2500000000,
-          "source": "Supplemental",
-          "notes": "Major appliance and consumer electronics distributor"
-        },
         {
           "name": "A&E Factory Service",
           "website": "https://www.aefactoryservice.com",
@@ -37,7 +23,8 @@
             "Authorized Service Provider"
           ],
           "source": "Supplemental",
-          "notes": "Major appliance service provider. Transformco company"
+          "notes": "Major appliance service provider. Transformco company",
+          "category": "Projects"
         },
         {
           "name": "AVB BrandSource",
@@ -48,7 +35,8 @@
             "Buying Group / Coop"
           ],
           "source": "Supplemental",
-          "notes": "Appliance, furniture, electronics buying group"
+          "notes": "Appliance, furniture, electronics buying group",
+          "category": "Middle"
         },
         {
           "name": "Abt Electronics",
@@ -60,7 +48,8 @@
           ],
           "revenue_usd": 500000000,
           "source": "Supplemental",
-          "notes": "Premium independent appliance dealer"
+          "notes": "Premium independent appliance dealer",
+          "category": "Sellers"
         },
         {
           "name": "Admiral (electrical appliances)",
@@ -69,7 +58,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Aerus",
@@ -79,7 +69,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Albert Lee Appliance",
@@ -90,7 +81,8 @@
             "Dealer / Independent Showroom"
           ],
           "source": "Supplemental",
-          "notes": "Pacific Northwest premium dealer"
+          "notes": "Pacific Northwest premium dealer",
+          "category": "Sellers"
         },
         {
           "name": "Alliance Laundry Systems",
@@ -100,7 +92,21 @@
           "type": "Major Appliances (laundry)",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
+        },
+        {
+          "name": "Almo Corporation",
+          "website": "https://www.almo.com",
+          "headquarters": "Philadelphia, Pennsylvania",
+          "type": "Distributor",
+          "sub_type": [
+            "Distributor / Wholesaler"
+          ],
+          "revenue_usd": 2500000000,
+          "source": "Supplemental",
+          "notes": "Major appliance and consumer electronics distributor",
+          "category": "Middle"
         },
         {
           "name": "Altorfer Bros. Company",
@@ -109,7 +115,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Amazon",
@@ -121,17 +128,19 @@
           ],
           "revenue_usd": 575000000000,
           "source": "Supplemental",
-          "notes": "Largest online retailer. Growing appliance category"
+          "notes": "Largest online retailer. Growing appliance category",
+          "category": "Sellers"
         },
         {
           "name": "Aroma Housewares",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Aroma_Housewares",
           "source": "Wikipedia",
           "website": "http://www.aromaco.com/",
-          "type": "Small Appliances",
+          "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "BSH Home Appliances",
@@ -143,7 +152,8 @@
           ],
           "revenue_usd": 4500000000,
           "source": "Supplemental",
-          "notes": "Owns Bosch, Thermador, Gaggenau brands in North America"
+          "notes": "Owns Bosch, Thermador, Gaggenau brands in North America",
+          "category": "Makers"
         },
         {
           "name": "Best Buy",
@@ -155,7 +165,8 @@
           ],
           "revenue_usd": 46000000000,
           "source": "Supplemental",
-          "notes": "Major electronics and appliance retailer. ~1,000 stores"
+          "notes": "Major electronics and appliance retailer. ~1,000 stores",
+          "category": "Sellers"
         },
         {
           "name": "Bissell",
@@ -165,7 +176,8 @@
           "type": "Vacuum/Floor Care",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Blendtec",
@@ -175,7 +187,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "BlueStar",
@@ -186,7 +199,8 @@
             "Vertically Integrated Manufacturer"
           ],
           "source": "Supplemental",
-          "notes": "Prizer-Painter Stove Works. Professional ranges made in USA since 1880"
+          "notes": "Prizer-Painter Stove Works. Professional ranges made in USA since 1880",
+          "category": "Makers"
         },
         {
           "name": "Bradshaw International",
@@ -196,7 +210,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "BrandSource",
@@ -207,7 +222,8 @@
             "Buying Group / Coop"
           ],
           "source": "Supplemental",
-          "notes": "Major buying group. ~4,000 member locations"
+          "notes": "Major buying group. ~4,000 member locations",
+          "category": "Middle"
         },
         {
           "name": "Caloric",
@@ -216,7 +232,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Conair Corporation",
@@ -226,7 +243,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Costco",
@@ -238,7 +256,8 @@
           ],
           "revenue_usd": 242000000000,
           "source": "Supplemental",
-          "notes": "Warehouse club with major appliance sales"
+          "notes": "Warehouse club with major appliance sales",
+          "category": "Sellers"
         },
         {
           "name": "Cuisinart",
@@ -248,7 +267,8 @@
           "type": "Small Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "D&H Distributing",
@@ -260,7 +280,8 @@
           ],
           "revenue_usd": 7000000000,
           "source": "Supplemental",
-          "notes": "Technology and appliance distributor"
+          "notes": "Technology and appliance distributor",
+          "category": "Middle"
         },
         {
           "name": "D.R. Horton",
@@ -272,7 +293,8 @@
           ],
           "revenue_usd": 36000000000,
           "source": "Supplemental",
-          "notes": "Largest US homebuilder. Major appliance buyer"
+          "notes": "Largest US homebuilder. Major appliance buyer",
+          "category": "Projects"
         },
         {
           "name": "DERA (Distributor Efficiency & Resource Alliance)",
@@ -283,17 +305,19 @@
             "Distributor / Wholesaler"
           ],
           "source": "Supplemental",
-          "notes": "Major appliance distributor alliance"
+          "notes": "Major appliance distributor alliance",
+          "category": "Middle"
         },
         {
           "name": "Dacor (kitchen appliances)",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Dacor_(kitchen_appliances)",
           "source": "Wikipedia",
           "website": "http://www.dacor.com",
-          "type": "Major Appliances (cooking)",
+          "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Dirt Devil",
@@ -303,7 +327,8 @@
           "type": "Vacuum/Floor Care",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Electrolux North America",
@@ -315,7 +340,8 @@
           ],
           "revenue_usd": 5000000000,
           "source": "Supplemental",
-          "notes": "Owns Frigidaire, Electrolux brands"
+          "notes": "Owns Frigidaire, Electrolux brands",
+          "category": "Makers"
         },
         {
           "name": "Emerson Radio",
@@ -325,7 +351,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Eureka (company)",
@@ -335,17 +362,19 @@
           "type": "Vacuum/Floor Care",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Farberware",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Farberware",
           "source": "Wikipedia",
           "website": "https://www.farberwarecookware.com/",
-          "type": "Small Appliances",
+          "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Favorite Stove",
@@ -354,7 +383,8 @@
           "type": "Major Appliances (cooking)",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Felix Storch, Inc",
@@ -364,7 +394,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Frigidaire",
@@ -374,16 +405,13 @@
           "type": "Major Appliances (full-line)",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "GE Appliances",
           "wikipedia_url": "https://en.wikipedia.org/wiki/GE_Appliances",
           "source": "Wikipedia",
-          "sources": [
-            "Wikipedia",
-            "Supplemental"
-          ],
           "website": "https://www.geappliances.com",
           "headquarters": "Louisville, Kentucky",
           "notes": "Owned by Haier. Owns GE, Monogram, Café, Profile, Hotpoint brands",
@@ -391,7 +419,8 @@
           "revenue_usd": 8000000000,
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Galanz Americas",
@@ -402,7 +431,8 @@
             "OEM"
           ],
           "source": "Supplemental",
-          "notes": "OEM specializing in microwaves and small appliances"
+          "notes": "OEM specializing in microwaves and small appliances",
+          "category": "Makers"
         },
         {
           "name": "Gibson Appliance",
@@ -411,7 +441,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Grigsby-Grunow",
@@ -420,16 +451,13 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Hamilton Beach Brands",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Hamilton_Beach_Brands",
           "source": "Wikipedia",
-          "sources": [
-            "Wikipedia",
-            "Supplemental"
-          ],
           "website": "https://hamiltonbeach.com",
           "headquarters": "Glen Allen, Virginia",
           "notes": "Small kitchen appliances",
@@ -437,7 +465,8 @@
           "revenue_usd": 600000000,
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Holmes Products",
@@ -447,7 +476,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "IRobot",
@@ -457,7 +487,8 @@
           "type": "Vacuum/Floor Care",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "InSinkErator",
@@ -467,7 +498,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Installation Made Easy (IME)",
@@ -478,7 +510,8 @@
             "Installer / Delivery & Install Partner"
           ],
           "source": "Supplemental",
-          "notes": "Major appliance installation network"
+          "notes": "Major appliance installation network",
+          "category": "Projects"
         },
         {
           "name": "International Harvester",
@@ -487,7 +520,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "J.B. Hunt Transport",
@@ -499,7 +533,8 @@
           ],
           "revenue_usd": 15000000000,
           "source": "Supplemental",
-          "notes": "Final mile delivery services"
+          "notes": "Final mile delivery services",
+          "category": "Middle"
         },
         {
           "name": "JS Global (SharkNinja)",
@@ -511,7 +546,8 @@
           ],
           "revenue_usd": 4000000000,
           "source": "Supplemental",
-          "notes": "Designs and manufactures Shark and Ninja brands"
+          "notes": "Designs and manufactures Shark and Ninja brands",
+          "category": "Makers"
         },
         {
           "name": "John Oster Manufacturing Company",
@@ -521,7 +557,8 @@
           "type": "Small Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "June (company)",
@@ -531,7 +568,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Kaz Incorporated",
@@ -541,7 +579,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Kelvinator",
@@ -550,7 +589,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Kirby Company",
@@ -560,7 +600,8 @@
           "type": "Vacuum/Floor Care",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "KitchenAid",
@@ -570,7 +611,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Konecranes",
@@ -582,7 +624,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "LG Electronics USA",
@@ -594,7 +637,8 @@
           ],
           "revenue_usd": 7000000000,
           "source": "Supplemental",
-          "notes": "Major appliance manufacturer with US production in Tennessee"
+          "notes": "Major appliance manufacturer with US production in Tennessee",
+          "category": "Makers"
         },
         {
           "name": "Lennar",
@@ -606,7 +650,8 @@
           ],
           "revenue_usd": 34000000000,
           "source": "Supplemental",
-          "notes": "Major national homebuilder"
+          "notes": "Major national homebuilder",
+          "category": "Projects"
         },
         {
           "name": "Leonard (appliances)",
@@ -615,7 +660,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Lowe's",
@@ -627,7 +673,8 @@
           ],
           "revenue_usd": 86000000000,
           "source": "Supplemental",
-          "notes": "Major home improvement and appliance retailer"
+          "notes": "Major home improvement and appliance retailer",
+          "category": "Sellers"
         },
         {
           "name": "MEGA Group USA",
@@ -638,7 +685,8 @@
             "Buying Group / Coop"
           ],
           "source": "Supplemental",
-          "notes": "Independent dealer buying group"
+          "notes": "Independent dealer buying group",
+          "category": "Middle"
         },
         {
           "name": "MXD Group",
@@ -649,7 +697,8 @@
             "3PL / Logistics Provider"
           ],
           "source": "Supplemental",
-          "notes": "Appliance last-mile delivery specialist"
+          "notes": "Appliance last-mile delivery specialist",
+          "category": "Middle"
         },
         {
           "name": "Malleable Iron Range Company",
@@ -658,7 +707,8 @@
           "type": "Major Appliances (cooking)",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Marcone Supply",
@@ -670,7 +720,8 @@
           ],
           "revenue_usd": 1000000000,
           "source": "Supplemental",
-          "notes": "Appliance parts distributor"
+          "notes": "Appliance parts distributor",
+          "category": "Middle"
         },
         {
           "name": "Maytag",
@@ -680,7 +731,8 @@
           "type": "Major Appliances (full-line)",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "McGraw Electric",
@@ -689,7 +741,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Meyer Manufacturing",
@@ -699,7 +752,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Midea Group",
@@ -711,7 +765,8 @@
           ],
           "revenue_usd": 52000000000,
           "source": "Supplemental",
-          "notes": "Major OEM for private label appliances. Owns Toshiba appliances"
+          "notes": "Major OEM for private label appliances. Owns Toshiba appliances",
+          "category": "Makers"
         },
         {
           "name": "Mr. Appliance",
@@ -722,7 +777,8 @@
             "Authorized Service Provider"
           ],
           "source": "Supplemental",
-          "notes": "Appliance repair franchise. Neighborly brand"
+          "notes": "Appliance repair franchise. Neighborly brand",
+          "category": "Projects"
         },
         {
           "name": "NACCO Industries",
@@ -732,7 +788,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "NECO Alliance",
@@ -743,7 +800,8 @@
             "Buying Group / Coop"
           ],
           "source": "Supplemental",
-          "notes": "Regional buying cooperative"
+          "notes": "Regional buying cooperative",
+          "category": "Middle"
         },
         {
           "name": "NVR Inc.",
@@ -755,20 +813,19 @@
           ],
           "revenue_usd": 10000000000,
           "source": "Supplemental",
-          "notes": "Ryan Homes, NVHomes brands"
+          "notes": "Ryan Homes, NVHomes brands",
+          "category": "Projects"
         },
         {
           "name": "Napoleon (company)",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Napoleon_(company)",
           "source": "Wikipedia",
-          "sources": [
-            "Wikipedia"
-          ],
           "website": "https://www.napoleon.com/",
           "type": "Outdoor Cooking",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Nash-Kelvinator",
@@ -777,17 +834,19 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "National Presto Industries",
           "wikipedia_url": "https://en.wikipedia.org/wiki/National_Presto_Industries",
           "source": "Wikipedia",
           "website": "http://www.gopresto.com/",
-          "type": "Small Appliances",
+          "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Nationwide Marketing Group (NMG)",
@@ -798,7 +857,8 @@
             "Buying Group / Coop"
           ],
           "source": "Supplemental",
-          "notes": "Largest buying group. 5,000+ independent retailers"
+          "notes": "Largest buying group. 5,000+ independent retailers",
+          "category": "Middle"
         },
         {
           "name": "Nebraska Furniture Mart",
@@ -809,16 +869,13 @@
             "Retailer"
           ],
           "source": "Supplemental",
-          "notes": "Berkshire Hathaway company. Major appliance retailer"
+          "notes": "Berkshire Hathaway company. Major appliance retailer",
+          "category": "Sellers"
         },
         {
           "name": "Newell Brands",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Newell_Brands",
           "source": "Wikipedia",
-          "sources": [
-            "Wikipedia",
-            "Supplemental"
-          ],
           "website": "https://www.newellbrands.com",
           "headquarters": "Atlanta, Georgia",
           "notes": "Owns Crock-Pot, Mr. Coffee, Oster, Sunbeam, FoodSaver brands",
@@ -826,7 +883,8 @@
           "revenue_usd": 8600000000,
           "sub_type": [
             "Brand Owner"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "NuTone",
@@ -836,7 +894,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "O-Cedar",
@@ -846,7 +905,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "P.C. Richard & Son",
@@ -858,7 +918,8 @@
           ],
           "revenue_usd": 800000000,
           "source": "Supplemental",
-          "notes": "Northeast US appliance and electronics dealer"
+          "notes": "Northeast US appliance and electronics dealer",
+          "category": "Sellers"
         },
         {
           "name": "Pacific Sales",
@@ -869,7 +930,8 @@
             "Distributor / Wholesaler"
           ],
           "source": "Supplemental",
-          "notes": "Premium appliance distributor. Best Buy subsidiary"
+          "notes": "Premium appliance distributor. Best Buy subsidiary",
+          "category": "Middle"
         },
         {
           "name": "Peerless-Premier Appliance Company",
@@ -878,7 +940,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Pirch (company)",
@@ -888,7 +951,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Pollenex",
@@ -898,7 +962,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Proctor Silex",
@@ -908,7 +973,8 @@
           "type": "Small Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "PulteGroup",
@@ -920,7 +986,8 @@
           ],
           "revenue_usd": 16000000000,
           "source": "Supplemental",
-          "notes": "National homebuilder. Pulte Homes, Del Webb, Centex brands"
+          "notes": "National homebuilder. Pulte Homes, Del Webb, Centex brands",
+          "category": "Projects"
         },
         {
           "name": "RC Willey",
@@ -931,7 +998,8 @@
             "Retailer"
           ],
           "source": "Supplemental",
-          "notes": "Berkshire Hathaway company. Western US appliance retailer"
+          "notes": "Berkshire Hathaway company. Western US appliance retailer",
+          "category": "Sellers"
         },
         {
           "name": "Reliable Parts",
@@ -942,7 +1010,8 @@
             "Distributor / Wholesaler"
           ],
           "source": "Supplemental",
-          "notes": "Appliance parts distributor"
+          "notes": "Appliance parts distributor",
+          "category": "Middle"
         },
         {
           "name": "Remington (personal care brand)",
@@ -952,7 +1021,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Rexair",
@@ -962,17 +1032,19 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Rival (consumer products company)",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Rival_(consumer_products_company)",
           "source": "Wikipedia",
           "website": "http://www.rivalproducts.com",
-          "type": "Small Appliances",
+          "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Russell Hobbs, Inc.",
@@ -981,7 +1053,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Ryder System",
@@ -993,7 +1066,8 @@
           ],
           "revenue_usd": 11000000000,
           "source": "Supplemental",
-          "notes": "Last mile and white glove delivery services"
+          "notes": "Last mile and white glove delivery services",
+          "category": "Middle"
         },
         {
           "name": "SVP Worldwide",
@@ -1003,7 +1077,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Samsung Electronics America",
@@ -1015,7 +1090,8 @@
           ],
           "revenue_usd": 6500000000,
           "source": "Supplemental",
-          "notes": "Major appliance manufacturer with US production in South Carolina"
+          "notes": "Major appliance manufacturer with US production in South Carolina",
+          "category": "Makers"
         },
         {
           "name": "Sears Home Services",
@@ -1026,7 +1102,8 @@
             "Authorized Service Provider"
           ],
           "source": "Supplemental",
-          "notes": "Appliance repair and service network"
+          "notes": "Appliance repair and service network",
+          "category": "Projects"
         },
         {
           "name": "Sears Hometown Stores",
@@ -1037,7 +1114,8 @@
             "Franchisee"
           ],
           "source": "Supplemental",
-          "notes": "Franchised appliance stores"
+          "notes": "Franchised appliance stores",
+          "category": "Sellers"
         },
         {
           "name": "ServiceLive",
@@ -1048,7 +1126,8 @@
             "Installer / Delivery & Install Partner"
           ],
           "source": "Supplemental",
-          "notes": "Installation and service marketplace"
+          "notes": "Installation and service marketplace",
+          "category": "Projects"
         },
         {
           "name": "SharkNinja",
@@ -1058,7 +1137,8 @@
           "type": "Vacuum/Floor Care",
           "sub_type": [
             "ODM"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Shop-Vac",
@@ -1068,7 +1148,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Singer Corporation",
@@ -1078,16 +1159,13 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Spectrum Brands",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Spectrum_Brands",
           "source": "Wikipedia",
-          "sources": [
-            "Wikipedia",
-            "Supplemental"
-          ],
           "website": "https://www.spectrumbrands.com",
           "headquarters": "Middleton, Wisconsin",
           "notes": "Owns Black+Decker, George Foreman, Russell Hobbs appliance brands",
@@ -1095,7 +1173,8 @@
           "revenue_usd": 3400000000,
           "sub_type": [
             "Brand Owner"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Speed Queen",
@@ -1107,7 +1186,8 @@
           ],
           "revenue_usd": 500000000,
           "source": "Supplemental",
-          "notes": "Alliance Laundry Systems brand. Commercial and residential laundry"
+          "notes": "Alliance Laundry Systems brand. Commercial and residential laundry",
+          "category": "Makers"
         },
         {
           "name": "Springboard Brand & Creative Strategy",
@@ -1118,7 +1198,8 @@
             "Rep Firm / Manufacturer's Rep"
           ],
           "source": "Supplemental",
-          "notes": "Appliance manufacturer rep firm"
+          "notes": "Appliance manufacturer rep firm",
+          "category": "Middle"
         },
         {
           "name": "Staber Industries",
@@ -1127,7 +1208,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Standex International",
@@ -1137,7 +1219,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Sub-Zero (company)",
@@ -1147,7 +1230,8 @@
           "type": "Major Appliances (refrigeration)",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Sub-Zero Group",
@@ -1159,17 +1243,19 @@
           ],
           "revenue_usd": 2500000000,
           "source": "Supplemental",
-          "notes": "Premium appliances. Owns Sub-Zero, Wolf, Cove brands. Made in USA"
+          "notes": "Premium appliances. Owns Sub-Zero, Wolf, Cove brands. Made in USA",
+          "category": "Makers"
         },
         {
           "name": "Summit Appliance",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Summit_Appliance",
           "source": "Wikipedia",
           "website": "https://summitappliance.com",
-          "type": "Major Appliances (refrigeration)",
+          "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Sunbeam Products",
@@ -1179,7 +1265,8 @@
           "type": "Small Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "TTI Floor Care",
@@ -1191,7 +1278,8 @@
           ],
           "revenue_usd": 1500000000,
           "source": "Supplemental",
-          "notes": "OEM for Hoover, Dirt Devil, Oreck brands"
+          "notes": "OEM for Hoover, Dirt Devil, Oreck brands",
+          "category": "Makers"
         },
         {
           "name": "Tacony Corporation",
@@ -1201,7 +1289,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Tappan (brand)",
@@ -1210,7 +1299,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Terex",
@@ -1222,7 +1312,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "The Hartman Company",
@@ -1233,7 +1324,8 @@
             "Rep Firm / Manufacturer's Rep"
           ],
           "source": "Supplemental",
-          "notes": "Midwest appliance rep firm"
+          "notes": "Midwest appliance rep firm",
+          "category": "Middle"
         },
         {
           "name": "The Home Depot",
@@ -1245,7 +1337,8 @@
           ],
           "revenue_usd": 157000000000,
           "source": "Supplemental",
-          "notes": "Largest home improvement retailer. Major appliance seller"
+          "notes": "Largest home improvement retailer. Major appliance seller",
+          "category": "Sellers"
         },
         {
           "name": "The Hoover Company",
@@ -1255,7 +1348,8 @@
           "type": "Vacuum/Floor Care",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Thomas Associates",
@@ -1265,7 +1359,8 @@
             "Rep Firm / Manufacturer's Rep"
           ],
           "source": "Supplemental",
-          "notes": "Regional manufacturer rep firm"
+          "notes": "Regional manufacturer rep firm",
+          "category": "Middle"
         },
         {
           "name": "Thor Power Tool Company",
@@ -1274,7 +1369,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Toll Brothers",
@@ -1286,7 +1382,8 @@
           ],
           "revenue_usd": 10000000000,
           "source": "Supplemental",
-          "notes": "Luxury homebuilder. Premium appliance packages"
+          "notes": "Luxury homebuilder. Premium appliance packages",
+          "category": "Projects"
         },
         {
           "name": "Traeger Grills",
@@ -1298,23 +1395,21 @@
           ],
           "revenue_usd": 600000000,
           "source": "Supplemental",
-          "notes": "Pellet grill pioneer"
+          "notes": "Pellet grill pioneer",
+          "category": "Makers"
         },
         {
           "name": "Viking Range",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Viking_Range",
           "source": "Wikipedia",
-          "sources": [
-            "Wikipedia",
-            "Supplemental"
-          ],
           "website": "https://www.vikingrange.com",
           "headquarters": "Greenwood, Mississippi",
           "notes": "Owned by Middleby Corporation. Professional-style ranges",
           "type": "Major Appliances (cooking)",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Vitamix",
@@ -1324,7 +1419,8 @@
           "type": "Small Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Warners' Stellian",
@@ -1335,7 +1431,8 @@
             "Distributor / Wholesaler"
           ],
           "source": "Supplemental",
-          "notes": "Regional appliance distributor and retailer"
+          "notes": "Regional appliance distributor and retailer",
+          "category": "Middle"
         },
         {
           "name": "Weber-Stephen Products",
@@ -1347,7 +1444,8 @@
           ],
           "revenue_usd": 1800000000,
           "source": "Supplemental",
-          "notes": "Leading grill manufacturer"
+          "notes": "Leading grill manufacturer",
+          "category": "Makers"
         },
         {
           "name": "West Bend Housewares",
@@ -1356,16 +1454,13 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Whirlpool Corporation",
           "wikipedia_url": "https://en.wikipedia.org/wiki/Whirlpool_Corporation",
           "source": "Wikipedia",
-          "sources": [
-            "Wikipedia",
-            "Supplemental"
-          ],
           "website": "https://www.whirlpoolcorp.com",
           "headquarters": "Benton Harbor, Michigan",
           "notes": "World's largest appliance manufacturer. Owns Whirlpool, Maytag, KitchenAid, Amana, JennAir",
@@ -1373,7 +1468,8 @@
           "revenue_usd": 19400000000,
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "White Sewing Machine Company",
@@ -1382,7 +1478,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "White-Westinghouse",
@@ -1392,7 +1489,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "XPO Logistics",
@@ -1404,7 +1502,8 @@
           ],
           "revenue_usd": 7700000000,
           "source": "Supplemental",
-          "notes": "Major last-mile delivery provider for appliances"
+          "notes": "Major last-mile delivery provider for appliances",
+          "category": "Middle"
         },
         {
           "name": "Yale Appliance",
@@ -1415,7 +1514,8 @@
             "Dealer / Independent Showroom"
           ],
           "source": "Supplemental",
-          "notes": "Premium appliance dealer. Strong content marketing"
+          "notes": "Premium appliance dealer. Strong content marketing",
+          "category": "Sellers"
         }
       ]
     },
@@ -1428,7 +1528,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "CANTREX Nationwide",
@@ -1439,7 +1540,8 @@
             "Buying Group / Coop"
           ],
           "source": "Supplemental",
-          "notes": "Canadian buying group. Part of Nationwide"
+          "notes": "Canadian buying group. Part of Nationwide",
+          "category": "Middle"
         },
         {
           "name": "Canadian Tire",
@@ -1451,7 +1553,8 @@
           ],
           "revenue_usd": 12000000000,
           "source": "Supplemental",
-          "notes": "Major Canadian retailer with appliances"
+          "notes": "Major Canadian retailer with appliances",
+          "category": "Sellers"
         },
         {
           "name": "DERA Canada",
@@ -1462,7 +1565,8 @@
             "Distributor / Wholesaler"
           ],
           "source": "Supplemental",
-          "notes": "Canadian appliance distributor alliance"
+          "notes": "Canadian appliance distributor alliance",
+          "category": "Middle"
         },
         {
           "name": "Danby",
@@ -1474,7 +1578,8 @@
           ],
           "revenue_usd": 350000000,
           "source": "Supplemental",
-          "notes": "Compact and specialty appliances"
+          "notes": "Compact and specialty appliances",
+          "category": "Makers"
         },
         {
           "name": "Danby (appliances)",
@@ -1484,7 +1589,8 @@
           "type": "Major Appliances (refrigeration)",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Fantom Technologies",
@@ -1493,7 +1599,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "John Inglis and Company",
@@ -1503,7 +1610,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         },
         {
           "name": "Mattamy Homes",
@@ -1514,7 +1622,8 @@
             "Builder / Developer"
           ],
           "source": "Supplemental",
-          "notes": "Largest privately owned homebuilder in North America"
+          "notes": "Largest privately owned homebuilder in North America",
+          "category": "Projects"
         },
         {
           "name": "Mega Group Canada",
@@ -1525,7 +1634,8 @@
             "Buying Group / Coop"
           ],
           "source": "Supplemental",
-          "notes": "Canadian independent dealer buying group"
+          "notes": "Canadian independent dealer buying group",
+          "category": "Middle"
         },
         {
           "name": "Napoleon",
@@ -1537,7 +1647,8 @@
           ],
           "revenue_usd": 400000000,
           "source": "Supplemental",
-          "notes": "Grills, fireplaces, HVAC"
+          "notes": "Grills, fireplaces, HVAC",
+          "category": "Makers"
         },
         {
           "name": "Tasco Appliances",
@@ -1548,7 +1659,8 @@
             "Dealer / Independent Showroom"
           ],
           "source": "Supplemental",
-          "notes": "Ontario premium appliance dealer"
+          "notes": "Ontario premium appliance dealer",
+          "category": "Sellers"
         },
         {
           "name": "Trail Appliances",
@@ -1559,7 +1671,8 @@
             "Dealer / Independent Showroom"
           ],
           "source": "Supplemental",
-          "notes": "Western Canada premium appliance dealer"
+          "notes": "Western Canada premium appliance dealer",
+          "category": "Sellers"
         },
         {
           "name": "Trudeau Corporation",
@@ -1569,7 +1682,8 @@
           "type": "Major Appliances",
           "sub_type": [
             "Vertically Integrated Manufacturer"
-          ]
+          ],
+          "category": "Makers"
         }
       ]
     },
@@ -1585,7 +1699,8 @@
           ],
           "revenue_usd": 2500000000,
           "source": "Supplemental",
-          "notes": "Joint venture with GE. Major Latin American manufacturer"
+          "notes": "Joint venture with GE. Major Latin American manufacturer",
+          "category": "Makers"
         }
       ]
     }

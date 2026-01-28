@@ -313,12 +313,30 @@ select {
     min-width: 0;
 }
 
-.sub-type-tags {
+.tags-row {
     display: flex;
     gap: 0.25rem;
     flex-wrap: wrap;
     justify-content: flex-end;
+    align-items: center;
 }
+
+.category-tag {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    border: 2px solid currentColor;
+}
+
+.category-makers { color: #1a5f7a; background: #e8f4f8; }
+.category-middle { color: #7a5f1a; background: #f8f4e8; }
+.category-sellers { color: #1a7a5f; background: #e8f8f4; }
+.category-projects { color: #5f1a7a; background: #f4e8f8; }
+.category-people { color: #7a1a5f; background: #f8e8f4; }
 
 .sub-type-tag {
     display: inline-block;
@@ -357,6 +375,18 @@ select {
     color: var(--secondary);
     font-size: 0.875rem;
     font-weight: 400;
+}
+
+.manufacturer-url {
+    color: var(--secondary);
+    font-size: 0.75rem;
+    text-decoration: none;
+    border-bottom: 1px solid var(--secondary);
+}
+
+.manufacturer-url:hover {
+    color: var(--primary);
+    border-color: var(--primary);
 }
 
 /* =============================================================================

@@ -1,97 +1,139 @@
 {
   "metadata": {
-    "date_pulled": "2026-01-09T08:23:48.588289+00:00",
+    "date_pulled": "2026-01-28T16:25:34.680101+00:00",
     "source": "Industry Research (2026)",
-    "total_count": 23,
     "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "total_count": 23
   },
   "North America": {
     "United States": {
       "entities": [
         {
           "name": "ADT Commercial",
-          "website": "https://www.adt.com/commercial"
+          "website": "https://www.adt.com/commercial",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "AVIXA",
-          "website": "https://www.avixa.org"
+          "website": "https://www.avixa.org",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Accenture",
-          "website": "https://www.accenture.com"
+          "website": "https://www.accenture.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "CEDIA (Custom Electronic Design & Installation Association)",
-          "website": "https://www.cedia.org"
+          "website": "https://www.cedia.org",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Capgemini",
-          "website": "https://www.capgemini.com"
+          "website": "https://www.capgemini.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Carrier",
-          "website": "https://www.carrier.com"
+          "website": "https://www.carrier.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Cognizant",
-          "website": "https://www.cognizant.com"
+          "website": "https://www.cognizant.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Control4 (Snap One)",
-          "website": "https://www.control4.com"
+          "website": "https://www.control4.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Crestron",
-          "website": "https://www.crestron.com"
+          "website": "https://www.crestron.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Deloitte Digital",
-          "website": "https://www.deloitte.com/digital"
+          "website": "https://www.deloitte.com/digital",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "ELAN",
-          "website": "https://www.elanhomesystems.com"
+          "website": "https://www.elanhomesystems.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Honeywell Building Technologies",
-          "website": "https://www.honeywell.com"
+          "website": "https://www.honeywell.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "IBM Global Services",
-          "website": "https://www.ibm.com/services"
+          "website": "https://www.ibm.com/services",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Infosys",
-          "website": "https://www.infosys.com"
+          "website": "https://www.infosys.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Johnson Controls",
-          "website": "https://www.johnsoncontrols.com"
+          "website": "https://www.johnsoncontrols.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Josh.ai",
-          "website": "https://www.josh.ai"
+          "website": "https://www.josh.ai",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "PTC",
-          "website": "https://www.ptc.com"
+          "website": "https://www.ptc.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Rockwell Automation",
-          "website": "https://www.rockwellautomation.com"
+          "website": "https://www.rockwellautomation.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Savant",
-          "website": "https://www.savant.com"
+          "website": "https://www.savant.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Siemens Building Technologies",
-          "website": "https://www.siemens.com/building"
+          "website": "https://www.siemens.com/building",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "Wipro",
-          "website": "https://www.wipro.com"
+          "website": "https://www.wipro.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         }
       ]
     },
@@ -99,11 +141,15 @@
       "entities": [
         {
           "name": "CGI Group",
-          "website": "https://www.cgi.com"
+          "website": "https://www.cgi.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         },
         {
           "name": "OpenText",
-          "website": "https://www.opentext.com"
+          "website": "https://www.opentext.com",
+          "category": "Projects",
+          "sub_type": "Installer / Delivery & Install Partner"
         }
       ]
     },

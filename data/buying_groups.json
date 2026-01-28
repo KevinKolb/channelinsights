@@ -1,38 +1,50 @@
 {
   "metadata": {
-    "date_pulled": "2026-01-09T07:57:26.919722+00:00",
+    "date_pulled": "2026-01-28T16:25:34.296559+00:00",
     "source": "Wikidata",
-    "total_count": 9,
     "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "total_count": 9
   },
   "North America": {
     "United States": {
       "entities": [
         {
           "name": "Continental Navy",
-          "wikidata_id": "Q2367216"
+          "wikidata_id": "Q2367216",
+          "category": "Middle",
+          "sub_type": "Buying Group / Coop"
         },
         {
           "name": "Georgia State Navy",
-          "wikidata_id": "Q5547751"
+          "wikidata_id": "Q5547751",
+          "category": "Middle",
+          "sub_type": "Buying Group / Coop"
         },
         {
           "name": "Pennsylvania Navy",
-          "wikidata_id": "Q7164016"
+          "wikidata_id": "Q7164016",
+          "category": "Middle",
+          "sub_type": "Buying Group / Coop"
         },
         {
           "name": "South Carolina Navy",
-          "wikidata_id": "Q7566618"
+          "wikidata_id": "Q7566618",
+          "category": "Middle",
+          "sub_type": "Buying Group / Coop"
         },
         {
           "name": "Union Navy",
-          "wikidata_id": "Q3550003"
+          "wikidata_id": "Q3550003",
+          "category": "Middle",
+          "sub_type": "Buying Group / Coop"
         },
         {
           "name": "United States Navy",
           "wikidata_id": "Q11220",
-          "website": "https://www.navy.mil/"
+          "website": "https://www.navy.mil/",
+          "category": "Middle",
+          "sub_type": "Buying Group / Coop"
         }
       ]
     },
@@ -41,12 +53,16 @@
         {
           "name": "Royal Canadian Navy",
           "wikidata_id": "Q25387",
-          "website": "https://www.canada.ca/en/navy.html"
+          "website": "https://www.canada.ca/en/navy.html",
+          "category": "Middle",
+          "sub_type": "Buying Group / Coop"
         },
         {
           "name": "Royal Canadian Navy",
           "wikidata_id": "Q25387",
-          "website": "https://www.canada.ca/fr/marine.html"
+          "website": "https://www.canada.ca/fr/marine.html",
+          "category": "Middle",
+          "sub_type": "Buying Group / Coop"
         }
       ]
     },
@@ -54,7 +70,9 @@
       "entities": [
         {
           "name": "Mexican Navy",
-          "wikidata_id": "Q2528358"
+          "wikidata_id": "Q2528358",
+          "category": "Middle",
+          "sub_type": "Buying Group / Coop"
         }
       ]
     }

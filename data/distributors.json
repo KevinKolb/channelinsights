@@ -1,29 +1,37 @@
 {
   "metadata": {
-    "date_pulled": "2026-01-09T07:57:26.055190+00:00",
+    "date_pulled": "2026-01-28T16:25:34.663218+00:00",
     "source": "hardcoded",
-    "total_count": 4,
     "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "total_count": 4
   },
   "North America": {
     "United States": {
       "entities": [
         {
           "name": "AD (Affiliated Distributors)",
-          "website": "https://www.adhq.com"
+          "website": "https://www.adhq.com",
+          "category": "Middle",
+          "sub_type": "Distributor / Wholesaler"
         },
         {
           "name": "Ferguson Enterprises",
-          "website": "https://www.ferguson.com"
+          "website": "https://www.ferguson.com",
+          "category": "Middle",
+          "sub_type": "Distributor / Wholesaler"
         },
         {
           "name": "Marcone",
-          "website": "https://www.marcone.com"
+          "website": "https://www.marcone.com",
+          "category": "Middle",
+          "sub_type": "Distributor / Wholesaler"
         },
         {
           "name": "United Appliance Parts",
-          "website": "https://www.unitedapp.com"
+          "website": "https://www.unitedapp.com",
+          "category": "Middle",
+          "sub_type": "Distributor / Wholesaler"
         }
       ]
     },

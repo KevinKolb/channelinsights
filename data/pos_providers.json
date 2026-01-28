@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "date_pulled": "2026-01-09T07:57:28.612263+00:00",
+    "date_pulled": "2026-01-28T16:25:34.917214+00:00",
     "source": "Wikidata",
-    "total_count": 1,
     "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "total_count": 1
   },
   "North America": {
     "United States": {
@@ -12,7 +12,9 @@
         {
           "name": "Globcal International",
           "wikidata_id": "Q5570947",
-          "website": "https://www.globcal.net"
+          "website": "https://www.globcal.net",
+          "category": "Middle",
+          "sub_type": "Distributor / Wholesaler"
         }
       ]
     },

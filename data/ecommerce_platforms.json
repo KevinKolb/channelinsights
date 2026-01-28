@@ -1,117 +1,169 @@
 {
   "metadata": {
-    "date_pulled": "2026-01-09T08:23:50.705681+00:00",
+    "date_pulled": "2026-01-28T16:25:34.665246+00:00",
     "source": "Industry Research (2026)",
-    "total_count": 28,
     "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "total_count": 28
   },
   "North America": {
     "United States": {
       "entities": [
         {
           "name": "Amazon",
-          "website": "https://www.amazon.com"
+          "website": "https://www.amazon.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Best Buy Marketplace",
-          "website": "https://www.bestbuy.com"
+          "website": "https://www.bestbuy.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "BigCommerce",
-          "website": "https://www.bigcommerce.com"
+          "website": "https://www.bigcommerce.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "ChannelAdvisor",
-          "website": "https://www.channeladvisor.com"
+          "website": "https://www.channeladvisor.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Fabric",
-          "website": "https://www.fabric.inc"
+          "website": "https://www.fabric.inc",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Feedonomics (BigCommerce)",
-          "website": "https://www.feedonomics.com"
+          "website": "https://www.feedonomics.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Kibo Commerce",
-          "website": "https://www.kibocommerce.com"
+          "website": "https://www.kibocommerce.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Linnworks",
-          "website": "https://www.linnworks.com"
+          "website": "https://www.linnworks.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Logicbroker",
-          "website": "https://www.logicbroker.com"
+          "website": "https://www.logicbroker.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Magento (Adobe Commerce)",
-          "website": "https://magento.com"
+          "website": "https://magento.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Meta Shops (Facebook/Instagram)",
-          "website": "https://www.facebook.com/business/shops"
+          "website": "https://www.facebook.com/business/shops",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Mirakl",
-          "website": "https://www.mirakl.com"
+          "website": "https://www.mirakl.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "OroCommerce",
-          "website": "https://www.orocommerce.com"
+          "website": "https://www.orocommerce.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Overstock",
-          "website": "https://www.overstock.com"
+          "website": "https://www.overstock.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Pinterest Shopping",
-          "website": "https://www.pinterest.com/business"
+          "website": "https://www.pinterest.com/business",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Salesforce Commerce Cloud",
-          "website": "https://www.salesforce.com/commerce"
+          "website": "https://www.salesforce.com/commerce",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Sellbrite",
-          "website": "https://www.sellbrite.com"
+          "website": "https://www.sellbrite.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Target Plus",
-          "website": "https://www.target.com"
+          "website": "https://www.target.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "TikTok Shop",
-          "website": "https://www.tiktok.com/business/shopping"
+          "website": "https://www.tiktok.com/business/shopping",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "VTEX",
-          "website": "https://www.vtex.com"
+          "website": "https://www.vtex.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Walmart Marketplace",
-          "website": "https://marketplace.walmart.com"
+          "website": "https://marketplace.walmart.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Wayfair",
-          "website": "https://www.wayfair.com"
+          "website": "https://www.wayfair.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "WooCommerce (Automattic)",
-          "website": "https://woocommerce.com"
+          "website": "https://woocommerce.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Zentail",
-          "website": "https://www.zentail.com"
+          "website": "https://www.zentail.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "commercetools",
-          "website": "https://www.commercetools.com"
+          "website": "https://www.commercetools.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "eBay",
-          "website": "https://www.ebay.com"
+          "website": "https://www.ebay.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         }
       ]
     },
@@ -119,11 +171,15 @@
       "entities": [
         {
           "name": "Elastic Path",
-          "website": "https://www.elasticpath.com"
+          "website": "https://www.elasticpath.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         },
         {
           "name": "Shopify",
-          "website": "https://www.shopify.com"
+          "website": "https://www.shopify.com",
+          "category": "Sellers",
+          "sub_type": "Retailer"
         }
       ]
     },
