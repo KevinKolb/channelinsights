@@ -390,6 +390,94 @@ select {
 }
 
 /* =============================================================================
+   POS SHEET BAR & TABLE
+   ============================================================================= */
+
+.pos-sheet-bar {
+    border-bottom: 2px solid var(--border);
+    padding: 0 var(--spacing-xl);
+    display: none;
+    flex-wrap: wrap;
+    gap: 0;
+    overflow-x: auto;
+    background: var(--hover);
+}
+
+.pos-sheet-btn {
+    padding: 0.5rem var(--spacing-md);
+    border: none;
+    border-right: 1px solid var(--border);
+    background: transparent;
+    font-family: inherit;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    color: var(--secondary);
+    transition: background 0.2s, color 0.2s;
+}
+
+.pos-sheet-btn:hover {
+    background: var(--border);
+    color: var(--background);
+}
+
+.pos-sheet-btn.active {
+    background: var(--primary);
+    color: var(--background);
+}
+
+.pos-table-wrap {
+    overflow-x: auto;
+}
+
+.pos-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+}
+
+.pos-table thead tr {
+    background: var(--primary);
+    color: var(--background);
+}
+
+.pos-table th {
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+    border-right: 1px solid #444;
+}
+
+.pos-table th:last-child {
+    border-right: none;
+}
+
+.pos-table td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    vertical-align: top;
+    white-space: nowrap;
+    max-width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pos-table td:last-child {
+    border-right: none;
+}
+
+.pos-table tbody tr:hover {
+    background: var(--hover);
+}
+
+/* =============================================================================
    EMPTY STATE & LOADING
    ============================================================================= */
 

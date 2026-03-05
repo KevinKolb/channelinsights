@@ -1,5 +1,7 @@
 let currentCategory = 'all';
 let currentData = null;
+let posData = null;
+let currentPosSheet = null;
 
 const categoryDescriptions = {
     'all': 'All channel partners across the appliance industry value chain.',
@@ -58,7 +60,89 @@ function switchCategory(category) {
     });
     document.querySelector(`[data-category="${category}"]`).classList.add('active');
 
-    applyFilters();
+    if (category === 'pos') {
+        loadPosData();
+    } else {
+        document.getElementById('pos-sheet-bar').style.display = 'none';
+        applyFilters();
+    }
+}
+
+async function loadPosData() {
+    if (posData) {
+        renderPosView();
+        return;
+    }
+    document.getElementById('content').innerHTML = '<div class="loading">Loading POS data...</div>';
+    try {
+        const response = await fetch('360clientssendingpos.json');
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status} — ${response.statusText}`);
+        }
+        const text = await response.text();
+        try {
+            posData = JSON.parse(text);
+        } catch (parseErr) {
+            throw new Error(`JSON parse error: ${parseErr.message}`);
+        }
+        currentPosSheet = Object.keys(posData)[0];
+        renderPosView();
+    } catch (error) {
+        document.getElementById('content').innerHTML =
+            `<div class="empty-state">Error loading 360clientssendingpos.json<br><small>${error.message}</small></div>`;
+        console.error('Error loading POS data:', error);
+    }
+}
+
+function renderPosView() {
+    const sheetBar = document.getElementById('pos-sheet-bar');
+    const sheetNames = Object.keys(posData);
+
+    // Render sheet selector
+    sheetBar.style.display = 'flex';
+    sheetBar.innerHTML = sheetNames.map(name =>
+        `<button class="pos-sheet-btn${name === currentPosSheet ? ' active' : ''}" data-sheet="${name}">${name}</button>`
+    ).join('');
+    sheetBar.querySelectorAll('.pos-sheet-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            currentPosSheet = btn.dataset.sheet;
+            renderPosView();
+        });
+    });
+
+    const searchTerm = document.getElementById('search').value.toLowerCase();
+    const rows = posData[currentPosSheet] || [];
+    const columns = rows.length > 0 ? Object.keys(rows[0]) : [];
+
+    const filtered = searchTerm
+        ? rows.filter(row => columns.some(col => {
+            const v = row[col];
+            return v != null && String(v).toLowerCase().includes(searchTerm);
+          }))
+        : rows;
+
+    // Update metadata
+    document.getElementById('metadata').innerHTML =
+        `<strong>${currentPosSheet}</strong>: ${filtered.length} of ${rows.length} rows`;
+
+    const content = document.getElementById('content');
+    if (filtered.length === 0) {
+        content.innerHTML = '<div class="empty-state">No results found</div>';
+        return;
+    }
+
+    const headerHtml = columns.map(c => `<th>${c}</th>`).join('');
+    const bodyHtml = filtered.map(row =>
+        `<tr>${columns.map(c => `<td>${row[c] ?? ''}</td>`).join('')}</tr>`
+    ).join('');
+
+    content.innerHTML = `
+        <div class="pos-table-wrap">
+            <table class="pos-table">
+                <thead><tr>${headerHtml}</tr></thead>
+                <tbody>${bodyHtml}</tbody>
+            </table>
+        </div>`;
 }
 
 function applyFilters() {
@@ -259,7 +343,10 @@ document.querySelectorAll('.tab-button').forEach(button => {
     });
 });
 
-document.getElementById('search').addEventListener('input', applyFilters);
+document.getElementById('search').addEventListener('input', () => {
+    if (currentCategory === 'pos') renderPosView();
+    else applyFilters();
+});
 document.getElementById('country-filter').addEventListener('change', applyFilters);
 document.getElementById('sort').addEventListener('change', applyFilters);
 
