@@ -1,0 +1,362 @@
+{
+  "metadata": {
+    "catalog_version": 1,
+    "entity_type": "providers",
+    "updated_at": "2026-03-18T17:04:34+00:00",
+    "generated_by": "pos/pos.py",
+    "merge_strategy": "incremental merge on normalized name + country",
+    "preserves_existing_records": true,
+    "seed_count": 12,
+    "total_count": 12,
+    "added_this_run": 0,
+    "updated_this_run": 0,
+    "unchanged_this_run": 12
+  },
+  "providers": [
+    {
+      "name": "Celerant Technology",
+      "country": "United States",
+      "website": "https://www.celerant.com",
+      "aliases": [
+        "Celerant"
+      ],
+      "products": [
+        "Back office",
+        "Ecommerce",
+        "POS"
+      ],
+      "verticals": [
+        "Retail",
+        "Specialty retail"
+      ],
+      "tags": [
+        "omnichannel",
+        "retail"
+      ],
+      "notes": "Retail commerce platform with point-of-sale, ecommerce, and back-office tooling.",
+      "sources": [
+        "curated_pos_provider_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T17:04:34+00:00",
+      "id": "celerant-technology-united-states"
+    },
+    {
+      "name": "ePASS",
+      "country": "United States",
+      "website": "https://www.ecisolutions.com",
+      "aliases": [
+        "ECI ePASS",
+        "ePass"
+      ],
+      "products": [
+        "ERP",
+        "POS"
+      ],
+      "verticals": [
+        "Appliances",
+        "Furniture",
+        "Retail"
+      ],
+      "tags": [
+        "appliance",
+        "dealer hub",
+        "partner-led integration"
+      ],
+      "vendor": "ECI Software Solutions",
+      "notes": "Dealer-facing retail POS and ERP product in the ECI portfolio.",
+      "sources": [
+        "curated_pos_provider_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T17:04:34+00:00",
+      "id": "epass-united-states"
+    },
+    {
+      "name": "FDM4",
+      "country": "Canada",
+      "website": "https://www.fdm4.com",
+      "aliases": [
+        "FDM4 International"
+      ],
+      "products": [
+        "ERP",
+        "POS"
+      ],
+      "verticals": [
+        "Furniture",
+        "Retail"
+      ],
+      "tags": [
+        "erp",
+        "furniture"
+      ],
+      "notes": "ERP and POS provider with strength in furniture and specialty retail workflows.",
+      "sources": [
+        "curated_pos_provider_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T17:04:34+00:00",
+      "id": "fdm4-canada"
+    },
+    {
+      "name": "Heartland Retail",
+      "country": "United States",
+      "website": "https://www.heartland.us",
+      "aliases": [
+        "Heartland",
+        "Heartland POS"
+      ],
+      "products": [
+        "Payments",
+        "POS"
+      ],
+      "verticals": [
+        "Retail"
+      ],
+      "tags": [
+        "payments",
+        "retail"
+      ],
+      "notes": "Retail POS platform offered alongside Heartland payment services.",
+      "sources": [
+        "curated_pos_provider_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T17:04:34+00:00",
+      "id": "heartland-retail-united-states"
+    },
+    {
+      "name": "Lightspeed Retail",
+      "country": "Canada",
+      "website": "https://www.lightspeedhq.com",
+      "aliases": [
+        "Lightspeed",
+        "Lightspeed POS"
+      ],
+      "products": [
+        "Ecommerce",
+        "Payments",
+        "POS"
+      ],
+      "verticals": [
+        "Retail"
+      ],
+      "tags": [
+        "api",
+        "cloud"
+      ],
+      "notes": "Cloud retail POS platform with a broad integration ecosystem.",
+      "sources": [
+        "curated_pos_provider_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T17:04:34+00:00",
+      "id": "lightspeed-retail-canada"
+    },
+    {
+      "name": "MicroBiz",
+      "country": "United States",
+      "website": "https://microbiz.com",
+      "aliases": [
+        "MicroBiz POS"
+      ],
+      "products": [
+        "Inventory",
+        "POS"
+      ],
+      "verticals": [
+        "Retail"
+      ],
+      "tags": [
+        "retail",
+        "small business"
+      ],
+      "notes": "Retail POS and inventory system oriented to specialty merchants.",
+      "sources": [
+        "curated_pos_provider_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T17:04:34+00:00",
+      "id": "microbiz-united-states"
+    },
+    {
+      "name": "NCR Counterpoint",
+      "country": "United States",
+      "website": "https://www.ncrvoyix.com",
+      "aliases": [
+        "Counterpoint",
+        "NCR Retail"
+      ],
+      "products": [
+        "Inventory",
+        "POS"
+      ],
+      "verticals": [
+        "Retail"
+      ],
+      "tags": [
+        "inventory",
+        "retail"
+      ],
+      "notes": "Retail POS and inventory platform in the NCR product family.",
+      "sources": [
+        "curated_pos_provider_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T17:04:34+00:00",
+      "id": "ncr-counterpoint-united-states"
+    },
+    {
+      "name": "Oracle Retail Xstore",
+      "country": "United States",
+      "website": "https://www.oracle.com/retail/",
+      "aliases": [
+        "Oracle Xstore",
+        "Xstore"
+      ],
+      "products": [
+        "Enterprise POS"
+      ],
+      "verticals": [
+        "Retail"
+      ],
+      "tags": [
+        "enterprise",
+        "retail"
+      ],
+      "notes": "Enterprise retail POS platform in Oracle's retail software suite.",
+      "sources": [
+        "curated_pos_provider_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T17:04:34+00:00",
+      "id": "oracle-retail-xstore-united-states"
+    },
+    {
+      "name": "Retail Pro",
+      "country": "United States",
+      "website": "https://www.retailpro.com",
+      "aliases": [
+        "Retail Pro Prism"
+      ],
+      "products": [
+        "Back office",
+        "POS"
+      ],
+      "verticals": [
+        "Retail"
+      ],
+      "tags": [
+        "global",
+        "retail"
+      ],
+      "notes": "Retail POS platform with enterprise and specialty retail deployments.",
+      "sources": [
+        "curated_pos_provider_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T17:04:34+00:00",
+      "id": "retail-pro-united-states"
+    },
+    {
+      "name": "Shopify POS",
+      "country": "Canada",
+      "website": "https://www.shopify.com/pos",
+      "aliases": [
+        "Shopify Point of Sale"
+      ],
+      "products": [
+        "Ecommerce",
+        "POS"
+      ],
+      "verticals": [
+        "Retail"
+      ],
+      "tags": [
+        "cloud",
+        "commerce"
+      ],
+      "notes": "Shopify's in-store POS offering for retailers already operating on Shopify.",
+      "sources": [
+        "curated_pos_provider_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T17:04:34+00:00",
+      "id": "shopify-pos-canada"
+    },
+    {
+      "name": "STORIS",
+      "country": "United States",
+      "website": "https://www.storis.com",
+      "aliases": [
+        "STORIS ERP",
+        "STORIS POS"
+      ],
+      "products": [
+        "ERP",
+        "POS"
+      ],
+      "verticals": [
+        "Appliances",
+        "Furniture",
+        "Mattress"
+      ],
+      "tags": [
+        "appliance",
+        "furniture",
+        "specialty retail"
+      ],
+      "notes": "Retail management platform commonly used by furniture, appliance, and mattress dealers.",
+      "sources": [
+        "curated_pos_provider_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T17:04:34+00:00",
+      "id": "storis-united-states"
+    },
+    {
+      "name": "Windward Software",
+      "country": "Canada",
+      "website": "https://www.windwardsoftware.com",
+      "aliases": [
+        "System Five",
+        "Windward",
+        "Windward System Five"
+      ],
+      "products": [
+        "ERP",
+        "POS"
+      ],
+      "verticals": [
+        "Appliances",
+        "Home goods",
+        "Retail"
+      ],
+      "tags": [
+        "erp",
+        "inventory",
+        "rest api"
+      ],
+      "notes": "Retail ERP and POS platform with an API surface commonly used in specialty retail deployments.",
+      "sources": [
+        "curated_pos_provider_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T17:04:34+00:00",
+      "id": "windward-software-canada"
+    }
+  ]
+}

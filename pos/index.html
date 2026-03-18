@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Point of Sale Systems | Channel Insights</title>
+    <link rel="stylesheet" href="pos.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="topbar">
+            <a class="brandmark" href="../index.html">Channel Insights</a>
+            <div class="topbar-meta">
+                <span class="meta-label">Data View</span>
+                <span class="meta-value">Point of Sale Systems</span>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-copy">
+                    <p class="hero-kicker">Execution Layer / Retail Systems</p>
+                    <h1>POS Systems</h1>
+                    <p class="hero-lede">
+                        A clean view of the point-of-sale and retail operating systems sitting
+                        inside dealer workflows across appliances, furniture, and specialty retail.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="hero-link" href="pos.json">Open JSON</a>
+                        <button class="hero-link hero-button" id="run-pos" type="button">Update Data *</button>
+                    </div>
+                    <div class="run-status" id="run-status" hidden></div>
+                </div>
+
+                <aside class="hero-panel">
+                    <div class="metric">
+                        <span class="metric-label">Tracked systems</span>
+                        <strong class="metric-value" id="metric-total">0</strong>
+                    </div>
+                    <div class="metric-grid">
+                        <div class="metric-card">
+                            <span class="metric-label">Countries</span>
+                            <strong class="metric-small" id="metric-countries">0</strong>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">Products</span>
+                            <strong class="metric-small" id="metric-products">0</strong>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">Verticals</span>
+                            <strong class="metric-small" id="metric-verticals">0</strong>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">ERP-linked</span>
+                            <strong class="metric-small" id="metric-erp">0</strong>
+                        </div>
+                        <div class="metric-card full">
+                            <span class="metric-label">Last update</span>
+                            <strong class="metric-small" id="metric-updated">Loading</strong>
+                        </div>
+                    </div>
+                </aside>
+            </section>
+
+            <section class="info-band">
+                <div class="band-block">
+                    <span class="band-label">What this page shows</span>
+                    <p>
+                        POS platforms, ERP suites, and retail operating systems pulled from
+                        <code>pos.json</code>.
+                    </p>
+                </div>
+                <div class="band-block">
+                    <span class="band-label">Control point</span>
+                    <p>
+                        POS is where transaction capture, SKU mapping, inventory status, and incentive workflow can become embedded.
+                    </p>
+                </div>
+                <div class="band-block">
+                    <span class="band-label">Why it matters</span>
+                    <p>
+                        If the POS layer is integrated, dealers stay inside their workflow and incentive execution becomes infrastructure.
+                    </p>
+                    <div class="channel-diagram vertical" aria-label="Channel flow diagram">
+                        <div class="channel-node">Manufacturers</div>
+                        <div class="channel-arrow vertical">&darr;</div>
+                        <div class="channel-node">Buying Groups / Dealers</div>
+                        <div class="channel-arrow vertical">&darr;</div>
+                        <div class="channel-node active">POS Systems (STORIS / ePASS / Windward)</div>
+                        <div class="channel-arrow vertical">&darr;</div>
+                        <div class="channel-node">360insights</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="controls" id="directory">
+                <div class="control">
+                    <label for="search">Search</label>
+                    <input id="search" type="text" placeholder="STORIS, ePASS, furniture, ERP...">
+                </div>
+                <div class="control">
+                    <label for="country-filter">Country</label>
+                    <select id="country-filter">
+                        <option value="all">All countries</option>
+                    </select>
+                </div>
+                <div class="control">
+                    <label for="vertical-filter">Vertical</label>
+                    <select id="vertical-filter">
+                        <option value="all">All verticals</option>
+                    </select>
+                </div>
+                <div class="control">
+                    <label for="sort">Sort</label>
+                    <select id="sort">
+                        <option value="name-asc">Name A-Z</option>
+                        <option value="name-desc">Name Z-A</option>
+                        <option value="country">Country</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="directory-meta">
+                <div class="result-count" id="result-count">Loading directory...</div>
+                <div class="segment-strip" id="segment-strip"></div>
+            </section>
+
+            <section class="card-grid" id="card-grid" aria-live="polite">
+                <article class="loading-card">Loading POS systems...</article>
+            </section>
+
+            <p class="page-note">* MUST BE USING WEBSITE LOCALLY</p>
+        </main>
+    </div>
+
+    <script src="pos.js"></script>
+</body>
+</html>

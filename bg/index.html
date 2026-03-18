@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buying Groups | Channel Insights</title>
+    <link rel="stylesheet" href="bg.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="topbar">
+            <a class="brandmark" href="../index.html">Channel Insights</a>
+            <div class="topbar-meta">
+                <span class="meta-label">Data View</span>
+                <span class="meta-value">Buying Groups</span>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-copy">
+                    <p class="hero-kicker">Influence Layer / Dealer Networks</p>
+                    <h1>Buying Groups</h1>
+                    <p class="hero-lede">
+                        A crisp view of the organizations that aggregate dealer influence,
+                        marketing leverage, and manufacturer relationships across North America.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="hero-link" href="bg.json">Open JSON</a>
+                        <button class="hero-link hero-button" id="run-bg" type="button">Update Data *</button>
+                    </div>
+                    <div class="run-status" id="run-status" hidden></div>
+                </div>
+
+                <aside class="hero-panel">
+                    <div class="metric">
+                        <span class="metric-label">Tracked groups</span>
+                        <strong class="metric-value" id="metric-total">0</strong>
+                    </div>
+                    <div class="metric-grid">
+                        <div class="metric-card">
+                            <span class="metric-label">Countries</span>
+                            <strong class="metric-small" id="metric-countries">0</strong>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">Member segments</span>
+                            <strong class="metric-small" id="metric-segments">0</strong>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">POS signals</span>
+                            <strong class="metric-small" id="metric-pos-groups">0</strong>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">POS platforms</span>
+                            <strong class="metric-small" id="metric-pos-platforms">0</strong>
+                        </div>
+                        <div class="metric-card full">
+                            <span class="metric-label">Last update</span>
+                            <strong class="metric-small" id="metric-updated">Loading</strong>
+                        </div>
+                    </div>
+                </aside>
+            </section>
+
+            <section class="info-band">
+                <div class="band-block">
+                    <span class="band-label">What this page shows</span>
+                    <p>
+                        Brand groups, dealer networks, and buying cooperatives pulled from
+                        <code>bg.json</code>.
+                    </p>
+                </div>
+                <div class="band-block">
+                    <span class="band-label">POS signals</span>
+                    <p id="pos-summary">
+                        Checking public partner and integration signals from group and POS-provider sources.
+                    </p>
+                </div>
+                <div class="band-block">
+                    <span class="band-label">Why it matters</span>
+                    <p>
+                        Buying groups shape dealer reach. They are the relationship layer sitting above POS execution.
+                    </p>
+                    <div class="channel-diagram vertical" aria-label="Channel flow diagram">
+                        <div class="channel-node">Manufacturers</div>
+                        <div class="channel-arrow vertical">↓</div>
+                        <div class="channel-node active">Buying Groups (BrandSource / Nationwide)</div>
+                        <div class="channel-arrow vertical">↓</div>
+                        <div class="channel-node">Dealers (Don&rsquo;s)</div>
+                        <div class="channel-arrow vertical">↓</div>
+                        <div class="channel-node">POS (ePass, STORIS, etc.)</div>
+                        <div class="channel-arrow vertical">↓</div>
+                        <div class="channel-node">360insights</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="controls" id="directory">
+                <div class="control">
+                    <label for="search">Search</label>
+                    <input id="search" type="text" placeholder="BrandSource, AVB, member-owned...">
+                </div>
+                <div class="control">
+                    <label for="country-filter">Country</label>
+                    <select id="country-filter">
+                        <option value="all">All countries</option>
+                    </select>
+                </div>
+                <div class="control">
+                    <label for="segment-filter">Member segment</label>
+                    <select id="segment-filter">
+                        <option value="all">All segments</option>
+                    </select>
+                </div>
+                <div class="control">
+                    <label for="sort">Sort</label>
+                    <select id="sort">
+                        <option value="name-asc">Name A-Z</option>
+                        <option value="name-desc">Name Z-A</option>
+                        <option value="country">Country</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="directory-meta">
+                <div class="result-count" id="result-count">Loading directory...</div>
+                <div class="segment-strip" id="segment-strip"></div>
+            </section>
+
+            <section class="card-grid" id="card-grid" aria-live="polite">
+                <article class="loading-card">Loading buying groups...</article>
+            </section>
+
+            <p class="page-note">* MUST BE USING WEBSITE LOCALLY</p>
+        </main>
+    </div>
+
+    <script src="bg.js"></script>
+</body>
+</html>

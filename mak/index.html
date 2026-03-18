@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makers | Channel Insights</title>
+    <link rel="stylesheet" href="mak.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="topbar">
+            <a class="brandmark" href="../index.html">Channel Insights</a>
+            <div class="topbar-meta">
+                <span class="meta-label">Data View</span>
+                <span class="meta-value">Makers</span>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-copy">
+                    <p class="hero-kicker">Manufacturer Layer / Brand Owners</p>
+                    <h1>Makers</h1>
+                    <p class="hero-lede">
+                        A focused view of appliance and adjacent manufacturer entities, enriched
+                        with brand portfolios pulled from the existing local data already in this repo.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="hero-link" href="mak.json">Open JSON</a>
+                        <button class="hero-link hero-button" id="run-mak" type="button">Update Data *</button>
+                    </div>
+                    <div class="run-status" id="run-status" hidden></div>
+                </div>
+
+                <aside class="hero-panel">
+                    <div class="metric">
+                        <span class="metric-label">Tracked makers</span>
+                        <strong class="metric-value" id="metric-total">0</strong>
+                    </div>
+                    <div class="metric-grid">
+                        <div class="metric-card">
+                            <span class="metric-label">Countries</span>
+                            <strong class="metric-small" id="metric-countries">0</strong>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">Brand entries</span>
+                            <strong class="metric-small" id="metric-brands">0</strong>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">Maker types</span>
+                            <strong class="metric-small" id="metric-types">0</strong>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">Portfolios</span>
+                            <strong class="metric-small" id="metric-portfolios">0</strong>
+                        </div>
+                        <div class="metric-card full">
+                            <span class="metric-label">Last update</span>
+                            <strong class="metric-small" id="metric-updated">Loading</strong>
+                        </div>
+                    </div>
+                </aside>
+            </section>
+
+            <section class="info-band">
+                <div class="band-block">
+                    <span class="band-label">What this page shows</span>
+                    <p>
+                        Maker entities derived from <code>data/partners.json</code> and
+                        enriched with brand relationships from <code>data/brands.json</code>.
+                    </p>
+                </div>
+                <div class="band-block">
+                    <span class="band-label">Brand layer</span>
+                    <p>
+                        This is where brand ownership, portfolio structure, and product identity sit before the dealer and POS layers ever see a sale.
+                    </p>
+                </div>
+                <div class="band-block">
+                    <span class="band-label">Why it matters</span>
+                    <p>
+                        If you understand who owns which brands, you can map incentives, channel programs, and dealer execution back to the real decision maker.
+                    </p>
+                    <div class="channel-diagram vertical" aria-label="Channel flow diagram">
+                        <div class="channel-node active">Manufacturers</div>
+                        <div class="channel-arrow vertical">&darr;</div>
+                        <div class="channel-node active">Brands</div>
+                        <div class="channel-arrow vertical">&darr;</div>
+                        <div class="channel-node">Buying Groups / Distributors</div>
+                        <div class="channel-arrow vertical">&darr;</div>
+                        <div class="channel-node">Dealers</div>
+                        <div class="channel-arrow vertical">&darr;</div>
+                        <div class="channel-node">POS</div>
+                        <div class="channel-arrow vertical">&darr;</div>
+                        <div class="channel-node">360insights</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="controls" id="directory">
+                <div class="control">
+                    <label for="search">Search</label>
+                    <input id="search" type="text" placeholder="Whirlpool, GE, ODM, Frigidaire, Wolf...">
+                </div>
+                <div class="control">
+                    <label for="country-filter">Country</label>
+                    <select id="country-filter">
+                        <option value="all">All countries</option>
+                    </select>
+                </div>
+                <div class="control">
+                    <label for="subtype-filter">Subtype</label>
+                    <select id="subtype-filter">
+                        <option value="all">All maker subtypes</option>
+                    </select>
+                </div>
+                <div class="control">
+                    <label for="sort">Sort</label>
+                    <select id="sort">
+                        <option value="name-asc">Name A-Z</option>
+                        <option value="name-desc">Name Z-A</option>
+                        <option value="brand-count">Brand count</option>
+                        <option value="country">Country</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="directory-meta">
+                <div class="result-count" id="result-count">Loading directory...</div>
+                <div class="segment-strip" id="segment-strip"></div>
+            </section>
+
+            <section class="card-grid" id="card-grid" aria-live="polite">
+                <article class="loading-card">Loading makers...</article>
+            </section>
+
+            <p class="page-note">* MUST BE USING WEBSITE LOCALLY</p>
+        </main>
+    </div>
+
+    <script src="mak.js"></script>
+</body>
+</html>

@@ -1,0 +1,2485 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-18T17:21:58.042872+00:00",
+    "generated_by": "mak/mak.py",
+    "derived_from": [
+      "data/partners.json",
+      "data/brands.json",
+      "data/partner_type.json"
+    ],
+    "total_count": 96,
+    "countries": 3,
+    "maker_types": 12,
+    "maker_subtypes": 4,
+    "mapped_brand_entries": 51,
+    "makers_with_brand_portfolios": 15
+  },
+  "makers": [
+    {
+      "id": "mak-089",
+      "name": "Beatty Brothers Limited",
+      "country": "Canada",
+      "website": "https://en.wikipedia.org/wiki/Beatty_Brothers_Limited",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-090",
+      "name": "Danby",
+      "country": "Canada",
+      "website": "https://www.danby.com",
+      "headquarters": "Guelph, Ontario",
+      "manufacturer_type": "Major Appliances (refrigeration)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": 350000000,
+      "notes": "Compact and specialty appliances",
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-091",
+      "name": "Danby (appliances)",
+      "country": "Canada",
+      "website": "https://www.danby.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances (refrigeration)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-092",
+      "name": "Fantom Technologies",
+      "country": "Canada",
+      "website": "https://en.wikipedia.org/wiki/Fantom_Technologies",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-093",
+      "name": "John Inglis and Company",
+      "country": "Canada",
+      "website": "http://www.inglis.ca",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-094",
+      "name": "Napoleon",
+      "country": "Canada",
+      "website": "https://www.napoleon.com",
+      "headquarters": "Barrie, Ontario",
+      "manufacturer_type": "Outdoor Cooking",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": 400000000,
+      "notes": "Grills, fireplaces, HVAC",
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-095",
+      "name": "Trudeau Corporation",
+      "country": "Canada",
+      "website": "http://trudeau.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-096",
+      "name": "Mabe",
+      "country": "Mexico",
+      "website": "https://www.mabe.com.mx",
+      "headquarters": "Mexico City",
+      "manufacturer_type": "Major Appliances (full-line)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": 2500000000,
+      "notes": "Joint venture with GE. Major Latin American manufacturer",
+      "brands": [
+        "Acros",
+        "Easy",
+        "GE (Latin America)"
+      ],
+      "brand_count": 3,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-001",
+      "name": "Admiral (electrical appliances)",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Admiral_(electrical_appliances)",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-002",
+      "name": "Aerus",
+      "country": "United States",
+      "website": "http://www.aerusvacuums.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-003",
+      "name": "Alliance Laundry Systems",
+      "country": "United States",
+      "website": "https://alliancelaundry.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances (laundry)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-004",
+      "name": "Altorfer Bros. Company",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Altorfer_Bros._Company",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-005",
+      "name": "Aroma Housewares",
+      "country": "United States",
+      "website": "http://www.aromaco.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-006",
+      "name": "BSH Home Appliances",
+      "country": "United States",
+      "website": "https://www.bsh-group.com",
+      "headquarters": "Irvine, California",
+      "manufacturer_type": "Major Appliances (full-line)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": 4500000000,
+      "notes": "Owns Bosch, Thermador, Gaggenau brands in North America",
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-007",
+      "name": "Bissell",
+      "country": "United States",
+      "website": "https://www.bissell.com/",
+      "headquarters": null,
+      "manufacturer_type": "Vacuum/Floor Care",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-008",
+      "name": "Blendtec",
+      "country": "United States",
+      "website": "https://www.blendtec.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-009",
+      "name": "BlueStar",
+      "country": "United States",
+      "website": "https://www.bluestarcooking.com",
+      "headquarters": "Reading, Pennsylvania",
+      "manufacturer_type": "Major Appliances (cooking)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": null,
+      "notes": "Prizer-Painter Stove Works. Professional ranges made in USA since 1880",
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-010",
+      "name": "Bradshaw International",
+      "country": "United States",
+      "website": "http://bradshawhome.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-011",
+      "name": "Caloric",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Caloric",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-012",
+      "name": "Conair Corporation",
+      "country": "United States",
+      "website": "http://www.conair.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-013",
+      "name": "Cuisinart",
+      "country": "United States",
+      "website": "http://cuisinart.com",
+      "headquarters": null,
+      "manufacturer_type": "Small Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-014",
+      "name": "Dacor (kitchen appliances)",
+      "country": "United States",
+      "website": "http://www.dacor.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-015",
+      "name": "Dirt Devil",
+      "country": "United States",
+      "website": "http://www.dirtdevil.com/",
+      "headquarters": null,
+      "manufacturer_type": "Vacuum/Floor Care",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-016",
+      "name": "Electrolux North America",
+      "country": "United States",
+      "website": "https://www.electrolux.com",
+      "headquarters": "Charlotte, North Carolina",
+      "manufacturer_type": "Major Appliances (full-line)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": 5000000000,
+      "notes": "Owns Frigidaire, Electrolux brands",
+      "brands": [
+        "Electrolux",
+        "Frigidaire",
+        "Frigidaire Gallery",
+        "Frigidaire Professional",
+        "Gibson",
+        "Kelvinator",
+        "Tappan",
+        "White-Westinghouse"
+      ],
+      "brand_count": 8,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-017",
+      "name": "Emerson Radio",
+      "country": "United States",
+      "website": "http://emersonradio.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-018",
+      "name": "Eureka (company)",
+      "country": "United States",
+      "website": "http://www.eureka.com/",
+      "headquarters": null,
+      "manufacturer_type": "Vacuum/Floor Care",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [
+        "Eureka"
+      ],
+      "brand_count": 1,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-019",
+      "name": "Farberware",
+      "country": "United States",
+      "website": "https://www.farberwarecookware.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-020",
+      "name": "Favorite Stove",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Favorite_Stove",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances (cooking)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-021",
+      "name": "Felix Storch, Inc",
+      "country": "United States",
+      "website": "http://felixstorchinc.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-022",
+      "name": "Frigidaire",
+      "country": "United States",
+      "website": "http://www.frigidaire.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances (full-line)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-023",
+      "name": "GE Appliances",
+      "country": "United States",
+      "website": "https://www.geappliances.com",
+      "headquarters": "Louisville, Kentucky",
+      "manufacturer_type": "Major Appliances (full-line)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": 8000000000,
+      "notes": "Owned by Haier. Owns GE, Monogram, Café, Profile, Hotpoint brands",
+      "brands": [
+        "GE",
+        "GE Café",
+        "GE Profile",
+        "Haier",
+        "Hotpoint",
+        "Monogram"
+      ],
+      "brand_count": 6,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-024",
+      "name": "Galanz Americas",
+      "country": "United States",
+      "website": "https://www.galanzamericas.com",
+      "headquarters": "Irvine, California",
+      "manufacturer_type": "OEM",
+      "subtypes": [
+        "OEM"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "OEM",
+          "short_name": "Build-to-Spec Manufacturer",
+          "description": "Builds appliances to the brand owner's specs and ships under the brand owner's name.",
+          "incentives": "rarely dealer-facing; uses commercial terms with the brand owner (contract pricing, volume breaks, capacity/allocation, tooling/NRE, quality/chargebacks, supply assurance)."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": null,
+      "notes": "OEM specializing in microwaves and small appliances",
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-025",
+      "name": "Gibson Appliance",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Gibson_Appliance",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-026",
+      "name": "Grigsby-Grunow",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Grigsby-Grunow",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-027",
+      "name": "Hamilton Beach Brands",
+      "country": "United States",
+      "website": "https://hamiltonbeach.com",
+      "headquarters": "Glen Allen, Virginia",
+      "manufacturer_type": "Small Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": 600000000,
+      "notes": "Small kitchen appliances",
+      "brands": [
+        "Hamilton Beach",
+        "Proctor Silex"
+      ],
+      "brand_count": 2,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-028",
+      "name": "Holmes Products",
+      "country": "United States",
+      "website": "http://www.holmesproducts.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-029",
+      "name": "IRobot",
+      "country": "United States",
+      "website": "http://irobot.com",
+      "headquarters": null,
+      "manufacturer_type": "Vacuum/Floor Care",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [
+        "Braava",
+        "Roomba"
+      ],
+      "brand_count": 2,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-030",
+      "name": "InSinkErator",
+      "country": "United States",
+      "website": "http://www.insinkerator.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-031",
+      "name": "International Harvester",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/International_Harvester",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-032",
+      "name": "JS Global (SharkNinja)",
+      "country": "United States",
+      "website": "https://www.sharkninja.com",
+      "headquarters": "Needham, Massachusetts",
+      "manufacturer_type": "ODM",
+      "subtypes": [
+        "ODM"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "ODM",
+          "short_name": "Design + Manufacture Platform",
+          "description": "Designs a product platform and manufactures it; brands choose variants and badge it.",
+          "incentives": "rarely dealer-facing; platform/contract terms (MOQ/volume tiers, pricing, exclusivity, tooling/NRE, allocation, quality terms)."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": 4000000000,
+      "notes": "Designs and manufactures Shark and Ninja brands",
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-033",
+      "name": "John Oster Manufacturing Company",
+      "country": "United States",
+      "website": "http://www.sunbeam.com",
+      "headquarters": null,
+      "manufacturer_type": "Small Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-034",
+      "name": "June (company)",
+      "country": "United States",
+      "website": "https://juneoven.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-035",
+      "name": "Kaz Incorporated",
+      "country": "United States",
+      "website": "http://www.kaz.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-036",
+      "name": "Kelvinator",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Kelvinator",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-037",
+      "name": "Kirby Company",
+      "country": "United States",
+      "website": "https://kirby.com",
+      "headquarters": null,
+      "manufacturer_type": "Vacuum/Floor Care",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [
+        "Kirby"
+      ],
+      "brand_count": 1,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-038",
+      "name": "KitchenAid",
+      "country": "United States",
+      "website": "http://www.kitchenaid.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-039",
+      "name": "Konecranes",
+      "country": "United States",
+      "website": "https://www.konecranes.com/",
+      "headquarters": "Hyvinkää",
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikidata",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-040",
+      "name": "LG Electronics USA",
+      "country": "United States",
+      "website": "https://www.lg.com/us",
+      "headquarters": "Englewood Cliffs, New Jersey",
+      "manufacturer_type": "Major Appliances (full-line)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": 7000000000,
+      "notes": "Major appliance manufacturer with US production in Tennessee",
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-041",
+      "name": "Leonard (appliances)",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Leonard_(appliances)",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-042",
+      "name": "Malleable Iron Range Company",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Malleable_Iron_Range_Company",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances (cooking)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-043",
+      "name": "Maytag",
+      "country": "United States",
+      "website": "http://www.maytag.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances (full-line)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-044",
+      "name": "McGraw Electric",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/McGraw_Electric",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-045",
+      "name": "Meyer Manufacturing",
+      "country": "United States",
+      "website": "http://meyerinternational.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-046",
+      "name": "Midea Group",
+      "country": "United States",
+      "website": "https://www.midea.com",
+      "headquarters": "Parsippany, New Jersey",
+      "manufacturer_type": "OEM",
+      "subtypes": [
+        "OEM"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "OEM",
+          "short_name": "Build-to-Spec Manufacturer",
+          "description": "Builds appliances to the brand owner's specs and ships under the brand owner's name.",
+          "incentives": "rarely dealer-facing; uses commercial terms with the brand owner (contract pricing, volume breaks, capacity/allocation, tooling/NRE, quality/chargebacks, supply assurance)."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": 52000000000,
+      "notes": "Major OEM for private label appliances. Owns Toshiba appliances",
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-047",
+      "name": "NACCO Industries",
+      "country": "United States",
+      "website": "http://www.nacco.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-048",
+      "name": "Napoleon (company)",
+      "country": "United States",
+      "website": "https://www.napoleon.com/",
+      "headquarters": null,
+      "manufacturer_type": "Outdoor Cooking",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-049",
+      "name": "Nash-Kelvinator",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Nash-Kelvinator",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-050",
+      "name": "National Presto Industries",
+      "country": "United States",
+      "website": "http://www.gopresto.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-051",
+      "name": "Newell Brands",
+      "country": "United States",
+      "website": "https://www.newellbrands.com",
+      "headquarters": "Atlanta, Georgia",
+      "manufacturer_type": "Brand Owner",
+      "subtypes": [
+        "Brand Owner"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Brand Owner",
+          "short_name": "Outsourced Manufacturing / Asset-Light",
+          "description": "Owns the brand + GTM; outsources some/all production while controlling programs and warranty/service policy.",
+          "incentives": "same channel menu as above (rebates/STA/MDF/price protection/display/demo/training; occasional spiffs)."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": 8600000000,
+      "notes": "Owns Crock-Pot, Mr. Coffee, Oster, Sunbeam, FoodSaver brands",
+      "brands": [
+        "Crock-Pot",
+        "FoodSaver",
+        "Mr. Coffee",
+        "Oster",
+        "Sunbeam"
+      ],
+      "brand_count": 5,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-052",
+      "name": "NuTone",
+      "country": "United States",
+      "website": "http://www.nutone.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-053",
+      "name": "O-Cedar",
+      "country": "United States",
+      "website": "http://ocedar.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-054",
+      "name": "Peerless-Premier Appliance Company",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Peerless-Premier_Appliance_Company",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-055",
+      "name": "Pirch (company)",
+      "country": "United States",
+      "website": "http://pirch.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-056",
+      "name": "Pollenex",
+      "country": "United States",
+      "website": "http://www.pollenex.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-057",
+      "name": "Proctor Silex",
+      "country": "United States",
+      "website": "http://www.proctorsilex.com",
+      "headquarters": null,
+      "manufacturer_type": "Small Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-058",
+      "name": "Remington (personal care brand)",
+      "country": "United States",
+      "website": "http://remingtonproducts.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-059",
+      "name": "Rexair",
+      "country": "United States",
+      "website": "http://www.rainbowsystem.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-060",
+      "name": "Rival (consumer products company)",
+      "country": "United States",
+      "website": "http://www.rivalproducts.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-061",
+      "name": "Russell Hobbs, Inc.",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Russell_Hobbs,_Inc.",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-062",
+      "name": "SVP Worldwide",
+      "country": "United States",
+      "website": "http://svpworldwide.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-063",
+      "name": "Samsung Electronics America",
+      "country": "United States",
+      "website": "https://www.samsung.com/us",
+      "headquarters": "Ridgefield Park, New Jersey",
+      "manufacturer_type": "Major Appliances (full-line)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": 6500000000,
+      "notes": "Major appliance manufacturer with US production in South Carolina",
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-064",
+      "name": "SharkNinja",
+      "country": "United States",
+      "website": "https://www.sharkninja.com",
+      "headquarters": null,
+      "manufacturer_type": "Vacuum/Floor Care",
+      "subtypes": [
+        "ODM"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "ODM",
+          "short_name": "Design + Manufacture Platform",
+          "description": "Designs a product platform and manufactures it; brands choose variants and badge it.",
+          "incentives": "rarely dealer-facing; platform/contract terms (MOQ/volume tiers, pricing, exclusivity, tooling/NRE, allocation, quality terms)."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [
+        "Ninja",
+        "Shark"
+      ],
+      "brand_count": 2,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-065",
+      "name": "Shop-Vac",
+      "country": "United States",
+      "website": "https://www.shopvac.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-066",
+      "name": "Singer Corporation",
+      "country": "United States",
+      "website": "https://www.singer.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-067",
+      "name": "Spectrum Brands",
+      "country": "United States",
+      "website": "https://www.spectrumbrands.com",
+      "headquarters": "Middleton, Wisconsin",
+      "manufacturer_type": "Brand Owner",
+      "subtypes": [
+        "Brand Owner"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Brand Owner",
+          "short_name": "Outsourced Manufacturing / Asset-Light",
+          "description": "Owns the brand + GTM; outsources some/all production while controlling programs and warranty/service policy.",
+          "incentives": "same channel menu as above (rebates/STA/MDF/price protection/display/demo/training; occasional spiffs)."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": 3400000000,
+      "notes": "Owns Black+Decker, George Foreman, Russell Hobbs appliance brands",
+      "brands": [
+        "Black+Decker",
+        "Emeril",
+        "George Foreman",
+        "Russell Hobbs"
+      ],
+      "brand_count": 4,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-068",
+      "name": "Speed Queen",
+      "country": "United States",
+      "website": "https://www.speedqueen.com",
+      "headquarters": "Ripon, Wisconsin",
+      "manufacturer_type": "Major Appliances (laundry)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": 500000000,
+      "notes": "Alliance Laundry Systems brand. Commercial and residential laundry",
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-069",
+      "name": "Staber Industries",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Staber_Industries",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-070",
+      "name": "Standex International",
+      "country": "United States",
+      "website": "https://www.standex.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-071",
+      "name": "Sub-Zero (company)",
+      "country": "United States",
+      "website": "https://www.subzero-wolf.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances (refrigeration)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-072",
+      "name": "Sub-Zero Group",
+      "country": "United States",
+      "website": "https://www.subzero-wolf.com",
+      "headquarters": "Madison, Wisconsin",
+      "manufacturer_type": "Specialty/Luxury",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": 2500000000,
+      "notes": "Premium appliances. Owns Sub-Zero, Wolf, Cove brands. Made in USA",
+      "brands": [
+        "Cove",
+        "Sub-Zero",
+        "Wolf"
+      ],
+      "brand_count": 3,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-073",
+      "name": "Summit Appliance",
+      "country": "United States",
+      "website": "https://summitappliance.com",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-074",
+      "name": "Sunbeam Products",
+      "country": "United States",
+      "website": "http://www.sunbeam.com",
+      "headquarters": null,
+      "manufacturer_type": "Small Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-075",
+      "name": "TTI Floor Care",
+      "country": "United States",
+      "website": "https://www.ttifloorcare.com",
+      "headquarters": "Charlotte, North Carolina",
+      "manufacturer_type": "OEM",
+      "subtypes": [
+        "OEM"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "OEM",
+          "short_name": "Build-to-Spec Manufacturer",
+          "description": "Builds appliances to the brand owner's specs and ships under the brand owner's name.",
+          "incentives": "rarely dealer-facing; uses commercial terms with the brand owner (contract pricing, volume breaks, capacity/allocation, tooling/NRE, quality/chargebacks, supply assurance)."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": 1500000000,
+      "notes": "OEM for Hoover, Dirt Devil, Oreck brands",
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-076",
+      "name": "Tacony Corporation",
+      "country": "United States",
+      "website": "http://www.tacony.com/",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-077",
+      "name": "Tappan (brand)",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Tappan_(brand)",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-078",
+      "name": "Terex",
+      "country": "United States",
+      "website": "http://www.terex.com/",
+      "headquarters": "Westport",
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikidata",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-079",
+      "name": "The Hoover Company",
+      "country": "United States",
+      "website": "https://www.hoover.com/",
+      "headquarters": null,
+      "manufacturer_type": "Vacuum/Floor Care",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [
+        "Hoover"
+      ],
+      "brand_count": 1,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-080",
+      "name": "Thor Power Tool Company",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/Thor_Power_Tool_Company",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-081",
+      "name": "Traeger Grills",
+      "country": "United States",
+      "website": "https://www.traeger.com",
+      "headquarters": "Salt Lake City, Utah",
+      "manufacturer_type": "Outdoor Cooking",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": 600000000,
+      "notes": "Pellet grill pioneer",
+      "brands": [
+        "Traeger"
+      ],
+      "brand_count": 1,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-082",
+      "name": "Viking Range",
+      "country": "United States",
+      "website": "https://www.vikingrange.com",
+      "headquarters": "Greenwood, Mississippi",
+      "manufacturer_type": "Major Appliances (cooking)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": "Owned by Middleby Corporation. Professional-style ranges",
+      "brands": [
+        "Lynx",
+        "U-Line",
+        "Viking"
+      ],
+      "brand_count": 3,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-083",
+      "name": "Vitamix",
+      "country": "United States",
+      "website": "https://www.vitamix.com",
+      "headquarters": null,
+      "manufacturer_type": "Small Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-084",
+      "name": "Weber-Stephen Products",
+      "country": "United States",
+      "website": "https://www.weber.com",
+      "headquarters": "Palatine, Illinois",
+      "manufacturer_type": "Outdoor Cooking",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Supplemental",
+      "revenue_usd": 1800000000,
+      "notes": "Leading grill manufacturer",
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-085",
+      "name": "West Bend Housewares",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/West_Bend_Housewares",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-086",
+      "name": "Whirlpool Corporation",
+      "country": "United States",
+      "website": "https://www.whirlpoolcorp.com",
+      "headquarters": "Benton Harbor, Michigan",
+      "manufacturer_type": "Major Appliances (full-line)",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": 19400000000,
+      "notes": "World's largest appliance manufacturer. Owns Whirlpool, Maytag, KitchenAid, Amana, JennAir",
+      "brands": [
+        "Admiral",
+        "Amana",
+        "Gladiator",
+        "Jenn-Air",
+        "KitchenAid",
+        "Magic Chef",
+        "Maytag",
+        "Roper",
+        "Whirlpool"
+      ],
+      "brand_count": 9,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-087",
+      "name": "White Sewing Machine Company",
+      "country": "United States",
+      "website": "https://en.wikipedia.org/wiki/White_Sewing_Machine_Company",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    },
+    {
+      "id": "mak-088",
+      "name": "White-Westinghouse",
+      "country": "United States",
+      "website": "https://www.whitewestinghouse.com/index.html",
+      "headquarters": null,
+      "manufacturer_type": "Major Appliances",
+      "subtypes": [
+        "Vertically Integrated Manufacturer"
+      ],
+      "subtype_details": [
+        {
+          "sub_type": "Vertically Integrated Manufacturer",
+          "short_name": "Brand Owner + Manufacturer",
+          "description": "Owns the brand and manufactures a meaningful share of major appliances.",
+          "incentives": "funds dealer/distributor rebates (volume/tier/growth/mix), STA/promo allowances, co-op/MDF, price protection, display/demo, training/cert; occasional spiffs/launch bonuses."
+        }
+      ],
+      "source": "Wikipedia",
+      "revenue_usd": null,
+      "notes": null,
+      "brands": [],
+      "brand_count": 0,
+      "brand_source": "data/brands.json"
+    }
+  ]
+}

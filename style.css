@@ -57,6 +57,30 @@ h1 {
     letter-spacing: 0.05em;
 }
 
+.header-actions {
+    margin-top: var(--spacing-sm);
+}
+
+.header-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.6rem 0.9rem;
+    border: 2px solid var(--border);
+    background: var(--background);
+    color: var(--primary);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.2s, color 0.2s;
+}
+
+.header-link:hover {
+    background: var(--primary);
+    color: var(--background);
+}
+
 /* =============================================================================
    TABS
    ============================================================================= */

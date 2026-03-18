@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "catalog_version": 1,
+    "entity_type": "buying_groups",
+    "updated_at": "2026-03-18T16:13:00+00:00",
+    "generated_by": "bg/bg.py",
+    "merge_strategy": "incremental merge on normalized name + country",
+    "preserves_existing_records": true,
+    "seed_count": 8,
+    "total_count": 8,
+    "added_this_run": 0,
+    "updated_this_run": 0,
+    "unchanged_this_run": 8
+  },
+  "buying_groups": [
+    {
+      "name": "AVB",
+      "country": "United States",
+      "website": "https://www.avbmarketing.com/",
+      "aliases": [
+        "AVB Marketing"
+      ],
+      "member_segments": [
+        "Appliances",
+        "Electronics",
+        "Furniture"
+      ],
+      "tags": [
+        "buying group",
+        "parent organization"
+      ],
+      "notes": "Parent organization behind BrandSource and related dealer programs.",
+      "sources": [
+        "curated_buying_group_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T16:13:00+00:00",
+      "id": "avb-united-states",
+      "preferred_pos": [
+        "ARC",
+        "ePASS",
+        "PROFITsystems",
+        "STORIS",
+        "SYNC",
+        "WhirlWind",
+        "Windward"
+      ],
+      "preferred_pos_status": "official_program_stack",
+      "preferred_pos_confidence": "high",
+      "preferred_pos_note": "AVB publicly positions ARC as its most integrated POS while also maintaining a broader BrandSource-compatible stack of partner platforms.",
+      "preferred_pos_sources": [
+        "https://yoursourcenews.com/2022/03/avb-streamlines-retail-ops/",
+        "https://yoursourcenews.com/2024/09/sync-back-to-basics/",
+        "https://yoursourcenews.com/2025/03/avb-announces-arc/",
+        "https://yoursourcenews.com/2025/03/avb-pushes-the-digital-envelope/"
+      ],
+      "preferred_pos_last_checked": "2026-03-18",
+      "alternate_websites": [
+        "https://www.avb.com",
+        "https://www.avbmarketing.com/"
+      ],
+      "partner_companies": [
+        "BrandSource",
+        "HFA Buying Source",
+        "Mega Group Canada",
+        "ProSource",
+        "TRIB Group"
+      ],
+      "partner_company_sources": [
+        "https://yoursourcenews.com/about-us/"
+      ],
+      "partner_company_last_checked": "2026-03-18",
+      "partner_company_note": "Public AVB materials explicitly describe these affiliate organizations as part of the AVB network."
+    },
+    {
+      "name": "BrandSource",
+      "country": "United States",
+      "website": "https://www.brandsource.com",
+      "aliases": [
+        "AVB BrandSource"
+      ],
+      "member_segments": [
+        "Appliances",
+        "Electronics",
+        "Furniture"
+      ],
+      "tags": [
+        "buying group",
+        "independent dealers",
+        "marketing"
+      ],
+      "parent_company": "AVB Marketing",
+      "notes": "Nationwide buying and marketing organization for independent dealers.",
+      "sources": [
+        "curated_buying_group_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T16:13:00+00:00",
+      "id": "brandsource-united-states",
+      "preferred_pos": [
+        "ARC",
+        "ePASS",
+        "PROFITsystems",
+        "STORIS",
+        "SYNC",
+        "WhirlWind",
+        "Windward"
+      ],
+      "preferred_pos_status": "featured_partner_stack",
+      "preferred_pos_confidence": "high",
+      "preferred_pos_note": "BrandSource does not present a single exclusive POS. Public messaging instead points to an approved stack led by AVB's ARC plus integrated partner platforms.",
+      "preferred_pos_sources": [
+        "https://www.storis.com/news/brandsource-partners-with-storis/",
+        "https://yoursourcenews.com/2022/08/connected-pos-systems-critical-to-success-meekings/",
+        "https://yoursourcenews.com/2025/03/avb-announces-arc/",
+        "https://yoursourcenews.com/2025/03/avb-pushes-the-digital-envelope/"
+      ],
+      "preferred_pos_last_checked": "2026-03-18",
+      "partner_companies": [
+        "Citi Retail Services",
+        "STORIS",
+        "Synchrony",
+        "TD Retail Card Services",
+        "WhirlWind",
+        "Windward"
+      ],
+      "partner_company_sources": [
+        "https://www.brandsource.com/brandsource-financing",
+        "https://www.brandsource.com/contact/",
+        "https://www.storis.com/news/brandsource-partners-with-storis/",
+        "https://yoursourcenews.com/2022/08/connected-pos-systems-critical-to-success-meekings/"
+      ],
+      "partner_company_last_checked": "2026-03-18",
+      "partner_company_note": "This list combines BrandSource's named financing relationships with publicly promoted platform partners."
+    },
+    {
+      "name": "CANTREX Nationwide",
+      "country": "Canada",
+      "website": "https://www.cantrex.com",
+      "aliases": [
+        "Cantrex",
+        "Cantrex Nationwide"
+      ],
+      "member_segments": [
+        "Appliances",
+        "Consumer electronics",
+        "Furniture"
+      ],
+      "tags": [
+        "buying group",
+        "canada"
+      ],
+      "parent_company": "Nationwide Marketing Group",
+      "notes": "Canadian dealer buying group operating under the Nationwide umbrella.",
+      "sources": [
+        "curated_buying_group_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T16:13:00+00:00",
+      "id": "cantrex-nationwide-canada",
+      "preferred_pos": [
+        "ePASS",
+        "Furniture Wizard",
+        "Myriad Software",
+        "Oracle NetSuite",
+        "PROFITsystems",
+        "Smartwerks",
+        "STORIS",
+        "WhirlWind"
+      ],
+      "preferred_pos_status": "inferred_from_parent_programs",
+      "preferred_pos_confidence": "medium",
+      "preferred_pos_note": "CANTREX does not publish its own POS roster, but its public positioning is tightly tied to Nationwide programs, so this list is inferred from Nationwide's approved and integrated POS stack.",
+      "preferred_pos_sources": [
+        "https://www.cantrex.com/",
+        "https://www.cantrex.com/nationwide-learning-academy/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-and-storis-solidify-25-year-pos-partnership/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-offers-enhanced-website-experience-with-centerpoint/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-signs-point-of-sale-partnership-with-myriad-software/"
+      ],
+      "preferred_pos_last_checked": "2026-03-18",
+      "partner_companies": [
+        "Amisco",
+        "Amplis",
+        "Armstrong",
+        "Beaudoin",
+        "Bosch",
+        "Canon",
+        "Comerco",
+        "Danby",
+        "Decor-Rest",
+        "Elran",
+        "Fisher & Paykel",
+        "Flexiti",
+        "Fujifilm",
+        "GE",
+        "Gentec",
+        "Guardsman",
+        "Hisense",
+        "Ingram Micro",
+        "LG",
+        "Mannington",
+        "Mirabel",
+        "Moneris",
+        "Napoleon",
+        "Nikon",
+        "Palliser",
+        "Panasonic",
+        "Primco",
+        "Samsung",
+        "Shaw Floors",
+        "Sonos",
+        "Sony",
+        "Springwall",
+        "Stirling Marathon",
+        "TD SYNNEX",
+        "Tempur Sealy",
+        "Whirlpool",
+        "Yamaha"
+      ],
+      "partner_company_sources": [
+        "https://www.cantrex.com/vendor-partners/"
+      ],
+      "partner_company_last_checked": "2026-03-18",
+      "partner_company_note": "Derived from the clearly named vendor logos on Cantrex's official Vendor Partners page. Ambiguous logo-only entries were left out."
+    },
+    {
+      "name": "Mega Group Canada",
+      "country": "Canada",
+      "website": "https://www.megagroup.ca/",
+      "aliases": [
+        "MEGA Group Canada"
+      ],
+      "member_segments": [
+        "Independent dealers"
+      ],
+      "tags": [
+        "buying group",
+        "canada",
+        "member-owned"
+      ],
+      "notes": "Canadian independent dealer buying group.",
+      "sources": [
+        "curated_buying_group_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T16:13:00+00:00",
+      "id": "mega-group-canada-canada",
+      "preferred_pos": [
+        "Concept Cameleon",
+        "PROFITsystems",
+        "Windward"
+      ],
+      "preferred_pos_status": "member_service_signal",
+      "preferred_pos_confidence": "medium",
+      "preferred_pos_note": "Mega Group Canada's public software signal comes from its Expert Accounting content, which names Windward, Profit, Concept Cameleon, and QuickBooks. The POS list here excludes QuickBooks because it is accounting-first, not a dealer POS.",
+      "preferred_pos_sources": [
+        "https://www.megagroup.ca/fr/cycle-de-vie-dune-entreprise-partie-2-demarrage/"
+      ],
+      "preferred_pos_last_checked": "2026-03-18",
+      "alternate_websites": [
+        "https://www.megagroup.ca/",
+        "https://www.megagroupcanada.com"
+      ],
+      "partner_companies": [
+        "Concept Cameleon",
+        "PROFITsystems",
+        "Windward"
+      ],
+      "partner_company_sources": [
+        "https://www.megagroup.ca/fr/cycle-de-vie-dune-entreprise-partie-2-demarrage/",
+        "https://www.megagroup.ca/momentum-2023-a-triumph-in-montreal/momentum-highlight-1-5/"
+      ],
+      "partner_company_last_checked": "2026-03-18",
+      "partner_company_note": "Mega Group Canada's public company-level signal is clearest in its software guidance content; its broader vendor roster is described publicly but not named company-by-company on the pages used here."
+    },
+    {
+      "name": "MEGA Group USA",
+      "country": "United States",
+      "website": "https://www.megagroupusa.com",
+      "aliases": [
+        "MEGA Group"
+      ],
+      "member_segments": [
+        "Independent dealers"
+      ],
+      "tags": [
+        "buying group",
+        "member-owned"
+      ],
+      "notes": "Independent dealer buying group operating in the United States.",
+      "sources": [
+        "curated_buying_group_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T16:13:00+00:00",
+      "id": "mega-group-usa-united-states",
+      "preferred_pos": [
+        "ePASS",
+        "Furniture Wizard",
+        "Myriad Software",
+        "Oracle NetSuite",
+        "PROFITsystems",
+        "Smartwerks",
+        "STORIS",
+        "WhirlWind"
+      ],
+      "preferred_pos_status": "inferred_from_parent_programs",
+      "preferred_pos_confidence": "medium",
+      "preferred_pos_note": "MEGA Group USA was folded into Nationwide. The current POS signal is therefore inferred from Nationwide's approved and PriMetrix-integrated POS ecosystem.",
+      "preferred_pos_sources": [
+        "https://www.nationwidegroup.org/nationwide-marketing-group-50-years-united/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-and-storis-solidify-25-year-pos-partnership/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-offers-enhanced-website-experience-with-centerpoint/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-signs-point-of-sale-partnership-with-myriad-software/"
+      ],
+      "preferred_pos_last_checked": "2026-03-18",
+      "partner_companies": [
+        "AT&T",
+        "DSI Systems",
+        "Google Nest",
+        "Myriad Software",
+        "Oracle NetSuite",
+        "STORIS"
+      ],
+      "partner_company_sources": [
+        "https://www.nationwidegroup.org/nationwide-marketing-group-50-years-united/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-and-storis-solidify-25-year-pos-partnership/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-forms-industrys-first-connected-home-division/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-launches-new-oracle-netsuite-program-for-independent-retail-channel/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-signs-point-of-sale-partnership-with-myriad-software/",
+        "https://www.nationwidegroup.org/success-stories/"
+      ],
+      "partner_company_last_checked": "2026-03-18",
+      "partner_company_note": "MEGA Group USA now sits inside Nationwide, so this company list is inferred from Nationwide's official member stories and technology partnerships."
+    },
+    {
+      "name": "Nationwide Marketing Group",
+      "country": "United States",
+      "website": "https://www.nationwidegroup.org",
+      "aliases": [
+        "Nationwide",
+        "NMG"
+      ],
+      "member_segments": [
+        "Appliances",
+        "Consumer electronics",
+        "Furniture"
+      ],
+      "tags": [
+        "buying group",
+        "independent dealers"
+      ],
+      "notes": "Large independent dealer buying group with national scale.",
+      "sources": [
+        "curated_buying_group_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T16:13:00+00:00",
+      "id": "nationwide-marketing-group-united-states",
+      "preferred_pos": [
+        "ePASS",
+        "Furniture Wizard",
+        "Myriad Software",
+        "Oracle NetSuite",
+        "PROFITsystems",
+        "Smartwerks",
+        "STORIS",
+        "WhirlWind"
+      ],
+      "preferred_pos_status": "approved_partner_ecosystem",
+      "preferred_pos_confidence": "high",
+      "preferred_pos_note": "Nationwide publicly describes an approved and integrated POS ecosystem rather than a single preferred platform. STORIS and Myriad are formal partners; centerpoint and PriMetrix materials point to a broader supported stack.",
+      "preferred_pos_sources": [
+        "https://www.nationwidegroup.org/nationwide-marketing-group-and-storis-solidify-25-year-pos-partnership/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-launches-new-oracle-netsuite-program-for-independent-retail-channel/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-offers-enhanced-website-experience-with-centerpoint/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-signs-point-of-sale-partnership-with-myriad-software/",
+        "https://www.nationwidegroup.org/wp-content/uploads/2023/05/23_03_NMG_PriMetrixConsentForm_SellSheet_B.pdf"
+      ],
+      "preferred_pos_last_checked": "2026-03-18",
+      "partner_companies": [
+        "AT&T",
+        "DSI Systems",
+        "Google Nest",
+        "Joe's TV & Appliance",
+        "King and Bunny's",
+        "Myriad Software",
+        "Oracle NetSuite",
+        "Pay-Less Furniture and Appliances",
+        "Snooze Mattress Co.",
+        "STORIS",
+        "Sweet Dreams",
+        "XSENSOR"
+      ],
+      "partner_company_sources": [
+        "https://www.nationwidegroup.org/nationwide-marketing-group-and-storis-solidify-25-year-pos-partnership/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-forms-industrys-first-connected-home-division/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-launches-new-oracle-netsuite-program-for-independent-retail-channel/",
+        "https://www.nationwidegroup.org/nationwide-marketing-group-signs-point-of-sale-partnership-with-myriad-software/",
+        "https://www.nationwidegroup.org/success-stories/"
+      ],
+      "partner_company_last_checked": "2026-03-18",
+      "partner_company_note": "This list mixes member companies highlighted on Nationwide's Success Stories page with named technology and service partners from official Nationwide announcements."
+    },
+    {
+      "name": "NECO Alliance",
+      "country": "United States",
+      "website": "https://www.necoalliance.com",
+      "member_segments": [
+        "Independent dealers"
+      ],
+      "tags": [
+        "buying cooperative",
+        "regional"
+      ],
+      "notes": "Regional buying cooperative used by independent retail dealers.",
+      "sources": [
+        "curated_buying_group_seed"
+      ],
+      "aliases": [],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T16:13:00+00:00",
+      "id": "neco-alliance-united-states",
+      "preferred_pos": [
+        "ePASS"
+      ],
+      "preferred_pos_status": "dealer_signal_only",
+      "preferred_pos_confidence": "low",
+      "preferred_pos_note": "No formal alliance-wide POS program was found. The clearest current public signal is ePASS in AVB coverage of NECO-aligned dealers using HUB inventory integration, so treat this as directional rather than definitive.",
+      "preferred_pos_sources": [
+        "https://yoursourcenews.com/2025/06/sealing-the-deal-with-digital/",
+        "https://yoursourcenews.com/2025/06/the-hub-club/"
+      ],
+      "preferred_pos_last_checked": "2026-03-18",
+      "partner_company_last_checked": "2026-03-18"
+    },
+    {
+      "name": "PRO Group",
+      "country": "United States",
+      "website": "https://www.progroup.net",
+      "aliases": [
+        "PRO"
+      ],
+      "member_segments": [
+        "Appliances",
+        "Consumer electronics",
+        "Furniture"
+      ],
+      "tags": [
+        "buying group",
+        "independent dealers"
+      ],
+      "notes": "Member-driven buying group serving independent retailers.",
+      "sources": [
+        "curated_buying_group_seed"
+      ],
+      "workspace_files": [],
+      "first_seen": "2026-03-18T15:03:13+00:00",
+      "last_seen": "2026-03-18T16:13:00+00:00",
+      "id": "pro-group-united-states",
+      "preferred_pos": [],
+      "preferred_pos_status": "no_clear_public_preference",
+      "preferred_pos_confidence": "low",
+      "preferred_pos_note": "No current public PRO Group POS preference or approved-platform program was found in the available sources.",
+      "preferred_pos_sources": [],
+      "preferred_pos_last_checked": "2026-03-18",
+      "partner_company_last_checked": "2026-03-18"
+    }
+  ]
+}
