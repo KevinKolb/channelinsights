@@ -2,7 +2,7 @@
   "metadata": {
     "catalog_version": 1,
     "entity_type": "providers",
-    "updated_at": "2026-03-18T17:04:34+00:00",
+    "updated_at": "2026-03-21T21:03:21+00:00",
     "generated_by": "pos/pos.py",
     "merge_strategy": "incremental merge on normalized name + country",
     "preserves_existing_records": true,
@@ -39,7 +39,7 @@
       ],
       "workspace_files": [],
       "first_seen": "2026-03-18T15:03:13+00:00",
-      "last_seen": "2026-03-18T17:04:34+00:00",
+      "last_seen": "2026-03-21T21:03:21+00:00",
       "id": "celerant-technology-united-states"
     },
     {
@@ -71,7 +71,7 @@
       ],
       "workspace_files": [],
       "first_seen": "2026-03-18T15:03:13+00:00",
-      "last_seen": "2026-03-18T17:04:34+00:00",
+      "last_seen": "2026-03-21T21:03:21+00:00",
       "id": "epass-united-states"
     },
     {
@@ -99,7 +99,7 @@
       ],
       "workspace_files": [],
       "first_seen": "2026-03-18T15:03:13+00:00",
-      "last_seen": "2026-03-18T17:04:34+00:00",
+      "last_seen": "2026-03-21T21:03:21+00:00",
       "id": "fdm4-canada"
     },
     {
@@ -127,7 +127,7 @@
       ],
       "workspace_files": [],
       "first_seen": "2026-03-18T15:03:13+00:00",
-      "last_seen": "2026-03-18T17:04:34+00:00",
+      "last_seen": "2026-03-21T21:03:21+00:00",
       "id": "heartland-retail-united-states"
     },
     {
@@ -156,7 +156,7 @@
       ],
       "workspace_files": [],
       "first_seen": "2026-03-18T15:03:13+00:00",
-      "last_seen": "2026-03-18T17:04:34+00:00",
+      "last_seen": "2026-03-21T21:03:21+00:00",
       "id": "lightspeed-retail-canada"
     },
     {
@@ -183,7 +183,7 @@
       ],
       "workspace_files": [],
       "first_seen": "2026-03-18T15:03:13+00:00",
-      "last_seen": "2026-03-18T17:04:34+00:00",
+      "last_seen": "2026-03-21T21:03:21+00:00",
       "id": "microbiz-united-states"
     },
     {
@@ -211,7 +211,7 @@
       ],
       "workspace_files": [],
       "first_seen": "2026-03-18T15:03:13+00:00",
-      "last_seen": "2026-03-18T17:04:34+00:00",
+      "last_seen": "2026-03-21T21:03:21+00:00",
       "id": "ncr-counterpoint-united-states"
     },
     {
@@ -238,7 +238,7 @@
       ],
       "workspace_files": [],
       "first_seen": "2026-03-18T15:03:13+00:00",
-      "last_seen": "2026-03-18T17:04:34+00:00",
+      "last_seen": "2026-03-21T21:03:21+00:00",
       "id": "oracle-retail-xstore-united-states"
     },
     {
@@ -265,7 +265,7 @@
       ],
       "workspace_files": [],
       "first_seen": "2026-03-18T15:03:13+00:00",
-      "last_seen": "2026-03-18T17:04:34+00:00",
+      "last_seen": "2026-03-21T21:03:21+00:00",
       "id": "retail-pro-united-states"
     },
     {
@@ -292,7 +292,7 @@
       ],
       "workspace_files": [],
       "first_seen": "2026-03-18T15:03:13+00:00",
-      "last_seen": "2026-03-18T17:04:34+00:00",
+      "last_seen": "2026-03-21T21:03:21+00:00",
       "id": "shopify-pos-canada"
     },
     {
@@ -323,7 +323,7 @@
       ],
       "workspace_files": [],
       "first_seen": "2026-03-18T15:03:13+00:00",
-      "last_seen": "2026-03-18T17:04:34+00:00",
+      "last_seen": "2026-03-21T21:03:21+00:00",
       "id": "storis-united-states"
     },
     {
@@ -355,7 +355,7 @@
       ],
       "workspace_files": [],
       "first_seen": "2026-03-18T15:03:13+00:00",
-      "last_seen": "2026-03-18T17:04:34+00:00",
+      "last_seen": "2026-03-21T21:03:21+00:00",
       "id": "windward-software-canada"
     }
   ]
